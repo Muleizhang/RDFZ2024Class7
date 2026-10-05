@@ -1,6 +1,18 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
+import {spawn} from 'node:child_process';
+
+function magick(args) {
+  return new Promise((resolve, reject) => {
+    const child = spawn('magick', args);
+    let error = '';
+    child.stdout.resume();
+    child.stderr.on('data', chunk => {error += chunk;});
+    child.on('error', reject);
+    child.on('close', code => code === 0 ? resolve(error) : reject(Error(error)));
+  });
+}
 
 const game = fileURLToPath(new URL('../', import.meta.url));
 // Optional original art directory; otherwise verify the committed runtime images.
@@ -13,10 +25,14 @@ fs.mkdirSync(destination, {recursive: true});
 for (const person of manifest) {
   const pair = {};
   for (const version of person.versions) {
-    const filename = version.id + '.png';
+    const filename = version.id + '.webp';
     const original = source ? path.join(source, version.file) : path.join(destination, filename);
     if (!version.ready || !fs.existsSync(original)) throw Error('立绘未完成：' + version.file);
-    if (source) fs.copyFileSync(original, path.join(destination, filename));
+    if (source) {
+      const output = path.join(destination, filename);
+      await magick([original, '-quality', '100', '-define', 'webp:lossless=true', '-define', 'webp:exact=true', '-define', 'webp:method=4', output]);
+      await magick(['compare', '-metric', 'AE', original, output, 'null:']);
+    }
     pair[version.season] = 'portraits/' + filename;
   }
   if (!pair.summer || !pair.winter) throw Error('长短袖不完整：' + person.name);

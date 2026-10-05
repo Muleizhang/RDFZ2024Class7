@@ -32,7 +32,7 @@ npm run preview -- --port 4173 --strictPort
 
 首次需要在 Vercel 中关联仓库并点击 Deploy；之后推送生产分支会自动部署，其他分支生成预览。配置文件本身不负责创建账号、关联仓库或上传本地未提交文件。此前按旧说明部署整个 ClassHistory 仓库的项目不受影响；新独立仓库使用本目录的配置。
 
-提交最新 `src`、`public`、依赖清单和配置，特别是新增个人立绘；不提交 `node_modules`、`dist`、原始照片及 `.aws` 等无关配置。构建直接使用已生成剧情数据，不运行素材生成器，不需要原始PDF或上级转写文件。当前资源约245MB，推荐 Git 导入构建，避免 Hobby CLI 源码上传的100MB限制。
+提交最新 `src`、`public`、依赖清单和配置，特别是新增个人立绘；不提交 `node_modules`、`dist`、原始照片及 `.aws` 等无关配置。构建直接使用已生成剧情数据，不运行素材生成器，不需要原始PDF或上级转写文件。当前运行图片约167MiB，推荐 Git 导入构建，避免 Hobby CLI 源码上传的100MB限制。
 
 部署后访问站点首页即可游玩，`/#class` 为全班人物页；现有哈希路由无需重写规则。localhost 与线上域名的存档独立，迁移请在本地导出、线上导入。
 
@@ -66,6 +66,10 @@ npm run preview -- --port 4173 --strictPort
 本轮整改与取舍见[剧情整改对照](剧情整改对照_2026-10-05.md)，实际浏览器验收见[验收记录](本轮浏览器验收.json)。具体梅利屋菜名待用户补充；故事已演菜单传阅，不发明失载名字。
 
 个人立绘资源层见 `src/portraits.ts`、`src/data/portraitAssets.ts`，图片已复制到 `public/assets/portraits`，不依赖素材预览服务。资源清单在 `art/portrait-manifest.json`；运行 `node scripts/sync-portraits.mjs` 可核对本地图片并重建映射。更新原始美术时可传入素材目录，例如 `node scripts/sync-portraits.mjs ../.local-archive/game-cleanup-20261005/character-art/class-v2-galgame`。接入及本轮浏览器验收见[人物立绘接入](人物立绘接入.md)。
+
+运行图片已统一改为无损 WebP：148张背景、立绘与原页图，分辨率不变，透明背景及透明区RGB保留，逐图像素差异为0。图片总量由254,884,204字节减至174,618,804字节，减少31.5%；详细核对见 `art/webp-conversion.json`。PNG原图归档在外层 `.local-archive/webp-originals-20261005/`，不参与部署。验收截图仍保留PNG，不影响游戏加载。
+
+只有制作新图时需要系统 ImageMagick（带WebP支持）；运行／构建／部署不需要该工具。`node scripts/convert-webp.mjs <原图目录>` 可生成无损WebP并逐图核对；不带参数则处理 `public/assets` 中新增的PNG／JPEG。更新个人立绘时同步脚本也会转换为无损WebP，避免维护后恢复PNG引用。[编码选项依据](https://imagemagick.org/webp/)。
 
 ## GitHub 上传范围与本地归档
 

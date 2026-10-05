@@ -1,0 +1,893 @@
+{
+  "encoding": "WebP lossless, quality=100, exact=true, method=4; original resolution and alpha preserved",
+  "files": [
+    {
+      "file": "archive.webp",
+      "originalBytes": 2021206,
+      "webpBytes": 1578122,
+      "pixelDifference": 0
+    },
+    {
+      "file": "barbecue.webp",
+      "originalBytes": 2011499,
+      "webpBytes": 1548076,
+      "pixelDifference": 0
+    },
+    {
+      "file": "biology.webp",
+      "originalBytes": 2264972,
+      "webpBytes": 1702308,
+      "pixelDifference": 0
+    },
+    {
+      "file": "bus.webp",
+      "originalBytes": 2285533,
+      "webpBytes": 1743544,
+      "pixelDifference": 0
+    },
+    {
+      "file": "cafe.webp",
+      "originalBytes": 2079246,
+      "webpBytes": 1553782,
+      "pixelDifference": 0
+    },
+    {
+      "file": "cafeteria.webp",
+      "originalBytes": 2121407,
+      "webpBytes": 1655774,
+      "pixelDifference": 0
+    },
+    {
+      "file": "classroom.webp",
+      "originalBytes": 1951317,
+      "webpBytes": 1534810,
+      "pixelDifference": 0
+    },
+    {
+      "file": "company.webp",
+      "originalBytes": 2082798,
+      "webpBytes": 1581456,
+      "pixelDifference": 0
+    },
+    {
+      "file": "corridor.webp",
+      "originalBytes": 2240267,
+      "webpBytes": 1702922,
+      "pixelDifference": 0
+    },
+    {
+      "file": "dorm.webp",
+      "originalBytes": 2012003,
+      "webpBytes": 1559570,
+      "pixelDifference": 0
+    },
+    {
+      "file": "film-home.webp",
+      "originalBytes": 2096626,
+      "webpBytes": 1546774,
+      "pixelDifference": 0
+    },
+    {
+      "file": "film-street.webp",
+      "originalBytes": 2628966,
+      "webpBytes": 1981992,
+      "pixelDifference": 0
+    },
+    {
+      "file": "flood.webp",
+      "originalBytes": 2786383,
+      "webpBytes": 2029502,
+      "pixelDifference": 0
+    },
+    {
+      "file": "gate.webp",
+      "originalBytes": 2628335,
+      "webpBytes": 2006898,
+      "pixelDifference": 0
+    },
+    {
+      "file": "girl.webp",
+      "originalBytes": 1658032,
+      "webpBytes": 1038950,
+      "pixelDifference": 0
+    },
+    {
+      "file": "great-wall.webp",
+      "originalBytes": 2726764,
+      "webpBytes": 2090642,
+      "pixelDifference": 0
+    },
+    {
+      "file": "hall.webp",
+      "originalBytes": 1866139,
+      "webpBytes": 1441932,
+      "pixelDifference": 0
+    },
+    {
+      "file": "history-office.webp",
+      "originalBytes": 2113562,
+      "webpBytes": 1597322,
+      "pixelDifference": 0
+    },
+    {
+      "file": "home.webp",
+      "originalBytes": 1999998,
+      "webpBytes": 1520692,
+      "pixelDifference": 0
+    },
+    {
+      "file": "hotel.webp",
+      "originalBytes": 1961489,
+      "webpBytes": 1449162,
+      "pixelDifference": 0
+    },
+    {
+      "file": "hotpot.webp",
+      "originalBytes": 2134590,
+      "webpBytes": 1638854,
+      "pixelDifference": 0
+    },
+    {
+      "file": "infirmary.webp",
+      "originalBytes": 1817394,
+      "webpBytes": 1406708,
+      "pixelDifference": 0
+    },
+    {
+      "file": "lei.webp",
+      "originalBytes": 1780549,
+      "webpBytes": 1094956,
+      "pixelDifference": 0
+    },
+    {
+      "file": "liangzhu.webp",
+      "originalBytes": 1960797,
+      "webpBytes": 1442314,
+      "pixelDifference": 0
+    },
+    {
+      "file": "library.webp",
+      "originalBytes": 2051529,
+      "webpBytes": 1600368,
+      "pixelDifference": 0
+    },
+    {
+      "file": "ling.webp",
+      "originalBytes": 1750927,
+      "webpBytes": 1092006,
+      "pixelDifference": 0
+    },
+    {
+      "file": "math-office.webp",
+      "originalBytes": 2052220,
+      "webpBytes": 1553420,
+      "pixelDifference": 0
+    },
+    {
+      "file": "mayor-office.webp",
+      "originalBytes": 1737365,
+      "webpBytes": 1327634,
+      "pixelDifference": 0
+    },
+    {
+      "file": "netherlands.webp",
+      "originalBytes": 3044975,
+      "webpBytes": 2336722,
+      "pixelDifference": 0
+    },
+    {
+      "file": "noodle.webp",
+      "originalBytes": 2192232,
+      "webpBytes": 1667234,
+      "pixelDifference": 0
+    },
+    {
+      "file": "park.webp",
+      "originalBytes": 3095243,
+      "webpBytes": 2355520,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s01-summer.webp",
+      "originalBytes": 1494473,
+      "webpBytes": 967734,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s01-winter.webp",
+      "originalBytes": 1452289,
+      "webpBytes": 935074,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s02-summer.webp",
+      "originalBytes": 1487787,
+      "webpBytes": 959872,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s02-winter.webp",
+      "originalBytes": 1472817,
+      "webpBytes": 948778,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s03-summer.webp",
+      "originalBytes": 1529382,
+      "webpBytes": 987498,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s03-winter.webp",
+      "originalBytes": 1558620,
+      "webpBytes": 989434,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s04-summer.webp",
+      "originalBytes": 1572505,
+      "webpBytes": 1010788,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s04-winter.webp",
+      "originalBytes": 1568356,
+      "webpBytes": 1005544,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s05-summer.webp",
+      "originalBytes": 1513527,
+      "webpBytes": 973844,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s05-winter.webp",
+      "originalBytes": 1514812,
+      "webpBytes": 971092,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s06-summer.webp",
+      "originalBytes": 1557513,
+      "webpBytes": 1001246,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s06-winter.webp",
+      "originalBytes": 1515705,
+      "webpBytes": 978420,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s07-summer.webp",
+      "originalBytes": 1538365,
+      "webpBytes": 999534,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s07-winter.webp",
+      "originalBytes": 1531658,
+      "webpBytes": 973670,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s08-summer.webp",
+      "originalBytes": 1533486,
+      "webpBytes": 1000576,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s08-winter.webp",
+      "originalBytes": 1491431,
+      "webpBytes": 970080,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s09-summer.webp",
+      "originalBytes": 1500012,
+      "webpBytes": 968216,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s09-winter.webp",
+      "originalBytes": 1481932,
+      "webpBytes": 950058,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s10-summer.webp",
+      "originalBytes": 1530664,
+      "webpBytes": 996190,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s10-winter.webp",
+      "originalBytes": 1487475,
+      "webpBytes": 964260,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s11-summer.webp",
+      "originalBytes": 1513005,
+      "webpBytes": 980364,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s11-winter.webp",
+      "originalBytes": 1555125,
+      "webpBytes": 974916,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s12-summer.webp",
+      "originalBytes": 1486372,
+      "webpBytes": 963868,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s12-winter.webp",
+      "originalBytes": 1454937,
+      "webpBytes": 927002,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s13-summer.webp",
+      "originalBytes": 1517046,
+      "webpBytes": 969856,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s13-winter.webp",
+      "originalBytes": 1496370,
+      "webpBytes": 962440,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s14-summer.webp",
+      "originalBytes": 1526721,
+      "webpBytes": 983234,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s14-winter.webp",
+      "originalBytes": 1518909,
+      "webpBytes": 965086,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s15-summer.webp",
+      "originalBytes": 1542237,
+      "webpBytes": 1001712,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s15-winter.webp",
+      "originalBytes": 1513838,
+      "webpBytes": 977764,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s16-summer.webp",
+      "originalBytes": 1527702,
+      "webpBytes": 983064,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s16-winter.webp",
+      "originalBytes": 1529231,
+      "webpBytes": 969064,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s17-summer.webp",
+      "originalBytes": 1532911,
+      "webpBytes": 991292,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s17-winter.webp",
+      "originalBytes": 1539404,
+      "webpBytes": 986906,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s18-summer.webp",
+      "originalBytes": 1510643,
+      "webpBytes": 982474,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s18-winter.webp",
+      "originalBytes": 1472417,
+      "webpBytes": 955522,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s19-summer.webp",
+      "originalBytes": 1532823,
+      "webpBytes": 995670,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s19-winter.webp",
+      "originalBytes": 1557140,
+      "webpBytes": 1003262,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s20-summer.webp",
+      "originalBytes": 1561452,
+      "webpBytes": 992554,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s20-winter.webp",
+      "originalBytes": 1508607,
+      "webpBytes": 965990,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s21-summer.webp",
+      "originalBytes": 1513079,
+      "webpBytes": 981620,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s21-winter.webp",
+      "originalBytes": 1465639,
+      "webpBytes": 936510,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s22-summer.webp",
+      "originalBytes": 1499128,
+      "webpBytes": 973936,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s22-winter.webp",
+      "originalBytes": 1443056,
+      "webpBytes": 931966,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s23-summer.webp",
+      "originalBytes": 1598238,
+      "webpBytes": 1027246,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s23-winter.webp",
+      "originalBytes": 1550078,
+      "webpBytes": 998566,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s24-summer.webp",
+      "originalBytes": 1513649,
+      "webpBytes": 978510,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s24-winter.webp",
+      "originalBytes": 1516257,
+      "webpBytes": 978840,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s25-summer.webp",
+      "originalBytes": 1506899,
+      "webpBytes": 963314,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s25-winter.webp",
+      "originalBytes": 1478540,
+      "webpBytes": 947432,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s26-summer.webp",
+      "originalBytes": 1580212,
+      "webpBytes": 1013368,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s26-winter.webp",
+      "originalBytes": 1543859,
+      "webpBytes": 981904,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s27-summer.webp",
+      "originalBytes": 1505657,
+      "webpBytes": 975170,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s27-winter.webp",
+      "originalBytes": 1550030,
+      "webpBytes": 988056,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s28-summer.webp",
+      "originalBytes": 1546704,
+      "webpBytes": 998660,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s28-winter.webp",
+      "originalBytes": 1528276,
+      "webpBytes": 982310,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s29-summer.webp",
+      "originalBytes": 1522835,
+      "webpBytes": 986978,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s29-winter.webp",
+      "originalBytes": 1478672,
+      "webpBytes": 945686,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s30-summer.webp",
+      "originalBytes": 1499027,
+      "webpBytes": 965724,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s30-winter.webp",
+      "originalBytes": 1477808,
+      "webpBytes": 944582,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s31-summer.webp",
+      "originalBytes": 1553205,
+      "webpBytes": 994586,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s31-winter.webp",
+      "originalBytes": 1520634,
+      "webpBytes": 976870,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s32-summer.webp",
+      "originalBytes": 1467758,
+      "webpBytes": 948778,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s32-winter.webp",
+      "originalBytes": 1429709,
+      "webpBytes": 919086,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s33-summer.webp",
+      "originalBytes": 1551302,
+      "webpBytes": 1001352,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s33-winter.webp",
+      "originalBytes": 1517777,
+      "webpBytes": 978724,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s34-summer.webp",
+      "originalBytes": 1496951,
+      "webpBytes": 966608,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s34-winter.webp",
+      "originalBytes": 1503975,
+      "webpBytes": 964240,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s35-summer.webp",
+      "originalBytes": 1565102,
+      "webpBytes": 989656,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s35-winter.webp",
+      "originalBytes": 1479844,
+      "webpBytes": 945832,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s36-summer.webp",
+      "originalBytes": 1509214,
+      "webpBytes": 976778,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s36-winter.webp",
+      "originalBytes": 1522153,
+      "webpBytes": 969476,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s37-summer.webp",
+      "originalBytes": 1485779,
+      "webpBytes": 969826,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s37-winter.webp",
+      "originalBytes": 1496612,
+      "webpBytes": 970568,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s38-summer.webp",
+      "originalBytes": 1530024,
+      "webpBytes": 992676,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s38-winter.webp",
+      "originalBytes": 1503352,
+      "webpBytes": 966638,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s39-summer.webp",
+      "originalBytes": 1489212,
+      "webpBytes": 970806,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s39-winter.webp",
+      "originalBytes": 1448892,
+      "webpBytes": 937660,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s40-summer.webp",
+      "originalBytes": 1479440,
+      "webpBytes": 953862,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s40-winter.webp",
+      "originalBytes": 1474567,
+      "webpBytes": 947018,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s41-summer.webp",
+      "originalBytes": 1509649,
+      "webpBytes": 972428,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s41-winter.webp",
+      "originalBytes": 1493544,
+      "webpBytes": 954992,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s42-summer.webp",
+      "originalBytes": 1495915,
+      "webpBytes": 966662,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s42-winter.webp",
+      "originalBytes": 1507907,
+      "webpBytes": 971348,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s43-summer.webp",
+      "originalBytes": 1546235,
+      "webpBytes": 998056,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s43-winter.webp",
+      "originalBytes": 1521773,
+      "webpBytes": 993496,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s44-summer.webp",
+      "originalBytes": 1477229,
+      "webpBytes": 952946,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s44-winter.webp",
+      "originalBytes": 1459269,
+      "webpBytes": 931024,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s45-summer.webp",
+      "originalBytes": 1516200,
+      "webpBytes": 979362,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s45-winter.webp",
+      "originalBytes": 1468416,
+      "webpBytes": 939562,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s46-summer.webp",
+      "originalBytes": 1516155,
+      "webpBytes": 978980,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s46-winter.webp",
+      "originalBytes": 1480396,
+      "webpBytes": 944408,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s47-summer.webp",
+      "originalBytes": 1499658,
+      "webpBytes": 971562,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s47-winter.webp",
+      "originalBytes": 1493610,
+      "webpBytes": 956518,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s48-summer.webp",
+      "originalBytes": 1558855,
+      "webpBytes": 1000436,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s48-winter.webp",
+      "originalBytes": 1525060,
+      "webpBytes": 977362,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s49-summer.webp",
+      "originalBytes": 1541857,
+      "webpBytes": 986738,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s49-winter.webp",
+      "originalBytes": 1480480,
+      "webpBytes": 958240,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s50-summer.webp",
+      "originalBytes": 1513645,
+      "webpBytes": 978366,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s50-winter.webp",
+      "originalBytes": 1503295,
+      "webpBytes": 966854,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s51-summer.webp",
+      "originalBytes": 1520980,
+      "webpBytes": 985658,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s51-winter.webp",
+      "originalBytes": 1527177,
+      "webpBytes": 975624,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s52-summer.webp",
+      "originalBytes": 1505535,
+      "webpBytes": 970608,
+      "pixelDifference": 0
+    },
+    {
+      "file": "portraits/s52-winter.webp",
+      "originalBytes": 1473007,
+      "webpBytes": 939538,
+      "pixelDifference": 0
+    },
+    {
+      "file": "railway.webp",
+      "originalBytes": 2724410,
+      "webpBytes": 2059760,
+      "pixelDifference": 0
+    },
+    {
+      "file": "rear.webp",
+      "originalBytes": 1911510,
+      "webpBytes": 1468380,
+      "pixelDifference": 0
+    },
+    {
+      "file": "snow-track.webp",
+      "originalBytes": 2182828,
+      "webpBytes": 1596454,
+      "pixelDifference": 0
+    },
+    {
+      "file": "songcheng.webp",
+      "originalBytes": 1753255,
+      "webpBytes": 1377588,
+      "pixelDifference": 0
+    },
+    {
+      "file": "source-008.webp",
+      "originalBytes": 3274634,
+      "webpBytes": 2531992,
+      "pixelDifference": 0
+    },
+    {
+      "file": "source-255.webp",
+      "originalBytes": 1451052,
+      "webpBytes": 1095388,
+      "pixelDifference": 0
+    },
+    {
+      "file": "track.webp",
+      "originalBytes": 2674333,
+      "webpBytes": 1996200,
+      "pixelDifference": 0
+    },
+    {
+      "file": "train.webp",
+      "originalBytes": 1911427,
+      "webpBytes": 1449496,
+      "pixelDifference": 0
+    },
+    {
+      "file": "west-lake.webp",
+      "originalBytes": 2824859,
+      "webpBytes": 2213432,
+      "pixelDifference": 0
+    },
+    {
+      "file": "workshop.webp",
+      "originalBytes": 2333420,
+      "webpBytes": 1808642,
+      "pixelDifference": 0
+    },
+    {
+      "file": "xixi.webp",
+      "originalBytes": 3010680,
+      "webpBytes": 2328744,
+      "pixelDifference": 0
+    },
+    {
+      "file": "xu.webp",
+      "originalBytes": 1777568,
+      "webpBytes": 1101150,
+      "pixelDifference": 0
+    },
+    {
+      "file": "yue-temple.webp",
+      "originalBytes": 2691174,
+      "webpBytes": 2035478,
+      "pixelDifference": 0
+    }
+  ]
+}

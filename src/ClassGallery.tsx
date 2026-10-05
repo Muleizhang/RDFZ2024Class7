@@ -8,7 +8,7 @@ const images:Record<string,Record<PortraitSeason,string>>=portraits;
 const names=[...new Set([...Object.keys(portraits),'黄鹤鸣'])];
 const people=names.map(name=>{
  const character=Object.values(characters).find(c=>!c.actor&&(c.name===name||(name==='石杨子然'&&c.name==='石杨')));
- return {name,bio:character?.bio||'',role:character?.role||'七班同学',fallback:character?.image||'xu.png'};
+ return {name,bio:character?.bio||'',role:character?.role||'七班同学',fallback:character?.image||'xu.webp'};
 });
 export function ClassGallery({date,onClose}:{date:string;onClose:()=>void}){
  const [season,setSeason]=useState<PortraitSeason>(()=>portraitSeason(date));

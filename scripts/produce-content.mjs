@@ -18,7 +18,7 @@ const names='徐启元 雷昱 凌艺坤 徐子涵 雷雨泽 李沛霖 吕思宇 
 const teacherNames=new Set('韩琪 孙蕾 杨卫华 战景林 雷杨 朱泽萱 朱老师 张强 博老师 蒋老师 臧春梅 崔鹏 李岩 亓孝然'.split(' '));
 const aliases={崔老师:'崔鹏',亓老师:'亓孝然',HQ:'韩琪',朱考儒:'凌艺坤',孙老师:'孙蕾',杨sir:'杨卫华',杨老师:'杨卫华',战老师:'战景林',能者:'战景林',雷老师:'雷杨',满者:'徐子涵',满爷:'徐子涵',智者:'朱泽萱',温辞:'程洛怡',雪茗:'吕思宇',大哥:'刘恒怿',沛:'李沛霖',硝硼:'彭逸涵',小我:'张鹤闻',萌童:'王家童',王萌童:'王家童'};
 const stable={徐启元:'xu',雷昱:'lei',凌艺坤:'ling'};
-const chars=Object.fromEntries(names.map((name,i)=>[stable[name]||`c${String(i).padStart(2,'0')}`,{name,role:teacherNames.has(name)?(name==='朱老师'?'历史老师':name==='朱泽萱'?'政治老师':'出场老师'):'七班同学',image:girls.has(name)?'girl.png':'xu.png',color:girls.has(name)?'#ffbe52':'#a18aff',gender:girls.has(name)?'女':'男'}]));
+const chars=Object.fromEntries(names.map((name,i)=>[stable[name]||`c${String(i).padStart(2,'0')}`,{name,role:teacherNames.has(name)?(name==='朱老师'?'历史老师':name==='朱泽萱'?'政治老师':'出场老师'):'七班同学',image:girls.has(name)?'girl.webp':'xu.webp',color:girls.has(name)?'#ffbe52':'#a18aff',gender:girls.has(name)?'女':'男'}]));
 // 用户明确确认：郑导就是郑泽一。保留c38，其余角色编号不移动；c59只作旧档迁移。
 aliases.郑导='郑泽一';aliases['Roy Zheng']='郑泽一';delete chars.c59;
 const roleActors={'秦旻然':'秦敏然','秦嘉然':'童莘淇','刘树颐':'周远持','代向阳':'张鹤闻','黄义薄':'黄艺博','金跃山':'彭逸涵','石邵楷':'贾盛元','李程蓉':'李玉'};

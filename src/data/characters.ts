@@ -3,7 +3,7 @@ const data = {
   "xu": {
     "name": "徐启元",
     "role": "物理课代表 · 班史与电影编写者",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": "开篇写《入境·入静·劲》与序，参与电影编剧和导演。"
@@ -11,7 +11,7 @@ const data = {
   "lei": {
     "name": "雷昱",
     "role": "数学课代表 · 电影音乐",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": "接任数学课代表，喜欢音乐，参与电影配乐。"
@@ -19,7 +19,7 @@ const data = {
   "ling": {
     "name": "凌艺坤",
     "role": "记录者 · 电影导演之一",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": "在周一接笔；班史里有朱考儒的谐音称呼，参与《镜中花》导演。"
@@ -27,7 +27,7 @@ const data = {
   "c03": {
     "name": "徐子涵",
     "role": "满者 · 三者之一",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": "“又满不了了”得名；答疑、录音、礼仪奖与爱金子的玩笑都留在班史。"
@@ -35,7 +35,7 @@ const data = {
   "c04": {
     "name": "雷雨泽",
     "role": "雷导 · 历史答疑同行",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": "在《数论》中陪满者答疑，并在出门后解读可乐；与生物老师雷杨不同。"
@@ -43,7 +43,7 @@ const data = {
   "c05": {
     "name": "李沛霖",
     "role": "班史编写者 · 电影编剧与导演",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": "参与发电站、电影筹备和编写，是硝矢公；不等于彭逸涵。"
@@ -51,7 +51,7 @@ const data = {
   "c06": {
     "name": "吕思宇",
     "role": "雪茗 · 班史编写者",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": "参与班史写作与《汝坟》《溱洧》的唱响诗经活动。"
@@ -59,7 +59,7 @@ const data = {
   "c07": {
     "name": "刘恒怿",
     "role": "大哥 · Izzy",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": "因喜欢数字七选择七班；数学竞速、听口练习和小马卡片在班史中交替出现。"
@@ -67,7 +67,7 @@ const data = {
   "c08": {
     "name": "陈俊言",
     "role": "七班同学",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": ""
@@ -75,7 +75,7 @@ const data = {
   "c09": {
     "name": "周远持",
     "role": "七班同学",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": ""
@@ -83,7 +83,7 @@ const data = {
   "c10": {
     "name": "黄鹤鸣",
     "role": "新同学 · 黄院士",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": "新学期加入，课间随机出现，“太幽默了昂”是常见口癖。"
@@ -91,7 +91,7 @@ const data = {
   "c11": {
     "name": "陈熙",
     "role": "七班同学",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": ""
@@ -99,7 +99,7 @@ const data = {
   "c12": {
     "name": "彭逸涵",
     "role": "硝彭 · 班史编写者",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": "写下高三是长跑，参与旅行与电影，饰演金跃山。"
@@ -107,7 +107,7 @@ const data = {
   "c13": {
     "name": "戚洪硕",
     "role": "七班同学",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": ""
@@ -115,7 +115,7 @@ const data = {
   "c14": {
     "name": "惠子宁",
     "role": "《邵聪观察日志》记录者",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": "留意邵聪的一天，互相逗趣，也认真帮助他讲题；关系按用户确认保留暧昧。"
@@ -123,7 +123,7 @@ const data = {
   "c15": {
     "name": "刘树苡",
     "role": "四大之一 · 电影剪辑",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": "画抽象作品、谈材料题，拒演警探而做电影剪辑。"
@@ -131,7 +131,7 @@ const data = {
   "c16": {
     "name": "戴向阳",
     "role": "四大之一 · 唐诗作者",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": "写唐诗、整理知识、探索规则边界，课堂插话有自己的语气。"
@@ -139,7 +139,7 @@ const data = {
   "c17": {
     "name": "李沐衡",
     "role": "电教与数码 · 小帮凶",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": "帮课堂设备、默写素材和居家架机，也用词典笔播放音乐。"
@@ -147,7 +147,7 @@ const data = {
   "c18": {
     "name": "焉家祎",
     "role": "七班同学",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": ""
@@ -155,7 +155,7 @@ const data = {
   "c19": {
     "name": "马诗雨",
     "role": "七班同学",
-    "image": "girl.png",
+    "image": "girl.webp",
     "color": "#ffbe52",
     "gender": "女",
     "bio": ""
@@ -163,7 +163,7 @@ const data = {
   "c20": {
     "name": "刘美孜",
     "role": "七班同学",
-    "image": "girl.png",
+    "image": "girl.webp",
     "color": "#ffbe52",
     "gender": "女",
     "bio": ""
@@ -171,7 +171,7 @@ const data = {
   "c21": {
     "name": "李玉",
     "role": "七班同学",
-    "image": "girl.png",
+    "image": "girl.webp",
     "color": "#ffbe52",
     "gender": "女",
     "bio": ""
@@ -179,7 +179,7 @@ const data = {
   "c22": {
     "name": "李昊宇",
     "role": "七班同学",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": ""
@@ -187,7 +187,7 @@ const data = {
   "c23": {
     "name": "秦敏然",
     "role": "分班后的故人 · 电影演员",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": "有打印退款与失职道歉的往事，后来参与电影，饰演秦旻然。"
@@ -195,7 +195,7 @@ const data = {
   "c24": {
     "name": "张鹤闻",
     "role": "小我 · 乐队与电影演员",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": "想买卷帘钢琴，在电影中饰演代向阳；不是戴向阳本人。"
@@ -203,7 +203,7 @@ const data = {
   "c25": {
     "name": "王家童",
     "role": "萌童 · 雷学与竞速",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": "制作雷学封面，参与数学竞速，保有扫雷高级纪录。"
@@ -211,7 +211,7 @@ const data = {
   "c26": {
     "name": "贾盛元",
     "role": "七班同学",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": ""
@@ -219,7 +219,7 @@ const data = {
   "c27": {
     "name": "张沐雷",
     "role": "七班同学",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": ""
@@ -227,7 +227,7 @@ const data = {
   "c28": {
     "name": "贾诺基",
     "role": "七班同学",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": ""
@@ -235,7 +235,7 @@ const data = {
   "c29": {
     "name": "张瑞麒",
     "role": "七班同学",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": ""
@@ -243,7 +243,7 @@ const data = {
   "c30": {
     "name": "邵聪",
     "role": "观察日志里的同桌",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": "起初不许记录，讲对题时又要求记上，晚上反过来夸惠子宁聪明。"
@@ -251,7 +251,7 @@ const data = {
   "c31": {
     "name": "唐朝",
     "role": "七班同学",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": ""
@@ -259,7 +259,7 @@ const data = {
   "c32": {
     "name": "童莘淇",
     "role": "七班同学",
-    "image": "girl.png",
+    "image": "girl.webp",
     "color": "#ffbe52",
     "gender": "女",
     "bio": ""
@@ -267,7 +267,7 @@ const data = {
   "c33": {
     "name": "冯子豪",
     "role": "七班同学",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": ""
@@ -275,7 +275,7 @@ const data = {
   "c34": {
     "name": "李承容",
     "role": "七班同学",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": ""
@@ -283,7 +283,7 @@ const data = {
   "c35": {
     "name": "史绍恺",
     "role": "七班同学",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": ""
@@ -291,7 +291,7 @@ const data = {
   "c36": {
     "name": "石杨",
     "role": "七班同学",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": ""
@@ -299,7 +299,7 @@ const data = {
   "c37": {
     "name": "黄艺博",
     "role": "四大之一 · 电影演员",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": "自述由同学评议，不能把全部吹嘘当史实；在电影中饰演黄义薄。"
@@ -307,7 +307,7 @@ const data = {
   "c38": {
     "name": "郑泽一",
     "role": "郑导 · 七班同学",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": "也称郑导、Roy Zheng，参与满者称号、杭州画伞和套圈故事。"
@@ -315,7 +315,7 @@ const data = {
   "c39": {
     "name": "张怀锦",
     "role": "七班同学",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": ""
@@ -323,7 +323,7 @@ const data = {
   "c40": {
     "name": "杨京赫",
     "role": "七班同学",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": ""
@@ -331,7 +331,7 @@ const data = {
   "c41": {
     "name": "孙佳怡",
     "role": "七班同学",
-    "image": "girl.png",
+    "image": "girl.webp",
     "color": "#ffbe52",
     "gender": "女",
     "bio": ""
@@ -339,7 +339,7 @@ const data = {
   "c42": {
     "name": "赵梓伊",
     "role": "七班同学",
-    "image": "girl.png",
+    "image": "girl.webp",
     "color": "#ffbe52",
     "gender": "女",
     "bio": ""
@@ -347,7 +347,7 @@ const data = {
   "c43": {
     "name": "程洛怡",
     "role": "温辞 · 七班同学",
-    "image": "girl.png",
+    "image": "girl.webp",
     "color": "#ffbe52",
     "gender": "女",
     "bio": "曾以温辞署名，参与记录七班日常。"
@@ -355,7 +355,7 @@ const data = {
   "c44": {
     "name": "戴杨洁",
     "role": "七班同学",
-    "image": "girl.png",
+    "image": "girl.webp",
     "color": "#ffbe52",
     "gender": "女",
     "bio": ""
@@ -363,7 +363,7 @@ const data = {
   "c45": {
     "name": "韩琪",
     "role": "HQ · 班主任与物理老师",
-    "image": "girl.png",
+    "image": "girl.webp",
     "color": "#ffbe52",
     "gender": "女",
     "bio": "筛题、讲义、答疑与成绩分析；也与全班一起写日志。"
@@ -371,7 +371,7 @@ const data = {
   "c46": {
     "name": "孙蕾",
     "role": "语文老师",
-    "image": "girl.png",
+    "image": "girl.webp",
     "color": "#ffbe52",
     "gender": "女",
     "bio": "资料、批改、读书与课本剧，在学生回忆中有认真也有玩笑。"
@@ -379,7 +379,7 @@ const data = {
   "c47": {
     "name": "杨卫华",
     "role": "杨sir · 英语老师",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": "条理鲜明，愿听同学辩论；声音趣事与冯子豪相像。"
@@ -387,7 +387,7 @@ const data = {
   "c48": {
     "name": "战景林",
     "role": "能者 · 数学老师",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": "强调基础、自主学习与慢就是快，也参与课堂竞速。"
@@ -395,7 +395,7 @@ const data = {
   "c49": {
     "name": "雷杨",
     "role": "出场老师",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": ""
@@ -403,7 +403,7 @@ const data = {
   "c50": {
     "name": "朱泽萱",
     "role": "智者 · 政治老师",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": "智者村、金斧、朱礼属于课堂与班级创作。"
@@ -411,7 +411,7 @@ const data = {
   "c51": {
     "name": "朱老师",
     "role": "历史老师 · 数论答疑",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": "历史办公室中的朱老师，全名未扩写，与政治老师朱泽萱使用不同角色ID。"
@@ -419,7 +419,7 @@ const data = {
   "c52": {
     "name": "张强",
     "role": "出场老师",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": ""
@@ -427,7 +427,7 @@ const data = {
   "c53": {
     "name": "博老师",
     "role": "出场老师",
-    "image": "girl.png",
+    "image": "girl.webp",
     "color": "#ffbe52",
     "gender": "女",
     "bio": ""
@@ -435,7 +435,7 @@ const data = {
   "c54": {
     "name": "蒋老师",
     "role": "出场老师",
-    "image": "girl.png",
+    "image": "girl.webp",
     "color": "#ffbe52",
     "gender": "女",
     "bio": ""
@@ -443,7 +443,7 @@ const data = {
   "c55": {
     "name": "臧春梅",
     "role": "出场老师",
-    "image": "girl.png",
+    "image": "girl.webp",
     "color": "#ffbe52",
     "gender": "女",
     "bio": ""
@@ -451,7 +451,7 @@ const data = {
   "c56": {
     "name": "崔鹏",
     "role": "出场老师",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": ""
@@ -459,7 +459,7 @@ const data = {
   "c57": {
     "name": "李岩",
     "role": "出场老师",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": ""
@@ -467,7 +467,7 @@ const data = {
   "c58": {
     "name": "亓孝然",
     "role": "出场老师",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": ""
@@ -475,7 +475,7 @@ const data = {
   "c60": {
     "name": "徐子瀚",
     "role": "七班同学",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "bio": ""
@@ -483,7 +483,7 @@ const data = {
   "film-秦旻然": {
     "name": "秦旻然",
     "role": "《镜中花》虚构角色 · 秦敏然饰",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "actor": "秦敏然",
@@ -492,7 +492,7 @@ const data = {
   "film-秦嘉然": {
     "name": "秦嘉然",
     "role": "《镜中花》虚构角色 · 童莘淇饰",
-    "image": "girl.png",
+    "image": "girl.webp",
     "color": "#ffbe52",
     "gender": "女",
     "actor": "童莘淇",
@@ -501,7 +501,7 @@ const data = {
   "film-刘树颐": {
     "name": "刘树颐",
     "role": "《镜中花》虚构角色 · 周远持饰",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "actor": "周远持",
@@ -510,7 +510,7 @@ const data = {
   "film-代向阳": {
     "name": "代向阳",
     "role": "《镜中花》虚构角色 · 张鹤闻饰",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "actor": "张鹤闻",
@@ -519,7 +519,7 @@ const data = {
   "film-黄义薄": {
     "name": "黄义薄",
     "role": "《镜中花》虚构角色 · 黄艺博饰",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "actor": "黄艺博",
@@ -528,7 +528,7 @@ const data = {
   "film-金跃山": {
     "name": "金跃山",
     "role": "《镜中花》虚构角色 · 彭逸涵饰",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "actor": "彭逸涵",
@@ -537,7 +537,7 @@ const data = {
   "film-石邵楷": {
     "name": "石邵楷",
     "role": "《镜中花》虚构角色 · 贾盛元饰",
-    "image": "xu.png",
+    "image": "xu.webp",
     "color": "#a18aff",
     "gender": "男",
     "actor": "贾盛元",
@@ -546,7 +546,7 @@ const data = {
   "film-李程蓉": {
     "name": "李程蓉",
     "role": "《镜中花》虚构角色 · 李玉饰",
-    "image": "girl.png",
+    "image": "girl.webp",
     "color": "#ffbe52",
     "gender": "女",
     "actor": "李玉",
