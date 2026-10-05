@@ -76,14 +76,21 @@ npm run preview -- --port 4173 --strictPort
 
 试画 `art-review`、重复立绘源图及真人参考 `character-art`、旧压缩包 `releases` 已完整移入根目录 `.local-archive/game-cleanup-20261005/`。没有删除原始素材；这些不参与构建，Git 忽略整个归档目录。`node_modules`、`dist` 为本地运行／构建产物，继续保留在本机但不上传。根目录参考照片和 `.aws` 也已忽略。
 
-在 `game` 目录执行 Git 命令，独立仓库的主分支为 `main`；无需上传 `dist` 或运行剧情生成器。首次提交包含运行资源、源码、测试、维护脚本和相关文档，不包含外层仓库历史或原始照片。远程仓库尚未关联，也未推送；在 GitHub 建立空仓库后可执行：
+在 `game` 目录执行 Git 命令，独立仓库的主分支为 `main`；无需上传 `dist` 或运行剧情生成器。首次提交包含运行资源、源码、测试、维护脚本和相关文档，不包含外层仓库历史或原始照片。远程仓库为 `https://github.com/Muleizhang/RDFZ2024Class7.git`，已有克隆可直接执行：
 
 ```sh
-git remote add origin <你的GitHub仓库地址>
 git push -u origin main
 ```
 
 以后提交前先检查 `git status --short` 和 `git diff --cached --stat`。素材重生成脚本需要外层班史转写资料，单独克隆此仓库仍可直接运行、测试和构建游戏。
+
+## GitHub Pages 自动部署
+
+工作流 `.github/workflows/deploy-pages.yml` 在推送 `main` 或从 Actions 手动运行时，使用 Node 24 安装依赖、执行检查和构建，然后发布 `dist`。仓库 Settings → Pages → Build and deployment 的 Source 选择 **GitHub Actions**。无需上传构建目录或维护 `gh-pages` 分支，Vercel 部署配置继续保留。
+
+发布地址：<https://muleizhang.github.io/RDFZ2024Class7/>；全班人物页：<https://muleizhang.github.io/RDFZ2024Class7/#class>。构建使用相对资源路径，同时兼容 Pages 的仓库子路径和 Vercel 的根路径。部署状态可在仓库 Actions 的 **Deploy GitHub Pages** 中查看。此配置依据 [GitHub 官方 Pages 工作流说明](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages)。
+
+Vercel 与 GitHub Pages 的存档按网站地址分别保存在浏览器中；切换网站时，可用手帐中的存档导出／导入功能转移记录。
 
 ## 全班人物页
 
