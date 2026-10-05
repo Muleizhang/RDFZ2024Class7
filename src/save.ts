@@ -1,8 +1,21 @@
 import {byId,characters,dateByDate,backgrounds,initial,story,enter,type Frame} from './story.ts';
 import legacy from './data/legacyNodes.ts';
+import {validateCheatAnswer} from './cheat.ts';
 export type HistoryEntry={node:string;speaker:string;text:string;date:string;context?:string};
 export type Save={version:2;revision?:string;frame:Frame;read:string[];failures:string[];history:HistoryEntry[]};
 export const newSave=():Save=>({version:2,revision:'review-20261005',frame:{...initial},read:[],failures:[],history:[]});
+export async function applyCheat(save:Save,answer:string):Promise<Save|null>{
+ if(!await validateCheatAnswer(answer))return null;
+ return unlockAll(save);
+}
+export function unlockAll(save:Save):Save{
+ return {...save,read:[...new Set([...save.read,...story.map(n=>n.id)])],failures:[...new Set([...save.failures,...story.flatMap(n=>n.options?.flatMap(o=>o.failure?[o.failure]:[])||[])])]};
+}
+export function unlockedDateIds(save:Save):string[]{
+ const read=new Set(save.read);
+ return [...new Set(['D01',dateByDate[save.frame.date].id,...save.read.flatMap(id=>byId[id]?.day?[byId[id].day!]:[]),...datesFromEntries(read)])];
+}
+function datesFromEntries(read:Set<string>):string[]{return Object.values(dateByDate).filter(d=>read.has(d.entry)).map(d=>d.id);}
 function shape(value:unknown):boolean{if(!value||typeof value!=='object')return false;const v=value as Save;const f=v.frame;return [1,2].includes(v.version)&&!!f&&!!byId[f.node]&&!!dateByDate[f.date]&&!!characters[f.pov]&&(f.character===''||!!characters[f.character])&&!!backgrounds[f.background]&&typeof f.period==='string'&&(!f.context||typeof f.context==='string')&&(!f.prop||(typeof f.prop.kind==='string'&&typeof f.prop.title==='string'&&Array.isArray(f.prop.lines)&&f.prop.lines.length<30&&f.prop.lines.every(x=>typeof x==='string'&&x.length<1000)))&&Array.isArray(v.read)&&v.read.every(x=>typeof x==='string'&&!!byId[x])&&Array.isArray(v.failures)&&v.failures.every(x=>typeof x==='string'&&x.length<500)&&Array.isArray(v.history)&&v.history.every(h=>h&&typeof h.text==='string'&&typeof h.speaker==='string'&&typeof h.date==='string'&&!!byId[h.node]);}
 export function validateSave(value:unknown):value is Save{return shape(value)&&(value as Save).version===2;}
 export function parseSave(raw:string):Save{
