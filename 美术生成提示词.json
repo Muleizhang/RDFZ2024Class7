@@ -1,0 +1,26 @@
+{
+  "mode": "built-in image_gen",
+  "note": "角色造型为原创；用户确认三人均为男生，雷昱偏女性化，凌艺坤偏胖。",
+  "assets": [
+    {
+      "asset": "public/assets/classroom.png",
+      "prompt": "Use case: illustration-story. Asset type: reusable 16:9 visual novel campus background. A beautiful semi-realistic anime painted Beijing high school classroom on the fifth floor in midsummer, 2023. View from the rear-left toward a wide dark green chalkboard and blank projection screen, pale cream walls, orderly rows of wooden desks and turquoise chairs, tall windows along the right wall overlooking lush green trees. Warm afternoon sun, violet shadow accents and amber sunlight, delicate cinematic painted texture and credible architecture. Empty of people. No writing, no text, no logos, no watermarks. Wide landscape composition; readable calm negative space near bottom for a dialogue panel. This is an ordinary Chinese senior high school, not a Japanese school."
+    },
+    {
+      "asset": "public/assets/xu.png",
+      "prompt": "Use case: stylized-concept. Asset type: single transparent anime visual novel character portrait, from head to mid thigh. Original fictional design for Xu Qiyuan, a Chinese senior high school boy age 17, thoughtful student holding an open squared-paper notebook and a black pen, short slightly tousled dark hair, thin dark rectangular eyeglasses, expressive intelligent warm eyes, subtle self-conscious smile. White short sleeve polo shirt with understated violet collar trim, navy trousers. Clean high quality 2D anime line art, nuanced cel shading, soft warm midsummer highlights, violet shadow accents. Relaxed standing three-quarter pose facing slightly left. Complete head and both hands, centered, isolated genuinely transparent background. No scenery, no ground, no text, no watermark. This is an explicitly original game design, no resemblance to any real person's photo is requested."
+    },
+    {
+      "asset": "public/assets/lei.png",
+      "prompt": "Use case: stylized-concept. Asset type: single transparent 2D anime visual novel male character portrait from head to mid thigh. Original design for Lei Yu, Chinese high school boy age 17, clearly a male student with delicately feminine and androgynous appearance, slender frame, soft face, fine lashes, elegant medium-short fluffy black hair with a few soft strands framing face, playful knowing smile. White short sleeve school polo with subtle violet collar trim and navy trousers. One hand lifted in casual speaking gesture. Beautiful clean anime lineart, nuanced cel shading, warm summer highlights and violet shadows. Three-quarter standing pose facing slightly left, complete head and hands, centered, isolated genuinely transparent background. No scenery, no ground, no text, no watermark. Match a thoughtful schoolboy holding notebook in the same Chinese school visual novel. Do not depict a girl; design is an androgynous boy."
+    },
+    {
+      "asset": "public/assets/ling.png",
+      "prompt": "Use case: stylized-concept. Asset type: transparent 2D anime visual novel male portrait from head to mid thigh. Original design for Ling Yikun, Chinese senior high school boy age 17, distinctly chubby broad soft torso, rounded cheeks, stout arms and fuller waist. Friendly observant expression and light amused smile, short neat dark black hair, round black glasses. White short-sleeve school polo with subtle violet collar trim, navy trousers. Holding a closed squared-paper notebook against his chest with one hand, other hand casually at side. Beautiful clean anime lineart, nuanced cel shading, warm midsummer highlights and violet shadows. Relaxed standing three-quarter facing slightly left. Complete head and hands, centered, genuinely transparent background, no scenery, no ground, no text, no watermarks. Consistent cast wardrobe for an ordinary Chinese senior high school visual novel. He must visibly have a fat/chubby body type, not a thin male."
+    },
+    {
+      "asset": "public/assets/corridor.png",
+      "prompt": "Use case: illustration-story. Asset type: reusable 16:9 visual novel school corridor background. Semi-realistic anime painted Chinese Beijing senior high school fifth floor corridor in midsummer afternoon, believable ordinary architecture, cream painted walls, pale terrazzo floor, an open classroom entrance on the left with green chalkboard and turquoise chairs barely visible inside, large windows to the right with leafy trees outside, strong warm golden summer sunlight diagonally across corridor, violet shadow accents. A stack of taped brown cardboard boxes and a few bundled textbooks near the door suggest students have just moved classrooms. Empty of people. Cinematic calm hand-painted detailed environment, matching the same cream walled classroom with wooden desks, wide green chalkboard and turquoise chairs. No readable text anywhere, no door signs, no logos, no watermark. Landscape wide composition."
+    }
+  ]
+}

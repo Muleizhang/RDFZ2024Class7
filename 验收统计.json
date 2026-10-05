@@ -1,0 +1,14 @@
+{
+  "revision": "review-second-pass-20261005",
+  "dates": 61,
+  "nodes": 2451,
+  "choices": 41,
+  "failures": 42,
+  "characters": 68,
+  "backgroundIds": 39,
+  "textCharacters": 43996,
+  "normalWalkNodes": 2373,
+  "ending": "graduation-ending",
+  "endingDate": "2024-06-11",
+  "meaning": "结构统计用于技术验收；剧情完成以逐项整改过程为依据"
+}

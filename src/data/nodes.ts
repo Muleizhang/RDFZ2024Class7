@@ -1,0 +1,17 @@
+import p0 from "./chapter-part-00.ts";
+import p1 from "./chapter-part-01.ts";
+import p2 from "./chapter-part-02.ts";
+import p3 from "./chapter-part-03.ts";
+import p4 from "./chapter-part-04.ts";
+import p5 from "./chapter-part-05.ts";
+import p6 from "./chapter-part-06.ts";
+import p7 from "./chapter-part-07.ts";
+import p8 from "./chapter-part-08.ts";
+import p9 from "./chapter-part-09.ts";
+import p10 from "./chapter-part-10.ts";
+import p11 from "./chapter-part-11.ts";
+import p12 from "./chapter-part-12.ts";
+import p13 from "./chapter-part-13.ts";
+import p14 from "./chapter-part-14.ts";
+import p15 from "./chapter-part-15.ts";
+export default [...p0,...p1,...p2,...p3,...p4,...p5,...p6,...p7,...p8,...p9,...p10,...p11,...p12,...p13,...p14,...p15];

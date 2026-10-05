@@ -1,0 +1,224 @@
+[
+  {
+    "id": "girl",
+    "prompt": "Use case: stylized-concept. Asset type: one transparent 2D anime Chinese high school girl visual novel standing portrait from head to mid thigh. Original reusable temporary cast artwork matching the existing white short-sleeve purple-trim school uniform anime boy portraits. Girl aged 17, friendly thoughtful expression, dark shoulder-length hair with soft bangs, expressive brown eyes, white polo with muted purple double-stripe collar and sleeve trim, navy trousers. Holding a closed squared-paper notebook, relaxed three-quarter pose facing left. Clean high quality anime lineart and nuanced cel-shading, golden summer rim light and violet shadows. Complete head and hands. Truly transparent background; no backdrop, scenery, text, logo, watermark or ground. It is a fictional generic student image shared provisionally by multiple characters, not a likeness of any real person.",
+    "file": "public/assets/girl.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-9bb783f1-3d65-43f5-a3cc-cbc8ba0feaa5.png"
+  },
+  {
+    "id": "rear",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Reverse view of the existing Chinese school classroom: from front chalkboard toward rear desks and rear wall bulletin board, cream walls, turquoise chairs, wooden desks, tall windows now on the LEFT, subtle cream ceiling beams, projector on ceiling.",
+    "file": "public/assets/rear.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-6e984dba-f601-48ec-83c1-2cf336dad5c5.png"
+  },
+  {
+    "id": "track",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Ordinary Beijing high school outdoor athletics track, red running lanes, grass field, cream school buildings in distance, centered clear track curve.",
+    "file": "public/assets/track.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-552d398c-527e-4f58-b115-ebacf9624667.png"
+  },
+  {
+    "id": "cafeteria",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Third floor Chinese high school cafeteria, meal service counters with blank signage, stainless trays, orderly tables and stools, broad windows, unoccupied.",
+    "file": "public/assets/cafeteria.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-53460403-fffd-43c0-a906-2331e17f9294.png"
+  },
+  {
+    "id": "biology",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Chinese high school biology teachers office, desks covered in organized test papers, a sofa and standing space by the central desk, no laboratory instruments.",
+    "file": "public/assets/biology.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-440a3516-5cd0-4635-927c-35600043f91d.png"
+  },
+  {
+    "id": "math-office",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Chinese high school mathematics teachers office, large desk for tutoring, neatly piled workbooks, dark green chalkboard with no writing, door and windows.",
+    "file": "public/assets/math-office.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-89da36e1-1c97-4a6f-9e4d-4d333bfe216a.png"
+  },
+  {
+    "id": "history-office",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Chinese high school history teachers office, inviting central desk with clear space for a cola bottle foreground, bookshelves with unlabelled volumes, three visitor chairs and a teacher chair.",
+    "file": "public/assets/history-office.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-d386ecfa-410c-47c7-9193-eb14e848a81e.png"
+  },
+  {
+    "id": "dorm",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Ordinary Chinese boarding high school dormitory, clean metal bunk beds, shared wooden desk, warm small desk lamp, books and bedding, no people.",
+    "file": "public/assets/dorm.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-548d26f8-c43e-44a5-bbc4-6f79f51dde2c.png"
+  },
+  {
+    "id": "home",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: A Chinese student's home study desk by a window, closed squared notebook, books, laptop with blank screen, blue desk chair, daylight, neutral gender decor.",
+    "file": "public/assets/home.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-e82e93f5-a03f-401f-a9da-c5457fb149bc.png"
+  },
+  {
+    "id": "bus",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Interior of a Chinese travel coach bus, rows of blue fabric passenger seats, wide side windows with green hills outside, central aisle perspective, empty.",
+    "file": "public/assets/bus.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-41ea132d-d452-4abd-83d5-acbf57792c10.png"
+  },
+  {
+    "id": "great-wall",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Badaling ancient Great Wall mountain section, rough old stone steps and low stone crenellations ascending a rugged green mountain ridge, autumn air, not modern city.",
+    "file": "public/assets/great-wall.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-fdc840a6-c273-4dcb-a325-5bc76b63ace3.png"
+  },
+  {
+    "id": "noodle",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Cozy small Chinese beef noodle shop, narrow room with wooden tables and small stools, open kitchen counter, blank menu panels, ceramic bowls and chopstick holders, no people.",
+    "file": "public/assets/noodle.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-8fcfbb2b-7dce-492c-9728-c4596322a26b.png"
+  },
+  {
+    "id": "hall",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: A Beijing high school auditorium in Yifu building, empty stepped rows of seats looking toward a simple stage and blank projection screen, warm ceiling lights.",
+    "file": "public/assets/hall.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-befc313e-702f-4e88-b555-6b2a00fa7d18.png"
+  },
+  {
+    "id": "gate",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Ordinary Beijing high school gate and paved entrance, cream gatehouse, shady mature trees, sunny morning, blank signage panels, no legible school names.",
+    "file": "public/assets/gate.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-ab6a8cdd-5833-4f4b-9f9b-87b8447def39.png"
+  },
+  {
+    "id": "hotpot",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Chinese hotpot restaurant, central round dining table with recessed steaming hotpot, individual bowls, warmly lit contemporary restaurant booths.",
+    "file": "public/assets/hotpot.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-7800bd24-3181-4581-a4ae-7eab6862df63.png"
+  },
+  {
+    "id": "park",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Quiet leafy Beijing park walking path, spring flowering trees and green lawn, gently curving centered path, beautiful scattered flowers, no landmarks pretending to be exact reconstruction.",
+    "file": "public/assets/park.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-5fc44b33-5d40-40a4-8844-d8878c2eb6fe.png"
+  },
+  {
+    "id": "infirmary",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: School infirmary usable as student film hospital set, simple hospital bed, bedside cabinet, pale curtains, large window, realistic modest school room.",
+    "file": "public/assets/infirmary.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-dbd8a5e5-0801-4cda-9596-950c3beab312.png"
+  },
+  {
+    "id": "netherlands",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Dutch canal street with brick facades, small bridge, canal water and bicycles, atmospheric daytime, observed as a teacher's recollection.",
+    "file": "public/assets/netherlands.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-2aec3423-e5bc-4020-a240-13abd4ccd88e.png"
+  },
+  {
+    "id": "cafe",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Calm European style small cafe, a few wood tables and chairs, coffee counter, broad windows with blurred brick street outside, no text. Structure reusable for a student film cafe.",
+    "file": "public/assets/cafe.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-fcf55e4c-94a4-4865-a269-53c59b9ada93.png"
+  },
+  {
+    "id": "train",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Chinese high speed train second class carriage, pale seats and wide windows, overhead luggage rack, grassy countryside outside, empty, central aisle perspective.",
+    "file": "public/assets/train.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-1b07886d-75f8-4f72-abfc-f2af923b0606.png"
+  },
+  {
+    "id": "west-lake",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Hangzhou West Lake shore path, lake water, leafy willow trees, distant low mountains and restrained traditional pavilion, bright early summer, centered shoreline.",
+    "file": "public/assets/west-lake.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-b3a6944b-a44c-4e83-aa18-8bc772c0836a.png"
+  },
+  {
+    "id": "songcheng",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Songcheng style Chinese historical cultural performance auditorium, view from empty dark audience seats toward brightly lit theatrical stage with curtains and abstract historical scenery, no performers.",
+    "file": "public/assets/songcheng.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-f5e8ff56-4778-4a4a-8979-e41d9a64e02d.png"
+  },
+  {
+    "id": "workshop",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Warm traditional Chinese tea art and paper umbrella painting workshop room, wooden tables with tea bowls and a plain white paper umbrella, large windows, calm summer light.",
+    "file": "public/assets/workshop.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-cfacac31-1551-4f2e-9241-92c10672eb62.png"
+  },
+  {
+    "id": "hotel",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Modest Hangzhou school-trip hotel twin room, two beds, central nightstand, small table suitable for cards and chatting, muted cream interior, warm evening light, no people.",
+    "file": "public/assets/hotel.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-1128767b-5822-46b9-8780-d798ad252d43.png"
+  },
+  {
+    "id": "mayor-office",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Fictional Chinese small town mayor office for student film Mirror Flower, large dark wooden desk, several visitor chairs, file cabinet behind desk, door on left, window right, no plaques, consistent plausible office.",
+    "file": "public/assets/mayor-office.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-82269e85-65ae-4ee1-9307-b9f2d86de840.png"
+  },
+  {
+    "id": "company",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Fictional Chinese steel company director office for student film, modern glass desk, steel grey cabinets, industrial district outside large window, distinguish from old wooden mayor office.",
+    "file": "public/assets/company.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-2db435ad-76da-43f7-912e-bacf0c5ea373.png"
+  },
+  {
+    "id": "archive",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Fictional small town archives reading room, rows of metal file shelves, a central wood table with closed folders, simple overhead lights, no legible labels.",
+    "file": "public/assets/archive.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-c0f7a6b7-f5ca-4d35-896b-a24cbf4c30a8.png"
+  },
+  {
+    "id": "film-home",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Fictional Chinese small town family living room for student film, warm modest sofa, wooden coffee table, doorway, neutral curtains, no people.",
+    "file": "public/assets/film-home.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-ee5d6b96-8e08-4a12-ae95-7b0f32f26c81.png"
+  },
+  {
+    "id": "flood",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Fictional Chinese small town street after flooding, muddy shallow standing water, soaked storefronts and scattered furniture, grey overcast sky, restrained cinematic aftermath, no people, no graphic injury.",
+    "file": "public/assets/flood.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-8be227da-17fd-43fe-a446-ab57553f6ce3.png"
+  },
+  {
+    "id": "railway",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Fictional Chinese countryside railway and distant train, seen from safe distance on grassy hillside, cinematic late afternoon, no people or injury.",
+    "file": "public/assets/railway.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-e65fca73-7ef9-4b78-b6ac-4f7f93388400.png"
+  },
+  {
+    "id": "barbecue",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Chinese Korean-style barbecue restaurant, central table with tabletop grill, exhaust hood and dishes, cozy indoor booths, no fire emergency, no people.",
+    "file": "public/assets/barbecue.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-7f414c23-9a74-47e3-9466-4b006f9dfad0.png"
+  },
+  {
+    "id": "film-street",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Fictional Chinese small town Flower City street for student film, low apartment blocks and shops with blank signage, street crossing in center, quiet cinematic daylight.",
+    "file": "public/assets/film-street.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-26586ba3-2813-4ca2-a22b-2ffb8f5ac4a9.png"
+  },
+  {
+    "id": "liangzhu",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Interior of Liangzhu archaeological museum, subdued dark exhibition hall, central jade cong and ancient pottery in glass display cases, spotlights, no writing, no people.",
+    "file": "public/assets/liangzhu.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-f5d5f67a-4b10-4ecc-9c9a-84c5e4614cdb.png"
+  },
+  {
+    "id": "yue-temple",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Hangzhou Yue Fei temple traditional courtyard, red wooden temple facade, tiled roof and courtyard stone path, trees, all plaques left blank, no people.",
+    "file": "public/assets/yue-temple.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-1f5af515-85cb-49b7-aedb-17063d9bea31.png"
+  },
+  {
+    "id": "xixi",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Hangzhou Xixi wetlands, reed-lined canal, wooden boardwalk and low stone bridge, summer green, empty, no people.",
+    "file": "public/assets/xixi.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-f0e28ebc-00a0-47e4-979d-07e28d08a983.png"
+  },
+  {
+    "id": "library",
+    "prompt": "Use case: illustration-story. Asset: reusable 16:9 landscape anime visual novel background. Semi-realistic detailed hand-painted cinematic illustration, matching our existing cream-wall Chinese high school classroom, warm amber sunlight and restrained violet shadows. Empty of people. Important environment centered for mobile portrait crop; bottom quarter can be covered by dialogue, left edge by timetable. No text, labels, letters, dates, logos, watermarks. Scene: Chinese high school library northeast reading corner, west facing broad windows to the right of reader's desk, bookshelves and empty chairs, unlabelled books, no people.",
+    "file": "public/assets/library.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-fe2e481a-68c0-4ab4-959d-289e2b40d424.png"
+  },
+  {
+    "id": "snow-track",
+    "prompt": "Use case: illustration-story. Edit this exact high school athletics track background to a winter snowy morning, preserve the exact camera angle, track geometry, school buildings and trees. Snow covers the empty grass and track edges with a clear smooth foreground snow patch for editable lettering to be added in code. Pale overcast daylight with violet blue winter shadows, matching original hand-painted anime game art. No people, writing, letters, labels, watermarks. Do not render HQNB or any text.",
+    "file": "public/assets/snow-track.png",
+    "origin": "/home/muleizh/.codex/generated_images/01a106fe-7ae1-7f42-975a-4caf5baff5c1/exec-878d1563-4946-408c-913a-5a0730fdb9a5.png"
+  }
+]

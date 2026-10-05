@@ -1,0 +1,990 @@
+[
+  {
+    "name": "蔡依凡",
+    "pose": "双手自然垂下，身体微转向对话者",
+    "scene": "当前核对的场景编排未找到明确个人情节，暂用日常对话动作",
+    "versions": [
+      {
+        "id": "s01-summer",
+        "season": "summer",
+        "file": "images/蔡依凡/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s01-winter",
+        "season": "winter",
+        "file": "images/蔡依凡/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "陈俊言",
+    "pose": "一手轻抬至腰胸之间，掌心斜向上，另一手垂下",
+    "scene": "D42 英语题讨论",
+    "versions": [
+      {
+        "id": "s02-summer",
+        "season": "summer",
+        "file": "images/陈俊言/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s02-winter",
+        "season": "winter",
+        "file": "images/陈俊言/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "陈熙",
+    "pose": "一手指尖轻触另一手掌边缘，双肘放松",
+    "scene": "D41 绳球讨论",
+    "versions": [
+      {
+        "id": "s03-summer",
+        "season": "summer",
+        "file": "images/陈熙/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s03-winter",
+        "season": "winter",
+        "file": "images/陈熙/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "程洛怡",
+    "pose": "左手轻收胸前，右手自然垂下，温和回应",
+    "scene": "D04 告别、D57 留言",
+    "versions": [
+      {
+        "id": "s04-summer",
+        "season": "summer",
+        "file": "images/程洛怡/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s04-winter",
+        "season": "winter",
+        "file": "images/程洛怡/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "戴向阳",
+    "pose": "一手轻托另一手肘，空出的手在腰前小幅展开",
+    "scene": "D37 分科整理与作文",
+    "versions": [
+      {
+        "id": "s05-summer",
+        "season": "summer",
+        "file": "images/戴向阳/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s05-winter",
+        "season": "winter",
+        "file": "images/戴向阳/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "戴杨洁",
+    "pose": "一手低位轻抬、掌心侧向同伴，另一手自然垂下",
+    "scene": "D04 帮忙探知心意",
+    "versions": [
+      {
+        "id": "s06-summer",
+        "season": "summer",
+        "file": "images/戴杨洁/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s06-winter",
+        "season": "winter",
+        "file": "images/戴杨洁/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "冯子豪",
+    "pose": "手掌在下胸前小幅侧展，重心轻移",
+    "scene": "D42 英语讨论与辩论",
+    "versions": [
+      {
+        "id": "s07-summer",
+        "season": "summer",
+        "file": "images/冯子豪/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s07-winter",
+        "season": "winter",
+        "file": "images/冯子豪/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "黄艺博",
+    "pose": "一手轻点自己胸前，另一手垂下，带笑回应",
+    "scene": "D24 旅途中向同学讲述",
+    "versions": [
+      {
+        "id": "s08-summer",
+        "season": "summer",
+        "file": "images/黄艺博/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s08-winter",
+        "season": "winter",
+        "file": "images/黄艺博/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "惠子宁",
+    "pose": "右手下胸前轻摊，左手垂下，温和解释",
+    "scene": "D36 讲题、D54 学习交流",
+    "versions": [
+      {
+        "id": "s09-summer",
+        "season": "summer",
+        "file": "images/惠子宁/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s09-winter",
+        "season": "winter",
+        "file": "images/惠子宁/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "贾诺基",
+    "pose": "一手半抬作简短补充，另一手自然垂下",
+    "scene": "D51 数学竞速",
+    "versions": [
+      {
+        "id": "s10-summer",
+        "season": "summer",
+        "file": "images/贾诺基/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s10-winter",
+        "season": "winter",
+        "file": "images/贾诺基/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "贾盛元",
+    "pose": "一手低位伸出食指示意一项，手肘不外张",
+    "scene": "D27 因式分解小游戏",
+    "versions": [
+      {
+        "id": "s11-summer",
+        "season": "summer",
+        "file": "images/贾盛元/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s11-winter",
+        "season": "winter",
+        "file": "images/贾盛元/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "金悦山",
+    "pose": "一手低位半摊，另一手垂下，轻微侧头",
+    "scene": "当前核对的场景编排未找到明确个人情节，暂用日常对话动作",
+    "versions": [
+      {
+        "id": "s12-summer",
+        "season": "summer",
+        "file": "images/金悦山/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s12-winter",
+        "season": "winter",
+        "file": "images/金悦山/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "康元泰",
+    "pose": "双手自然垂下，身体微转向对话者",
+    "scene": "当前核对的场景编排未找到明确个人情节，暂用日常对话动作",
+    "versions": [
+      {
+        "id": "s13-summer",
+        "season": "summer",
+        "file": "images/康元泰/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s13-winter",
+        "season": "winter",
+        "file": "images/康元泰/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "雷雨泽",
+    "pose": "一手在腰前轻摊向侧方，头微偏向同伴",
+    "scene": "D46 答疑结束后的解释",
+    "versions": [
+      {
+        "id": "s14-summer",
+        "season": "summer",
+        "file": "images/雷雨泽/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s14-winter",
+        "season": "winter",
+        "file": "images/雷雨泽/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "雷昱",
+    "pose": "一手在腰前放松地微屈手指，另一手垂下",
+    "scene": "D40 和弦交流",
+    "versions": [
+      {
+        "id": "s15-summer",
+        "season": "summer",
+        "file": "images/雷昱/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s15-winter",
+        "season": "winter",
+        "file": "images/雷昱/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "李承容",
+    "pose": "一手轻收胸前，另一手自然垂下，认真回应",
+    "scene": "D46 百日祝福",
+    "versions": [
+      {
+        "id": "s16-summer",
+        "season": "summer",
+        "file": "images/李承容/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s16-winter",
+        "season": "winter",
+        "file": "images/李承容/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "李昊宇",
+    "pose": "两手放松停在身前低位，一手略摊，带一点疑问",
+    "scene": "D19 操场谈话",
+    "versions": [
+      {
+        "id": "s17-summer",
+        "season": "summer",
+        "file": "images/李昊宇/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s17-winter",
+        "season": "winter",
+        "file": "images/李昊宇/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "李沐衡",
+    "pose": "一手轻扶另一侧袖口，另一前臂低位前伸，像刚忙完回应",
+    "scene": "D14、D50 设备维护与回应",
+    "versions": [
+      {
+        "id": "s18-summer",
+        "season": "summer",
+        "file": "images/李沐衡/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s18-winter",
+        "season": "winter",
+        "file": "images/李沐衡/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "李沛霖",
+    "pose": "一手在胸前低位横向示意，另一手垂下",
+    "scene": "D53 拍摄、D55 解释侦探式喜剧",
+    "versions": [
+      {
+        "id": "s19-summer",
+        "season": "summer",
+        "file": "images/李沛霖/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s19-winter",
+        "season": "winter",
+        "file": "images/李沛霖/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "李玉",
+    "pose": "双手在腰前轻搭，身体微转向对话者",
+    "scene": "D18 旅行回忆、D55 电影回看",
+    "versions": [
+      {
+        "id": "s20-summer",
+        "season": "summer",
+        "file": "images/李玉/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s20-winter",
+        "season": "winter",
+        "file": "images/李玉/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "凌艺坤",
+    "pose": "一手平缓摊开陈述，另一手垂下，平视对方",
+    "scene": "D35 提出课堂诉求",
+    "versions": [
+      {
+        "id": "s21-summer",
+        "season": "summer",
+        "file": "images/凌艺坤/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s21-winter",
+        "season": "winter",
+        "file": "images/凌艺坤/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "刘恒怿",
+    "pose": "一手轻指自己胸前，另一手自然垂下",
+    "scene": "D32 介绍自己、D51 数学竞速",
+    "versions": [
+      {
+        "id": "s22-summer",
+        "season": "summer",
+        "file": "images/刘恒怿/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s22-winter",
+        "season": "winter",
+        "file": "images/刘恒怿/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "刘美孜",
+    "pose": "一手轻抬到肩下作小幅招呼，另一手放松",
+    "scene": "D17 长城旅行",
+    "versions": [
+      {
+        "id": "s23-summer",
+        "season": "summer",
+        "file": "images/刘美孜/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s23-winter",
+        "season": "winter",
+        "file": "images/刘美孜/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "刘树苡",
+    "pose": "一手在身体侧前方小幅展开，另一手轻搭腹前",
+    "scene": "D12、D18 解释画作",
+    "versions": [
+      {
+        "id": "s24-summer",
+        "season": "summer",
+        "file": "images/刘树苡/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s24-winter",
+        "season": "winter",
+        "file": "images/刘树苡/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "吕思宇",
+    "pose": "双手在身前低位轻合，指尖相触，视线温和",
+    "scene": "D03 礼物记录、D57 留言",
+    "versions": [
+      {
+        "id": "s25-summer",
+        "season": "summer",
+        "file": "images/吕思宇/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s25-winter",
+        "season": "winter",
+        "file": "images/吕思宇/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "马诗雨",
+    "pose": "一手在下胸前略摊，另一手垂下，轻微侧头",
+    "scene": "D37 询问分科纸条",
+    "versions": [
+      {
+        "id": "s26-summer",
+        "season": "summer",
+        "file": "images/马诗雨/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s26-winter",
+        "season": "winter",
+        "file": "images/马诗雨/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "彭逸涵",
+    "pose": "一手低位向侧方作邀请，另一手垂下",
+    "scene": "D18 旅馆聚谈、D56 高三长跑回望",
+    "versions": [
+      {
+        "id": "s27-summer",
+        "season": "summer",
+        "file": "images/彭逸涵/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s27-winter",
+        "season": "winter",
+        "file": "images/彭逸涵/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "戚洪硕",
+    "pose": "一手低位向前轻引，做请对方先说的手势",
+    "scene": "D44 与同学同行答疑",
+    "versions": [
+      {
+        "id": "s28-summer",
+        "season": "summer",
+        "file": "images/戚洪硕/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s28-winter",
+        "season": "winter",
+        "file": "images/戚洪硕/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "秦敏然",
+    "pose": "一手轻放胸前，另一手垂下，认真平和",
+    "scene": "D19 解释与道歉、D52 入组",
+    "versions": [
+      {
+        "id": "s29-summer",
+        "season": "summer",
+        "file": "images/秦敏然/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s29-winter",
+        "season": "winter",
+        "file": "images/秦敏然/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "邵聪",
+    "pose": "一手微抬，食指松弛地示意一下，微笑但不夸张",
+    "scene": "D36 请求记上讲对题的片段",
+    "versions": [
+      {
+        "id": "s30-summer",
+        "season": "summer",
+        "file": "images/邵聪/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s30-winter",
+        "season": "winter",
+        "file": "images/邵聪/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "石杨子然",
+    "pose": "一手向侧下方轻示意，另一手垂下",
+    "scene": "D44 提醒看屏保",
+    "versions": [
+      {
+        "id": "s31-summer",
+        "season": "summer",
+        "file": "images/石杨子然/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s31-winter",
+        "season": "winter",
+        "file": "images/石杨子然/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "史绍恺",
+    "pose": "一手轻搭另一手腕，置于腹前低位",
+    "scene": "当前核对的场景编排未找到明确个人情节，暂用日常对话动作",
+    "versions": [
+      {
+        "id": "s32-summer",
+        "season": "summer",
+        "file": "images/史绍恺/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s32-winter",
+        "season": "winter",
+        "file": "images/史绍恺/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "孙佳怡",
+    "pose": "双手低位轻搭，头稍转向同伴",
+    "scene": "D15 数卷子后的日常",
+    "versions": [
+      {
+        "id": "s33-summer",
+        "season": "summer",
+        "file": "images/孙佳怡/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s33-winter",
+        "season": "winter",
+        "file": "images/孙佳怡/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "唐朝",
+    "pose": "一手轻扶另一侧手腕，双手停在身前低位",
+    "scene": "D39A 考前自习",
+    "versions": [
+      {
+        "id": "s34-summer",
+        "season": "summer",
+        "file": "images/唐朝/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s34-winter",
+        "season": "winter",
+        "file": "images/唐朝/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "童莘淇",
+    "pose": "一手轻收胸前，另一手在腰侧放松，不演戏中强烈情绪",
+    "scene": "D38 课本剧回忆、D52 电影拍摄",
+    "versions": [
+      {
+        "id": "s35-summer",
+        "season": "summer",
+        "file": "images/童莘淇/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s35-winter",
+        "season": "winter",
+        "file": "images/童莘淇/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "王家童",
+    "pose": "一手在腰胸之间轻展，另一手垂下，简短说明",
+    "scene": "D21 封面展示、D51 竞速",
+    "versions": [
+      {
+        "id": "s36-summer",
+        "season": "summer",
+        "file": "images/王家童/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s36-winter",
+        "season": "winter",
+        "file": "images/王家童/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "萧子衿",
+    "pose": "双手自然垂下，身体微转向对话者",
+    "scene": "当前核对的场景编排未找到明确个人情节，暂用日常对话动作",
+    "versions": [
+      {
+        "id": "s37-summer",
+        "season": "summer",
+        "file": "images/萧子衿/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s37-winter",
+        "season": "winter",
+        "file": "images/萧子衿/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "徐启元",
+    "pose": "一手低位向外展开作开场说明，另一手垂下",
+    "scene": "D01 开篇、D52 电影筹备",
+    "versions": [
+      {
+        "id": "s38-summer",
+        "season": "summer",
+        "file": "images/徐启元/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s38-winter",
+        "season": "winter",
+        "file": "images/徐启元/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "徐子涵",
+    "pose": "一手在下胸前轻抬、掌心向内，另一手垂下",
+    "scene": "D09 历史讨论、D54 学习分享",
+    "versions": [
+      {
+        "id": "s39-summer",
+        "season": "summer",
+        "file": "images/徐子涵/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s39-winter",
+        "season": "winter",
+        "file": "images/徐子涵/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "焉家祎",
+    "pose": "一手轻扶另一侧前臂，低位放松，侧头听同伴",
+    "scene": "D15 午后课堂",
+    "versions": [
+      {
+        "id": "s40-summer",
+        "season": "summer",
+        "file": "images/焉家祎/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s40-winter",
+        "season": "winter",
+        "file": "images/焉家祎/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "杨京赫",
+    "pose": "一手轻扶另一侧前臂，双肘放松",
+    "scene": "当前核对的场景编排未找到明确个人情节，暂用日常对话动作",
+    "versions": [
+      {
+        "id": "s41-summer",
+        "season": "summer",
+        "file": "images/杨京赫/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s41-winter",
+        "season": "winter",
+        "file": "images/杨京赫/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "杨雁翔",
+    "pose": "一手低位半摊，另一手垂下，轻微侧头",
+    "scene": "当前核对的场景编排未找到明确个人情节，暂用日常对话动作",
+    "versions": [
+      {
+        "id": "s42-summer",
+        "season": "summer",
+        "file": "images/杨雁翔/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s42-winter",
+        "season": "winter",
+        "file": "images/杨雁翔/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "于泓瑄",
+    "pose": "双手自然垂下，身体微转向对话者",
+    "scene": "当前核对的场景编排未找到明确个人情节，暂用日常对话动作",
+    "versions": [
+      {
+        "id": "s43-summer",
+        "season": "summer",
+        "file": "images/于泓瑄/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s43-winter",
+        "season": "winter",
+        "file": "images/于泓瑄/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "张鹤闻",
+    "pose": "一手低位自然微屈，另一手轻搭手腕，身体稍偏",
+    "scene": "D20、D24 乐器交流",
+    "versions": [
+      {
+        "id": "s44-summer",
+        "season": "summer",
+        "file": "images/张鹤闻/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s44-winter",
+        "season": "winter",
+        "file": "images/张鹤闻/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "张怀锦",
+    "pose": "一手在腰前微抬，另一手自然垂下",
+    "scene": "当前核对的场景编排未找到明确个人情节，暂用日常对话动作",
+    "versions": [
+      {
+        "id": "s45-summer",
+        "season": "summer",
+        "file": "images/张怀锦/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s45-winter",
+        "season": "winter",
+        "file": "images/张怀锦/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "张沐雷",
+    "pose": "一手低位半摊作提问，另一手垂下，身体轻微前倾",
+    "scene": "D55 抓间隙采访",
+    "versions": [
+      {
+        "id": "s46-summer",
+        "season": "summer",
+        "file": "images/张沐雷/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s46-winter",
+        "season": "winter",
+        "file": "images/张沐雷/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "张瑞麒",
+    "pose": "一手下胸前小幅展开，另一手自然垂下",
+    "scene": "D27 课堂展示与讨论",
+    "versions": [
+      {
+        "id": "s47-summer",
+        "season": "summer",
+        "file": "images/张瑞麒/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s47-winter",
+        "season": "winter",
+        "file": "images/张瑞麒/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "赵梓伊",
+    "pose": "一手低位半摊，另一手垂下，轻微侧头",
+    "scene": "当前核对的场景编排未找到明确个人情节，暂用日常对话动作",
+    "versions": [
+      {
+        "id": "s48-summer",
+        "season": "summer",
+        "file": "images/赵梓伊/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s48-winter",
+        "season": "winter",
+        "file": "images/赵梓伊/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "郑泽一",
+    "pose": "双手自然垂下，身体微转向对话者",
+    "scene": "当前核对的场景编排未找到明确个人情节，暂用日常对话动作",
+    "versions": [
+      {
+        "id": "s49-summer",
+        "season": "summer",
+        "file": "images/郑泽一/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s49-winter",
+        "season": "winter",
+        "file": "images/郑泽一/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "周远持",
+    "pose": "一手掌心向内停在下胸前，另一手自然垂下",
+    "scene": "D07 作文朗读与经验分享",
+    "versions": [
+      {
+        "id": "s50-summer",
+        "season": "summer",
+        "file": "images/周远持/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s50-winter",
+        "season": "winter",
+        "file": "images/周远持/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "周子尧",
+    "pose": "一手在腰前微抬，另一手自然垂下",
+    "scene": "当前核对的场景编排未找到明确个人情节，暂用日常对话动作",
+    "versions": [
+      {
+        "id": "s51-summer",
+        "season": "summer",
+        "file": "images/周子尧/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s51-winter",
+        "season": "winter",
+        "file": "images/周子尧/长袖.png",
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "黄鹤鸣",
+    "pose": "一手在下胸前轻摊回应，另一手自然垂下，微笑",
+    "scene": "D29 回到教室时的回应",
+    "versions": [
+      {
+        "id": "s52-summer",
+        "season": "summer",
+        "file": "images/黄鹤鸣/短袖.png",
+        "ready": true
+      },
+      {
+        "id": "s52-winter",
+        "season": "winter",
+        "file": "images/黄鹤鸣/长袖.png",
+        "ready": true
+      }
+    ]
+  }
+]
