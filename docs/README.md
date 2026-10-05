@@ -52,7 +52,7 @@ npm run preview -- --port 4173 --strictPort
 - `scripts/produce-content.mjs` 与 `scripts/review-*.mjs`：逐句台本、整改补写、人物、课表、日期、背景与出处生成器。在 `game` 内运行 `node scripts/produce-content.mjs`；需上级转写和本目录日历文档。
 - `src/data/opening.ts`：保留的已认可开场；`chapter-part-*.ts`：全篇分块数据；人物、日期、电影原稿和制作备注分别保存。
 - `src/story.ts`：剧情图、日期计算与画面继承；`src/main.tsx`：播放器、手帐和演出；`src/save.ts`：导入校验与旧档迁移。
-- `public/assets`：全部运行时本地图；`美术生成记录-全篇.json`：提示词和资产来源；`screenshots`：实际界面验收截图。
+- `public/assets`：全部运行时本地图；`art/美术生成记录-全篇.json`：提示词和资产来源；`screenshots`：实际界面验收截图。
 - `tests/story.test.ts`：全图可达、所有成功汇合、失败状态、资源存在、日期与演员、校勘台词隔离、完整场景存档往返。
 - `node --experimental-strip-types scripts/delivery-report.ts`：重建制作进度及统计。
 
@@ -62,7 +62,7 @@ npm run preview -- --port 4173 --strictPort
 
 杭州分日、数论实日、电影缺场及版本差异保留来源不确定性，不新增“确定史实”。没有用占位图片或待写摘要替代可玩内容。
 
-本轮整改与取舍见[剧情整改对照](剧情整改对照_2026-10-05.md)，实际浏览器验收见[验收记录](../本轮浏览器验收.json)。具体梅利屋菜名待用户补充；故事已演菜单传阅，不发明失载名字。
+本轮整改与取舍见[剧情整改对照](剧情整改对照_2026-10-05.md)，实际浏览器验收见[验收记录](qa/本轮浏览器验收.json)。具体梅利屋菜名待用户补充；故事已演菜单传阅，不发明失载名字。
 
 个人立绘资源层见 `src/portraits.ts`、`src/data/portraitAssets.ts`，图片已复制到 `public/assets/portraits`，不依赖素材预览服务。资源清单在 `art/portrait-manifest.json`；运行 `node scripts/sync-portraits.mjs` 可核对本地图片并重建映射。更新原始美术时可传入素材目录，例如 `node scripts/sync-portraits.mjs ../.local-archive/game-cleanup-20261005/character-art/class-v2-galgame`。接入及本轮浏览器验收见[人物立绘接入](人物立绘接入.md)。
 
@@ -92,3 +92,5 @@ git push -u origin main
 用户最新确认郑导＝郑泽一：剧情角色统一为c38；旧c59存档导入自动迁移，收藏保留，昵称在原载文字中可继续保留。
 
 第一章的玻璃骰子赠礼与温雪告白插叙依用户最新要求撤下，7月20日保留课堂、7月22日保留微写作与班级送别。删改源为 `scripts/user-content-cuts.mjs`，在审查补写之后执行；旧节点迁移保持可续读。人物资料不再宣传这两个已撤下桥段。
+
+美术提示词与生成记录统一位于 `art/`；浏览器验收和验收统计位于 `docs/qa/`，路径均从仓库根目录起算。
