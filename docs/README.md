@@ -6,10 +6,9 @@
 
 ## 启动与预览
 
-需 Node.js 22.18+（制作验证使用24.18）。从项目目录执行：
+需 Node.js 22.18+（制作验证使用24.18）。从游戏仓库根目录执行（README位于 docs 中）：
 
 ```sh
-cd game
 npm ci
 npm run dev -- --port 5173 --strictPort
 ```
@@ -63,7 +62,7 @@ npm run preview -- --port 4173 --strictPort
 
 杭州分日、数论实日、电影缺场及版本差异保留来源不确定性，不新增“确定史实”。没有用占位图片或待写摘要替代可玩内容。
 
-本轮整改与取舍见[剧情整改对照](剧情整改对照_2026-10-05.md)，实际浏览器验收见[验收记录](本轮浏览器验收.json)。具体梅利屋菜名待用户补充；故事已演菜单传阅，不发明失载名字。
+本轮整改与取舍见[剧情整改对照](剧情整改对照_2026-10-05.md)，实际浏览器验收见[验收记录](../本轮浏览器验收.json)。具体梅利屋菜名待用户补充；故事已演菜单传阅，不发明失载名字。
 
 个人立绘资源层见 `src/portraits.ts`、`src/data/portraitAssets.ts`，图片已复制到 `public/assets/portraits`，不依赖素材预览服务。资源清单在 `art/portrait-manifest.json`；运行 `node scripts/sync-portraits.mjs` 可核对本地图片并重建映射。更新原始美术时可传入素材目录，例如 `node scripts/sync-portraits.mjs ../.local-archive/game-cleanup-20261005/character-art/class-v2-galgame`。接入及本轮浏览器验收见[人物立绘接入](人物立绘接入.md)。
 
