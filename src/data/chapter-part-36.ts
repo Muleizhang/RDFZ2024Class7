@@ -1,662 +1,336 @@
 import type {StoryNode} from "../story.ts";
 const data:StoryNode[] = [
   {
-    "id": "N60-r0021",
+    "id": "D45-0034",
     "kind": "line",
     "source": "补写",
-    "page": 176,
+    "page": 153,
     "pages": [
-      176
+      153,
+      157,
+      158
     ],
-    "day": "N60",
-    "context": "现实",
-    "period": "21:30",
-    "background": "classroom",
-    "speaker": "惠子宁",
-    "text": "证三垂直，很麻烦。",
-    "character": "c14",
-    "next": "N60-r0022"
+    "day": "D45",
+    "context": "回忆 · 同一旅程",
+    "period": "咖啡馆",
+    "background": "cafe",
+    "speaker": "李沛霖",
+    "text": "一杯没有喝的咖啡，竟也有起、承、转、合。",
+    "character": "c05",
+    "next": "D45-0035"
   },
   {
-    "id": "N60-r0022",
-    "kind": "line",
-    "source": "原文",
-    "page": 176,
+    "id": "D45-0035",
+    "kind": "scene",
+    "source": "演出",
+    "page": 153,
     "pages": [
-      176
+      153,
+      157,
+      158
     ],
-    "day": "N60",
+    "day": "D45",
     "context": "现实",
-    "period": "21:30",
+    "period": "回到课堂",
     "background": "classroom",
-    "speaker": "戚洪硕",
-    "text": "建系做呗。",
-    "character": "c13",
-    "next": "N60-r0023"
-  },
-  {
-    "id": "N60-r0023",
-    "kind": "line",
-    "source": "转述",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "N60",
-    "context": "现实",
-    "period": "21:30",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "惠还望着题，戚接着又补一句。",
+    "text": "回到课堂",
     "character": "",
-    "next": "N60-r0024"
+    "effect": "paper",
+    "prop": null,
+    "next": "D45-0036"
   },
   {
-    "id": "N60-r0024",
+    "id": "D45-0036",
     "kind": "line",
     "source": "补写",
-    "page": 176,
+    "page": 153,
     "pages": [
-      176
+      153,
+      157,
+      158
     ],
-    "day": "N60",
+    "day": "D45",
     "context": "现实",
-    "period": "21:30",
+    "period": "回到课堂",
     "background": "classroom",
-    "speaker": "戚洪硕",
-    "text": "不建系，不就不用证三垂直了？",
-    "character": "c13",
-    "next": "N60-r0025"
+    "speaker": "战老师",
+    "text": "行万里路，多见识。",
+    "character": "c48",
+    "next": "D45-0037"
   },
   {
-    "id": "N60-r0025",
+    "id": "D45-0037",
     "kind": "line",
     "source": "补写",
-    "page": 176,
+    "page": 153,
     "pages": [
-      176
+      153,
+      157,
+      158
     ],
-    "day": "N60",
+    "day": "D45",
     "context": "现实",
-    "period": "21:30",
+    "period": "回到课堂",
     "background": "classroom",
-    "speaker": "惠子宁",
-    "text": "刚才不是你让我建系？",
-    "character": "c14",
-    "next": "N60-r0029"
+    "speaker": "李沛霖",
+    "text": "听一回故事，课表上的数学老师又多了一面。",
+    "character": "c05",
+    "next": "D46-date"
   },
   {
-    "id": "N60-r0029",
-    "kind": "choice",
-    "source": "补写",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "N60",
-    "context": "现实",
-    "period": "21:30",
-    "background": "classroom",
-    "text": "刚才两句话打架，我怎么圆回来",
-    "speaker": "戚洪硕",
-    "character": "c13",
-    "options": [
-      {
-        "text": "“我这个建议也三垂直了，先给我自己理顺。”",
-        "next": "N60-r0030"
-      },
-      {
-        "text": "“别听我来回改了，你把原做法接着证。”",
-        "next": "N60-r0032"
-      },
-      {
-        "text": "“证明太麻烦，题目就当从没出过吧。”",
-        "failure": "几何图还好好画着，出主意的人先宣布了纸面失踪。"
-      }
-    ]
-  },
-  {
-    "id": "N60-r0030",
-    "kind": "line",
-    "source": "补写",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "N60",
-    "context": "现实",
-    "period": "21:30",
-    "background": "classroom",
-    "text": "“我这个建议也三垂直了，先给我自己理顺。”",
-    "speaker": "戚洪硕",
-    "character": "c13",
-    "next": "N60-r0031"
-  },
-  {
-    "id": "N60-r0031",
-    "kind": "line",
-    "source": "补写",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "N60",
-    "context": "现实",
-    "period": "21:30",
-    "background": "classroom",
-    "speaker": "惠子宁",
-    "text": "你这两句，我都记住了。",
-    "character": "c14",
-    "next": "N60-r0026"
-  },
-  {
-    "id": "N60-r0032",
-    "kind": "line",
-    "source": "补写",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "N60",
-    "context": "现实",
-    "period": "21:30",
-    "background": "classroom",
-    "text": "“别听我来回改了，你把原做法接着证。”",
-    "speaker": "戚洪硕",
-    "character": "c13",
-    "next": "N60-r0033"
-  },
-  {
-    "id": "N60-r0033",
-    "kind": "line",
-    "source": "补写",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "N60",
-    "context": "现实",
-    "period": "21:30",
-    "background": "classroom",
-    "speaker": "惠子宁",
-    "text": "好，别再给我添第三种撤回法。",
-    "character": "c14",
-    "next": "N60-r0026"
-  },
-  {
-    "id": "N60-r0026",
-    "kind": "line",
-    "source": "补写",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "N60",
-    "context": "现实",
-    "period": "21:30",
-    "background": "classroom",
-    "speaker": "凌艺坤",
-    "text": "办法来一个，又被你撤一个。",
-    "character": "ling",
-    "next": "N60-r0027"
-  },
-  {
-    "id": "N60-r0027",
-    "kind": "line",
-    "source": "转述",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "N60",
-    "context": "现实",
-    "period": "21:30",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "惠和坤笑了。纸上的立几题仍在，短短几句话，成了今天的班史。",
-    "character": "",
-    "next": "D54-date"
-  },
-  {
-    "id": "D54-date",
+    "id": "D46-date",
     "kind": "date",
     "source": "演出",
-    "page": 176,
+    "page": 159,
     "pages": [
-      176,
-      187
+      159,
+      160,
+      171,
+      172,
+      181
     ],
-    "day": "D54",
+    "day": "D46",
     "context": "现实",
     "period": "翻到这一日",
     "background": "classroom",
-    "date": "2024-04-22",
-    "text": "群里那段录音",
+    "date": "2024-02-29",
+    "text": "百日 · 数论",
     "pov": "c03",
     "character": "",
-    "next": "D54-r0001"
+    "next": "D46-r0001"
   },
   {
-    "id": "D54-r0001",
+    "id": "D46-r0001",
     "kind": "portrait",
     "source": "演出",
-    "page": 176,
+    "page": 159,
     "pages": [
-      176,
-      187
+      159,
+      160,
+      171,
+      172,
+      181
     ],
-    "day": "D54",
+    "day": "D46",
     "context": "现实",
     "period": "",
     "background": "classroom",
-    "text": "群里那段录音",
+    "text": "百日 · 数论",
     "pov": "c03",
     "character": "c03",
     "speaker": "徐子涵",
-    "next": "D54-r0002"
+    "next": "D46-0002"
   },
   {
-    "id": "D54-r0002",
+    "id": "D46-0002",
     "kind": "scene",
     "source": "演出",
-    "page": 176,
+    "page": 159,
     "pages": [
-      176
+      159,
+      160
     ],
-    "day": "D54",
-    "context": "现实 · 4月22日补记前一天",
-    "period": "群里那段录音",
+    "day": "D46",
+    "context": "现实 · 2024年2月29日",
+    "period": "百日誓师",
     "background": "classroom",
-    "text": "群里那段录音",
+    "text": "百日誓师",
     "character": "",
     "effect": "paper",
     "prop": null,
-    "next": "D54-r0003"
+    "next": "D46-r0003"
   },
   {
-    "id": "D54-r0003",
+    "id": "D46-r0003",
     "kind": "line",
     "source": "转述",
-    "page": 176,
+    "page": 159,
     "pages": [
-      176
+      159,
+      160
     ],
-    "day": "D54",
-    "context": "现实 · 4月22日补记前一天",
-    "period": "群里那段录音",
+    "day": "D46",
+    "context": "现实 · 2024年2月29日",
+    "period": "百日誓师",
     "background": "classroom",
     "speaker": "旁白",
-    "text": "沐衡录下我的一段胡话，发到了语文群。孙老师听见，以为我在怨诽她，责问下来。",
+    "text": "动员视频之后，HQ讲自己的经历，班长和同学接着上台。孙老师也来了，坤的话忽然转了弯。",
     "character": "",
-    "next": "D54-r0004"
+    "next": "D46-r0004"
   },
   {
-    "id": "D54-r0004",
+    "id": "D46-r0004",
     "kind": "line",
     "source": "补写",
-    "page": 176,
+    "page": 159,
     "pages": [
-      176
+      159,
+      160
     ],
-    "day": "D54",
-    "context": "现实 · 4月22日补记前一天",
-    "period": "群里那段录音",
+    "day": "D46",
+    "context": "现实 · 2024年2月29日",
+    "period": "百日誓师",
     "background": "classroom",
-    "speaker": "孙老师",
-    "text": "你这话是什么意思？",
-    "character": "c46",
-    "next": "D54-r0005"
+    "speaker": "凌艺坤",
+    "text": "没想到孙老师也来了，本来……算了不说了。",
+    "character": "ling",
+    "next": "D46-r0005"
   },
   {
-    "id": "D54-r0005",
-    "kind": "line",
-    "source": "补写",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "D54",
-    "context": "现实 · 4月22日补记前一天",
-    "period": "群里那段录音",
-    "background": "classroom",
-    "speaker": "徐子涵",
-    "text": "不是在怨您！我被奸邪小人所害！",
-    "character": "c03",
-    "next": "D54-r0006"
-  },
-  {
-    "id": "D54-r0006",
-    "kind": "line",
-    "source": "转述",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "D54",
-    "context": "现实 · 4月22日补记前一天",
-    "period": "群里那段录音",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "我急着申辩，越说越委屈。旁边同学却已经拿起粉笔，往黑板添了一面鸣冤鼓。",
-    "character": "",
-    "next": "D54-r0007"
-  },
-  {
-    "id": "D54-r0007",
-    "kind": "line",
-    "source": "补写",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "D54",
-    "context": "现实 · 4月22日补记前一天",
-    "period": "群里那段录音",
-    "background": "classroom",
-    "speaker": "李沐衡",
-    "text": "再写一行：“信而见疑，忠而被谤，能无怨乎？”",
-    "character": "c17",
-    "next": "D54-r0008"
-  },
-  {
-    "id": "D54-r0008",
-    "kind": "line",
-    "source": "补写",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "D54",
-    "context": "现实 · 4月22日补记前一天",
-    "period": "群里那段录音",
-    "background": "classroom",
-    "speaker": "同学",
-    "text": "“徐平正道直行”放这边。",
-    "character": "",
-    "next": "D54-r0009"
-  },
-  {
-    "id": "D54-r0009",
-    "kind": "line",
-    "source": "补写",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "D54",
-    "context": "现实 · 4月22日补记前一天",
-    "period": "群里那段录音",
-    "background": "classroom",
-    "speaker": "徐子涵",
-    "text": "你们倒是先听我解释！",
-    "character": "c03",
-    "next": "D54-r0010"
-  },
-  {
-    "id": "D54-r0010",
-    "kind": "choice",
-    "source": "补写",
-    "page": 176,
-    "pages": [
-      176,
-      187
-    ],
-    "day": "D54",
-    "context": "现实 · 4月22日补记前一天",
-    "period": "群里那段录音",
-    "background": "classroom",
-    "text": "满黑板都在替我鸣冤，我说",
-    "speaker": "徐子涵",
-    "character": "c03",
-    "options": [
-      {
-        "text": "“字先留着，别把我刚才的解释盖过去。”",
-        "next": "D54-r0011"
-      },
-      {
-        "text": "“长者虽有问，子涵敢申恨？我今天敢。”",
-        "next": "D54-r0013"
-      },
-      {
-        "text": "“算了，你们再录一段，我接着骂。”",
-        "failure": "新录音盖住旧申辩，鸣冤鼓被迫增设第二面。"
-      }
-    ]
-  },
-  {
-    "id": "D54-r0011",
-    "kind": "line",
-    "source": "补写",
-    "page": 176,
-    "pages": [
-      176,
-      187
-    ],
-    "day": "D54",
-    "context": "现实 · 4月22日补记前一天",
-    "period": "群里那段录音",
-    "background": "classroom",
-    "text": "“字先留着，别把我刚才的解释盖过去。”",
-    "speaker": "徐子涵",
-    "character": "c03",
-    "next": "D54-r0012"
-  },
-  {
-    "id": "D54-r0012",
-    "kind": "line",
-    "source": "补写",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "D54",
-    "context": "现实 · 4月22日补记前一天",
-    "period": "群里那段录音",
-    "background": "classroom",
-    "speaker": "李沐衡",
-    "text": "听你说完了。",
-    "character": "c17",
-    "next": "D54-r0015"
-  },
-  {
-    "id": "D54-r0013",
-    "kind": "line",
-    "source": "补写",
-    "page": 176,
-    "pages": [
-      176,
-      187
-    ],
-    "day": "D54",
-    "context": "现实 · 4月22日补记前一天",
-    "period": "群里那段录音",
-    "background": "classroom",
-    "text": "“长者虽有问，子涵敢申恨？我今天敢。”",
-    "speaker": "徐子涵",
-    "character": "c03",
-    "next": "D54-r0014"
-  },
-  {
-    "id": "D54-r0014",
-    "kind": "line",
-    "source": "补写",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "D54",
-    "context": "现实 · 4月22日补记前一天",
-    "period": "群里那段录音",
-    "background": "classroom",
-    "speaker": "李沐衡",
-    "text": "这段也写上。",
-    "character": "c17",
-    "next": "D54-r0015"
-  },
-  {
-    "id": "D54-r0015",
-    "kind": "scene",
-    "source": "演出",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "D54",
-    "context": "同一事件",
-    "period": "证书与合影",
-    "background": "classroom",
-    "text": "证书与合影",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "D54-r0016"
-  },
-  {
-    "id": "D54-r0016",
-    "kind": "line",
-    "source": "转述",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "D54",
-    "context": "同一事件",
-    "period": "证书与合影",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "大家又画出身高条纹，让我站在前面。我手里拿的，偏偏是优秀共青团员证书。",
-    "character": "",
-    "next": "D54-r0017"
-  },
-  {
-    "id": "D54-r0017",
-    "kind": "line",
-    "source": "补写",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "D54",
-    "context": "同一事件",
-    "period": "证书与合影",
-    "background": "classroom",
-    "speaker": "同学",
-    "text": "证书举起来，别挡住脸。",
-    "character": "",
-    "next": "D54-r0018"
-  },
-  {
-    "id": "D54-r0018",
-    "kind": "line",
-    "source": "补写",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "D54",
-    "context": "同一事件",
-    "period": "证书与合影",
-    "background": "classroom",
-    "speaker": "徐子涵",
-    "text": "优秀团员怎么拍出了逮捕照？",
-    "character": "c03",
-    "next": "D54-r0019"
-  },
-  {
-    "id": "D54-r0019",
-    "kind": "line",
-    "source": "转述",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "D54",
-    "context": "同一事件",
-    "period": "证书与合影",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "鼓、标语、证书，都进了同一张照片。我站在自己申辩的句子旁边，神情比证书严肃得多。",
-    "character": "",
-    "next": "D54-r0020"
-  },
-  {
-    "id": "D54-r0020",
-    "kind": "scene",
-    "source": "演出",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "D54",
-    "context": "现实",
-    "period": "一模分析",
-    "background": "classroom",
-    "text": "一模分析",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "D54-r0021"
-  },
-  {
-    "id": "D54-r0021",
-    "kind": "line",
-    "source": "转述",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "D54",
-    "context": "现实",
-    "period": "一模分析",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "六科老师做成绩分析，我和惠子宁分享经验。李玉、马诗雨的总结简洁，轮到惠，提醒也很直接。",
-    "character": "",
-    "next": "D54-r0022"
-  },
-  {
-    "id": "D54-r0022",
+    "id": "D46-r0005",
     "kind": "line",
     "source": "原文",
-    "page": 176,
+    "page": 160,
     "pages": [
-      176
+      159,
+      160
     ],
-    "day": "D54",
-    "context": "现实",
-    "period": "一模分析",
+    "day": "D46",
+    "context": "现实 · 2024年2月29日",
+    "period": "百日誓师",
     "background": "classroom",
-    "speaker": "惠子宁",
-    "text": "好好审题。",
-    "character": "c14",
-    "next": "D54-r0023"
+    "speaker": "李承容",
+    "text": "光荣的荆棘路。",
+    "character": "c34",
+    "next": "D46-r0006"
   },
   {
-    "id": "D54-r0023",
+    "id": "D46-r0006",
     "kind": "line",
     "source": "补写",
-    "page": 176,
+    "page": 159,
     "pages": [
-      176
+      159,
+      160
     ],
-    "day": "D54",
-    "context": "现实",
-    "period": "一模分析",
+    "day": "D46",
+    "context": "现实 · 2024年2月29日",
+    "period": "百日誓师",
     "background": "classroom",
-    "speaker": "徐子涵",
-    "text": "这句倒不用画鼓，直接记。",
-    "character": "c03",
-    "next": "D54-r0042"
+    "speaker": "李昊宇",
+    "text": "竞赛也有失利的时候，先把自己的心态找回来。",
+    "character": "c22",
+    "next": "D46-r0007"
   },
   {
-    "id": "D54-r0042",
+    "id": "D46-r0007",
+    "kind": "line",
+    "source": "转述",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "现实 · 2024年2月29日",
+    "period": "百日誓师",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "祝福、誓言和心愿写完，每人又领到一份刻着名字的可乐。",
+    "character": "",
+    "next": "D46-r0088"
+  },
+  {
+    "id": "D46-r0088",
     "kind": "scene",
     "source": "演出",
-    "page": 176,
+    "page": 159,
     "pages": [
-      176
+      159,
+      160
     ],
-    "day": "D54",
+    "day": "D46",
+    "context": "现实",
+    "period": "便签里的百日",
+    "background": "classroom",
+    "text": "便签里的百日",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "D46-r0089"
+  },
+  {
+    "id": "D46-r0089",
+    "kind": "line",
+    "source": "转述",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "现实",
+    "period": "便签里的百日",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "百日活动沿流程推进，誓言不只念在台上，还写进便签。同学交换后低头读，自己的愿望忽然由别人拿着。",
+    "character": "",
+    "next": "D46-r0090"
+  },
+  {
+    "id": "D46-r0090",
+    "kind": "line",
+    "source": "补写",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "现实",
+    "period": "便签里的百日",
+    "background": "classroom",
+    "speaker": "徐子涵",
+    "text": "你这张先收着，我把这张带回去。",
+    "character": "c03",
+    "next": "D46-r0091"
+  },
+  {
+    "id": "D46-r0091",
+    "kind": "line",
+    "source": "补写",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "现实",
+    "period": "便签里的百日",
+    "background": "classroom",
+    "speaker": "同学",
+    "text": "别把誓言又夹丢在卷子里。",
+    "character": "",
+    "next": "D46-r0092"
+  },
+  {
+    "id": "D46-r0092",
+    "kind": "line",
+    "source": "转述",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "现实",
+    "period": "便签里的百日",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "期待带回教室，接着是化学与答疑。离一百三十的愿望还有题要问，专属可乐也跟着带进办公室。",
+    "character": "",
+    "next": "D46-r0093"
+  },
+  {
+    "id": "D46-r0093",
+    "kind": "scene",
+    "source": "演出",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
     "context": "现实",
     "period": "课间手帐",
     "background": "classroom",
@@ -664,2260 +338,2675 @@ const data:StoryNode[] = [
     "character": "",
     "effect": "paper",
     "prop": null,
-    "next": "D54-r0043"
+    "next": "D46-r0094"
   },
   {
-    "id": "D54-r0043",
+    "id": "D46-r0094",
     "kind": "line",
     "source": "原文",
-    "page": 176,
+    "page": 159,
     "pages": [
-      176
+      159,
+      160
     ],
-    "day": "D54",
+    "day": "D46",
     "context": "现实",
     "period": "课间手帐",
     "background": "classroom",
     "speaker": "班史原载",
-    "text": "4.19 坤记。",
+    "text": "Roy Zheng",
     "character": "",
-    "next": "D54-r0044"
+    "next": "D46-r0095"
   },
   {
-    "id": "D54-r0044",
+    "id": "D46-r0095",
     "kind": "line",
     "source": "原文",
-    "page": 176,
+    "page": 159,
     "pages": [
-      176
+      159,
+      160
     ],
-    "day": "D54",
+    "day": "D46",
     "context": "现实",
     "period": "课间手帐",
     "background": "classroom",
     "speaker": "班史原载",
-    "text": "晚21:30：戚公子至小惠处观其做数学立几。",
+    "text": "高考倒计时99天。",
     "character": "",
-    "next": "D54-r0045"
+    "next": "D46-r0096"
   },
   {
-    "id": "D54-r0045",
+    "id": "D46-r0096",
     "kind": "line",
     "source": "原文",
-    "page": 176,
+    "page": 159,
     "pages": [
-      176
+      159,
+      160
     ],
-    "day": "D54",
+    "day": "D46",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "博老师",
+    "text": "我想问大家一个问题。——我想问什么来着？”好问题。雯。",
+    "character": "c53",
+    "next": "D46-r0097"
+  },
+  {
+    "id": "D46-r0097",
+    "kind": "line",
+    "source": "原文",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
     "context": "现实",
     "period": "课间手帐",
     "background": "classroom",
     "speaker": "班史原载",
-    "text": "宁曰：“证三垂直很麻烦。”",
+    "text": "雷学。",
     "character": "",
-    "next": "D54-r0046"
+    "next": "D46-r0098"
   },
   {
-    "id": "D54-r0046",
+    "id": "D46-r0098",
     "kind": "line",
     "source": "原文",
-    "page": 176,
+    "page": 159,
     "pages": [
-      176
+      159,
+      160
     ],
-    "day": "D54",
+    "day": "D46",
     "context": "现实",
     "period": "课间手帐",
     "background": "classroom",
     "speaker": "班史原载",
-    "text": "戚曰：“建系做呗。”",
+    "text": "大师感慨：“哎！高中生学习生物的知识和时间都太少了，真应该让你们学学大学的。”",
     "character": "",
-    "next": "D54-r0047"
+    "next": "D46-r0099"
   },
   {
-    "id": "D54-r0047",
-    "kind": "line",
-    "source": "原文",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "D54",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "又曰：“不建系不就不用证三垂直了？”",
-    "character": "",
-    "next": "D54-r0048"
-  },
-  {
-    "id": "D54-r0048",
-    "kind": "line",
-    "source": "原文",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "D54",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "惠、宁坤笑。",
-    "character": "",
-    "next": "D54-r0049"
-  },
-  {
-    "id": "D54-r0049",
-    "kind": "line",
-    "source": "原文",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "D54",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "4.22　Izzy记　46天。",
-    "character": "",
-    "next": "D54-r0050"
-  },
-  {
-    "id": "D54-r0050",
+    "id": "D46-r0099",
     "kind": "scene",
     "source": "演出",
-    "page": 176,
+    "page": 159,
     "pages": [
-      176
+      159,
+      160
     ],
-    "day": "D54",
-    "context": "回忆 · 日志补记",
-    "period": "午休 · 课间手帐",
+    "day": "D46",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
     "background": "classroom",
-    "text": "午休 · 课间手帐",
+    "text": "数学 · 课间手帐",
     "character": "",
-    "effect": "memory",
+    "effect": "paper",
     "prop": null,
-    "next": "D54-r0051"
+    "next": "D46-r0100"
   },
   {
-    "id": "D54-r0051",
+    "id": "D46-r0100",
     "kind": "line",
     "source": "原文",
-    "page": 176,
+    "page": 159,
     "pages": [
-      176
+      159,
+      160
     ],
-    "day": "D54",
-    "context": "回忆 · 日志补记",
-    "period": "午休 · 课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "徐生子涵昨日遭 lmh 打捞有辱蕾子尊严之BB絮语。",
-    "character": "",
-    "next": "D54-r0052"
-  },
-  {
-    "id": "D54-r0052",
-    "kind": "line",
-    "source": "原文",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "D54",
-    "context": "回忆 · 日志补记",
-    "period": "午休 · 课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "一模成绩分析。",
-    "character": "",
-    "next": "D54-r0053"
-  },
-  {
-    "id": "D54-r0053",
-    "kind": "line",
-    "source": "原文",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "D54",
-    "context": "回忆 · 日志补记",
-    "period": "午休 · 课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "六科老师开大会。",
-    "character": "",
-    "next": "D54-r0054"
-  },
-  {
-    "id": "D54-r0054",
-    "kind": "line",
-    "source": "原文",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "D54",
-    "context": "回忆 · 日志补记",
-    "period": "午休 · 课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "俺、小惠分享经验！",
-    "character": "",
-    "next": "D54-r0055"
-  },
-  {
-    "id": "D54-r0055",
-    "kind": "line",
-    "source": "原文",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "D54",
-    "context": "回忆 · 日志补记",
-    "period": "午休 · 课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "LY、MSY总结文约辞微：整理，提醒。",
-    "character": "",
-    "next": "D54-r0056"
-  },
-  {
-    "id": "D54-r0056",
-    "kind": "line",
-    "source": "原文",
-    "page": 176,
-    "pages": [
-      176
-    ],
-    "day": "D54",
-    "context": "回忆 · 日志补记",
-    "period": "午休 · 课间手帐",
-    "background": "classroom",
-    "speaker": "惠子宁",
-    "text": "好好审题。",
-    "character": "c14",
-    "next": "D55-date"
-  },
-  {
-    "id": "D55-date",
-    "kind": "date",
-    "source": "演出",
-    "page": 220,
-    "pages": [
-      220,
-      221,
-      252,
-      253,
-      254
-    ],
-    "day": "D55",
+    "day": "D46",
     "context": "现实",
-    "period": "翻到这一日",
+    "period": "数学 · 课间手帐",
     "background": "classroom",
-    "date": "2024-05-10",
-    "text": "镜中花 · 第三幕",
-    "pov": "c05",
-    "character": "",
-    "next": "D55-r0001"
+    "speaker": "战景林",
+    "text": "呀！李承容回来了，讲两句吧！",
+    "character": "c48",
+    "next": "D46-r0101"
   },
   {
-    "id": "D55-r0001",
-    "kind": "portrait",
-    "source": "演出",
-    "page": 220,
+    "id": "D46-r0101",
+    "kind": "line",
+    "source": "原文",
+    "page": 159,
     "pages": [
-      220,
-      221,
-      252,
-      253,
-      254
+      159,
+      160
     ],
-    "day": "D55",
+    "day": "D46",
     "context": "现实",
-    "period": "",
+    "period": "数学 · 课间手帐",
     "background": "classroom",
-    "text": "镜中花 · 第三幕",
-    "pov": "c05",
-    "character": "c05",
-    "speaker": "李沛霖",
-    "next": "D55-r0002"
+    "speaker": "班史原载",
+    "text": "（几分钟前）战：“这周周末，我又要离你们而去了。”",
+    "character": "",
+    "next": "D46-r0102"
   },
   {
-    "id": "D55-r0002",
+    "id": "D46-r0102",
+    "kind": "line",
+    "source": "原文",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "众生：“让博士来代课。”",
+    "character": "",
+    "next": "D46-r0103"
+  },
+  {
+    "id": "D46-r0103",
+    "kind": "line",
+    "source": "原文",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "战惑，曰：“让他来干吗？”",
+    "character": "",
+    "next": "D46-r0104"
+  },
+  {
+    "id": "D46-r0104",
+    "kind": "line",
+    "source": "原文",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "雯巨：练听力。",
+    "character": "",
+    "next": "D46-r0105"
+  },
+  {
+    "id": "D46-r0105",
+    "kind": "line",
+    "source": "原文",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "众生大笑。",
+    "character": "",
+    "next": "D46-r0106"
+  },
+  {
+    "id": "D46-r0106",
+    "kind": "line",
+    "source": "原文",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "战笑曰：“不要歧视别人。”",
+    "character": "",
+    "next": "D46-r0107"
+  },
+  {
+    "id": "D46-r0107",
+    "kind": "line",
+    "source": "原文",
+    "page": 160,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "百日誓师大会。",
+    "character": "",
+    "next": "D46-r0108"
+  },
+  {
+    "id": "D46-r0108",
+    "kind": "line",
+    "source": "原文",
+    "page": 160,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "Part 1. 观看清华大学百日动员视频。",
+    "character": "",
+    "next": "D46-r0109"
+  },
+  {
+    "id": "D46-r0109",
+    "kind": "line",
+    "source": "原文",
+    "page": 160,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "Part 2. 大将军讲述自身经历勉励同学们。",
+    "character": "",
+    "next": "D46-r0110"
+  },
+  {
+    "id": "D46-r0110",
+    "kind": "line",
+    "source": "原文",
+    "page": 160,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "Part 3. 班长、神秘嘉宾动员会。",
+    "character": "",
+    "next": "D46-r0111"
+  },
+  {
+    "id": "D46-r0111",
+    "kind": "line",
+    "source": "原文",
+    "page": 160,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "朱考儒金句：没想到孙老师也来了，本来……（可能是想说不规矩话的Doge）算了不说了。",
+    "character": "",
+    "next": "D46-r0112"
+  },
+  {
+    "id": "D46-r0112",
+    "kind": "line",
+    "source": "原文",
+    "page": 160,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "碰到韩老师这样事儿少的老师还是很好的。",
+    "character": "",
+    "next": "D46-r0113"
+  },
+  {
+    "id": "D46-r0113",
+    "kind": "line",
+    "source": "原文",
+    "page": 160,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "Part 4. 同学动员会。",
+    "character": "",
+    "next": "D46-r0114"
+  },
+  {
+    "id": "D46-r0114",
+    "kind": "line",
+    "source": "原文",
+    "page": 160,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "刘主席发表演讲，动员全班人民努力奋斗。",
+    "character": "",
+    "next": "D46-r0115"
+  },
+  {
+    "id": "D46-r0115",
+    "kind": "line",
+    "source": "原文",
+    "page": 160,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "李昊宇为同学们分享自身竞赛经历，分享调整心态的方法。",
+    "character": "",
+    "next": "D46-r0116"
+  },
+  {
+    "id": "D46-r0116",
+    "kind": "line",
+    "source": "原文",
+    "page": 160,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "Part 5. 老师、学长祝福。",
+    "character": "",
+    "next": "D46-r0117"
+  },
+  {
+    "id": "D46-r0117",
+    "kind": "line",
+    "source": "原文",
+    "page": 160,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "Part 6. 家长祝福。",
+    "character": "",
+    "next": "D46-r0118"
+  },
+  {
+    "id": "D46-r0118",
+    "kind": "line",
+    "source": "原文",
+    "page": 160,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "Part 6.5. 朱考儒再次幽默。",
+    "character": "",
+    "next": "D46-r0119"
+  },
+  {
+    "id": "D46-r0119",
+    "kind": "line",
+    "source": "原文",
+    "page": 160,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "Part 7. 誓师。",
+    "character": "",
+    "next": "D46-r0120"
+  },
+  {
+    "id": "D46-r0120",
+    "kind": "line",
+    "source": "原文",
+    "page": 160,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "Part 8. 许愿。",
+    "character": "",
+    "next": "D46-r0121"
+  },
+  {
+    "id": "D46-r0121",
+    "kind": "line",
+    "source": "原文",
+    "page": 160,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "Part 8.5. 孙老师即兴发言。",
+    "character": "",
+    "next": "D46-r0008"
+  },
+  {
+    "id": "D46-r0008",
     "kind": "scene",
     "source": "演出",
-    "page": 221,
+    "page": 181,
     "pages": [
-      221
+      181
     ],
-    "day": "D55",
-    "context": "回忆 · 拍摄幕后",
-    "period": "医务室的一张机票",
-    "background": "infirmary",
-    "text": "医务室的一张机票",
+    "day": "D46",
+    "context": "回忆 · 高一末分班之前",
+    "period": "以前也有刻名可乐",
+    "background": "classroom",
+    "text": "以前也有刻名可乐",
     "character": "",
     "effect": "memory",
     "prop": {
-      "kind": "ticket",
-      "title": "机票版本并存",
+      "kind": "cola",
+      "title": "专属可乐",
       "lines": [
-        "拍摄回顾：两张 → 说成一张",
-        "收录稿：一张"
+        "徐子涵",
+        "朱老师 · 历史",
+        "愿数学130+"
       ]
     },
-    "next": "D55-r0003"
+    "next": "D46-r0009"
   },
   {
-    "id": "D55-r0003",
+    "id": "D46-r0009",
     "kind": "line",
     "source": "补写",
-    "page": 221,
+    "page": 181,
     "pages": [
-      221
+      181
     ],
-    "day": "D55",
-    "context": "回忆 · 拍摄幕后",
-    "period": "医务室的一张机票",
-    "background": "infirmary",
-    "speaker": "彭逸涵",
-    "text": "我拿了一张机票，来，咱们一起走。",
-    "character": "c12",
-    "next": "D55-r0004"
+    "day": "D46",
+    "context": "回忆 · 高一末分班之前",
+    "period": "以前也有刻名可乐",
+    "background": "classroom",
+    "speaker": "HQ",
+    "text": "每个人都有自己的。名字和寄语也在上面。",
+    "character": "c45",
+    "next": "D46-r0010"
   },
   {
-    "id": "D55-r0004",
-    "kind": "line",
-    "source": "原文",
-    "page": 221,
-    "pages": [
-      221
-    ],
-    "day": "D55",
-    "context": "回忆 · 拍摄幕后",
-    "period": "医务室的一张机票",
-    "background": "infirmary",
-    "speaker": "周远持",
-    "text": "彭逸涵应该把自己托运过去。",
-    "character": "c09",
-    "next": "D55-r0024"
-  },
-  {
-    "id": "D55-r0024",
+    "id": "D46-r0010",
     "kind": "line",
     "source": "补写",
-    "page": 221,
+    "page": 181,
     "pages": [
-      221
+      181
     ],
-    "day": "D55",
-    "context": "回忆 · 拍摄幕后",
-    "period": "医务室的一张机票",
-    "background": "infirmary",
-    "speaker": "彭逸涵",
-    "text": "说错了，我又把两张说成一张了。",
-    "character": "c12",
-    "next": "D55-r0005"
+    "day": "D46",
+    "context": "回忆 · 高一末分班之前",
+    "period": "以前也有刻名可乐",
+    "background": "classroom",
+    "speaker": "同学",
+    "text": "要重新分班了，我们会不会散开？",
+    "character": "",
+    "next": "D46-r0011"
   },
   {
-    "id": "D55-r0005",
+    "id": "D46-r0011",
     "kind": "line",
     "source": "转述",
-    "page": 221,
+    "page": 181,
     "pages": [
-      221
+      181
     ],
-    "day": "D55",
-    "context": "回忆 · 拍摄幕后",
-    "period": "医务室的一张机票",
-    "background": "infirmary",
+    "day": "D46",
+    "context": "回忆 · 高一末分班之前",
+    "period": "以前也有刻名可乐",
+    "background": "classroom",
     "speaker": "旁白",
-    "text": "彭笑得接不下去。好不容易重来，一说到机票，自己又先笑了。十多次下来，大家都知道哪句会卡。",
+    "text": "那时可乐上的名字，像是先把将要分开的班级留住了一次。今日又拿到自己的瓶子，我想起了那一份。",
     "character": "",
-    "next": "D55-r0006"
+    "next": "D46-r0012"
   },
   {
-    "id": "D55-r0006",
-    "kind": "line",
-    "source": "补写",
-    "page": 221,
-    "pages": [
-      221
-    ],
-    "day": "D55",
-    "context": "回忆 · 拍摄幕后",
-    "period": "医务室的一张机票",
-    "background": "infirmary",
-    "speaker": "彭逸涵",
-    "text": "别说托运了。我刚张嘴，就又想起来。",
-    "character": "c12",
-    "next": "D55-r0007"
-  },
-  {
-    "id": "D55-r0007",
+    "id": "D46-r0012",
     "kind": "scene",
     "source": "演出",
-    "page": 221,
+    "page": 181,
     "pages": [
-      221
+      181
     ],
-    "day": "D55",
-    "context": "同一回忆",
-    "period": "笑场空隙的采访",
-    "background": "infirmary",
-    "text": "笑场空隙的采访",
+    "day": "D46",
+    "context": "回忆 · 学生听HQ说求学经历",
+    "period": "她说天资愚钝",
+    "background": "classroom",
+    "text": "她说天资愚钝",
     "character": "",
     "effect": "memory",
     "prop": null,
-    "next": "D55-r0008"
+    "next": "D46-r0013"
   },
   {
-    "id": "D55-r0008",
+    "id": "D46-r0013",
     "kind": "line",
     "source": "补写",
-    "page": 221,
+    "page": 181,
     "pages": [
-      221
+      181
     ],
-    "day": "D55",
-    "context": "同一回忆",
-    "period": "笑场空隙的采访",
-    "background": "infirmary",
-    "speaker": "李沐衡",
-    "text": "李导演，解释一下，这片子到底是什么类型？",
-    "character": "c17",
-    "next": "D55-r0009"
+    "day": "D46",
+    "context": "回忆 · 学生听HQ说求学经历",
+    "period": "她说天资愚钝",
+    "background": "classroom",
+    "speaker": "HQ",
+    "text": "我天资愚钝，不能跟竞赛同学比。",
+    "character": "c45",
+    "next": "D46-r0014"
   },
   {
-    "id": "D55-r0009",
+    "id": "D46-r0014",
     "kind": "line",
     "source": "补写",
-    "page": 221,
+    "page": 181,
     "pages": [
-      221
+      181
     ],
-    "day": "D55",
-    "context": "同一回忆",
-    "period": "笑场空隙的采访",
-    "background": "infirmary",
-    "speaker": "雷昱",
-    "text": "悲剧拍到这里，怎么一直在笑？",
-    "character": "lei",
-    "next": "D55-r0010"
+    "day": "D46",
+    "context": "回忆 · 学生听HQ说求学经历",
+    "period": "她说天资愚钝",
+    "background": "classroom",
+    "speaker": "同学",
+    "text": "十五岁进大学，后来又去北大，这也叫愚钝？",
+    "character": "",
+    "next": "D46-r0015"
   },
   {
-    "id": "D55-r0010",
+    "id": "D46-r0015",
+    "kind": "line",
+    "source": "转述",
+    "page": 181,
+    "pages": [
+      181
+    ],
+    "day": "D46",
+    "context": "回忆 · 学生听HQ说求学经历",
+    "period": "她说天资愚钝",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "大家还想起八六：物竞亚赛金牌，HQ的同学，在北大时也常在她之下。",
+    "character": "",
+    "next": "D46-r0016"
+  },
+  {
+    "id": "D46-r0016",
+    "kind": "line",
+    "source": "补写",
+    "page": 181,
+    "pages": [
+      181
+    ],
+    "day": "D46",
+    "context": "回忆 · 学生听HQ说求学经历",
+    "period": "她说天资愚钝",
+    "background": "classroom",
+    "speaker": "徐子涵",
+    "text": "那我们用哪个词，才能把自己放进去？",
+    "character": "c03",
+    "next": "D46-r0017"
+  },
+  {
+    "id": "D46-r0017",
+    "kind": "scene",
+    "source": "演出",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "回忆 · 约2月29日，作者记忆未定",
+    "period": "三个人，一瓶老师的可乐",
+    "background": "history-office",
+    "text": "三个人，一瓶老师的可乐",
+    "character": "",
+    "effect": "memory",
+    "prop": {
+      "kind": "cola",
+      "title": "专属可乐",
+      "lines": [
+        "徐子涵",
+        "朱老师 · 历史",
+        "愿数学130+"
+      ]
+    },
+    "next": "D46-r0018"
+  },
+  {
+    "id": "D46-r0018",
+    "kind": "line",
+    "source": "补写",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "回忆 · 约2月29日，作者记忆未定",
+    "period": "三个人，一瓶老师的可乐",
+    "background": "history-office",
+    "speaker": "徐子涵",
+    "text": "我约了今天的历史答疑。想起一月考，总觉得进去就是腥风血雨。",
+    "character": "c03",
+    "next": "interactive-D46-r0018"
+  },
+  {
+    "day": "D46",
+    "context": "回忆 · 约2月29日，作者记忆未定",
+    "period": "三个人，一瓶老师的可乐",
+    "background": "history-office",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "source": "补写",
+    "id": "interactive-D46-r0018",
     "kind": "choice",
-    "source": "补写",
-    "page": 220,
-    "pages": [
-      220,
-      221,
-      252,
-      253,
-      254
-    ],
-    "day": "D55",
-    "context": "同一回忆",
-    "period": "笑场空隙的采访",
-    "background": "infirmary",
-    "text": "面对镜头，我怎么开头",
-    "speaker": "李沛霖",
-    "character": "c05",
+    "text": "进办公室前怕腥风血雨，我怎样开口？",
+    "speaker": "徐子涵",
+    "character": "c03",
     "options": [
       {
-        "text": "“我们这部剧是一部非常前卫的侦探式喜剧。”",
-        "next": "D55-r0011"
+        "text": "老师，我把这次卷子和卡住的那几处带来了。",
+        "next": "interactive-D46-r0018-say1"
       },
       {
-        "text": "“悲剧只是表面，搞笑成分得靠观众自己提取。”",
-        "next": "D55-r0013"
+        "text": "上次考得不好，这回想从具体错处问。",
+        "next": "interactive-D46-r0018-say2"
       },
       {
-        "text": "“所有笑场都算正片，剪辑师可以下班了。”",
-        "failure": "导演把笑场全收进正片，铁路还没修完，片长先通到了杭州。"
+        "text": "怕挨说，先报几个好看的分数遮一下。",
+        "failure": "话题绕到了好消息，带来的错题却一直没上桌。"
+      },
+      {
+        "text": "先把可乐举着，卷子等老师心情好再拿。",
+        "failure": "礼物先站到了前面，答疑却还没有自己的开场。"
       }
     ]
   },
   {
-    "id": "D55-r0011",
+    "day": "D46",
+    "context": "回忆 · 约2月29日，作者记忆未定",
+    "period": "三个人，一瓶老师的可乐",
+    "background": "history-office",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "source": "补写",
+    "id": "interactive-D46-r0018-say1",
+    "kind": "line",
+    "text": "老师，我把这次卷子和卡住的那几处带来了。",
+    "speaker": "徐子涵",
+    "character": "c03",
+    "next": "interactive-D46-r0018-reply1"
+  },
+  {
+    "day": "D46",
+    "context": "回忆 · 约2月29日，作者记忆未定",
+    "period": "三个人，一瓶老师的可乐",
+    "background": "history-office",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "source": "补写",
+    "id": "interactive-D46-r0018-reply1",
+    "kind": "line",
+    "text": "先拿出来看。",
+    "speaker": "朱老师",
+    "character": "c51",
+    "next": "D46-r0019"
+  },
+  {
+    "day": "D46",
+    "context": "回忆 · 约2月29日，作者记忆未定",
+    "period": "三个人，一瓶老师的可乐",
+    "background": "history-office",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "source": "补写",
+    "id": "interactive-D46-r0018-say2",
+    "kind": "line",
+    "text": "上次考得不好，这回想从具体错处问。",
+    "speaker": "徐子涵",
+    "character": "c03",
+    "next": "interactive-D46-r0018-reply2"
+  },
+  {
+    "day": "D46",
+    "context": "回忆 · 约2月29日，作者记忆未定",
+    "period": "三个人，一瓶老师的可乐",
+    "background": "history-office",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "source": "补写",
+    "id": "interactive-D46-r0018-reply2",
+    "kind": "line",
+    "text": "先说是哪一题。",
+    "speaker": "朱老师",
+    "character": "c51",
+    "next": "D46-r0019"
+  },
+  {
+    "id": "D46-r0019",
     "kind": "line",
     "source": "补写",
-    "page": 220,
+    "page": 159,
     "pages": [
-      220,
-      221,
-      252,
-      253,
-      254
+      159,
+      160
     ],
-    "day": "D55",
-    "context": "同一回忆",
-    "period": "笑场空隙的采访",
-    "background": "infirmary",
-    "text": "“我们这部剧是一部非常前卫的侦探式喜剧。”",
-    "speaker": "李沛霖",
-    "character": "c05",
-    "next": "D55-r0012"
+    "day": "D46",
+    "context": "回忆 · 约2月29日，作者记忆未定",
+    "period": "三个人，一瓶老师的可乐",
+    "background": "history-office",
+    "speaker": "雷雨泽",
+    "text": "为什么不顺便把朱老师的可乐带过去？",
+    "character": "c04",
+    "next": "D46-r0020"
   },
   {
-    "id": "D55-r0012",
+    "id": "D46-r0020",
     "kind": "line",
     "source": "补写",
-    "page": 221,
+    "page": 159,
     "pages": [
-      221
+      159,
+      160
     ],
-    "day": "D55",
-    "context": "同一回忆",
-    "period": "笑场空隙的采访",
-    "background": "infirmary",
-    "speaker": "雷昱",
-    "text": "您再具体说说。",
-    "character": "lei",
-    "next": "D55-r0015"
+    "day": "D46",
+    "context": "回忆 · 约2月29日，作者记忆未定",
+    "period": "三个人，一瓶老师的可乐",
+    "background": "history-office",
+    "speaker": "李沛霖",
+    "text": "正好老师也有自己的一份。你拿卷子，我们带瓶子。",
+    "character": "c05",
+    "next": "D46-r0021"
   },
   {
-    "id": "D55-r0013",
+    "id": "D46-r0021",
+    "kind": "line",
+    "source": "转述",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "回忆 · 约2月29日，作者记忆未定",
+    "period": "三个人，一瓶老师的可乐",
+    "background": "history-office",
+    "speaker": "旁白",
+    "text": "我拿卷子，雷导和硝矢公沛霖共带着朱老师的可乐，三人到历史办公室。朱老师座前还有一位同学。",
+    "character": "",
+    "next": "D46-r0022"
+  },
+  {
+    "id": "D46-r0022",
     "kind": "line",
     "source": "补写",
-    "page": 220,
+    "page": 159,
     "pages": [
-      220,
-      221,
-      252,
-      253,
-      254
+      159,
+      160
     ],
-    "day": "D55",
-    "context": "同一回忆",
-    "period": "笑场空隙的采访",
-    "background": "infirmary",
-    "text": "“悲剧只是表面，搞笑成分得靠观众自己提取。”",
-    "speaker": "李沛霖",
-    "character": "c05",
-    "next": "D55-r0014"
+    "day": "D46",
+    "context": "回忆 · 约2月29日，作者记忆未定",
+    "period": "三个人，一瓶老师的可乐",
+    "background": "history-office",
+    "speaker": "朱老师",
+    "text": "你这六十多应该是历史最低了吧？",
+    "character": "c51",
+    "next": "D46-r0023"
   },
   {
-    "id": "D55-r0014",
+    "id": "D46-r0023",
+    "kind": "line",
+    "source": "转述",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "回忆 · 约2月29日，作者记忆未定",
+    "period": "三个人，一瓶老师的可乐",
+    "background": "history-office",
+    "speaker": "旁白",
+    "text": "我们相视一笑，等那位同学起身。雷导和沛霖抢先一步，共举可乐，躬身递过去。",
+    "character": "",
+    "next": "D46-r0024"
+  },
+  {
+    "id": "D46-r0024",
     "kind": "line",
     "source": "补写",
-    "page": 221,
+    "page": 159,
     "pages": [
-      221
+      159,
+      160
     ],
-    "day": "D55",
-    "context": "同一回忆",
-    "period": "笑场空隙的采访",
-    "background": "infirmary",
-    "speaker": "雷昱",
-    "text": "原来是这么个提取法。",
-    "character": "lei",
-    "next": "D55-r0015"
+    "day": "D46",
+    "context": "回忆 · 约2月29日，作者记忆未定",
+    "period": "三个人，一瓶老师的可乐",
+    "background": "history-office",
+    "speaker": "雷雨泽",
+    "text": "我们来给您进贡。",
+    "character": "c04",
+    "next": "D46-r0025"
   },
   {
-    "id": "D55-r0015",
-    "kind": "line",
-    "source": "原文",
-    "page": 221,
-    "pages": [
-      221
-    ],
-    "day": "D55",
-    "context": "同一回忆",
-    "period": "笑场空隙的采访",
-    "background": "infirmary",
-    "speaker": "李沛霖",
-    "text": "我们这部剧是一部非常前卫、非常进步、非常先锋的侦探式喜剧。",
-    "character": "c05",
-    "next": "D55-r0016"
-  },
-  {
-    "id": "D55-r0016",
-    "kind": "line",
-    "source": "原文",
-    "page": 221,
-    "pages": [
-      221
-    ],
-    "day": "D55",
-    "context": "同一回忆",
-    "period": "笑场空隙的采访",
-    "background": "infirmary",
-    "speaker": "雷昱",
-    "text": "什么叫侦探式喜剧？",
-    "character": "lei",
-    "next": "D55-r0017"
-  },
-  {
-    "id": "D55-r0017",
-    "kind": "line",
-    "source": "原文",
-    "page": 221,
-    "pages": [
-      221
-    ],
-    "day": "D55",
-    "context": "同一回忆",
-    "period": "笑场空隙的采访",
-    "background": "infirmary",
-    "speaker": "李沛霖",
-    "text": "就是需要观众发挥自己的智慧，从片子里给的这么多信息中提取出其中的搞笑成分。",
-    "character": "c05",
-    "next": "D55-r0018"
-  },
-  {
-    "id": "D55-r0018",
+    "id": "D46-r0025",
     "kind": "line",
     "source": "补写",
-    "page": 221,
+    "page": 159,
     "pages": [
-      221
+      159,
+      160
     ],
-    "day": "D55",
-    "context": "同一回忆",
-    "period": "笑场空隙的采访",
-    "background": "infirmary",
-    "speaker": "李沐衡",
-    "text": "看着像悲剧啊。",
-    "character": "c17",
-    "next": "D55-r0019"
+    "day": "D46",
+    "context": "回忆 · 约2月29日，作者记忆未定",
+    "period": "三个人，一瓶老师的可乐",
+    "background": "history-office",
+    "speaker": "朱老师",
+    "text": "太谢谢了！这上面还有我的名呢！我要把可乐供上再喝。",
+    "character": "c51",
+    "next": "D46-r0026"
   },
   {
-    "id": "D55-r0019",
+    "id": "D46-r0026",
     "kind": "line",
-    "source": "原文",
-    "page": 221,
+    "source": "转述",
+    "page": 159,
     "pages": [
-      221
+      159,
+      160
     ],
-    "day": "D55",
-    "context": "同一回忆",
-    "period": "笑场空隙的采访",
-    "background": "infirmary",
-    "speaker": "李沛霖",
-    "text": "看起来是悲剧，但实际上处处都是喜剧，这就是我们乐观的人生态度，也是我们这部剧的真正内涵。",
-    "character": "c05",
-    "next": "D55-r0020"
+    "day": "D46",
+    "context": "回忆 · 约2月29日，作者记忆未定",
+    "period": "三个人，一瓶老师的可乐",
+    "background": "history-office",
+    "speaker": "旁白",
+    "text": "老师接过来放下，又和他们说了几句。两人告辞离开，我坐到老师对面。",
+    "character": "",
+    "next": "D46-r0027"
   },
   {
-    "id": "D55-r0020",
+    "id": "D46-r0027",
     "kind": "scene",
     "source": "演出",
-    "page": 221,
+    "page": 159,
     "pages": [
-      221
+      159,
+      160
     ],
-    "day": "D55",
-    "context": "回忆 · 成片之后",
-    "period": "秦敏然看成片",
-    "background": "classroom",
-    "text": "秦敏然看成片",
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "text": "卷子还没看，先问数学",
     "character": "",
     "effect": "memory",
     "prop": null,
-    "next": "D55-r0021"
+    "next": "D46-r0028"
   },
   {
-    "id": "D55-r0021",
+    "id": "D46-r0028",
     "kind": "line",
-    "source": "原文",
-    "page": 221,
+    "source": "转述",
+    "page": 159,
     "pages": [
-      221
+      159,
+      160
     ],
-    "day": "D55",
-    "context": "回忆 · 成片之后",
-    "period": "秦敏然看成片",
-    "background": "classroom",
-    "speaker": "秦敏然",
-    "text": "我像半身不遂昨天晚上灌了三桶农药一样。",
-    "character": "c23",
-    "next": "D55-r0022"
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "speaker": "旁白",
+    "text": "朱老师左手拿过可乐，右手摸了摸，放到电脑旁。他取下眼镜，夹着横梁，向椅背一靠，盯着我。",
+    "character": "",
+    "next": "D46-r0029"
   },
   {
-    "id": "D55-r0022",
+    "id": "D46-r0029",
     "kind": "line",
     "source": "补写",
-    "page": 221,
+    "page": 159,
     "pages": [
-      221
+      159,
+      160
     ],
-    "day": "D55",
-    "context": "回忆 · 成片之后",
-    "period": "秦敏然看成片",
-    "background": "classroom",
-    "speaker": "凌艺坤",
-    "text": "你自己看，也得给自己重新配一套词。",
-    "character": "ling",
-    "next": "D55-r0023"
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "speaker": "朱老师",
+    "text": "说说吧，什么情况，你这都七十多分了啊。",
+    "character": "c51",
+    "next": "D46-r0030"
   },
   {
-    "id": "D55-r0023",
+    "id": "D46-r0030",
+    "kind": "line",
+    "source": "原文",
+    "page": 160,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "speaker": "徐子涵",
+    "text": "……",
+    "character": "c03",
+    "next": "D46-r0031"
+  },
+  {
+    "id": "D46-r0031",
     "kind": "line",
     "source": "补写",
-    "page": 221,
+    "page": 159,
     "pages": [
-      221
+      159,
+      160
     ],
-    "day": "D55",
-    "context": "回忆 · 成片之后",
-    "period": "秦敏然看成片",
-    "background": "classroom",
-    "speaker": "李沛霖",
-    "text": "来，读最后一幕。",
-    "character": "c05",
-    "next": "D55-0015"
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "speaker": "朱老师",
+    "text": "昨天发了答案，让你们回去看。课上你告诉我没看，又是什么意思？你每天这点学历史的时间都没有？剩的时间搁哪儿，学什么了？",
+    "character": "c51",
+    "next": "D46-r0032"
   },
   {
-    "id": "D55-0015",
-    "kind": "scene",
-    "source": "演出",
-    "page": 251,
-    "pages": [
-      251,
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景19",
-    "period": "场景十九：刘树颐发现秦旻然非法调转资金",
-    "background": "mayor-office",
-    "text": "场景十九：刘树颐发现秦旻然非法调转资金",
-    "character": "",
-    "effect": "film",
-    "prop": {
-      "kind": "receipt",
-      "title": "镜中花 · 抽屉里的票据",
-      "lines": [
-        "调出款项：100万元"
-      ]
-    },
-    "next": "D55-r0025"
-  },
-  {
-    "id": "D55-r0025",
+    "id": "D46-r0032",
     "kind": "line",
-    "source": "原文",
-    "page": 251,
+    "source": "补写",
+    "page": 159,
     "pages": [
-      251
+      159,
+      160
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景19",
-    "period": "场景十九：刘树颐发现秦旻然非法调转资金",
-    "background": "mayor-office",
-    "speaker": "刘树颐（站在门前）／周远持饰",
-    "character": "film-刘树颐",
-    "text": "抱歉了，旻然，但这件事或许远没有我想像的那么简单。",
-    "filmScene": 19,
-    "next": "D55-r0026"
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "speaker": "徐子涵",
+    "text": "我空闲的时间，大都用于学习数学。",
+    "character": "c03",
+    "next": "D46-r0033"
   },
   {
-    "id": "D55-r0026",
+    "id": "D46-r0033",
     "kind": "line",
-    "source": "转述",
-    "page": 251,
+    "source": "补写",
+    "page": 159,
     "pages": [
-      251
+      159,
+      160
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景19",
-    "period": "场景十九：刘树颐发现秦旻然非法调转资金",
-    "background": "mayor-office",
-    "speaker": "动作",
-    "character": "",
-    "text": "刘树颐迅速而不留痕迹地翻找秦旻然的办公室中的东西，从刘树颐进门开始，他看了一眼墙上的钟，又看了一下手表，抬头思考了一下，开始迅速翻找。",
-    "filmScene": 19,
-    "next": "D55-r0027"
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "speaker": "朱老师",
+    "text": "学数学？你一个理科班的，数学有多差？",
+    "character": "c51",
+    "next": "interactive-D46-r0033"
   },
   {
-    "id": "D55-r0027",
-    "kind": "line",
-    "source": "转述",
-    "page": 251,
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "page": 159,
     "pages": [
-      251
+      159,
+      160
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景19",
-    "period": "场景十九：刘树颐发现秦旻然非法调转资金",
-    "background": "mayor-office",
-    "speaker": "动作",
-    "character": "",
-    "text": "他先从衣兜里掏出钥匙打开柜子门，用手轻轻一次扶住各个文件，用眼睛瞟了一下全部文件夹的脊部，迅速抽出一个文件夹，快速翻找，抽出一份文件，轻轻放回去，没有一点痕迹",
-    "filmScene": 19,
-    "next": "D55-r0028"
-  },
-  {
-    "id": "D55-r0028",
-    "kind": "line",
-    "source": "转述",
-    "page": 251,
-    "pages": [
-      251
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景19",
-    "period": "场景十九：刘树颐发现秦旻然非法调转资金",
-    "background": "mayor-office",
-    "speaker": "动作",
-    "character": "",
-    "text": "他又冲向办公桌，试着把所有抽屉打开，在拉开的抽屉中轻轻拿起各种文件和票据，就立刻收回去，没有任何变动",
-    "filmScene": 19,
-    "next": "D55-r0029"
-  },
-  {
-    "id": "D55-r0029",
-    "kind": "line",
-    "source": "转述",
-    "page": 251,
-    "pages": [
-      251
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景19",
-    "period": "场景十九：刘树颐发现秦旻然非法调转资金",
-    "background": "mayor-office",
-    "speaker": "动作",
-    "character": "",
-    "text": "他又用钥匙打开了唯一上锁的抽屉，打开后里面恰好都是八年前的一些文件。他发现有一张票据竖着放在抽屉的文件摞和抽屉壁之间，很难发现，他抽了出来，发现了一张票据，是一张调出一百万的票据",
-    "filmScene": 19,
-    "next": "D55-r0030"
-  },
-  {
-    "id": "D55-r0030",
-    "kind": "line",
-    "source": "转述",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景19",
-    "period": "场景十九：刘树颐发现秦旻然非法调转资金",
-    "background": "mayor-office",
-    "speaker": "动作",
-    "character": "",
-    "text": "捏住这张票据，把抽屉放回去，锁好",
-    "filmScene": 19,
-    "next": "D55-r0031"
-  },
-  {
-    "id": "D55-r0031",
-    "kind": "line",
-    "source": "原文",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景19",
-    "period": "场景十九：刘树颐发现秦旻然非法调转资金",
-    "background": "mayor-office",
-    "speaker": "刘树颐／周远持饰",
-    "character": "film-刘树颐",
-    "text": "啊啊！旻然！这么快让我就找到了啊……如果你是惯犯，如果你是故意要向我隐瞒呢！果然你清白的内心还在做着斗争！旻然！这次你也难辞其咎了，可我昧着良心做了这样的事才发现了证据。我……",
-    "filmScene": 19,
-    "next": "D55-r0033"
-  },
-  {
-    "id": "D55-r0033",
-    "kind": "line",
-    "source": "转述",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景19",
-    "period": "场景十九：刘树颐发现秦旻然非法调转资金",
-    "background": "mayor-office",
-    "speaker": "动作",
-    "character": "",
-    "text": "刘树颐掩面。",
-    "filmScene": 19,
-    "next": "D55-0023"
-  },
-  {
-    "id": "D55-0023",
-    "kind": "scene",
-    "source": "演出",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景20",
-    "period": "场景二十：秦嘉然向秦旻然哭诉",
-    "background": "film-home",
-    "text": "场景二十：秦嘉然向秦旻然哭诉",
-    "character": "",
-    "effect": "film",
-    "prop": null,
-    "next": "D55-r0034"
-  },
-  {
-    "id": "D55-r0034",
-    "kind": "line",
-    "source": "原文",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景20",
-    "period": "场景二十：秦嘉然向秦旻然哭诉",
-    "background": "film-home",
-    "speaker": "秦嘉然（轻轻啜泣）／童莘淇饰",
-    "character": "film-秦嘉然",
-    "text": "哥哥，我真没想到，小金，干了错一件大事……",
-    "filmScene": 20,
-    "next": "D55-r0035"
-  },
-  {
-    "id": "D55-r0035",
-    "kind": "line",
-    "source": "转述",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景20",
-    "period": "场景二十：秦嘉然向秦旻然哭诉",
-    "background": "film-home",
-    "speaker": "动作",
-    "character": "",
-    "text": "把事情告诉了秦旻然",
-    "filmScene": 20,
-    "next": "D55-0026"
-  },
-  {
-    "id": "D55-0026",
-    "kind": "line",
-    "source": "原文",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景20",
-    "period": "场景二十：秦嘉然向秦旻然哭诉",
-    "background": "film-home",
-    "speaker": "秦旻然／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "唉，没事，事情总会好起来的，总会好起来的。",
-    "filmScene": 20,
-    "next": "D55-0027"
-  },
-  {
-    "id": "D55-0027",
-    "kind": "line",
-    "source": "原文",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景20",
-    "period": "场景二十：秦嘉然向秦旻然哭诉",
-    "background": "film-home",
-    "speaker": "秦嘉然／童莘淇饰",
-    "character": "film-秦嘉然",
-    "text": "哥哥，我曾以为我已从车祸的阴影中走出，我曾以为我还会是以前那个没有烦恼的秦嘉然。可是我错了，哥哥。我试图用所有的方式掩盖自己的悲伤和郁闷，它却像镜子中的倒影一样，紧紧地跟着我。",
-    "filmScene": 20,
-    "next": "D55-r0038"
-  },
-  {
-    "id": "D55-r0038",
-    "kind": "line",
-    "source": "原文",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景20",
-    "period": "场景二十：秦嘉然向秦旻然哭诉",
-    "background": "film-home",
-    "speaker": "秦旻然（噎住）／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "嘉然……",
-    "filmScene": 20,
-    "next": "D55-r0039"
-  },
-  {
-    "id": "D55-r0039",
-    "kind": "line",
-    "source": "原文",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景20",
-    "period": "场景二十：秦嘉然向秦旻然哭诉",
-    "background": "film-home",
-    "speaker": "秦嘉然（情绪崩溃，放声大哭）／童莘淇饰",
-    "character": "film-秦嘉然",
-    "text": "哥哥，我感觉我像个从犯一样，我一直无止境地需求着钱款，只为了找回车祸前那过去的快乐。是因为我无法停止自己的焦虑和不安，才把小金和那个罪恶的公司深深地绑定在了一起。",
-    "filmScene": 20,
-    "next": "D55-r0040"
-  },
-  {
-    "id": "D55-r0040",
-    "kind": "line",
-    "source": "原文",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景20",
-    "period": "场景二十：秦嘉然向秦旻然哭诉",
-    "background": "film-home",
-    "speaker": "秦旻然（抱住妹妹，看向远方）／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "其实我们都是一样的。我们都是镜子里的花。",
-    "filmScene": 20,
-    "next": "D55-r0041"
-  },
-  {
-    "id": "D55-r0041",
-    "kind": "portrait",
-    "source": "演出",
-    "page": 220,
-    "pages": [
-      220,
-      221,
-      252,
-      253,
-      254
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景20",
-    "period": "场景二十：秦嘉然向秦旻然哭诉",
-    "background": "film-home",
-    "pov": "c23",
-    "character": "c23",
-    "speaker": "秦敏然",
-    "text": "这一段，由秦敏然接着记。",
-    "next": "D55-0031"
-  },
-  {
-    "id": "D55-0031",
-    "kind": "scene",
-    "source": "演出",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景21",
-    "period": "场景二十一：石绍楷和秦旻然的谈话",
-    "background": "company",
-    "text": "场景二十一：石绍楷和秦旻然的谈话",
-    "character": "",
-    "effect": "film",
-    "prop": {
-      "kind": "paper",
-      "title": "镜中花 · 秦旻然的卡纸",
-      "lines": [
-        "8000="
-      ]
-    },
-    "next": "D55-0033"
-  },
-  {
-    "id": "D55-0033",
-    "kind": "line",
-    "source": "原文",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景21",
-    "period": "场景二十一：石绍楷和秦旻然的谈话",
-    "background": "company",
-    "speaker": "石绍楷／贾盛元饰",
-    "character": "film-石邵楷",
-    "text": "这，秦镇长，我的确做生意不少地方没按照您的指示来做，但是少说没干涉您工作，多说更没质疑上级旨意呢。您，喝点茶吧。",
-    "filmScene": 21,
-    "next": "D55-0034"
-  },
-  {
-    "id": "D55-0034",
-    "kind": "line",
-    "source": "原文",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景21",
-    "period": "场景二十一：石绍楷和秦旻然的谈话",
-    "background": "company",
-    "speaker": "秦旻然／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "呵呵，这样吧。咱这合作了八年，之前年纪轻轻我新官上任三把火，可没看您一点着急上火。见谅了见谅。",
-    "filmScene": 21,
-    "next": "D55-0035"
-  },
-  {
-    "id": "D55-0035",
-    "kind": "line",
-    "source": "原文",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景21",
-    "period": "场景二十一：石绍楷和秦旻然的谈话",
-    "background": "company",
-    "speaker": "石绍楷／贾盛元饰",
-    "character": "film-石邵楷",
-    "text": "您喝茶，别太客气了。",
-    "filmScene": 21,
-    "next": "D55-0036"
-  },
-  {
-    "id": "D55-0036",
-    "kind": "line",
-    "source": "原文",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景21",
-    "period": "场景二十一：石绍楷和秦旻然的谈话",
-    "background": "company",
-    "speaker": "秦旻然／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "但是啊，咱们朋友归朋友，有些事情你知我知，可不能随便。",
-    "filmScene": 21,
-    "next": "D55-r0048"
-  },
-  {
-    "id": "D55-r0048",
-    "kind": "line",
-    "source": "原文",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景21",
-    "period": "场景二十一：石绍楷和秦旻然的谈话",
-    "background": "company",
-    "speaker": "石绍楷（脸色渐渐变白）／贾盛元饰",
-    "character": "film-石邵楷",
-    "text": "您这话，怎讲呢？",
-    "filmScene": 21,
-    "next": "D55-r0049"
-  },
-  {
-    "id": "D55-r0049",
+    "source": "补写",
+    "id": "interactive-D46-r0033",
     "kind": "choice",
-    "source": "补写",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景21",
-    "period": "场景二十一：石绍楷和秦旻然的谈话",
-    "background": "company",
-    "text": "石经理装作不懂，我怎样接着说",
-    "speaker": "秦旻然",
-    "character": "film-秦旻然",
+    "text": "老师反问数学有多差，我怎样回应？",
+    "speaker": "徐子涵",
+    "character": "c03",
     "options": [
       {
-        "text": "“你知我知的事，总不能只用朋友两个字挡过去。”",
-        "next": "D55-r0050"
+        "text": "数学的事我也想补，今天历史这几处先请您看。",
+        "next": "interactive-D46-r0033-say1"
       },
       {
-        "text": "“八年合作，有的账还是得照一照自己。”",
-        "next": "D55-r0052"
+        "text": "两边都不能躲，您先看我这张历史卷。",
+        "next": "interactive-D46-r0033-say2"
       },
       {
-        "text": "“只要茶够热，所有旧账今天都算清了。”",
-        "failure": "茶续了一杯，八年的账却没跟着蒸发。"
+        "text": "既然数学被问，我把历史卷先收回去。",
+        "failure": "一句旁问走到了数学，答疑的卷子却回了书包。"
+      },
+      {
+        "text": "老师没批历史，那就当这次没问题。",
+        "failure": "批评没有落在这一科，错误却也没有自动离开。"
       }
-    ],
-    "filmScene": 21
+    ]
   },
   {
-    "id": "D55-r0050",
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "source": "补写",
+    "id": "interactive-D46-r0033-say1",
+    "kind": "line",
+    "text": "数学的事我也想补，今天历史这几处先请您看。",
+    "speaker": "徐子涵",
+    "character": "c03",
+    "next": "interactive-D46-r0033-reply1"
+  },
+  {
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "source": "补写",
+    "id": "interactive-D46-r0033-reply1",
+    "kind": "line",
+    "text": "题目先拿出来。",
+    "speaker": "朱老师",
+    "character": "c51",
+    "next": "D46-r0034"
+  },
+  {
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "source": "补写",
+    "id": "interactive-D46-r0033-say2",
+    "kind": "line",
+    "text": "两边都不能躲，您先看我这张历史卷。",
+    "speaker": "徐子涵",
+    "character": "c03",
+    "next": "interactive-D46-r0033-reply2"
+  },
+  {
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "source": "补写",
+    "id": "interactive-D46-r0033-reply2",
+    "kind": "line",
+    "text": "从你会的开始。",
+    "speaker": "朱老师",
+    "character": "c51",
+    "next": "D46-r0034"
+  },
+  {
+    "id": "D46-r0034",
     "kind": "line",
     "source": "补写",
-    "page": 252,
+    "page": 159,
     "pages": [
-      252
+      159,
+      160
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景21",
-    "period": "场景二十一：石绍楷和秦旻然的谈话",
-    "background": "company",
-    "text": "“你知我知的事，总不能只用朋友两个字挡过去。”",
-    "speaker": "秦旻然",
-    "character": "film-秦旻然",
-    "filmScene": 21,
-    "next": "D55-r0051"
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "speaker": "徐子涵",
+    "text": "一百一十多分。",
+    "character": "c03",
+    "next": "D46-r0035"
   },
   {
-    "id": "D55-r0051",
+    "id": "D46-r0035",
     "kind": "line",
     "source": "补写",
-    "page": 252,
+    "page": 159,
     "pages": [
-      252
+      159,
+      160
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景21",
-    "period": "场景二十一：石绍楷和秦旻然的谈话",
-    "background": "company",
-    "speaker": "石邵楷",
-    "text": "镇长，我……",
-    "character": "film-石邵楷",
-    "filmScene": 21,
-    "next": "D55-0038"
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "speaker": "朱老师",
+    "text": "一百一十多？那可真是够差的。",
+    "character": "c51",
+    "next": "D46-r0036"
   },
   {
-    "id": "D55-r0052",
-    "kind": "line",
-    "source": "补写",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景21",
-    "period": "场景二十一：石绍楷和秦旻然的谈话",
-    "background": "company",
-    "text": "“八年合作，有的账还是得照一照自己。”",
-    "speaker": "秦旻然",
-    "character": "film-秦旻然",
-    "filmScene": 21,
-    "next": "D55-r0053"
-  },
-  {
-    "id": "D55-r0053",
-    "kind": "line",
-    "source": "补写",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景21",
-    "period": "场景二十一：石绍楷和秦旻然的谈话",
-    "background": "company",
-    "speaker": "石邵楷",
-    "text": "您这话，可别吓我。",
-    "character": "film-石邵楷",
-    "filmScene": 21,
-    "next": "D55-0038"
-  },
-  {
-    "id": "D55-0038",
-    "kind": "line",
-    "source": "原文",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景21",
-    "period": "场景二十一：石绍楷和秦旻然的谈话",
-    "background": "company",
-    "speaker": "秦旻然／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "有的时候，很多人被迫揽镜自照，我希望你不要成为这样的人。",
-    "filmScene": 21,
-    "next": "D55-r0055"
-  },
-  {
-    "id": "D55-r0055",
-    "kind": "line",
-    "source": "原文",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景21",
-    "period": "场景二十一：石绍楷和秦旻然的谈话",
-    "background": "company",
-    "speaker": "石绍楷（轻轻擦了擦汗）／贾盛元饰",
-    "character": "film-石邵楷",
-    "text": "那怎么会呢，镇长。",
-    "filmScene": 21,
-    "next": "D55-0040"
-  },
-  {
-    "id": "D55-0040",
-    "kind": "line",
-    "source": "原文",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景21",
-    "period": "场景二十一：石绍楷和秦旻然的谈话",
-    "background": "company",
-    "speaker": "秦旻然／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "有人说你欺上瞒下、徇私枉法、道貌岸然，有的时候又唯唯诺诺。",
-    "filmScene": 21,
-    "next": "D55-0041"
-  },
-  {
-    "id": "D55-0041",
-    "kind": "line",
-    "source": "原文",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景21",
-    "period": "场景二十一：石绍楷和秦旻然的谈话",
-    "background": "company",
-    "speaker": "石绍楷／贾盛元饰",
-    "character": "film-石邵楷",
-    "text": "镇长，我真的，没做对不起您的事情。",
-    "filmScene": 21,
-    "next": "D55-r0058"
-  },
-  {
-    "id": "D55-r0058",
+    "id": "D46-r0036",
     "kind": "line",
     "source": "转述",
-    "page": 252,
+    "page": 159,
     "pages": [
-      252
+      159,
+      160
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景21",
-    "period": "场景二十一：石绍楷和秦旻然的谈话",
-    "background": "company",
-    "speaker": "动作",
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "speaker": "旁白",
+    "text": "我尬笑。朱老师右手拿起可乐，左手碰着拉环，像要打开，又放下。",
     "character": "",
-    "text": "甩出一张卡纸，上面写着8000=。",
-    "filmScene": 21,
-    "next": "D55-r0059"
+    "next": "D46-r0037"
   },
   {
-    "id": "D55-r0059",
+    "id": "D46-r0037",
     "kind": "line",
-    "source": "原文",
-    "page": 252,
+    "source": "补写",
+    "page": 159,
     "pages": [
-      252
+      159,
+      160
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景21",
-    "period": "场景二十一：石绍楷和秦旻然的谈话",
-    "background": "company",
-    "speaker": "秦旻然／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "看看吧，石经理！",
-    "filmScene": 21,
-    "next": "D55-r0060"
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "speaker": "朱老师",
+    "text": "数学都练了三年了，会的早就会了，不会的也就不会了，应该趋于一个稳定的分数吧？",
+    "character": "c51",
+    "next": "D46-r0038"
   },
   {
-    "id": "D55-r0060",
+    "id": "D46-r0038",
+    "kind": "line",
+    "source": "补写",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "speaker": "朱老师",
+    "text": "我当年，前面选填扣两分，解析导数扣两分，最后一题扣十分，不就一百三十多了？我一个学文科的，不太懂数学，你不应该比我懂得多吗？",
+    "character": "c51",
+    "next": "D46-r0039"
+  },
+  {
+    "id": "D46-r0039",
     "kind": "line",
     "source": "转述",
-    "page": 252,
+    "page": 159,
     "pages": [
-      252
+      159,
+      160
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景21",
-    "period": "场景二十一：石绍楷和秦旻然的谈话",
-    "background": "company",
-    "speaker": "动作",
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "speaker": "旁白",
+    "text": "脸一阵阵发热，我不知道嘴角该往上还是往下。",
     "character": "",
-    "text": "秦夺门而去，石默默观看",
-    "filmScene": 21,
-    "next": "D55-0044"
+    "next": "D46-r0040"
   },
   {
-    "id": "D55-0044",
+    "id": "D46-r0040",
+    "kind": "choice",
+    "source": "补写",
+    "page": 159,
+    "pages": [
+      159,
+      160,
+      171,
+      172,
+      181
+    ],
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "text": "老师问“实操又怎么回事”，我答",
+    "speaker": "徐子涵",
+    "character": "c03",
+    "options": [
+      {
+        "text": "“理论上是这样，但实操起来……”",
+        "next": "D46-r0041"
+      },
+      {
+        "text": "“会做的也丢了分，前面几次三角、统计都没守住。”",
+        "next": "D46-r0043"
+      },
+      {
+        "text": "道理听懂就算实操了，卷上的步骤回去再说。",
+        "failure": "道理说得完整，卷子却还在等第一笔。"
+      }
+    ]
+  },
+  {
+    "id": "D46-r0041",
+    "kind": "line",
+    "source": "补写",
+    "page": 159,
+    "pages": [
+      159,
+      160,
+      171,
+      172,
+      181
+    ],
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "text": "“理论上是这样，但实操起来……”",
+    "speaker": "徐子涵",
+    "character": "c03",
+    "next": "D46-r0042"
+  },
+  {
+    "id": "D46-r0042",
+    "kind": "line",
+    "source": "补写",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "speaker": "朱老师",
+    "text": "会的都对了，不就够了吗？",
+    "character": "c51",
+    "next": "D46-r0045"
+  },
+  {
+    "id": "D46-r0043",
+    "kind": "line",
+    "source": "补写",
+    "page": 159,
+    "pages": [
+      159,
+      160,
+      171,
+      172,
+      181
+    ],
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "text": "“会做的也丢了分，前面几次三角、统计都没守住。”",
+    "speaker": "徐子涵",
+    "character": "c03",
+    "next": "D46-r0044"
+  },
+  {
+    "id": "D46-r0044",
+    "kind": "line",
+    "source": "补写",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "speaker": "朱老师",
+    "text": "实操起来也是这样。",
+    "character": "c51",
+    "next": "D46-r0045"
+  },
+  {
+    "id": "D46-r0045",
+    "kind": "line",
+    "source": "补写",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "speaker": "朱老师",
+    "text": "只需把自己会的都做对。你数学一直不好，还是偶然这样？",
+    "character": "c51",
+    "next": "D46-r0046"
+  },
+  {
+    "id": "D46-r0046",
+    "kind": "line",
+    "source": "转述",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "speaker": "旁白",
+    "text": "我用手比划：大部分时段在低谷，偶尔才有一个波峰。老师双手又捧起可乐，没有打开。",
+    "character": "",
+    "next": "D46-r0047"
+  },
+  {
+    "id": "D46-r0047",
+    "kind": "line",
+    "source": "补写",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "speaker": "朱老师",
+    "text": "没有关系，多练就行。把前面练熟了。行，咱们来看你的卷子题吧。",
+    "character": "c51",
+    "next": "D46-r0048"
+  },
+  {
+    "id": "D46-r0048",
+    "kind": "line",
+    "source": "转述",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "卷子还没看，先问数学",
+    "background": "history-office",
+    "speaker": "旁白",
+    "text": "老师终于放下可乐，拿起我的历史卷。材料、结构、啰嗦的语言，一处处面批。期间又有人送来一瓶，老师热情接下。",
+    "character": "",
+    "next": "D46-r0049"
+  },
+  {
+    "id": "D46-r0049",
     "kind": "scene",
     "source": "演出",
-    "page": 252,
+    "page": 159,
     "pages": [
-      252,
-      253
+      159,
+      160
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景22",
-    "period": "场景二十二：咖啡厅，刘树颐和秦旻然互相指认，真相大白",
-    "background": "cafe",
-    "text": "场景二十二：咖啡厅，刘树颐和秦旻然互相指认，真相大白",
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "出门后的解读",
+    "background": "corridor",
+    "text": "出门后的解读",
     "character": "",
-    "effect": "film",
+    "effect": "memory",
     "prop": null,
-    "next": "D55-r0062"
+    "next": "D46-r0050"
   },
   {
-    "id": "D55-r0062",
-    "kind": "line",
-    "source": "原文",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景22",
-    "period": "场景二十二：咖啡厅，刘树颐和秦旻然互相指认，真相大白",
-    "background": "cafe",
-    "speaker": "秦旻然（低着头）／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "我今天叫你来，其实是想告诉你一件事。",
-    "filmScene": 22,
-    "next": "D55-r0063"
-  },
-  {
-    "id": "D55-r0063",
-    "kind": "line",
-    "source": "原文",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景22",
-    "period": "场景二十二：咖啡厅，刘树颐和秦旻然互相指认，真相大白",
-    "background": "cafe",
-    "speaker": "刘树颐（抬着头）／周远持饰",
-    "character": "film-刘树颐",
-    "text": "那还真是巧了，我也恰好有事告诉你。",
-    "filmScene": 22,
-    "next": "D55-0047"
-  },
-  {
-    "id": "D55-0047",
-    "kind": "line",
-    "source": "原文",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景22",
-    "period": "场景二十二：咖啡厅，刘树颐和秦旻然互相指认，真相大白",
-    "background": "cafe",
-    "speaker": "秦旻然／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "那你先来吧，我可能还需要时间想想这几天来的这些事。",
-    "filmScene": 22,
-    "next": "D55-0048"
-  },
-  {
-    "id": "D55-0048",
-    "kind": "line",
-    "source": "原文",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景22",
-    "period": "场景二十二：咖啡厅，刘树颐和秦旻然互相指认，真相大白",
-    "background": "cafe",
-    "speaker": "刘树颐／周远持饰",
-    "character": "film-刘树颐",
-    "text": "我查到了这次贪污的最源头。",
-    "filmScene": 22,
-    "next": "D55-0049"
-  },
-  {
-    "id": "D55-0049",
-    "kind": "line",
-    "source": "原文",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景22",
-    "period": "场景二十二：咖啡厅，刘树颐和秦旻然互相指认，真相大白",
-    "background": "cafe",
-    "speaker": "秦旻然／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "哦？",
-    "filmScene": 22,
-    "next": "D55-0050"
-  },
-  {
-    "id": "D55-0050",
-    "kind": "line",
-    "source": "原文",
-    "page": 252,
-    "pages": [
-      252
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景22",
-    "period": "场景二十二：咖啡厅，刘树颐和秦旻然互相指认，真相大白",
-    "background": "cafe",
-    "speaker": "刘树颐／周远持饰",
-    "character": "film-刘树颐",
-    "text": "黄义薄的操作在公家的账户上没有任何变更记录，这实在是很可疑的。其实是你通过违规的操作把这一个亿的钱款调了出来。你贪污了。",
-    "filmScene": 22,
-    "next": "D55-r0068"
-  },
-  {
-    "id": "D55-r0068",
-    "kind": "line",
-    "source": "原文",
-    "page": 253,
-    "pages": [
-      253
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景22",
-    "period": "场景二十二：咖啡厅，刘树颐和秦旻然互相指认，真相大白",
-    "background": "cafe",
-    "speaker": "秦旻然（沉默）／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "嘉然需要这笔钱来治病。",
-    "filmScene": 22,
-    "next": "D55-r0069"
-  },
-  {
-    "id": "D55-r0069",
-    "kind": "line",
-    "source": "原文",
-    "page": 253,
-    "pages": [
-      253
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景22",
-    "period": "场景二十二：咖啡厅，刘树颐和秦旻然互相指认，真相大白",
-    "background": "cafe",
-    "speaker": "刘树颐（傲慢地看着秦旻然）／周远持饰",
-    "character": "film-刘树颐",
-    "text": "你贪污的一百万虽然和总账比起来算不了什么，但你让这笔钱成为了没有详细记录的黑钱。如果不是你的违规操作，之后的一切用款将被明明白白地记录在银行的公账上，一切罪恶就都不会发生。",
-    "filmScene": 22,
-    "next": "D55-r0070"
-  },
-  {
-    "id": "D55-r0070",
-    "kind": "line",
-    "source": "原文",
-    "page": 253,
-    "pages": [
-      253
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景22",
-    "period": "场景二十二：咖啡厅，刘树颐和秦旻然互相指认，真相大白",
-    "background": "cafe",
-    "speaker": "秦旻然（叹气）／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "撞到嘉然的车，是赶往 Q 镇救灾的水车；将黄义薄搞得家破人亡的，是 Q 镇的大洪水；让钢材公司亏空的，还是 Q 镇的洪水。",
-    "filmScene": 22,
-    "next": "D55-r0071"
-  },
-  {
-    "id": "D55-r0071",
-    "kind": "line",
-    "source": "原文",
-    "page": 253,
-    "pages": [
-      253
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景22",
-    "period": "场景二十二：咖啡厅，刘树颐和秦旻然互相指认，真相大白",
-    "background": "cafe",
-    "speaker": "秦旻然（叹气）／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "别再装傻了树颐，你我都已经知道了，八年前你主导的那场盗窃案，是一桩彻头彻尾的冤案。是你耽误了李程蓉去 Q 镇报告暴风雨的工作。",
-    "filmScene": 22,
-    "next": "D55-r0072"
-  },
-  {
-    "id": "D55-r0072",
+    "id": "D46-r0050",
     "kind": "line",
     "source": "转述",
-    "page": 253,
+    "page": 159,
     "pages": [
-      253
+      159,
+      160
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景22",
-    "period": "场景二十二：咖啡厅，刘树颐和秦旻然互相指认，真相大白",
-    "background": "cafe",
-    "speaker": "动作",
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "出门后的解读",
+    "background": "corridor",
+    "speaker": "旁白",
+    "text": "面批完，临走，朱老师又举起可乐。",
     "character": "",
-    "text": "目瞪口呆，愣在原地",
-    "filmScene": 22,
-    "next": "D55-r0073"
+    "next": "D46-r0051"
   },
   {
-    "id": "D55-r0073",
+    "id": "D46-r0051",
     "kind": "line",
-    "source": "原文",
-    "page": 253,
+    "source": "补写",
+    "page": 159,
     "pages": [
-      253
+      159,
+      160
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景22",
-    "period": "场景二十二：咖啡厅，刘树颐和秦旻然互相指认，真相大白",
-    "background": "cafe",
-    "speaker": "秦旻然（苦涩地笑了）／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "我们所有人，无一例外，都参加到这场罪恶的盛宴中了。",
-    "filmScene": 22,
-    "next": "D55-0058"
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "出门后的解读",
+    "background": "corridor",
+    "speaker": "朱老师",
+    "text": "你们班这可乐，是一人一瓶吗？",
+    "character": "c51",
+    "next": "interactive-D46-r0051"
   },
   {
-    "id": "D55-0058",
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "出门后的解读",
+    "background": "corridor",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "source": "补写",
+    "id": "interactive-D46-r0051",
+    "kind": "choice",
+    "text": "老师问可乐是不是一人一瓶，我怎样答？",
+    "speaker": "徐子涵",
+    "character": "c03",
+    "options": [
+      {
+        "text": "是，每个人有自己的那一瓶。",
+        "next": "interactive-D46-r0051-say1"
+      },
+      {
+        "text": "一人一瓶，这瓶给您的那份名字也留着。",
+        "next": "interactive-D46-r0051-say2"
+      },
+      {
+        "text": "就说我没领，免得老师再看我那瓶。",
+        "failure": "一瓶可乐还在手边，回答却把它说成了未领取。"
+      },
+      {
+        "text": "他问了肯定是要我那瓶，我立刻塞过去。",
+        "failure": "猜测抢先递了出去，问句却还没说出这个意思。"
+      },
+      {
+        "text": "先让雷导替我回答，他猜老师的意思更快。",
+        "failure": "问句还在满者面前，答案却被别人的猜测先接了过去。"
+      }
+    ]
+  },
+  {
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "出门后的解读",
+    "background": "corridor",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "source": "补写",
+    "id": "interactive-D46-r0051-say1",
+    "kind": "line",
+    "text": "是，每个人有自己的那一瓶。",
+    "speaker": "徐子涵",
+    "character": "c03",
+    "next": "interactive-D46-r0051-reply1"
+  },
+  {
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "出门后的解读",
+    "background": "corridor",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "source": "补写",
+    "id": "interactive-D46-r0051-reply1",
+    "kind": "line",
+    "text": "哦，是这样。",
+    "speaker": "朱老师",
+    "character": "c51",
+    "next": "D46-r0052"
+  },
+  {
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "出门后的解读",
+    "background": "corridor",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "source": "补写",
+    "id": "interactive-D46-r0051-say2",
+    "kind": "line",
+    "text": "一人一瓶，这瓶给您的那份名字也留着。",
+    "speaker": "徐子涵",
+    "character": "c03",
+    "next": "interactive-D46-r0051-reply2"
+  },
+  {
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "出门后的解读",
+    "background": "corridor",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "source": "补写",
+    "id": "interactive-D46-r0051-reply2",
+    "kind": "line",
+    "text": "我看见了。",
+    "speaker": "朱老师",
+    "character": "c51",
+    "next": "D46-r0052"
+  },
+  {
+    "id": "D46-r0052",
+    "kind": "line",
+    "source": "补写",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "出门后的解读",
+    "background": "corridor",
+    "speaker": "徐子涵",
+    "text": "是。",
+    "character": "c03",
+    "next": "D46-r0053"
+  },
+  {
+    "id": "D46-r0053",
+    "kind": "line",
+    "source": "转述",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "出门后的解读",
+    "background": "corridor",
+    "speaker": "旁白",
+    "text": "出办公室，我把刚才的经过讲给雷导。",
+    "character": "",
+    "next": "D46-r0054"
+  },
+  {
+    "id": "D46-r0054",
+    "kind": "line",
+    "source": "补写",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "出门后的解读",
+    "background": "corridor",
+    "speaker": "雷雨泽",
+    "text": "他最后那句话，加上前面对可乐的喜欢，难道不是暗示你把自己的也贡给他，弥补这次考试成绩？",
+    "character": "c04",
+    "next": "D46-r0055"
+  },
+  {
+    "id": "D46-r0055",
+    "kind": "line",
+    "source": "补写",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "出门后的解读",
+    "background": "corridor",
+    "speaker": "徐子涵",
+    "text": "哦——！",
+    "character": "c03",
+    "next": "D46-r0056"
+  },
+  {
+    "id": "D46-r0056",
+    "kind": "line",
+    "source": "转述",
+    "page": 159,
+    "pages": [
+      159,
+      160
+    ],
+    "day": "D46",
+    "context": "同一回忆",
+    "period": "出门后的解读",
+    "background": "corridor",
+    "speaker": "旁白",
+    "text": "我觉得这解读忽然都对上了。手里自己的那瓶，还没打开。",
+    "character": "",
+    "next": "D47-date"
+  },
+  {
+    "id": "D47-date",
+    "kind": "date",
+    "source": "演出",
+    "page": 161,
+    "pages": [
+      161,
+      162,
+      172
+    ],
+    "day": "D47",
+    "context": "现实",
+    "period": "翻到这一日",
+    "background": "classroom",
+    "date": "2024-03-01",
+    "text": "可乐的次日",
+    "pov": "c03",
+    "character": "",
+    "next": "D47-r0001"
+  },
+  {
+    "id": "D47-r0001",
+    "kind": "portrait",
+    "source": "演出",
+    "page": 161,
+    "pages": [
+      161,
+      162,
+      172
+    ],
+    "day": "D47",
+    "context": "现实",
+    "period": "",
+    "background": "classroom",
+    "text": "可乐的次日",
+    "pov": "c03",
+    "character": "c03",
+    "speaker": "徐子涵",
+    "next": "D47-r0002"
+  },
+  {
+    "id": "D47-r0002",
     "kind": "scene",
     "source": "演出",
-    "page": 253,
+    "page": 172,
     "pages": [
-      253
+      172
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景23 · 八年前六月",
-    "period": "场景二十三：医院中，秦旻然的回忆",
-    "background": "infirmary",
-    "text": "场景二十三：医院中，秦旻然的回忆",
+    "day": "D47",
+    "context": "现实 · 3月1日",
+    "period": "次日的拉环",
+    "background": "classroom",
+    "text": "次日的拉环",
     "character": "",
-    "effect": "film",
-    "prop": null,
-    "next": "D55-r0075"
+    "effect": "paper",
+    "prop": {
+      "kind": "cola",
+      "title": "专属可乐",
+      "lines": [
+        "徐子涵",
+        "朱老师 · 历史",
+        "愿数学130+"
+      ]
+    },
+    "next": "D47-r0003"
   },
   {
-    "id": "D55-r0075",
+    "id": "D47-r0003",
     "kind": "line",
     "source": "转述",
-    "page": 253,
+    "page": 172,
     "pages": [
-      253
+      172
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景23 · 八年前六月",
-    "period": "场景二十三：医院中，秦旻然的回忆",
-    "background": "infirmary",
-    "speaker": "动作",
+    "day": "D47",
+    "context": "现实 · 3月1日",
+    "period": "次日的拉环",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "昨天雷导的解释还在耳边。我拿起自己的可乐，手指已经勾住拉环。",
     "character": "",
-    "text": "八年前，六月",
-    "filmScene": 23,
-    "next": "D55-r0076"
+    "next": "D47-r0004"
   },
   {
-    "id": "D55-r0076",
+    "id": "D47-r0004",
+    "kind": "line",
+    "source": "补写",
+    "page": 172,
+    "pages": [
+      172
+    ],
+    "day": "D47",
+    "context": "现实 · 3月1日",
+    "period": "次日的拉环",
+    "background": "classroom",
+    "speaker": "雷雨泽",
+    "text": "那瓶呢？",
+    "character": "c04",
+    "next": "interactive-D47-r0004"
+  },
+  {
+    "day": "D47",
+    "context": "现实 · 3月1日",
+    "period": "次日的拉环",
+    "background": "classroom",
+    "page": 172,
+    "pages": [
+      172
+    ],
+    "source": "补写",
+    "id": "interactive-D47-r0004",
+    "kind": "choice",
+    "text": "雷导问昨天那瓶，我怎么接？",
+    "speaker": "徐子涵",
+    "character": "c03",
+    "options": [
+      {
+        "text": "就在这儿，昨天你那个解读我可听见了。",
+        "next": "interactive-D47-r0004-say1"
+      },
+      {
+        "text": "老师问一人一瓶，我先把自己这一瓶认清。",
+        "next": "interactive-D47-r0004-say2"
+      },
+      {
+        "text": "把你的猜测说成老师亲口要的好了。",
+        "failure": "问句没增加一字，转述却替它开出了索取单。"
+      },
+      {
+        "text": "悄悄喝了再说没领过，省得追问。",
+        "failure": "拉环已经作响，昨天的那句却被说没了。"
+      }
+    ]
+  },
+  {
+    "day": "D47",
+    "context": "现实 · 3月1日",
+    "period": "次日的拉环",
+    "background": "classroom",
+    "page": 172,
+    "pages": [
+      172
+    ],
+    "source": "补写",
+    "id": "interactive-D47-r0004-say1",
+    "kind": "line",
+    "text": "就在这儿，昨天你那个解读我可听见了。",
+    "speaker": "徐子涵",
+    "character": "c03",
+    "next": "interactive-D47-r0004-reply1"
+  },
+  {
+    "day": "D47",
+    "context": "现实 · 3月1日",
+    "period": "次日的拉环",
+    "background": "classroom",
+    "page": 172,
+    "pages": [
+      172
+    ],
+    "source": "补写",
+    "id": "interactive-D47-r0004-reply1",
+    "kind": "line",
+    "text": "那你现在呢。",
+    "speaker": "雷雨泽",
+    "character": "c04",
+    "next": "D47-r0005"
+  },
+  {
+    "day": "D47",
+    "context": "现实 · 3月1日",
+    "period": "次日的拉环",
+    "background": "classroom",
+    "page": 172,
+    "pages": [
+      172
+    ],
+    "source": "补写",
+    "id": "interactive-D47-r0004-say2",
+    "kind": "line",
+    "text": "老师问一人一瓶，我先把自己这一瓶认清。",
+    "speaker": "徐子涵",
+    "character": "c03",
+    "next": "interactive-D47-r0004-reply2"
+  },
+  {
+    "day": "D47",
+    "context": "现实 · 3月1日",
+    "period": "次日的拉环",
+    "background": "classroom",
+    "page": 172,
+    "pages": [
+      172
+    ],
+    "source": "补写",
+    "id": "interactive-D47-r0004-reply2",
+    "kind": "line",
+    "text": "别光接我的猜。",
+    "speaker": "雷雨泽",
+    "character": "c04",
+    "next": "D47-r0005"
+  },
+  {
+    "id": "D47-r0005",
     "kind": "line",
     "source": "转述",
-    "page": 253,
+    "page": 172,
     "pages": [
-      253
+      172
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景23 · 八年前六月",
-    "period": "场景二十三：医院中，秦旻然的回忆",
-    "background": "infirmary",
-    "speaker": "动作",
+    "day": "D47",
+    "context": "现实 · 3月1日",
+    "period": "次日的拉环",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "“啪”的一声，我打开，喝了。",
     "character": "",
-    "text": "无力地躺在病床上，面露绝望，泪水无声的涌出",
-    "filmScene": 23,
-    "next": "D55-r0077"
+    "next": "D47-r0006"
   },
   {
-    "id": "D55-r0077",
+    "id": "D47-r0006",
     "kind": "line",
-    "source": "原文",
-    "page": 253,
+    "source": "补写",
+    "page": 172,
     "pages": [
-      253
+      172
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景23 · 八年前六月",
-    "period": "场景二十三：医院中，秦旻然的回忆",
-    "background": "infirmary",
-    "speaker": "秦嘉然／童莘淇饰",
-    "character": "film-秦嘉然",
-    "text": "哥……你这几年……好事雪片似的……但怎么咱家里还是这样……",
-    "filmScene": 23,
-    "next": "D55-r0078"
+    "day": "D47",
+    "context": "现实 · 3月1日",
+    "period": "次日的拉环",
+    "background": "classroom",
+    "speaker": "徐子涵",
+    "text": "这瓶啊。",
+    "character": "c03",
+    "next": "D47-r0007"
   },
   {
-    "id": "D55-r0078",
+    "id": "D47-r0007",
     "kind": "line",
-    "source": "原文",
-    "page": 253,
+    "source": "补写",
+    "page": 172,
     "pages": [
-      253
+      172
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景23 · 八年前六月",
-    "period": "场景二十三：医院中，秦旻然的回忆",
-    "background": "infirmary",
-    "speaker": "秦旻然·内心／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "别说了，嘉然，什么都别想，先把病养好。这治病的钱，我是一定给得起的。",
-    "filmScene": 23,
-    "next": "D55-r0079"
+    "day": "D47",
+    "context": "现实 · 3月1日",
+    "period": "次日的拉环",
+    "background": "classroom",
+    "speaker": "雷雨泽",
+    "text": "你昨天不是大悟了？",
+    "character": "c04",
+    "next": "D47-r0008"
   },
   {
-    "id": "D55-r0079",
+    "id": "D47-r0008",
     "kind": "line",
-    "source": "原文",
-    "page": 253,
+    "source": "补写",
+    "page": 172,
     "pages": [
-      253
+      172
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景23 · 八年前六月",
-    "period": "场景二十三：医院中，秦旻然的回忆",
-    "background": "infirmary",
-    "speaker": "秦嘉然（想说什么，又说不出）／童莘淇饰",
-    "character": "film-秦嘉然",
-    "text": "我别……别连累了你。病要治好，不见得要花…大价钱呢。",
-    "filmScene": 23,
-    "next": "D55-r0080"
+    "day": "D47",
+    "context": "现实 · 3月1日",
+    "period": "次日的拉环",
+    "background": "classroom",
+    "speaker": "徐子涵",
+    "text": "今天喝完了。",
+    "character": "c03",
+    "next": "D47-r0009"
   },
   {
-    "id": "D55-r0080",
-    "kind": "line",
-    "source": "原文",
-    "page": 253,
-    "pages": [
-      253
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景23 · 八年前六月",
-    "period": "场景二十三：医院中，秦旻然的回忆",
-    "background": "infirmary",
-    "speaker": "秦旻然·内心／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "知道，知道。我真的清楚。",
-    "filmScene": 23,
-    "next": "D55-0064"
-  },
-  {
-    "id": "D55-0064",
-    "kind": "line",
-    "source": "原文",
-    "page": 253,
-    "pages": [
-      253
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景23 · 八年前六月",
-    "period": "场景二十三：医院中，秦旻然的回忆",
-    "background": "infirmary",
-    "speaker": "秦嘉然／童莘淇饰",
-    "character": "film-秦嘉然",
-    "text": "我没事，赶快忙咱镇上的事吧。大家还需要你。",
-    "filmScene": 23,
-    "next": "D55-r0082"
-  },
-  {
-    "id": "D55-r0082",
-    "kind": "line",
-    "source": "原文",
-    "page": 253,
-    "pages": [
-      253
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景23 · 八年前六月",
-    "period": "场景二十三：医院中，秦旻然的回忆",
-    "background": "infirmary",
-    "speaker": "秦旻然·内心／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "嗯…赶快好起来。我过两天回来看你。",
-    "filmScene": 23,
-    "next": "D55-r0083"
-  },
-  {
-    "id": "D55-r0083",
-    "kind": "line",
-    "source": "原文",
-    "page": 253,
-    "pages": [
-      253
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景23 · 八年前六月",
-    "period": "场景二十三：医院中，秦旻然的回忆",
-    "background": "infirmary",
-    "speaker": "秦旻然·内心／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "唉。行，妹妹，注意身体，我走了。",
-    "filmScene": 23,
-    "next": "D55-0067"
-  },
-  {
-    "id": "D55-0067",
-    "kind": "line",
-    "source": "原文",
-    "page": 253,
-    "pages": [
-      253
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景23 · 八年前六月",
-    "period": "场景二十三：医院中，秦旻然的回忆",
-    "background": "infirmary",
-    "speaker": "秦嘉然／童莘淇饰",
-    "character": "film-秦嘉然",
-    "text": "再见，好吧。",
-    "filmScene": 23,
-    "next": "D55-r0085"
-  },
-  {
-    "id": "D55-r0085",
+    "id": "D47-r0009",
     "kind": "line",
     "source": "转述",
-    "page": 253,
+    "page": 172,
     "pages": [
-      253
+      172
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景23 · 八年前六月",
-    "period": "场景二十三：医院中，秦旻然的回忆",
-    "background": "infirmary",
-    "speaker": "动作",
+    "day": "D47",
+    "context": "现实 · 3月1日",
+    "period": "次日的拉环",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "关于再贡一瓶的猜想，也随着这口可乐，被我抛到脑后。",
     "character": "",
-    "text": "秦旻然走出病房",
-    "filmScene": 23,
-    "next": "D55-r0086"
+    "next": "D47-r0010"
   },
   {
-    "id": "D55-r0086",
-    "kind": "line",
-    "source": "原文",
-    "page": 253,
-    "pages": [
-      253
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景23 · 八年前六月",
-    "period": "场景二十三：医院中，秦旻然的回忆",
-    "background": "infirmary",
-    "speaker": "秦旻然·内心／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "我从小就梦想着为镇子修一条四通八达的铁路，让大家的生活变得美好。所以我对那些贪污腐败的蛀虫恨之入骨，恨不得把他们生吞活剥，就是他们毁了人们那些崇高的理想，堕落入腐朽的世俗深渊。",
-    "filmScene": 23,
-    "next": "D55-r0087"
-  },
-  {
-    "id": "D55-r0087",
-    "kind": "line",
-    "source": "原文",
-    "page": 253,
-    "pages": [
-      253
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景23 · 八年前六月",
-    "period": "场景二十三：医院中，秦旻然的回忆",
-    "background": "infirmary",
-    "speaker": "秦旻然·内心／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "我始终认为我能一直怀着我的理想和高贵的品德，但现实的深渊终究还是把我逼到了这一步。嘉然，我亲爱的妹妹，遭遇了这样的飞来横祸。我无法熟视无睹，而不履行作为哥哥的责任。",
-    "filmScene": 23,
-    "next": "D55-r0088"
-  },
-  {
-    "id": "D55-r0088",
-    "kind": "line",
-    "source": "原文",
-    "page": 253,
-    "pages": [
-      253
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景23 · 八年前六月",
-    "period": "场景二十三：医院中，秦旻然的回忆",
-    "background": "infirmary",
-    "speaker": "秦旻然·内心／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "我也要像那些人一样，要被永世唾弃了。",
-    "filmScene": 23,
-    "next": "D55-r0089"
-  },
-  {
-    "id": "D55-r0089",
-    "kind": "line",
-    "source": "转述",
-    "page": 253,
-    "pages": [
-      253
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景23 · 八年前六月",
-    "period": "场景二十三：医院中，秦旻然的回忆",
-    "background": "infirmary",
-    "speaker": "动作",
-    "character": "",
-    "text": "拿起电话，打给黄义薄",
-    "filmScene": 23,
-    "next": "D55-r0090"
-  },
-  {
-    "id": "D55-r0090",
-    "kind": "line",
-    "source": "原文",
-    "page": 253,
-    "pages": [
-      253
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景23 · 八年前六月",
-    "period": "场景二十三：医院中，秦旻然的回忆",
-    "background": "infirmary",
-    "speaker": "秦旻然·内心／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "小黄，直接从账户里调出来那笔钱吧，不用再和上面汇报了，购置钢材的事，不能耽搁了。",
-    "filmScene": 23,
-    "next": "D55-0074"
-  },
-  {
-    "id": "D55-0074",
+    "id": "D47-r0010",
     "kind": "scene",
     "source": "演出",
-    "page": 253,
+    "page": 161,
     "pages": [
-      253,
-      254
+      161,
+      162
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景24",
-    "period": "场景二十四：咖啡厅的最终谈话",
-    "background": "cafe",
-    "text": "场景二十四：咖啡厅的最终谈话",
+    "day": "D47",
+    "context": "现实",
+    "period": "心里跑两圈",
+    "background": "classroom",
+    "text": "心里跑两圈",
     "character": "",
-    "effect": "film",
+    "effect": "paper",
     "prop": null,
-    "next": "D55-0075"
+    "next": "D47-r0011"
   },
   {
-    "id": "D55-0075",
+    "id": "D47-r0011",
     "kind": "line",
-    "source": "原文",
-    "page": 253,
+    "source": "补写",
+    "page": 161,
     "pages": [
-      253
+      161,
+      162
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景24",
-    "period": "场景二十四：咖啡厅的最终谈话",
-    "background": "cafe",
-    "speaker": "刘树颐／周远持饰",
-    "character": "film-刘树颐",
-    "text": "你这白衬衫还没换呢，天天穿这么正式。",
-    "filmScene": 24,
-    "next": "D55-r0093"
+    "day": "D47",
+    "context": "现实",
+    "period": "心里跑两圈",
+    "background": "classroom",
+    "speaker": "战老师",
+    "text": "这么困，跑两圈。",
+    "character": "c48",
+    "next": "D47-r0012"
   },
   {
-    "id": "D55-r0093",
+    "id": "D47-r0012",
     "kind": "line",
-    "source": "原文",
-    "page": 253,
+    "source": "补写",
+    "page": 161,
     "pages": [
-      253
+      161,
+      162
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景24",
-    "period": "场景二十四：咖啡厅的最终谈话",
-    "background": "cafe",
-    "speaker": "秦旻然／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "没事。我妹妹总说白衣不禁脏，总要洗。但有的时候",
-    "filmScene": 24,
-    "next": "D55-r0094"
+    "day": "D47",
+    "context": "现实",
+    "period": "心里跑两圈",
+    "background": "classroom",
+    "speaker": "刘恒怿",
+    "text": "真跑吗？",
+    "character": "c07",
+    "next": "D47-r0013"
   },
   {
-    "id": "D55-r0094",
+    "id": "D47-r0013",
+    "kind": "line",
+    "source": "补写",
+    "page": 161,
+    "pages": [
+      161,
+      162
+    ],
+    "day": "D47",
+    "context": "现实",
+    "period": "心里跑两圈",
+    "background": "classroom",
+    "speaker": "战老师",
+    "text": "心里跑！我的课何须跑，尼德兰那段还不够醒人？",
+    "character": "c48",
+    "next": "D47-r0014"
+  },
+  {
+    "id": "D47-r0014",
+    "kind": "scene",
+    "source": "演出",
+    "page": 161,
+    "pages": [
+      161,
+      162
+    ],
+    "day": "D47",
+    "context": "现实",
+    "period": "年夜饭的鱼",
+    "background": "classroom",
+    "text": "年夜饭的鱼",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "D47-r0015"
+  },
+  {
+    "id": "D47-r0015",
+    "kind": "line",
+    "source": "补写",
+    "page": 161,
+    "pages": [
+      161,
+      162
+    ],
+    "day": "D47",
+    "context": "现实",
+    "period": "年夜饭的鱼",
+    "background": "classroom",
+    "speaker": "孙老师",
+    "text": "年夜饭，鱼要写具体。一条油香四溢的鲤鱼，比空讲丰盛好。",
+    "character": "c46",
+    "next": "D47-r0016"
+  },
+  {
+    "id": "D47-r0016",
+    "kind": "line",
+    "source": "补写",
+    "page": 161,
+    "pages": [
+      161,
+      162
+    ],
+    "day": "D47",
+    "context": "现实",
+    "period": "年夜饭的鱼",
+    "background": "classroom",
+    "speaker": "刘恒怿",
+    "text": "我家年三十吃完。",
+    "character": "c07",
+    "next": "D47-r0017"
+  },
+  {
+    "id": "D47-r0017",
+    "kind": "line",
+    "source": "补写",
+    "page": 161,
+    "pages": [
+      161,
+      162
+    ],
+    "day": "D47",
+    "context": "现实",
+    "period": "年夜饭的鱼",
+    "background": "classroom",
+    "speaker": "雷雨泽",
+    "text": "我家留到十五。",
+    "character": "c04",
+    "next": "D47-r0018"
+  },
+  {
+    "id": "D47-r0018",
+    "kind": "line",
+    "source": "补写",
+    "page": 161,
+    "pages": [
+      161,
+      162
+    ],
+    "day": "D47",
+    "context": "现实",
+    "period": "年夜饭的鱼",
+    "background": "classroom",
+    "speaker": "孙老师",
+    "text": "一个年夜饭，你们还吃出半个月。",
+    "character": "c46",
+    "next": "D47-r0019"
+  },
+  {
+    "id": "D47-r0019",
+    "kind": "scene",
+    "source": "演出",
+    "page": 161,
+    "pages": [
+      161,
+      162
+    ],
+    "day": "D47",
+    "context": "现实",
+    "period": "明天到底有没有语文",
+    "background": "classroom",
+    "text": "明天到底有没有语文",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "D47-r0020"
+  },
+  {
+    "id": "D47-r0020",
+    "kind": "line",
+    "source": "补写",
+    "page": 161,
+    "pages": [
+      161,
+      162
+    ],
+    "day": "D47",
+    "context": "现实",
+    "period": "明天到底有没有语文",
+    "background": "classroom",
+    "speaker": "孙老师",
+    "text": "我以为周六没语文，可算有空了。",
+    "character": "c46",
+    "next": "D47-r0021"
+  },
+  {
+    "id": "D47-r0021",
+    "kind": "line",
+    "source": "补写",
+    "page": 161,
+    "pages": [
+      161,
+      162
+    ],
+    "day": "D47",
+    "context": "现实",
+    "period": "明天到底有没有语文",
+    "background": "classroom",
+    "speaker": "同学",
+    "text": "有啊。",
+    "character": "",
+    "next": "D47-r0022"
+  },
+  {
+    "id": "D47-r0022",
+    "kind": "line",
+    "source": "补写",
+    "page": 161,
+    "pages": [
+      161,
+      162
+    ],
+    "day": "D47",
+    "context": "现实",
+    "period": "明天到底有没有语文",
+    "background": "classroom",
+    "speaker": "孙老师",
+    "text": "那课表DEF，我没看见语字！",
+    "character": "c46",
+    "next": "D47-r0023"
+  },
+  {
+    "id": "D47-r0023",
     "kind": "line",
     "source": "转述",
-    "page": 253,
+    "page": 161,
     "pages": [
-      253
+      161,
+      162
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景24",
-    "period": "场景二十四：咖啡厅的最终谈话",
-    "background": "cafe",
-    "speaker": "动作",
+    "day": "D47",
+    "context": "现实",
+    "period": "明天到底有没有语文",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "雷导和大哥献饮料，老师一看仪式，两人当即投地。她又说起往届毕业生上台相拥。",
     "character": "",
-    "text": "目光转窗外",
-    "filmScene": 24,
-    "next": "D55-r0095"
+    "next": "D47-r0024"
   },
   {
-    "id": "D55-r0095",
+    "id": "D47-r0024",
+    "kind": "line",
+    "source": "补写",
+    "page": 161,
+    "pages": [
+      161,
+      162
+    ],
+    "day": "D47",
+    "context": "现实",
+    "period": "明天到底有没有语文",
+    "background": "classroom",
+    "speaker": "孙老师",
+    "text": "你们谁会上来？",
+    "character": "c46",
+    "next": "D47-r0025"
+  },
+  {
+    "id": "D47-r0025",
     "kind": "line",
     "source": "原文",
-    "page": 253,
+    "page": 162,
     "pages": [
-      253
+      161,
+      162
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景24",
-    "period": "场景二十四：咖啡厅的最终谈话",
-    "background": "cafe",
-    "speaker": "秦旻然／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "……",
-    "filmScene": 24,
-    "next": "D55-0077"
+    "day": "D47",
+    "context": "现实",
+    "period": "明天到底有没有语文",
+    "background": "classroom",
+    "speaker": "同学",
+    "text": "向阳。",
+    "character": "",
+    "next": "D47-r0026"
   },
   {
-    "id": "D55-0077",
+    "id": "D47-r0026",
     "kind": "line",
-    "source": "原文",
-    "page": 253,
+    "source": "补写",
+    "page": 161,
     "pages": [
-      253
+      161,
+      162
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景24",
-    "period": "场景二十四：咖啡厅的最终谈话",
-    "background": "cafe",
-    "speaker": "刘树颐／周远持饰",
-    "character": "film-刘树颐",
-    "text": "一件又一件，四年又四年。洗乏了，人老了。",
-    "filmScene": 24,
-    "next": "D55-r0097"
+    "day": "D47",
+    "context": "现实",
+    "period": "明天到底有没有语文",
+    "background": "classroom",
+    "speaker": "孙老师",
+    "text": "不要！",
+    "character": "c46",
+    "next": "D47-r0027"
   },
   {
-    "id": "D55-r0097",
-    "kind": "line",
-    "source": "原文",
-    "page": 253,
-    "pages": [
-      253
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景24",
-    "period": "场景二十四：咖啡厅的最终谈话",
-    "background": "cafe",
-    "speaker": "秦旻然（苦笑）／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "你手都起茧子了，不是洗衣服生的吧。",
-    "filmScene": 24,
-    "next": "D55-0079"
-  },
-  {
-    "id": "D55-0079",
-    "kind": "line",
-    "source": "原文",
-    "page": 253,
-    "pages": [
-      253
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景24",
-    "period": "场景二十四：咖啡厅的最终谈话",
-    "background": "cafe",
-    "speaker": "刘树颐／周远持饰",
-    "character": "film-刘树颐",
-    "text": "练就一把好手，到头来自己还不是左右彷徨，真像是铁索横江啊，上不去，也下不来。",
-    "filmScene": 24,
-    "next": "D55-0080"
-  },
-  {
-    "id": "D55-0080",
-    "kind": "line",
-    "source": "原文",
-    "page": 253,
-    "pages": [
-      253
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景24",
-    "period": "场景二十四：咖啡厅的最终谈话",
-    "background": "cafe",
-    "speaker": "秦旻然／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "刘警官，当初意气风发，我们可信心堪比朝阳呢。",
-    "filmScene": 24,
-    "next": "D55-0081"
-  },
-  {
-    "id": "D55-0081",
-    "kind": "line",
-    "source": "原文",
-    "page": 253,
-    "pages": [
-      253
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景24",
-    "period": "场景二十四：咖啡厅的最终谈话",
-    "background": "cafe",
-    "speaker": "刘树颐／周远持饰",
-    "character": "film-刘树颐",
-    "text": "哈，抽丝剥茧久了，总觉得技艺纯熟，我横扫千军，一点点肯费工夫，世上什么秘密都查的出。现在……",
-    "filmScene": 24,
-    "next": "D55-r0101"
-  },
-  {
-    "id": "D55-r0101",
+    "id": "D47-r0027",
     "kind": "line",
     "source": "转述",
-    "page": 254,
+    "page": 161,
     "pages": [
-      254
+      161,
+      162
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景24",
-    "period": "场景二十四：咖啡厅的最终谈话",
-    "background": "cafe",
-    "speaker": "动作",
+    "day": "D47",
+    "context": "现实",
+    "period": "明天到底有没有语文",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "老师击桌，掩住脸。台下的饮料还没喝，已经换了一轮笑声。",
     "character": "",
-    "text": "总觉得技术精了，不用费什么工夫，世上就没有我查不出的秘密，可现在……",
-    "filmScene": 24,
-    "next": "D55-0083"
+    "next": "D47-r0051"
   },
   {
-    "id": "D55-0083",
-    "kind": "line",
-    "source": "原文",
-    "page": 254,
+    "id": "D47-r0051",
+    "kind": "scene",
+    "source": "演出",
+    "page": 161,
     "pages": [
-      254
+      161,
+      162
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景24",
-    "period": "场景二十四：咖啡厅的最终谈话",
-    "background": "cafe",
-    "speaker": "秦旻然／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "觉着人心是世上最深奥的学问？",
-    "filmScene": 24,
-    "next": "D55-0084"
+    "day": "D47",
+    "context": "现实",
+    "period": "福签与水瓶",
+    "background": "classroom",
+    "text": "福签与水瓶",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "D47-r0052"
   },
   {
-    "id": "D55-0084",
-    "kind": "line",
-    "source": "原文",
-    "page": 254,
-    "pages": [
-      254
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景24",
-    "period": "场景二十四：咖啡厅的最终谈话",
-    "background": "cafe",
-    "speaker": "刘树颐／周远持饰",
-    "character": "film-刘树颐",
-    "text": "唉，是呀",
-    "filmScene": 24,
-    "next": "D55-r0104"
-  },
-  {
-    "id": "D55-r0104",
-    "kind": "line",
-    "source": "原文",
-    "page": 254,
-    "pages": [
-      254
-    ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景24",
-    "period": "场景二十四：咖啡厅的最终谈话",
-    "background": "cafe",
-    "speaker": "秦旻然（呷了口咖啡）／秦敏然饰",
-    "character": "film-秦旻然",
-    "text": "嗯，苦。但总有种回甘，愈久愈绵长。",
-    "filmScene": 24,
-    "next": "D55-r0105"
-  },
-  {
-    "id": "D55-r0105",
+    "id": "D47-r0052",
     "kind": "line",
     "source": "转述",
-    "page": 254,
+    "page": 161,
     "pages": [
-      254
+      161,
+      162
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景24",
-    "period": "场景二十四：咖啡厅的最终谈话",
-    "background": "cafe",
-    "speaker": "动作",
+    "day": "D47",
+    "context": "现实",
+    "period": "福签与水瓶",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "福签被翻看，函数与导数又引来争论。两瓶水上的指纹也成了同学观察的对象，紫衣迎面打招呼，香炉和信接着被说起。",
     "character": "",
-    "text": "不花点时间，仔细品的话，这东西何尝有什么香味呢？",
-    "filmScene": 24,
-    "next": "D55-r0106"
+    "next": "D47-r0053"
   },
   {
-    "id": "D55-r0106",
+    "id": "D47-r0053",
     "kind": "line",
-    "source": "原文",
-    "page": 254,
+    "source": "补写",
+    "page": 161,
     "pages": [
-      254
+      161,
+      162
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景24",
-    "period": "场景二十四：咖啡厅的最终谈话",
-    "background": "cafe",
-    "speaker": "刘树颐／周远持饰",
-    "character": "film-刘树颐",
-    "text": "小时候喜欢听书。花开两朵，各表一枝。戴上警徽，出将入相，觉出来真正花开的时候",
-    "filmScene": 24,
-    "next": "D55-r0107"
+    "day": "D47",
+    "context": "现实",
+    "period": "福签与水瓶",
+    "background": "classroom",
+    "speaker": "同学",
+    "text": "你先别把这两瓶混了。",
+    "character": "",
+    "next": "D47-r0054"
   },
   {
-    "id": "D55-r0107",
+    "id": "D47-r0054",
     "kind": "line",
     "source": "转述",
-    "page": 254,
+    "page": 161,
     "pages": [
-      254
+      161,
+      162
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景24",
-    "period": "场景二十四：咖啡厅的最终谈话",
-    "background": "cafe",
-    "speaker": "动作",
+    "day": "D47",
+    "context": "现实",
+    "period": "福签与水瓶",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "地理照样要上，所谓解散的玩笑没有让课堂解散。剑还在教室，昨日的可乐倒真被今天喝掉了。",
     "character": "",
-    "text": "碰碰唯一一朵假花",
-    "filmScene": 24,
-    "next": "D55-r0108"
+    "next": "D47-r0055"
   },
   {
-    "id": "D55-r0108",
+    "id": "D47-r0055",
+    "kind": "scene",
+    "source": "演出",
+    "page": 161,
+    "pages": [
+      161,
+      162
+    ],
+    "day": "D47",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "text": "课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "D47-r0056"
+  },
+  {
+    "id": "D47-r0056",
     "kind": "line",
     "source": "原文",
-    "page": 254,
+    "page": 161,
     "pages": [
-      254
+      161,
+      162
     ],
-    "day": "D55",
-    "context": "戏中戏 · 镜中花 · 场景24",
-    "period": "场景二十四：咖啡厅的最终谈话",
-    "background": "cafe",
-    "speaker": "刘树颐／周远持饰",
-    "character": "film-刘树颐",
-    "text": "，只有一枝开。",
-    "filmScene": 24,
-    "next": "D55-r0109"
+    "day": "D47",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "战以 Δ 为导判断函数增减，实为数学之新篇。",
+    "character": "",
+    "next": "D47-r0057"
+  },
+  {
+    "id": "D47-r0057",
+    "kind": "line",
+    "source": "原文",
+    "page": 161,
+    "pages": [
+      161,
+      162
+    ],
+    "day": "D47",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "余偶见二水于桌上，正疑，灵雨称其一为他所有。但二水除日期别无二致，何以见其名为谁物？余欣归舍以察同箱之水为何日期，灵雨赞余大才。复持二水细细观，欲辨吾二人之指纹也。",
+    "character": "",
+    "next": "D47-r0058"
+  },
+  {
+    "id": "D47-r0058",
+    "kind": "line",
+    "source": "原文",
+    "page": 161,
+    "pages": [
+      161,
+      162
+    ],
+    "day": "D47",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "[语文] 蕾子喜于周六无语文课，于高三得闲实乃不易，不料安有语文，大恸。蕾气愤于众亲友示其以贾玲、马思纯、减重之故事。",
+    "character": "",
+    "next": "D47-r0059"
+  },
+  {
+    "id": "D47-r0059",
+    "kind": "line",
+    "source": "原文",
+    "page": 161,
+    "pages": [
+      161,
+      162
+    ],
+    "day": "D47",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "孙蕾",
+    "text": "今早见树苡，未与我打招呼。苡：未见，非吾。",
+    "character": "c46",
+    "next": "D47-r0060"
+  },
+  {
+    "id": "D47-r0060",
+    "kind": "line",
+    "source": "原文",
+    "page": 161,
+    "pages": [
+      161,
+      162
+    ],
+    "day": "D47",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "楚国宗祖 ×　楚国祖宗 √。",
+    "character": "",
+    "next": "D47-r0061"
+  },
+  {
+    "id": "D47-r0061",
+    "kind": "line",
+    "source": "原文",
+    "page": 161,
+    "pages": [
+      161,
+      162
+    ],
+    "day": "D47",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "年夜饭示例：一条油香四溢的鲤鱼，一盘绿意盎然的青菜，十碗香喷喷的大米饭。",
+    "character": "",
+    "next": "D47-r0062"
+  },
+  {
+    "id": "D47-r0062",
+    "kind": "line",
+    "source": "原文",
+    "page": 161,
+    "pages": [
+      161,
+      162
+    ],
+    "day": "D47",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "优秀示例：开心西芹。",
+    "character": "",
+    "next": "D47-r0063"
+  },
+  {
+    "id": "D47-r0063",
+    "kind": "line",
+    "source": "原文",
+    "page": 161,
+    "pages": [
+      161,
+      162
+    ],
+    "day": "D47",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "关于年夜饭的鱼：大哥——好吃，年三十吃完；正常——留到初一；雷导——留到十五。",
+    "character": "",
+    "next": "D47-r0064"
+  },
+  {
+    "id": "D47-r0064",
+    "kind": "line",
+    "source": "原文",
+    "page": 162,
+    "pages": [
+      161,
+      162
+    ],
+    "day": "D47",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "雷导与大哥向蕾献饮料，蕾望仪式，雷二人当即投地。",
+    "character": "",
+    "next": "D47-r0065"
+  },
+  {
+    "id": "D47-r0065",
+    "kind": "line",
+    "source": "原文",
+    "page": 162,
+    "pages": [
+      161,
+      162
+    ],
+    "day": "D47",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "蕾忆昔日毕业生毕业之时上台相拥，令人泪下，复问：尔等何人上台？答曰：向阳。蕾大惊，击桌而掩面，连呼不要。",
+    "character": "",
+    "next": "D47-r0066"
+  },
+  {
+    "id": "D47-r0066",
+    "kind": "line",
+    "source": "原文",
+    "page": 162,
+    "pages": [
+      161,
+      162
+    ],
+    "day": "D47",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "蕾忽又问：明天有语文？原课表为 DEF，蕾未见语字了了，故误解。",
+    "character": "",
+    "next": "D47-r0067"
+  },
+  {
+    "id": "D47-r0067",
+    "kind": "line",
+    "source": "原文",
+    "page": 162,
+    "pages": [
+      161,
+      162
+    ],
+    "day": "D47",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "沐嗲以赛博香炉祭天（加湿器）。",
+    "character": "",
+    "next": "D47-r0068"
   }
 ];
 export default data;

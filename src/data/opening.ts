@@ -6,7 +6,7 @@ add('entrance','入境 · 入静 · 劲',{kind:'portrait',character:'xu',pov:'xu
 add('first','高三伊始之时，启动这本班日志，心知意义非凡。',{speaker:'徐启元',character:'xu',source:'原文'});
 add('honor','又从我开始，令我战战兢兢，不知如何才不会辜负这份殊荣。',{speaker:'徐启元',source:'原文'});
 add('pen','本子摊在桌上。第一页的方格干干净净，干净得让人不敢下笔。',{speaker:'徐启元 · 心声'});
-add('opening-choice','第一笔，该怎么落？',{kind:'choice',speaker:'徐启元 · 心声',options:[{text:'写一篇序。迁楼这样的事，值得郑重一点。',next:'inspiration'},{text:'先记下我们今天怎样来到这里。',next:'plain'},{text:'第一页先空着，等高考完再补。',failure:'第一页等到了毕业，第二页还在等第一页。'},{text:'全页只写一个“劲”字，字数越少气势越大。',failure:'气势铺满了整页，今天发生的事一个也没挤进去。'}]});
+add('opening-choice','第一笔，该怎么落？',{kind:'choice',speaker:'徐启元 · 心声',options:[{text:'写一篇序。迁楼这样的事，值得郑重一点。',next:'inspiration'},{text:'先记下我们今天怎样来到这里。',next:'plain'},{text:'第一页先空着，等高考完再补。',failure:'第一页等到了毕业，第二页还在等第一页。'},{text:'先只写感想，具体的迁楼和班会明天再补。',failure:'感想写满了整页，今天的迁楼却还没有找到入口。'}]});
 add('plain','不必一上来就写得多漂亮，先把今天留下来。想来想去，这件事倒也配得上一篇序。',{speaker:'徐启元 · 心声',next:'inspiration'});
 add('inspiration','忽灵感一动，心生一计……',{speaker:'徐启元',source:'原文'});
 add('title','高三（7）班序',{speaker:'徐启元',source:'原文',period:'迁楼',background:'corridor'});
@@ -19,7 +19,7 @@ add('decorate','我们在黑板上添了书画，给新教室添一点自己的�
 add('video','又播向之视频于屏幕上，瞻顾往事，如在昨日，逆天之甚，令人捧腹不自禁，信可乐也。',{speaker:'徐启元',source:'原文',period:'往事'});
 add('laugh','雷昱：刚刚谁说高中楼一进来就得肃静的？',{speaker:'雷昱',character:'lei'});
 add('reply','徐启元：肃静是楼的事，视频是我们的事。',{speaker:'徐启元',character:'xu'});
-add('video-choice','屏幕上的往事还在继续。你怎么接这句话？',{kind:'choice',speaker:'徐启元',options:[{text:'先笑。以后看到这页，也该记得今天笑过。',next:'remember'},{text:'把这段也写进序里：“信可乐也。”',next:'remember'},{text:'删掉全部旧视频，高三只准谈成绩。',failure:'往事被清空了，序里那句“信可乐也”只好笑给自己听。'}]});
+add('video-choice','屏幕上的往事还在继续。你怎么接这句话？',{kind:'choice',speaker:'徐启元',options:[{text:'先笑。以后看到这页，也该记得今天笑过。',next:'remember'},{text:'把这段也写进序里：“信可乐也。”',next:'remember'},{text:'先别放旧视频，今天只记成绩，往事等以后再看。',failure:'往事被推到了以后，序里那句“信可乐也”只好笑给自己听。'}]});
 add('remember','徐启元：不能一年以后只记得今天有多紧张，忘了我们也笑得这么响。',{speaker:'徐启元',character:'xu'});
 add('mixed','然今日之事，多可喜，亦多可悲。',{speaker:'徐启元',source:'原文',period:'班会'});
 add('results','大家回看此前的成绩，议高考的大计。',{speaker:'旁白',source:'转述'});

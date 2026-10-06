@@ -1,2617 +1,2162 @@
 import type {StoryNode} from "../story.ts";
 const data:StoryNode[] = [
   {
-    "id": "D22-r0024",
+    "id": "D20-0013",
     "kind": "line",
     "source": "补写",
-    "page": 88,
+    "page": 70,
     "pages": [
-      88
+      70,
+      71,
+      72,
+      73
     ],
-    "day": "D22",
-    "context": "现实",
-    "period": "两层还是不分层",
-    "background": "classroom",
-    "speaker": "同学",
-    "text": "预实验不是这样。",
-    "character": "",
-    "next": "D22-r0025"
+    "day": "D20",
+    "context": "回忆 · 温雪异地通讯",
+    "period": "时间错开",
+    "background": "home",
+    "speaker": "吕思宇",
+    "text": "醒来再回。时间错开，话不必丢。",
+    "character": "c06",
+    "next": "D20-0014"
   },
   {
-    "id": "D22-r0025",
+    "id": "D20-0014",
     "kind": "line",
     "source": "转述",
-    "page": 88,
+    "page": 70,
     "pages": [
-      88
+      70,
+      71,
+      72,
+      73
     ],
-    "day": "D22",
-    "context": "现实",
-    "period": "两层还是不分层",
-    "background": "classroom",
+    "day": "D20",
+    "context": "回忆 · 温雪异地通讯",
+    "period": "时间错开",
+    "background": "home",
     "speaker": "旁白",
-    "text": "结果没有被一句“实验做完”盖过去，两批的差异仍留在观察里。",
+    "text": "信、礼物、相约签，一件一件留下。合影中，也出现过写着名字的横幅、竹签替身。",
     "character": "",
-    "next": "D22-r0026"
+    "next": "D20-r0014"
   },
   {
-    "id": "D22-r0026",
+    "id": "D20-r0014",
+    "kind": "choice",
+    "source": "补写",
+    "page": 70,
+    "pages": [
+      70,
+      71,
+      72,
+      73,
+      207,
+      209
+    ],
+    "day": "D20",
+    "context": "回忆 · 温雪异地通讯",
+    "period": "时间错开",
+    "background": "home",
+    "text": "她夜里回家，我早上醒来怎么说",
+    "speaker": "吕思宇",
+    "character": "c06",
+    "options": [
+      {
+        "text": "“昨晚的留言看到了。我今天也有件事，等你放学讲。”",
+        "next": "D20-r0015"
+      },
+      {
+        "text": "“我把想说的写成信，攒在一起寄给你。”",
+        "next": "D20-r0017"
+      },
+      {
+        "text": "我们时差总错开，没及时回的以后就都不留了。",
+        "failure": "留言赶过了夜路，却没赶上收信人替它关门。"
+      }
+    ]
+  },
+  {
+    "id": "D20-r0015",
+    "kind": "line",
+    "source": "补写",
+    "page": 70,
+    "pages": [
+      70,
+      71,
+      72,
+      73,
+      207,
+      209
+    ],
+    "day": "D20",
+    "context": "回忆 · 温雪异地通讯",
+    "period": "时间错开",
+    "background": "home",
+    "text": "“昨晚的留言看到了。我今天也有件事，等你放学讲。”",
+    "speaker": "吕思宇",
+    "character": "c06",
+    "next": "D20-r0016"
+  },
+  {
+    "id": "D20-r0016",
+    "kind": "line",
+    "source": "补写",
+    "page": 70,
+    "pages": [
+      70,
+      71,
+      72,
+      73
+    ],
+    "day": "D20",
+    "context": "回忆 · 温雪异地通讯",
+    "period": "时间错开",
+    "background": "home",
+    "speaker": "程洛怡",
+    "text": "好，回来我看。",
+    "character": "c43",
+    "next": "D20-0018"
+  },
+  {
+    "id": "D20-r0017",
+    "kind": "line",
+    "source": "补写",
+    "page": 70,
+    "pages": [
+      70,
+      71,
+      72,
+      73,
+      207,
+      209
+    ],
+    "day": "D20",
+    "context": "回忆 · 温雪异地通讯",
+    "period": "时间错开",
+    "background": "home",
+    "text": "“我把想说的写成信，攒在一起寄给你。”",
+    "speaker": "吕思宇",
+    "character": "c06",
+    "next": "D20-r0018"
+  },
+  {
+    "id": "D20-r0018",
+    "kind": "line",
+    "source": "补写",
+    "page": 70,
+    "pages": [
+      70,
+      71,
+      72,
+      73
+    ],
+    "day": "D20",
+    "context": "回忆 · 温雪异地通讯",
+    "period": "时间错开",
+    "background": "home",
+    "speaker": "程洛怡",
+    "text": "那我也给你写。",
+    "character": "c43",
+    "next": "D20-0018"
+  },
+  {
+    "id": "D20-0018",
     "kind": "scene",
     "source": "演出",
-    "page": 88,
+    "page": 70,
     "pages": [
-      88
+      70,
+      71,
+      72,
+      73
     ],
-    "day": "D22",
+    "day": "D20",
     "context": "现实",
-    "period": "擦掉的答案",
+    "period": "批红",
     "background": "classroom",
-    "text": "擦掉的答案",
+    "text": "批红",
     "character": "",
     "effect": "paper",
     "prop": null,
-    "next": "D22-r0027"
+    "next": "D20-0019"
   },
   {
-    "id": "D22-r0027",
+    "id": "D20-0019",
     "kind": "line",
     "source": "转述",
-    "page": 88,
+    "page": 70,
     "pages": [
-      88
+      70,
+      71,
+      72,
+      73
     ],
-    "day": "D22",
+    "day": "D20",
     "context": "现实",
-    "period": "擦掉的答案",
+    "period": "批红",
     "background": "classroom",
     "speaker": "旁白",
-    "text": "废答题卡流到别班，惠子宁又擦上面的答案。卡已是废的，答案却依旧有人在意。",
+    "text": "HQ在前面翻班史。一页里不只有史官的黑字，还能留下老师的批红。",
     "character": "",
-    "next": "D22-r0028"
+    "next": "D20-0020"
   },
   {
-    "id": "D22-r0028",
+    "id": "D20-0020",
     "kind": "line",
     "source": "补写",
-    "page": 88,
+    "page": 70,
     "pages": [
-      88
+      70,
+      71,
+      72,
+      73
     ],
-    "day": "D22",
+    "day": "D20",
     "context": "现实",
-    "period": "擦掉的答案",
+    "period": "批红",
     "background": "classroom",
-    "speaker": "惠子宁",
-    "text": "先擦掉这些。",
-    "character": "c14",
-    "next": "D22-r0029"
+    "speaker": "吕思宇",
+    "text": "今天主题，我爱学习，确信。",
+    "character": "c06",
+    "next": "N22-date"
   },
   {
-    "id": "D22-r0029",
-    "kind": "line",
-    "source": "补写",
-    "page": 88,
-    "pages": [
-      88
-    ],
-    "day": "D22",
-    "context": "现实",
-    "period": "擦掉的答案",
-    "background": "classroom",
-    "speaker": "同学",
-    "text": "这个也要擦？",
-    "character": "",
-    "next": "D22-r0030"
-  },
-  {
-    "id": "D22-r0030",
-    "kind": "line",
-    "source": "转述",
-    "page": 88,
-    "pages": [
-      88
-    ],
-    "day": "D22",
-    "context": "现实",
-    "period": "擦掉的答案",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "一张张清完，刚才的试验和答题卡才一起收桌。",
-    "character": "",
-    "next": "D22-r0031"
-  },
-  {
-    "id": "D22-r0031",
-    "kind": "scene",
-    "source": "演出",
-    "page": 88,
-    "pages": [
-      88
-    ],
-    "day": "D22",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "text": "课间手帐",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "D22-r0032"
-  },
-  {
-    "id": "D22-r0032",
-    "kind": "line",
-    "source": "原文",
-    "page": 88,
-    "pages": [
-      88
-    ],
-    "day": "D22",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "今日无事→确信。",
-    "character": "",
-    "next": "D22-r0033"
-  },
-  {
-    "id": "D22-r0033",
-    "kind": "line",
-    "source": "原文",
-    "page": 88,
-    "pages": [
-      88
-    ],
-    "day": "D22",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "（徐生启元补录）：",
-    "character": "",
-    "next": "D22-r0034"
-  },
-  {
-    "id": "D22-r0034",
-    "kind": "line",
-    "source": "原文",
-    "page": 88,
-    "pages": [
-      88
-    ],
-    "day": "D22",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "蕾子怒斥蕾生上课用心之不专于班中，而攘徐生之去。然蕾不知徐生当其时正写数册于座，更不料有小人举徐生之册以示众人。蕾子大惊，疾走而夺其册，自述心碎万瓣。",
-    "character": "",
-    "next": "D22-r0035"
-  },
-  {
-    "id": "D22-r0035",
-    "kind": "line",
-    "source": "原文",
-    "page": 88,
-    "pages": [
-      88
-    ],
-    "day": "D22",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "徐生悔其行，乃于课后登堂请罪，誓考90分而复得其册。后人传之为佳话。",
-    "character": "",
-    "next": "D22-r0036"
-  },
-  {
-    "id": "D22-r0036",
-    "kind": "line",
-    "source": "原文",
-    "page": 88,
-    "pages": [
-      88
-    ],
-    "day": "D22",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "有刘雷二术士炼金于班中，自以为精通其化学原理，其实不似菜茼所料。将褐稠液溢出而附于地，滋滋有气生焉，有氯味，而不知其为何物。不知者以其为徐生子涵遗矢于地也。",
-    "character": "",
-    "next": "D22-r0037"
-  },
-  {
-    "id": "D22-r0037",
-    "kind": "line",
-    "source": "原文",
-    "page": 88,
-    "pages": [
-      88
-    ],
-    "day": "D22",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "沛于废纸中得十有七班涂卡纸，怅然叹曰：“吾等之答题卡亦将流于他班诸生掌中邪？作答须敬须慎，切莫见笑于人也。”惠子谆尔而对曰：“临交卷擦净选项以橡皮，固可防之矣。”",
-    "character": "",
-    "next": "D22-r0038"
-  },
-  {
-    "id": "D22-r0038",
-    "kind": "line",
-    "source": "原文",
-    "page": 88,
-    "pages": [
-      88
-    ],
-    "day": "D22",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "又补录：“吾尝求古数学家之心，知有自然对数曰ln；今又有一偶素数曰二，故又问徐生启元：ln2与0，孰大孰小？”",
-    "character": "",
-    "next": "N29-date"
-  },
-  {
-    "id": "N29-date",
+    "id": "N22-date",
     "kind": "date",
     "source": "演出",
-    "page": 89,
+    "page": 74,
     "pages": [
-      89
+      74,
+      75,
+      236
     ],
-    "day": "N29",
-    "context": "现实",
+    "day": "N22",
+    "context": "日历编排 · 事件实日待核",
     "period": "翻到这一日",
     "background": "classroom",
-    "date": "2023-10-25",
-    "text": "你在嘲笑我吗",
-    "pov": "c09",
+    "date": "2023-10-13",
+    "text": "观测站报告",
+    "pov": "xu",
     "character": "",
-    "next": "N29-r0039"
+    "next": "N22-r0083"
   },
   {
-    "id": "N29-r0039",
+    "id": "N22-r0083",
     "kind": "portrait",
     "source": "演出",
-    "page": 89,
+    "page": 74,
     "pages": [
-      89
+      74,
+      75,
+      236
     ],
-    "day": "N29",
+    "day": "N22",
     "context": "现实",
     "period": "",
     "background": "classroom",
-    "text": "你在嘲笑我吗",
-    "pov": "c09",
-    "character": "c09",
-    "speaker": "周远持",
-    "next": "N29-r0015"
+    "text": "观测站报告",
+    "pov": "xu",
+    "character": "xu",
+    "speaker": "徐启元",
+    "next": "N22-r0021"
   },
   {
-    "id": "N29-r0015",
+    "id": "N22-r0021",
     "kind": "scene",
     "source": "演出",
-    "page": 89,
+    "page": 74,
     "pages": [
-      89
+      74,
+      75
     ],
-    "day": "N29",
-    "context": "现实",
-    "period": "红衣服的帅哥",
+    "day": "N22",
+    "context": "班史戏仿 · 原页日期改画待核",
+    "period": "SOLⅢ观测站",
     "background": "classroom",
-    "text": "红衣服的帅哥",
+    "text": "SOLⅢ观测站",
     "character": "",
     "effect": "paper",
     "prop": null,
-    "next": "N29-r0016"
+    "next": "N22-r0022"
   },
   {
-    "id": "N29-r0016",
+    "id": "N22-r0022",
     "kind": "line",
     "source": "转述",
-    "page": 89,
+    "page": 74,
     "pages": [
-      89
+      74,
+      75
     ],
-    "day": "N29",
-    "context": "现实",
-    "period": "红衣服的帅哥",
+    "day": "N22",
+    "context": "班史戏仿 · 原页日期改画待核",
+    "period": "SOLⅢ观测站",
     "background": "classroom",
-    "speaker": "旁白",
-    "text": "化学课有人睡，委员长掷粉笔正中其位，又隔远处喊。",
+    "speaker": "班史原载",
+    "text": "总督，欢迎回来。我是负责SOLⅢ RDFZ观测站的负责人泽宇。",
     "character": "",
-    "next": "N29-r0017"
+    "next": "N22-r0023"
   },
   {
-    "id": "N29-r0017",
-    "kind": "line",
-    "source": "原文",
-    "page": 89,
-    "pages": [
-      89
-    ],
-    "day": "N29",
-    "context": "现实",
-    "period": "红衣服的帅哥",
-    "background": "classroom",
-    "speaker": "博老师",
-    "text": "红衣服的帅哥～",
-    "character": "c53",
-    "next": "N29-r0018"
-  },
-  {
-    "id": "N29-r0018",
+    "id": "N22-r0023",
     "kind": "line",
     "source": "转述",
-    "page": 89,
+    "page": 74,
     "pages": [
-      89
+      74,
+      75
     ],
-    "day": "N29",
-    "context": "现实",
-    "period": "红衣服的帅哥",
+    "day": "N22",
+    "context": "班史戏仿 · 原页日期改画待核",
+    "period": "SOLⅢ观测站",
     "background": "classroom",
     "speaker": "旁白",
-    "text": "一声喊得人惊醒，还像有些自得。",
+    "text": "这一页把七班换成观测站，把一天换成地球自转周期。报告旁边留着像游戏窗口的画框。",
     "character": "",
-    "next": "N29-r0019"
+    "next": "N22-r0024"
   },
   {
-    "id": "N29-r0019",
+    "id": "N22-r0024",
+    "kind": "line",
+    "source": "转述",
+    "page": 74,
+    "pages": [
+      74,
+      75
+    ],
+    "day": "N22",
+    "context": "班史戏仿 · 原页日期改画待核",
+    "period": "SOLⅢ观测站",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "上空有奇异的云。科学家迅速按快门，才捕捉到转瞬即逝的现象。",
+    "character": "",
+    "next": "N22-r0025"
+  },
+  {
+    "id": "N22-r0025",
+    "kind": "line",
+    "source": "补写",
+    "page": 74,
+    "pages": [
+      74,
+      75
+    ],
+    "day": "N22",
+    "context": "班史戏仿 · 原页日期改画待核",
+    "period": "SOLⅢ观测站",
+    "background": "classroom",
+    "speaker": "徐启元",
+    "text": "云没留下，照片倒留下了。",
+    "character": "xu",
+    "next": "N22-r0026"
+  },
+  {
+    "id": "N22-r0026",
     "kind": "scene",
     "source": "演出",
-    "page": 89,
+    "page": 74,
     "pages": [
-      89
+      74,
+      75
     ],
-    "day": "N29",
-    "context": "现实",
-    "period": "球框与代码",
+    "day": "N22",
+    "context": "班史戏仿 · 观测报告",
+    "period": "宿敌的窗口",
     "background": "classroom",
-    "text": "球框与代码",
+    "text": "宿敌的窗口",
     "character": "",
     "effect": "paper",
     "prop": null,
-    "next": "N29-r0020"
+    "next": "N22-r0027"
   },
   {
-    "id": "N29-r0020",
+    "id": "N22-r0027",
+    "kind": "line",
+    "source": "原文",
+    "page": 75,
+    "pages": [
+      74,
+      75
+    ],
+    "day": "N22",
+    "context": "班史戏仿 · 观测报告",
+    "period": "宿敌的窗口",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "满者金银利益集团宣布小帮凶共和国为宿敌。",
+    "character": "",
+    "next": "N22-r0028"
+  },
+  {
+    "id": "N22-r0028",
     "kind": "line",
     "source": "转述",
-    "page": 89,
+    "page": 74,
     "pages": [
-      89
+      74,
+      75
     ],
-    "day": "N29",
-    "context": "现实",
-    "period": "球框与代码",
+    "day": "N22",
+    "context": "班史戏仿 · 观测报告",
+    "period": "宿敌的窗口",
     "background": "classroom",
     "speaker": "旁白",
-    "text": "持持误解球框题，能者笑他审题不细。",
+    "text": "所谓宿敌，报告归因于书包被“掷出窗外”。引号和宇宙帝国的语气，一起留在这场夸张叙述里。",
     "character": "",
-    "next": "N29-r0021"
+    "next": "N22-r0029"
   },
   {
-    "id": "N29-r0021",
+    "id": "N22-r0029",
     "kind": "line",
     "source": "补写",
-    "page": 89,
+    "page": 74,
     "pages": [
-      89
+      74,
+      75
     ],
-    "day": "N29",
-    "context": "现实",
-    "period": "球框与代码",
-    "background": "classroom",
-    "speaker": "周远持",
-    "text": "你在嘲笑我吗？",
-    "character": "c09",
-    "next": "N29-r0022"
-  },
-  {
-    "id": "N29-r0022",
-    "kind": "line",
-    "source": "补写",
-    "page": 89,
-    "pages": [
-      89
-    ],
-    "day": "N29",
-    "context": "现实",
-    "period": "球框与代码",
-    "background": "classroom",
-    "speaker": "战老师",
-    "text": "然也。天下嘲笑旁人者何其多，不言已矣。",
-    "character": "c48",
-    "next": "N29-r0023"
-  },
-  {
-    "id": "N29-r0023",
-    "kind": "line",
-    "source": "转述",
-    "page": 89,
-    "pages": [
-      89
-    ],
-    "day": "N29",
-    "context": "现实",
-    "period": "球框与代码",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "持持上黑板想显身手，又加C++。瑕疵越露越多，台下笑声还没结束。",
-    "character": "",
-    "next": "N29-r0024"
-  },
-  {
-    "id": "N29-r0024",
-    "kind": "line",
-    "source": "补写",
-    "page": 89,
-    "pages": [
-      89
-    ],
-    "day": "N29",
-    "context": "现实",
-    "period": "球框与代码",
-    "background": "classroom",
-    "speaker": "周远持",
-    "text": "又是2B。",
-    "character": "c09",
-    "next": "N29-r0025"
-  },
-  {
-    "id": "N29-r0025",
-    "kind": "scene",
-    "source": "演出",
-    "page": 89,
-    "pages": [
-      89
-    ],
-    "day": "N29",
-    "context": "现实",
-    "period": "飞盘的创意",
-    "background": "classroom",
-    "text": "飞盘的创意",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "N29-r0026"
-  },
-  {
-    "id": "N29-r0026",
-    "kind": "line",
-    "source": "补写",
-    "page": 89,
-    "pages": [
-      89
-    ],
-    "day": "N29",
-    "context": "现实",
-    "period": "飞盘的创意",
-    "background": "classroom",
-    "speaker": "孙老师",
-    "text": "戴同学飞盘的微写作，创意不错。",
-    "character": "c46",
-    "next": "N29-r0027"
-  },
-  {
-    "id": "N29-r0027",
-    "kind": "line",
-    "source": "原文",
-    "page": 89,
-    "pages": [
-      89
-    ],
-    "day": "N29",
-    "context": "现实",
-    "period": "飞盘的创意",
-    "background": "classroom",
-    "speaker": "周远持",
-    "text": "飞盘岂非狗之玩物？",
-    "character": "c09",
-    "next": "N29-r0028"
-  },
-  {
-    "id": "N29-r0028",
-    "kind": "line",
-    "source": "转述",
-    "page": 89,
-    "pages": [
-      89
-    ],
-    "day": "N29",
-    "context": "现实",
-    "period": "飞盘的创意",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "老师大骇。持持立即想把话拐走，归给家里别人说过。",
-    "character": "",
-    "next": "N29-r0029"
-  },
-  {
-    "id": "N29-r0029",
-    "kind": "line",
-    "source": "补写",
-    "page": 89,
-    "pages": [
-      89
-    ],
-    "day": "N29",
-    "context": "现实",
-    "period": "飞盘的创意",
-    "background": "classroom",
-    "speaker": "周远持",
-    "text": "这是我家里的说法……",
-    "character": "c09",
-    "next": "N29-r0030"
-  },
-  {
-    "id": "N29-r0030",
-    "kind": "line",
-    "source": "补写",
-    "page": 89,
-    "pages": [
-      89
-    ],
-    "day": "N29",
-    "context": "现实",
-    "period": "飞盘的创意",
-    "background": "classroom",
-    "speaker": "李沛霖",
-    "text": "你这个补充，来得晚了一点。",
-    "character": "c05",
-    "next": "N29-r0031"
-  },
-  {
-    "id": "N29-r0031",
-    "kind": "line",
-    "source": "转述",
-    "page": 89,
-    "pages": [
-      89
-    ],
-    "day": "N29",
-    "context": "现实",
-    "period": "飞盘的创意",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "球框到飞盘，一整天持持都没躲开自己先说出的那句话。",
-    "character": "",
-    "next": "N29-r0033"
-  },
-  {
-    "id": "N29-r0033",
-    "kind": "scene",
-    "source": "演出",
-    "page": 89,
-    "pages": [
-      89
-    ],
-    "day": "N29",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "text": "课间手帐",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "N29-r0034"
-  },
-  {
-    "id": "N29-r0034",
-    "kind": "scene",
-    "source": "演出",
-    "page": 89,
-    "pages": [
-      89
-    ],
-    "day": "N29",
-    "context": "现实",
-    "period": "数学 · 课间手帐",
-    "background": "classroom",
-    "text": "数学 · 课间手帐",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "N29-r0035"
-  },
-  {
-    "id": "N29-r0035",
-    "kind": "line",
-    "source": "原文",
-    "page": 89,
-    "pages": [
-      89
-    ],
-    "day": "N29",
-    "context": "现实",
-    "period": "数学 · 课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "持持误解球框题，能者笑其审题之心不细。持责问曰：“你在嘲个笑我么？”能者答曰：“然也。天下嘲笑旁人者何其多也，不言已矣。”余深以为然。",
-    "character": "",
-    "next": "N29-r0036"
-  },
-  {
-    "id": "N29-r0036",
-    "kind": "line",
-    "source": "原文",
-    "page": 89,
-    "pages": [
-      89
-    ],
-    "day": "N29",
-    "context": "现实",
-    "period": "数学 · 课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "持持解题于黑板上，欲炫其技，乃加之以C++云。然学术不精，瑕疵百出，为众生所嘲，实乃班门弄斧，贻笑大方之家，为后人作谈笑之资矣。",
-    "character": "",
-    "next": "N29-r0037"
-  },
-  {
-    "id": "N29-r0037",
-    "kind": "line",
-    "source": "原文",
-    "page": 89,
-    "pages": [
-      89
-    ],
-    "day": "N29",
-    "context": "现实",
-    "period": "数学 · 课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "能者大谈求神拜佛之法于班中，吾等无神论者不知若何云。",
-    "character": "",
-    "next": "N29-r0038"
-  },
-  {
-    "id": "N29-r0038",
-    "kind": "line",
-    "source": "原文",
-    "page": 89,
-    "pages": [
-      89
-    ],
-    "day": "N29",
-    "context": "现实",
-    "period": "数学 · 课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "持持公示其答案于众，曰“又是2B”。",
-    "character": "",
-    "next": "N30-date"
-  },
-  {
-    "id": "N30-date",
-    "kind": "date",
-    "source": "演出",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "翻到这一日",
-    "background": "classroom",
-    "date": "2023-10-30",
-    "text": "一百四十五的前夜",
-    "pov": "c05",
-    "character": "",
-    "next": "N30-r0057"
-  },
-  {
-    "id": "N30-r0057",
-    "kind": "portrait",
-    "source": "演出",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "",
-    "background": "classroom",
-    "text": "一百四十五的前夜",
-    "pov": "c05",
-    "character": "c05",
-    "speaker": "李沛霖",
-    "next": "N30-r0027"
-  },
-  {
-    "id": "N30-r0027",
-    "kind": "scene",
-    "source": "演出",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "班史交到考试前",
-    "background": "classroom",
-    "text": "班史交到考试前",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "N30-r0028"
-  },
-  {
-    "id": "N30-r0028",
-    "kind": "line",
-    "source": "补写",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "班史交到考试前",
-    "background": "classroom",
-    "speaker": "HQ",
-    "text": "我看你每回大考，大喜、哀号，情绪像云霄飞车。这个也可以记下来。",
-    "character": "c45",
-    "next": "N30-r0029"
-  },
-  {
-    "id": "N30-r0029",
-    "kind": "line",
-    "source": "补写",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "班史交到考试前",
-    "background": "classroom",
-    "speaker": "李沛霖",
-    "text": "只记趣事吗？怕还有哀事、异事。",
-    "character": "c05",
-    "next": "N30-r0030"
-  },
-  {
-    "id": "N30-r0030",
-    "kind": "line",
-    "source": "转述",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "班史交到考试前",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "布置考场时，老师把班史交来。沛接下考前数日，先记卷子还没发的这一天。",
-    "character": "",
-    "next": "N30-r0031"
-  },
-  {
-    "id": "N30-r0031",
-    "kind": "scene",
-    "source": "演出",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "完形十错四",
-    "background": "classroom",
-    "text": "完形十错四",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "N30-r0032"
-  },
-  {
-    "id": "N30-r0032",
-    "kind": "line",
-    "source": "转述",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "完形十错四",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "有人做往年的英语卷来提振信心，完形先错十道里的四道，信心反而落下去。",
-    "character": "",
-    "next": "N30-r0033"
-  },
-  {
-    "id": "N30-r0033",
-    "kind": "line",
-    "source": "补写",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "完形十错四",
-    "background": "classroom",
-    "speaker": "同学",
-    "text": "杨sir说，这里不错、那里不错，一百四十五就唾手可得。",
-    "character": "",
-    "next": "N30-r0034"
-  },
-  {
-    "id": "N30-r0034",
-    "kind": "line",
-    "source": "补写",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "完形十错四",
-    "background": "classroom",
-    "speaker": "李沛霖",
-    "text": "这回倒显得一百四十五特别容易，可我还在看错的那四道。",
-    "character": "c05",
-    "next": "N30-r0035"
-  },
-  {
-    "id": "N30-r0035",
-    "kind": "scene",
-    "source": "演出",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "医生与老师",
-    "background": "classroom",
-    "text": "医生与老师",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "N30-r0036"
-  },
-  {
-    "id": "N30-r0036",
-    "kind": "line",
-    "source": "补写",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "医生与老师",
-    "background": "classroom",
-    "speaker": "李沛霖",
-    "text": "学医要七八年，如今又卷，名校毕业、学精了才有机会去好医院继续。每天还得和病人谈，精神上也可能被影响。",
-    "character": "c05",
-    "next": "N30-r0037"
-  },
-  {
-    "id": "N30-r0037",
-    "kind": "line",
-    "source": "补写",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "医生与老师",
-    "background": "classroom",
-    "speaker": "周远持",
-    "text": "照你这么说，HQ和我们，跟医患关系有什么区别？",
-    "character": "c09",
-    "next": "N30-r0038"
-  },
-  {
-    "id": "N30-r0038",
-    "kind": "line",
-    "source": "转述",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "医生与老师",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "众人笑而不语。玩笑之外，救死扶伤仍让人敬重，沛把这层也记进页里。",
-    "character": "",
-    "next": "N30-r0039"
-  },
-  {
-    "id": "N30-r0039",
-    "kind": "scene",
-    "source": "演出",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "压轴不是重灾区",
-    "background": "classroom",
-    "text": "压轴不是重灾区",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "N30-r0040"
-  },
-  {
-    "id": "N30-r0040",
-    "kind": "line",
-    "source": "补写",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "压轴不是重灾区",
-    "background": "classroom",
-    "speaker": "李沛霖",
-    "text": "老师，再看一下这道压轴。",
-    "character": "c05",
-    "next": "N30-r0041"
-  },
-  {
-    "id": "N30-r0041",
-    "kind": "line",
-    "source": "转述",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "压轴不是重灾区",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "HQ答完，看过他的卷子，又笑了。",
-    "character": "",
-    "next": "N30-r0042"
-  },
-  {
-    "id": "N30-r0042",
-    "kind": "line",
-    "source": "补写",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "压轴不是重灾区",
-    "background": "classroom",
-    "speaker": "HQ",
-    "text": "这题不过如此。你的重灾区在这里吗？简单的题先做到迅而稳。",
-    "character": "c45",
-    "next": "N30-r0043"
-  },
-  {
-    "id": "N30-r0043",
-    "kind": "line",
-    "source": "补写",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "压轴不是重灾区",
-    "background": "classroom",
-    "speaker": "李沛霖",
-    "text": "先把容易错的守住，不光盯压轴。",
-    "character": "c05",
-    "next": "N30-r0044"
-  },
-  {
-    "id": "N30-r0044",
-    "kind": "line",
-    "source": "转述",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "压轴不是重灾区",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "复习方法和睡眠也要准备，文具收好。明天的“唾手可得”，得等明天那张卷检验。",
-    "character": "",
-    "next": "N30-r0045"
-  },
-  {
-    "id": "N30-r0045",
-    "kind": "scene",
-    "source": "演出",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "text": "课间手帐",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "N30-r0046"
-  },
-  {
-    "id": "N30-r0046",
-    "kind": "line",
-    "source": "原文",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "原页日期：10.30。",
-    "character": "",
-    "next": "N30-r0047"
-  },
-  {
-    "id": "N30-r0047",
-    "kind": "line",
-    "source": "原文",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "期中前数日，置考场之时，HQ谓余曰：“吾观汝向之大试，或大喜伴其间，或哀号随其中，情志之变，迅而疾，多而杂，如云霄飞车，观之令人生趣也。汝可记之。”乃授班史于吾。",
-    "character": "",
-    "next": "N30-r0048"
-  },
-  {
-    "id": "N30-r0048",
-    "kind": "line",
-    "source": "原文",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "余故为此数日之史官，录大试之趣事也。",
-    "character": "",
-    "next": "N30-r0049"
-  },
-  {
-    "id": "N30-r0049",
-    "kind": "line",
-    "source": "原文",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "有生习于往年之英语卷，欲以提振信心。然于完形，即已十者失四，哀恸甚矣。众生论此文之异，又有人论及华子之语：“无误于此，无误于彼，如此这般，则一百四十有五，唾手可得矣。",
-    "character": "",
-    "next": "N30-r0050"
-  },
-  {
-    "id": "N30-r0050",
-    "kind": "line",
-    "source": "原文",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "”众人哂之，感于得一百四十五于英语实为易之甚也。",
-    "character": "",
-    "next": "N30-r0051"
-  },
-  {
-    "id": "N30-r0051",
-    "kind": "line",
-    "source": "原文",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "众人于复习之余议诸职业。沛霖曰：“余甚不可解其欲为医者也。学于校，七、八年方止。如今也卷之甚，非学精于名校毕业者不得宅于著名医馆而得续进也。",
-    "character": "",
-    "next": "N30-r0052"
-  },
-  {
-    "id": "N30-r0052",
-    "kind": "line",
-    "source": "原文",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "更可愁之处，则以为每日与谈者，多为病者，其精神亦病而有异也①。”持持曰：“依此言，则HQ与诸生，其与医患之关系，有何异哉？”众人笑而不语。",
-    "character": "",
-    "next": "N30-r0053"
-  },
-  {
-    "id": "N30-r0053",
-    "kind": "line",
-    "source": "原文",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "①原话为：每天都跟一帮＊＊说话，病了精神上估计也不太正常。",
-    "character": "",
-    "next": "N30-r0054"
-  },
-  {
-    "id": "N30-r0054",
-    "kind": "line",
-    "source": "原文",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "（然欲为医者，救死扶伤，实真令人敬也。）",
-    "character": "",
-    "next": "N30-r0055"
-  },
-  {
-    "id": "N30-r0055",
-    "kind": "line",
-    "source": "原文",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "考前，余咨HQ以压轴之问。答毕，HQ笑曰：“此题不过如此耳，然观汝之卷，重灾之问，岂出于此乎？迅而稳，得之答，完满于中，易之问复为第一要务也。”余深以为然。",
-    "character": "",
-    "next": "N30-r0056"
-  },
-  {
-    "id": "N30-r0056",
-    "kind": "line",
-    "source": "原文",
-    "page": 90,
-    "pages": [
-      90
-    ],
-    "day": "N30",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "考前，通习以得之途，早憩以致盈满之眠，则次日之战，方可如华子所言，无往不利如唾手耳！",
-    "character": "",
-    "next": "D23-date"
-  },
-  {
-    "id": "D23-date",
-    "kind": "date",
-    "source": "演出",
-    "page": 91,
-    "pages": [
-      91
-    ],
-    "day": "D23",
-    "context": "现实",
-    "period": "翻到这一日",
-    "background": "classroom",
-    "date": "2023-10-31",
-    "text": "期中首日",
-    "pov": "c05",
-    "character": "",
-    "next": "D23-r0022"
-  },
-  {
-    "id": "D23-r0022",
-    "kind": "portrait",
-    "source": "演出",
-    "page": 91,
-    "pages": [
-      91
-    ],
-    "day": "D23",
-    "context": "现实",
-    "period": "",
-    "background": "classroom",
-    "text": "期中首日",
-    "pov": "c05",
-    "character": "c05",
-    "speaker": "李沛霖",
-    "next": "D23-0005"
-  },
-  {
-    "id": "D23-0005",
-    "kind": "scene",
-    "source": "演出",
-    "page": 91,
-    "pages": [
-      91
-    ],
-    "day": "D23",
-    "context": "现实",
-    "period": "期中首日",
-    "background": "classroom",
-    "text": "期中首日",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "D23-0006"
-  },
-  {
-    "id": "D23-0006",
-    "kind": "line",
-    "source": "补写",
-    "page": 91,
-    "pages": [
-      91
-    ],
-    "day": "D23",
-    "context": "现实",
-    "period": "期中首日",
-    "background": "classroom",
-    "speaker": "李沛霖",
-    "text": "稳了！稳了！……选项一出来，好像没那么稳。",
-    "character": "c05",
-    "next": "D23-0007"
-  },
-  {
-    "id": "D23-0007",
-    "kind": "line",
-    "source": "补写",
-    "page": 91,
-    "pages": [
-      91
-    ],
-    "day": "D23",
-    "context": "现实",
-    "period": "期中首日",
-    "background": "classroom",
-    "speaker": "同学",
-    "text": "自信如曹子桓，结果又想起江东徐盛。",
-    "character": "",
-    "next": "D23-0008"
-  },
-  {
-    "id": "D23-0008",
-    "kind": "line",
-    "source": "补写",
-    "page": 91,
-    "pages": [
-      91
-    ],
-    "day": "D23",
-    "context": "现实",
-    "period": "期中首日",
-    "background": "classroom",
-    "speaker": "李沛霖",
-    "text": "物理从实验到后面大题，时间越来越紧。送分没接住，险些送命。",
-    "character": "c05",
-    "next": "D23-0009"
-  },
-  {
-    "id": "D23-0009",
-    "kind": "line",
-    "source": "补写",
-    "page": 91,
-    "pages": [
-      91
-    ],
-    "day": "D23",
-    "context": "现实",
-    "period": "期中首日",
+    "day": "N22",
+    "context": "班史戏仿 · 观测报告",
+    "period": "宿敌的窗口",
     "background": "classroom",
     "speaker": "徐子涵",
-    "text": "这次我语文一百三，数学一百四十五，英语一百四十五……全市状元。",
+    "text": "这报告写得，我还真成一个集团了。",
     "character": "c03",
-    "next": "D23-r0010"
+    "next": "interactive-N22-r0029"
   },
   {
-    "id": "D23-r0010",
-    "kind": "line",
-    "source": "补写",
-    "page": 91,
-    "pages": [
-      91
-    ],
-    "day": "D23",
-    "context": "现实",
-    "period": "期中首日",
+    "day": "N22",
+    "context": "班史戏仿 · 观测报告",
+    "period": "宿敌的窗口",
     "background": "classroom",
-    "speaker": "李沛霖",
-    "text": "卷子还在老师手里，你倒先把全市状元领了。",
-    "character": "c05",
-    "next": "D23-r0011"
-  },
-  {
-    "id": "D23-r0011",
+    "page": 74,
+    "pages": [
+      74,
+      75
+    ],
+    "source": "补写",
+    "id": "interactive-N22-r0029",
     "kind": "choice",
-    "source": "补写",
-    "page": 91,
-    "pages": [
-      91
-    ],
-    "day": "D23",
-    "context": "现实",
-    "period": "期中首日",
-    "background": "classroom",
-    "text": "考完后，我怎样和同学说",
-    "speaker": "李沛霖",
-    "character": "c05",
+    "text": "观测报告把满者写成集团，我怎么接？",
+    "speaker": "徐启元",
+    "character": "xu",
     "options": [
       {
-        "text": "“先喘口气，刚才那几道我还真得回去看看。”",
-        "next": "D23-r0012"
+        "text": "报告这口气挺大，你先认哪一段？",
+        "next": "interactive-N22-r0029-say1"
       },
       {
-        "text": "“今天先吃饭，等分出来再看哪里错了。”",
-        "next": "D23-r0014"
+        "text": "宿敌的窗口都开好了，你的解释呢？",
+        "next": "interactive-N22-r0029-say2"
       },
       {
-        "text": "“分还没出，我先替大家宣布全胜。”",
-        "failure": "庆功话说完，试卷才刚到阅卷老师手里。"
+        "text": "报告写得正式，那就都当实事记吧。",
+        "failure": "观测站盖了一个虚构章，现实却没同意并入。"
+      },
+      {
+        "text": "你名字在里面，就算你亲口承认了。",
+        "failure": "名字签了到，满者却被代签了整份报告。"
       }
     ]
   },
   {
-    "id": "D23-r0012",
+    "day": "N22",
+    "context": "班史戏仿 · 观测报告",
+    "period": "宿敌的窗口",
+    "background": "classroom",
+    "page": 74,
+    "pages": [
+      74,
+      75
+    ],
+    "source": "补写",
+    "id": "interactive-N22-r0029-say1",
+    "kind": "line",
+    "text": "报告这口气挺大，你先认哪一段？",
+    "speaker": "徐启元",
+    "character": "xu",
+    "next": "interactive-N22-r0029-reply1"
+  },
+  {
+    "day": "N22",
+    "context": "班史戏仿 · 观测报告",
+    "period": "宿敌的窗口",
+    "background": "classroom",
+    "page": 74,
+    "pages": [
+      74,
+      75
+    ],
+    "source": "补写",
+    "id": "interactive-N22-r0029-reply1",
+    "kind": "line",
+    "text": "我认名字，不认全篇。",
+    "speaker": "徐子涵",
+    "character": "c03",
+    "next": "N22-r0030"
+  },
+  {
+    "day": "N22",
+    "context": "班史戏仿 · 观测报告",
+    "period": "宿敌的窗口",
+    "background": "classroom",
+    "page": 74,
+    "pages": [
+      74,
+      75
+    ],
+    "source": "补写",
+    "id": "interactive-N22-r0029-say2",
+    "kind": "line",
+    "text": "宿敌的窗口都开好了，你的解释呢？",
+    "speaker": "徐启元",
+    "character": "xu",
+    "next": "interactive-N22-r0029-reply2"
+  },
+  {
+    "day": "N22",
+    "context": "班史戏仿 · 观测报告",
+    "period": "宿敌的窗口",
+    "background": "classroom",
+    "page": 74,
+    "pages": [
+      74,
+      75
+    ],
+    "source": "补写",
+    "id": "interactive-N22-r0029-reply2",
+    "kind": "line",
+    "text": "先让我读完。",
+    "speaker": "徐子涵",
+    "character": "c03",
+    "next": "N22-r0030"
+  },
+  {
+    "id": "N22-r0030",
     "kind": "line",
     "source": "补写",
-    "page": 91,
+    "page": 74,
     "pages": [
-      91
+      74,
+      75
     ],
-    "day": "D23",
-    "context": "现实",
-    "period": "期中首日",
+    "day": "N22",
+    "context": "班史戏仿 · 观测报告",
+    "period": "宿敌的窗口",
     "background": "classroom",
-    "text": "“先喘口气，刚才那几道我还真得回去看看。”",
-    "speaker": "李沛霖",
-    "character": "c05",
-    "next": "D23-r0013"
+    "speaker": "李沐衡",
+    "text": "共和国也收到通知了？",
+    "character": "c17",
+    "next": "interactive-N22-r0030"
   },
   {
-    "id": "D23-r0013",
-    "kind": "line",
+    "day": "N22",
+    "context": "班史戏仿 · 观测报告",
+    "period": "宿敌的窗口",
+    "background": "classroom",
+    "page": 74,
+    "pages": [
+      74,
+      75
+    ],
     "source": "补写",
-    "page": 91,
-    "pages": [
-      91
-    ],
-    "day": "D23",
-    "context": "现实",
-    "period": "期中首日",
-    "background": "classroom",
-    "speaker": "雷昱",
-    "text": "我也有几道没把握。",
-    "character": "lei",
-    "next": "D23-r0016"
-  },
-  {
-    "id": "D23-r0014",
-    "kind": "line",
-    "source": "补写",
-    "page": 91,
-    "pages": [
-      91
-    ],
-    "day": "D23",
-    "context": "现实",
-    "period": "期中首日",
-    "background": "classroom",
-    "text": "“今天先吃饭，等分出来再看哪里错了。”",
-    "speaker": "李沛霖",
-    "character": "c05",
-    "next": "D23-r0015"
-  },
-  {
-    "id": "D23-r0015",
-    "kind": "line",
-    "source": "补写",
-    "page": 91,
-    "pages": [
-      91
-    ],
-    "day": "D23",
-    "context": "现实",
-    "period": "期中首日",
-    "background": "classroom",
-    "speaker": "雷昱",
-    "text": "先走，食堂要排队了。",
-    "character": "lei",
-    "next": "D23-r0016"
-  },
-  {
-    "id": "D23-r0016",
-    "kind": "line",
-    "source": "补写",
-    "page": 91,
-    "pages": [
-      91
-    ],
-    "day": "D23",
-    "context": "现实",
-    "period": "期中首日",
-    "background": "classroom",
-    "speaker": "李沛霖",
-    "text": "语文物理先考完了，回去还得接着准备后面的。",
-    "character": "c05",
-    "next": "D23-r0023"
-  },
-  {
-    "id": "D23-r0023",
-    "kind": "scene",
-    "source": "演出",
-    "page": 91,
-    "pages": [
-      91
-    ],
-    "day": "D23",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "text": "课间手帐",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "D23-r0024"
-  },
-  {
-    "id": "D23-r0024",
-    "kind": "line",
-    "source": "原文",
-    "page": 91,
-    "pages": [
-      91
-    ],
-    "day": "D23",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "物理试毕，叹万物之理难求者更蕃。此卷自始即困影重重，至实验似有回转之意。然视大题，自第三题始，新意即出，至万有引力，意以为送分，终几至于送命也；再至于流体，“微重力”之类时间已殆尽。",
-    "character": "",
-    "next": "D23-r0025"
-  },
-  {
-    "id": "D23-r0025",
-    "kind": "line",
-    "source": "原文",
-    "page": 91,
-    "pages": [
-      91
-    ],
-    "day": "D23",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "呜呼哀哉！",
-    "character": "",
-    "next": "D23-r0026"
-  },
-  {
-    "id": "D23-r0026",
-    "kind": "line",
-    "source": "原文",
-    "page": 91,
-    "pages": [
-      91
-    ],
-    "day": "D23",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "这次徐子涵：",
-    "character": "",
-    "next": "D23-r0027"
-  },
-  {
-    "id": "D23-r0027",
-    "kind": "line",
-    "source": "原文",
-    "page": 91,
-    "pages": [
-      91
-    ],
-    "day": "D23",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "语文130+／数学145+／英语145+／物理94／化学100／历史100。",
-    "character": "",
-    "next": "D23-r0028"
-  },
-  {
-    "id": "D23-r0028",
-    "kind": "line",
-    "source": "原文",
-    "page": 91,
-    "pages": [
-      91
-    ],
-    "day": "D23",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "总分720分，全市状元。",
-    "character": "",
-    "next": "D23-r0029"
-  },
-  {
-    "id": "D23-r0029",
-    "kind": "line",
-    "source": "原文",
-    "page": 91,
-    "pages": [
-      91
-    ],
-    "day": "D23",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "史官曰：是。（李昊宇表情包）",
-    "character": "",
-    "next": "D23-r0019"
-  },
-  {
-    "id": "D23-r0019",
-    "kind": "scene",
-    "source": "演出",
-    "page": 91,
-    "pages": [
-      91
-    ],
-    "day": "D23",
-    "context": "回忆 · 日志补记",
-    "period": "补记的前因",
-    "background": "classroom",
-    "text": "补记的前因",
-    "character": "",
-    "effect": "memory",
-    "prop": null,
-    "next": "D23-r0020"
-  },
-  {
-    "id": "D23-r0020",
-    "kind": "line",
-    "source": "原文",
-    "page": 91,
-    "pages": [
-      91
-    ],
-    "day": "D23",
-    "context": "回忆 · 日志补记",
-    "period": "补记的前因",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "补录：是夜，语文答案已出，而吾求之不得。尝求于雷子，未得之。余恳请再三，呼以“我↗要↘答↗案↗”，三番五次，雷子终不胜其烦，退而予余之。",
-    "character": "",
-    "next": "N31-date"
-  },
-  {
-    "id": "N31-date",
-    "kind": "date",
-    "source": "演出",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N31",
-    "context": "现实",
-    "period": "翻到这一日",
-    "background": "classroom",
-    "date": "2023-11-01",
-    "text": "九十五与九十之初",
-    "pov": "c05",
-    "character": "",
-    "next": "N31-r0033"
-  },
-  {
-    "id": "N31-r0033",
-    "kind": "portrait",
-    "source": "演出",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N31",
-    "context": "现实",
-    "period": "",
-    "background": "classroom",
-    "text": "九十五与九十之初",
-    "pov": "c05",
-    "character": "c05",
-    "speaker": "李沛霖",
-    "next": "N31-r0016"
-  },
-  {
-    "id": "N31-r0016",
-    "kind": "scene",
-    "source": "演出",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N31",
-    "context": "现实",
-    "period": "数学试毕",
-    "background": "classroom",
-    "text": "数学试毕",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "N31-r0017"
-  },
-  {
-    "id": "N31-r0017",
-    "kind": "line",
-    "source": "转述",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N31",
-    "context": "现实",
-    "period": "数学试毕",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "数学考完，三角和导数的失分把心往下拽。回想数理语文，再看还没考的化学，焦虑又加一层。",
-    "character": "",
-    "next": "N31-r0018"
-  },
-  {
-    "id": "N31-r0018",
-    "kind": "line",
-    "source": "补写",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N31",
-    "context": "现实",
-    "period": "数学试毕",
-    "background": "classroom",
-    "speaker": "李沛霖",
-    "text": "这次只能在化学复生了。",
-    "character": "c05",
-    "next": "N31-r0019"
-  },
-  {
-    "id": "N31-r0019",
-    "kind": "line",
-    "source": "转述",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N31",
-    "context": "现实",
-    "period": "数学试毕",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "持持、萌童等人还在谈末尾几问，听不明白的人更想换个话题。",
-    "character": "",
-    "next": "N31-r0020"
-  },
-  {
-    "id": "N31-r0020",
-    "kind": "scene",
-    "source": "演出",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N31",
-    "context": "现实",
-    "period": "化学出来",
-    "background": "corridor",
-    "text": "化学出来",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "N31-r0021"
-  },
-  {
-    "id": "N31-r0021",
-    "kind": "line",
-    "source": "补写",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N31",
-    "context": "现实",
-    "period": "化学出来",
-    "background": "corridor",
-    "speaker": "李沛霖",
-    "text": "终于像一份正常的命题了。",
-    "character": "c05",
-    "next": "N31-r0022"
-  },
-  {
-    "id": "N31-r0022",
-    "kind": "line",
-    "source": "补写",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N31",
-    "context": "现实",
-    "period": "化学出来",
-    "background": "corridor",
-    "speaker": "同学",
-    "text": "你估多少？",
-    "character": "",
-    "next": "N31-r0023"
-  },
-  {
-    "id": "N31-r0023",
-    "kind": "line",
-    "source": "补写",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N31",
-    "context": "现实",
-    "period": "化学出来",
-    "background": "corridor",
-    "speaker": "李沛霖",
-    "text": "先别急，等答案。",
-    "character": "c05",
-    "next": "N31-r0024"
-  },
-  {
-    "id": "N31-r0024",
-    "kind": "scene",
-    "source": "演出",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N31",
-    "context": "此后 · 期中答案公布",
-    "period": "后来核答案",
-    "background": "classroom",
-    "text": "后来核答案",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "N31-r0025"
-  },
-  {
-    "id": "N31-r0025",
-    "kind": "line",
-    "source": "转述",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N31",
-    "context": "此后 · 期中答案公布",
-    "period": "后来核答案",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "史官回看答案，曾觉得九十五以上唾手可得，真正数字却只到九十之初。",
-    "character": "",
-    "next": "N31-r0026"
-  },
-  {
-    "id": "N31-r0026",
-    "kind": "line",
-    "source": "补写",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N31",
-    "context": "此后 · 期中答案公布",
-    "period": "后来核答案",
-    "background": "classroom",
-    "speaker": "李沛霖",
-    "text": "当时那只手，还是伸远了。",
-    "character": "c05",
-    "next": "N31-r0027"
-  },
-  {
-    "id": "N31-r0027",
-    "kind": "line",
-    "source": "转述",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N31",
-    "context": "此后 · 期中答案公布",
-    "period": "后来核答案",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "“大悲”两个字补在纸上，和出考场时那句庆幸挨在一起。",
-    "character": "",
-    "next": "N31-r0029"
-  },
-  {
-    "id": "N31-r0029",
-    "kind": "scene",
-    "source": "演出",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N31",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "text": "课间手帐",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "N31-r0030"
-  },
-  {
-    "id": "N31-r0030",
-    "kind": "line",
-    "source": "原文",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N31",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "11.1 期中次日",
-    "character": "",
-    "next": "N31-r0031"
-  },
-  {
-    "id": "N31-r0031",
-    "kind": "line",
-    "source": "原文",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N31",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "数学试毕，笔者大叹，三角导数尽失，悲痛欲绝，将呼天抢地之时，回观数、理及语文之困，略作估量，更感化学之将亡。又闻持持、萌童等人似胸有成竹议末者数问，吾更不知其所云，只可复生于化学。",
-    "character": "",
-    "next": "N31-r0032"
-  },
-  {
-    "id": "N31-r0032",
-    "kind": "line",
-    "source": "原文",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N31",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "化学试毕，方感此为本大试间唯一正常之命题人也。",
-    "character": "",
-    "next": "N31-r0006"
-  },
-  {
-    "id": "N31-r0006",
-    "kind": "scene",
-    "source": "演出",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N31",
-    "context": "回忆 · 日志补记",
-    "period": "补记的前因",
-    "background": "classroom",
-    "text": "补记的前因",
-    "character": "",
-    "effect": "memory",
-    "prop": null,
-    "next": "N31-r0007"
-  },
-  {
-    "id": "N31-r0007",
-    "kind": "line",
-    "source": "原文",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N31",
-    "context": "回忆 · 日志补记",
-    "period": "补记的前因",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "补录：余观其答案，自觉九十又五以上，唾手可得也，然止于九十之初，大悲。",
-    "character": "",
-    "next": "N32-date"
-  },
-  {
-    "id": "N32-date",
-    "kind": "date",
-    "source": "演出",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N32",
-    "context": "现实",
-    "period": "翻到这一日",
-    "background": "classroom",
-    "date": "2023-11-02",
-    "text": "虽败犹胜的D派",
-    "pov": "c05",
-    "character": "",
-    "next": "N32-r0042"
-  },
-  {
-    "id": "N32-r0042",
-    "kind": "portrait",
-    "source": "演出",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N32",
-    "context": "现实",
-    "period": "",
-    "background": "classroom",
-    "text": "虽败犹胜的D派",
-    "pov": "c05",
-    "character": "c05",
-    "speaker": "李沛霖",
-    "next": "N32-r0016"
-  },
-  {
-    "id": "N32-r0016",
-    "kind": "scene",
-    "source": "演出",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N32",
-    "context": "现实",
-    "period": "十拿九稳",
-    "background": "classroom",
-    "text": "十拿九稳",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "N32-r0017"
-  },
-  {
-    "id": "N32-r0017",
-    "kind": "line",
-    "source": "转述",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N32",
-    "context": "现实",
-    "period": "十拿九稳",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "英语卷到手，史官想起昨日“一百四十五”。越往下做，越想重新解释“十拿九稳”。",
-    "character": "",
-    "next": "N32-r0018"
-  },
-  {
-    "id": "N32-r0018",
-    "kind": "line",
-    "source": "补写",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N32",
-    "context": "现实",
-    "period": "十拿九稳",
-    "background": "classroom",
-    "speaker": "李沛霖",
-    "text": "完形和阅表取九分，那一百四十，还未可知。",
-    "character": "c05",
-    "next": "N32-r0019"
-  },
-  {
-    "id": "N32-r0019",
-    "kind": "line",
-    "source": "补写",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N32",
-    "context": "现实",
-    "period": "十拿九稳",
-    "background": "classroom",
-    "speaker": "同学",
-    "text": "你这个算法，稳的部分倒挺小。",
-    "character": "",
-    "next": "N32-r0020"
-  },
-  {
-    "id": "N32-r0020",
-    "kind": "scene",
-    "source": "演出",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N32",
-    "context": "现实",
-    "period": "各自的末场",
-    "background": "corridor",
-    "text": "各自的末场",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "N32-r0021"
-  },
-  {
-    "id": "N32-r0021",
-    "kind": "line",
-    "source": "转述",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N32",
-    "context": "现实",
-    "period": "各自的末场",
-    "background": "corridor",
-    "speaker": "旁白",
-    "text": "英语之后，有人潇洒离开，有人到下午休息，还有人要考到傍晚。选科不同，离场的太阳也不同。",
-    "character": "",
-    "next": "N32-r0022"
-  },
-  {
-    "id": "N32-r0022",
-    "kind": "line",
-    "source": "补写",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N32",
-    "context": "现实",
-    "period": "各自的末场",
-    "background": "corridor",
-    "speaker": "李沛霖",
-    "text": "酉时还在考的人，今日特别不幸。",
-    "character": "c05",
-    "next": "N32-r0023"
-  },
-  {
-    "id": "N32-r0023",
-    "kind": "scene",
-    "source": "演出",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N32",
-    "context": "现实",
-    "period": "B与D",
-    "background": "classroom",
-    "text": "B与D",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "N32-r0024"
-  },
-  {
-    "id": "N32-r0024",
-    "kind": "line",
-    "source": "转述",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N32",
-    "context": "现实",
-    "period": "B与D",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "历史出来，末两问分成B、D两派。史官在考场原觉得容易，讨论却被B派压住。",
-    "character": "",
-    "next": "N32-r0032"
-  },
-  {
-    "id": "N32-r0032",
+    "id": "interactive-N22-r0030",
     "kind": "choice",
-    "source": "补写",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N32",
-    "context": "现实",
-    "period": "B与D",
-    "background": "classroom",
-    "text": "争论时我怎样守住自己的判断",
-    "speaker": "李沛霖",
-    "character": "c05",
+    "text": "沐衡问共和国也收到通知，我怎么接？",
+    "speaker": "徐启元",
+    "character": "xu",
     "options": [
       {
-        "text": "“我还选D，先把各自理由对一遍。”",
-        "next": "N32-r0033"
+        "text": "先看看通知里怎么写你，别急着认领。",
+        "next": "interactive-N22-r0030-say1"
       },
       {
-        "text": "“你们讲得有道理，我保留D，等答案再看。”",
-        "next": "N32-r0035"
+        "text": "这一页的称号真齐，前面那个也得连着看。",
+        "next": "interactive-N22-r0030-say2"
       },
       {
-        "text": "“选B的都不配讨论，理由我也不听。”",
-        "failure": "D派还没等到答案，先把整个讨论室划成了禁言区。"
+        "text": "收到通知就当事情真发生过了。",
+        "failure": "通知传到了手里，戏仿却忘了保留引号。"
+      },
+      {
+        "text": "只留共和国这个名，别的设定自己补。",
+        "failure": "国号很响，前面的玩笑却没有接上。"
       }
     ]
   },
   {
-    "id": "N32-r0033",
-    "kind": "line",
+    "day": "N22",
+    "context": "班史戏仿 · 观测报告",
+    "period": "宿敌的窗口",
+    "background": "classroom",
+    "page": 74,
+    "pages": [
+      74,
+      75
+    ],
     "source": "补写",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N32",
-    "context": "现实",
-    "period": "B与D",
-    "background": "classroom",
-    "text": "“我还选D，先把各自理由对一遍。”",
-    "speaker": "李沛霖",
-    "character": "c05",
-    "next": "N32-r0034"
+    "id": "interactive-N22-r0030-say1",
+    "kind": "line",
+    "text": "先看看通知里怎么写你，别急着认领。",
+    "speaker": "徐启元",
+    "character": "xu",
+    "next": "interactive-N22-r0030-reply1"
   },
   {
-    "id": "N32-r0034",
-    "kind": "line",
+    "day": "N22",
+    "context": "班史戏仿 · 观测报告",
+    "period": "宿敌的窗口",
+    "background": "classroom",
+    "page": 74,
+    "pages": [
+      74,
+      75
+    ],
     "source": "补写",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N32",
-    "context": "现实",
-    "period": "B与D",
-    "background": "classroom",
-    "speaker": "同学",
-    "text": "行，那你也说说为什么选D。",
-    "character": "",
-    "next": "N32-r0025"
+    "id": "interactive-N22-r0030-reply1",
+    "kind": "line",
+    "text": "我先翻这一段。",
+    "speaker": "李沐衡",
+    "character": "c17",
+    "next": "N22-r0031"
   },
   {
-    "id": "N32-r0035",
-    "kind": "line",
+    "day": "N22",
+    "context": "班史戏仿 · 观测报告",
+    "period": "宿敌的窗口",
+    "background": "classroom",
+    "page": 74,
+    "pages": [
+      74,
+      75
+    ],
     "source": "补写",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N32",
-    "context": "现实",
-    "period": "B与D",
-    "background": "classroom",
-    "text": "“你们讲得有道理，我保留D，等答案再看。”",
-    "speaker": "李沛霖",
-    "character": "c05",
-    "next": "N32-r0036"
+    "id": "interactive-N22-r0030-say2",
+    "kind": "line",
+    "text": "这一页的称号真齐，前面那个也得连着看。",
+    "speaker": "徐启元",
+    "character": "xu",
+    "next": "interactive-N22-r0030-reply2"
   },
   {
-    "id": "N32-r0036",
-    "kind": "line",
+    "day": "N22",
+    "context": "班史戏仿 · 观测报告",
+    "period": "宿敌的窗口",
+    "background": "classroom",
+    "page": 74,
+    "pages": [
+      74,
+      75
+    ],
     "source": "补写",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N32",
-    "context": "现实",
-    "period": "B与D",
-    "background": "classroom",
-    "speaker": "同学",
-    "text": "先留着，等公布再核。",
-    "character": "",
-    "next": "N32-r0025"
-  },
-  {
-    "id": "N32-r0025",
+    "id": "interactive-N22-r0030-reply2",
     "kind": "line",
-    "source": "补写",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N32",
-    "context": "现实",
-    "period": "B与D",
-    "background": "classroom",
-    "speaker": "李沛霖",
-    "text": "我在D这边。",
-    "character": "c05",
-    "next": "N32-r0026"
+    "text": "都在报告里。",
+    "speaker": "李沐衡",
+    "character": "c17",
+    "next": "N22-r0031"
   },
   {
-    "id": "N32-r0026",
-    "kind": "line",
-    "source": "补写",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N32",
-    "context": "现实",
-    "period": "B与D",
-    "background": "classroom",
-    "speaker": "同学",
-    "text": "先把理由说出来。",
-    "character": "",
-    "next": "N32-r0027"
-  },
-  {
-    "id": "N32-r0027",
-    "kind": "line",
-    "source": "转述",
-    "page": 92,
-    "pages": [
-      92
-    ],
-    "day": "N32",
-    "context": "现实",
-    "period": "B与D",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "论争没赢，危迫感倒先来了。",
-    "character": "",
-    "next": "N32-r0028"
-  },
-  {
-    "id": "N32-r0028",
+    "id": "N22-r0031",
     "kind": "scene",
     "source": "演出",
-    "page": 92,
+    "page": 74,
     "pages": [
-      92
+      74,
+      75
     ],
-    "day": "N32",
-    "context": "此后 · 期中答案公布",
-    "period": "答案既出",
+    "day": "N22",
+    "context": "班史戏仿 · 观测报告",
+    "period": "期中加成",
     "background": "classroom",
-    "text": "答案既出",
+    "text": "期中加成",
     "character": "",
     "effect": "paper",
     "prop": null,
-    "next": "N32-r0029"
+    "next": "N22-r0032"
   },
   {
-    "id": "N32-r0029",
+    "id": "N22-r0032",
     "kind": "line",
-    "source": "原文",
-    "page": 92,
+    "source": "转述",
+    "page": 74,
     "pages": [
-      92
+      74,
+      75
     ],
-    "day": "N32",
-    "context": "此后 · 期中答案公布",
-    "period": "答案既出",
+    "day": "N22",
+    "context": "班史戏仿 · 观测报告",
+    "period": "期中加成",
     "background": "classroom",
     "speaker": "班史原载",
-    "text": "其终为D。",
+    "text": "满者，首席科学家。做题速度加百分之百，正确率加百分之百。相对难度：宛若神明。",
     "character": "",
-    "next": "N32-r0030"
+    "next": "N22-r0033"
   },
   {
-    "id": "N32-r0030",
+    "id": "N22-r0033",
     "kind": "line",
     "source": "补写",
-    "page": 92,
+    "page": 74,
     "pages": [
-      92
+      74,
+      75
     ],
-    "day": "N32",
-    "context": "此后 · 期中答案公布",
-    "period": "答案既出",
+    "day": "N22",
+    "context": "班史戏仿 · 观测报告",
+    "period": "期中加成",
     "background": "classroom",
-    "speaker": "李沛霖",
-    "text": "虽败于论争，终胜于答案。今天终于可以嘻一下。",
-    "character": "c05",
-    "next": "N32-r0037"
+    "speaker": "同学",
+    "text": "这是考试通知，还是请满者保佑？",
+    "character": "",
+    "next": "N22-r0034"
   },
   {
-    "id": "N32-r0037",
+    "id": "N22-r0034",
+    "kind": "line",
+    "source": "转述",
+    "page": 74,
+    "pages": [
+      74,
+      75
+    ],
+    "day": "N22",
+    "context": "班史戏仿 · 观测报告",
+    "period": "期中加成",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "游戏式窗口给出祝好运、满者保佑等口气，现实的期中准备却只有桌上的卷子。",
+    "character": "",
+    "next": "N22-r0035"
+  },
+  {
+    "id": "N22-r0035",
+    "kind": "line",
+    "source": "补写",
+    "page": 74,
+    "pages": [
+      74,
+      75
+    ],
+    "day": "N22",
+    "context": "班史戏仿 · 观测报告",
+    "period": "期中加成",
+    "background": "classroom",
+    "speaker": "徐启元",
+    "text": "报告归报告，试卷还要自己写。",
+    "character": "xu",
+    "next": "N22-r0037"
+  },
+  {
+    "id": "N22-r0037",
     "kind": "scene",
     "source": "演出",
-    "page": 92,
+    "page": 74,
     "pages": [
-      92
+      74,
+      75
     ],
-    "day": "N32",
-    "context": "现实",
+    "day": "N22",
+    "context": "回看待核日期 · 暂排2023-10-13",
     "period": "课间手帐",
     "background": "classroom",
     "text": "课间手帐",
     "character": "",
     "effect": "paper",
     "prop": null,
-    "next": "N32-r0038"
+    "next": "N22-r0038"
   },
   {
-    "id": "N32-r0038",
+    "id": "N22-r0038",
     "kind": "line",
     "source": "原文",
-    "page": 92,
+    "page": 74,
     "pages": [
-      92
+      74,
+      75
     ],
-    "day": "N32",
-    "context": "现实",
+    "day": "N22",
+    "context": "回看待核日期 · 暂排2023-10-13",
     "period": "课间手帐",
     "background": "classroom",
     "speaker": "班史原载",
-    "text": "期中末日",
+    "text": "页上注：由日史官改动，概不负责。",
     "character": "",
-    "next": "N32-r0039"
+    "next": "N22-r0039"
   },
   {
-    "id": "N32-r0039",
+    "id": "N22-r0039",
     "kind": "line",
     "source": "原文",
-    "page": 92,
+    "page": 74,
     "pages": [
-      92
+      74,
+      75
     ],
-    "day": "N32",
-    "context": "现实",
+    "day": "N22",
+    "context": "回看待核日期 · 暂排2023-10-13",
     "period": "课间手帐",
     "background": "classroom",
     "speaker": "班史原载",
-    "text": "入考场，观英语卷，方知华子之深意。一百四十又五，实十拿九稳也。何谓之“十拿九稳”？自完形、阅读表者问，取均可得九分。其余一百四十分，未可知也。呜呼！何其易也！",
+    "text": "总督，欢迎回来，我是负责SOLⅢ RDFZ观测站的负责人泽宇。现在向您简略汇报这一个地球自转周期内观察到的新气象。",
     "character": "",
-    "next": "N32-r0040"
+    "next": "N22-r0040"
   },
   {
-    "id": "N32-r0040",
+    "id": "N22-r0040",
     "kind": "line",
     "source": "原文",
-    "page": 92,
+    "page": 74,
     "pages": [
-      92
+      74,
+      75
     ],
-    "day": "N32",
-    "context": "现实",
+    "day": "N22",
+    "context": "回看待核日期 · 暂排2023-10-13",
     "period": "课间手帐",
     "background": "classroom",
     "speaker": "班史原载",
-    "text": "英语试毕，有数人，即潇洒离去；而后，又有多人，于申时方能休憩；止有几人，于酉时方能战终。噫！于酉时劳者，何其不幸也！",
+    "text": "这两天在SOLⅢ上空出现了许多奇形怪状的云，SOLⅢ上的土著对此展示出了喜爱与崇敬，还好我们的许多科学家迅速地按下了快门，所以我们才能捕捉到这一转瞬即逝而又奇特的现象。",
     "character": "",
-    "next": "N32-r0041"
+    "next": "N22-r0041"
   },
   {
-    "id": "N32-r0041",
+    "id": "N22-r0041",
     "kind": "line",
     "source": "原文",
-    "page": 92,
+    "page": 74,
     "pages": [
-      92
+      74,
+      75
     ],
-    "day": "N32",
-    "context": "现实",
+    "day": "N22",
+    "context": "回看待核日期 · 暂排2023-10-13",
     "period": "课间手帐",
     "background": "classroom",
     "speaker": "班史原载",
-    "text": "历史试毕，不幸者聚而议选择。余于考场，甚觉其易，未有踌躇不定者。然众于选择末两问生起争辩，B、D两派，论争不甚休。然B派终以其理论，势足占于上风。吾身付D派，深感危迫矣。",
+    "text": "大讨论",
     "character": "",
-    "next": "D24-date"
+    "next": "N22-r0042"
   },
   {
-    "id": "D24-date",
+    "id": "N22-r0042",
+    "kind": "line",
+    "source": "原文",
+    "page": 74,
+    "pages": [
+      74,
+      75
+    ],
+    "day": "N22",
+    "context": "回看待核日期 · 暂排2023-10-13",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "今日，在SOLⅢ的七班议事会空闲的过程中，一位议员向其他议员提出了一个深刻的议题，这个议题关于爱情、生活、智慧和幸福，这个议题一被提出遍受到了人们的广泛关注，经过激烈的讨论，人们认可了这位",
+    "character": "",
+    "next": "N22-r0043"
+  },
+  {
+    "id": "N22-r0043",
+    "kind": "line",
+    "source": "原文",
+    "page": 74,
+    "pages": [
+      74,
+      75
+    ],
+    "day": "N22",
+    "context": "回看待核日期 · 暂排2023-10-13",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "议员的观点。",
+    "character": "",
+    "next": "N22-r0044"
+  },
+  {
+    "id": "N22-r0044",
+    "kind": "line",
+    "source": "原文",
+    "page": 74,
+    "pages": [
+      74,
+      75
+    ],
+    "day": "N22",
+    "context": "回看待核日期 · 暂排2023-10-13",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "这位议员作为四大之首的参议员支持率有所提高。由此，七班议事会的主要思潮由传统保守主义转变为了激进自由工口主义。",
+    "character": "",
+    "next": "N22-r0045"
+  },
+  {
+    "id": "N22-r0045",
+    "kind": "line",
+    "source": "原文",
+    "page": 75,
+    "pages": [
+      74,
+      75
+    ],
+    "day": "N22",
+    "context": "回看待核日期 · 暂排2023-10-13",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "宣布宿敌",
+    "character": "",
+    "next": "N22-r0046"
+  },
+  {
+    "id": "N22-r0046",
+    "kind": "line",
+    "source": "原文",
+    "page": 75,
+    "pages": [
+      74,
+      75
+    ],
+    "day": "N22",
+    "context": "回看待核日期 · 暂排2023-10-13",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "在人类年2023年10月的一天，满者金银利益集团宣布小帮凶共和国为宿敌。这件事的起因是小帮凶对集团代表财富的象征物“书包”“掷出窗外”。",
+    "character": "",
+    "next": "N22-r0047"
+  },
+  {
+    "id": "N22-r0047",
+    "kind": "line",
+    "source": "原文",
+    "page": 75,
+    "pages": [
+      74,
+      75
+    ],
+    "day": "N22",
+    "context": "回看待核日期 · 暂排2023-10-13",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "这不禁让人想起了人类年1618中的一天两个前太空文明因为唯心主义思潮的一些冲突从而引发的战争。",
+    "character": "",
+    "next": "N22-r0048"
+  },
+  {
+    "id": "N22-r0048",
+    "kind": "line",
+    "source": "原文",
+    "page": 75,
+    "pages": [
+      74,
+      75
+    ],
+    "day": "N22",
+    "context": "回看待核日期 · 暂排2023-10-13",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "期中模拟",
+    "character": "",
+    "next": "N22-r0049"
+  },
+  {
+    "id": "N22-r0049",
+    "kind": "line",
+    "source": "原文",
+    "page": 75,
+    "pages": [
+      74,
+      75
+    ],
+    "day": "N22",
+    "context": "回看待核日期 · 暂排2023-10-13",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "提供加成：做题速度+100%；正确率+100%。",
+    "character": "",
+    "next": "N22-r0050"
+  },
+  {
+    "id": "N22-r0050",
+    "kind": "line",
+    "source": "原文",
+    "page": 75,
+    "pages": [
+      74,
+      75
+    ],
+    "day": "N22",
+    "context": "回看待核日期 · 暂排2023-10-13",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "研究时间：0.25 SOLⅢ卫星的周期。",
+    "character": "",
+    "next": "N22-r0051"
+  },
+  {
+    "id": "N22-r0051",
+    "kind": "line",
+    "source": "原文",
+    "page": 75,
+    "pages": [
+      74,
+      75
+    ],
+    "day": "N22",
+    "context": "回看待核日期 · 暂排2023-10-13",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "啊哈，看来SOLⅢ RDFZ管理区的原住民遇到大麻烦了。",
+    "character": "",
+    "next": "N22-r0052"
+  },
+  {
+    "id": "N22-r0052",
+    "kind": "line",
+    "source": "原文",
+    "page": 75,
+    "pages": [
+      74,
+      75
+    ],
+    "day": "N22",
+    "context": "回看待核日期 · 暂排2023-10-13",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "今天清晨七班的总督公布了一个坏消息：在接下来的0.25个人类月（SOLⅢ一颗自然卫星的周期）中七班将迎来一次大审查，这次大审查将针对人们的七个学习学科分别进行检验，据不可溯消息称结果没有满",
+    "character": "",
+    "next": "N22-r0053"
+  },
+  {
+    "id": "N22-r0053",
+    "kind": "line",
+    "source": "原文",
+    "page": 75,
+    "pages": [
+      74,
+      75
+    ],
+    "day": "N22",
+    "context": "回看待核日期 · 暂排2023-10-13",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "足标准的人将被“大清洗”而被冠上“退步之星”的名号。",
+    "character": "",
+    "next": "N22-r0054"
+  },
+  {
+    "id": "N22-r0054",
+    "kind": "line",
+    "source": "原文",
+    "page": 75,
+    "pages": [
+      74,
+      75
+    ],
+    "day": "N22",
+    "context": "回看待核日期 · 暂排2023-10-13",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "这个消息一经公布，人们立即意识到了期中考试的临近，人人忙于称为“内卷”的事务。关于这个原著民称为“内卷”的名词，需要我们的研究人员进一步考察RDFZ管理区的人才可得到进一步的定义。",
+    "character": "",
+    "next": "N22-r0055"
+  },
+  {
+    "id": "N22-r0055",
+    "kind": "scene",
+    "source": "演出",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "text": "七日称满",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "N22-r0056"
+  },
+  {
+    "id": "N22-r0056",
+    "kind": "line",
+    "source": "转述",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "旁白",
+    "text": "课间再翻同学写的残卷，人物姓名被写成了神话。",
+    "character": "",
+    "next": "N22-r0057"
+  },
+  {
+    "id": "N22-r0057",
+    "kind": "line",
+    "source": "原文",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "《神经》",
+    "text": "神经",
+    "character": "",
+    "next": "N22-r0058"
+  },
+  {
+    "id": "N22-r0058",
+    "kind": "line",
+    "source": "原文",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "《神经》",
+    "text": "旧约·满者传创世纪",
+    "character": "",
+    "next": "N22-r0059"
+  },
+  {
+    "id": "N22-r0059",
+    "kind": "line",
+    "source": "原文",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "《神经》",
+    "text": "起初，涵在混沌中产生。",
+    "character": "",
+    "next": "N22-r0060"
+  },
+  {
+    "id": "N22-r0060",
+    "kind": "line",
+    "source": "原文",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "《神经》",
+    "text": "在空虚和黑暗的深渊，涵的灵运行中央。",
+    "character": "",
+    "next": "N22-r0061"
+  },
+  {
+    "id": "N22-r0061",
+    "kind": "line",
+    "source": "原文",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "《神经》",
+    "text": "涵说:“要有光。”就有了光。",
+    "character": "",
+    "next": "N22-r0062"
+  },
+  {
+    "id": "N22-r0062",
+    "kind": "line",
+    "source": "原文",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "《神经》",
+    "text": "涵看着好的，就把光暗分开了。",
+    "character": "",
+    "next": "N22-r0063"
+  },
+  {
+    "id": "N22-r0063",
+    "kind": "line",
+    "source": "原文",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "《神经》",
+    "text": "涵称光为昼，称暗为夜。",
+    "character": "",
+    "next": "N22-r0064"
+  },
+  {
+    "id": "N22-r0064",
+    "kind": "line",
+    "source": "原文",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "《神经》",
+    "text": "有昼，有夜，是第一日，",
+    "character": "",
+    "next": "N22-r0065"
+  },
+  {
+    "id": "N22-r0065",
+    "kind": "line",
+    "source": "原文",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "《神经》",
+    "text": "涵说:“要有空气。”就有了空气，",
+    "character": "",
+    "next": "N22-r0066"
+  },
+  {
+    "id": "N22-r0066",
+    "kind": "line",
+    "source": "原文",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "《神经》",
+    "text": "空气在渊上面的，上下就分开了。",
+    "character": "",
+    "next": "N22-r0067"
+  },
+  {
+    "id": "N22-r0067",
+    "kind": "line",
+    "source": "原文",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "《神经》",
+    "text": "涵称空气为天。",
+    "character": "",
+    "next": "N22-r0068"
+  },
+  {
+    "id": "N22-r0068",
+    "kind": "line",
+    "source": "原文",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "《神经》",
+    "text": "涵说:“要有水和土。\"事就这样成了。",
+    "character": "",
+    "next": "N22-r0069"
+  },
+  {
+    "id": "N22-r0069",
+    "kind": "line",
+    "source": "原文",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "《神经》",
+    "text": "涵称土的繁处为地，称水的聚处为海。",
+    "character": "",
+    "next": "N22-r0070"
+  },
+  {
+    "id": "N22-r0070",
+    "kind": "line",
+    "source": "原文",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "《神经》",
+    "text": "有天，有地，有海，是第二日。",
+    "character": "",
+    "next": "N22-r0071"
+  },
+  {
+    "id": "N22-r0071",
+    "kind": "line",
+    "source": "原文",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "《神经》",
+    "text": "涵说:“天上要有分昼夜，定时间的光普照在地上。”于是涵造了两个大光，又造了众多小光，把这些光摆列在天空，普照在地上，管理昼夜，分别明暗。",
+    "character": "",
+    "next": "N22-r0072"
+  },
+  {
+    "id": "N22-r0072",
+    "kind": "line",
+    "source": "原文",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "《神经》",
+    "text": "涵称代表昼的光为日，代表夜的光为月，漫天的光为星。",
+    "character": "",
+    "next": "N22-r0073"
+  },
+  {
+    "id": "N22-r0073",
+    "kind": "line",
+    "source": "原文",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "《神经》",
+    "text": "有日，有月，有星，是第三日。",
+    "character": "",
+    "next": "N22-r0074"
+  },
+  {
+    "id": "N22-r0074",
+    "kind": "line",
+    "source": "原文",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "《神经》",
+    "text": "涵说:“海里要有鱼，地上要有兽，天上要有鸟。”涵滋养出了各样生命。",
+    "character": "",
+    "next": "N22-r0075"
+  },
+  {
+    "id": "N22-r0075",
+    "kind": "line",
+    "source": "原文",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "《神经》",
+    "text": "涵看着是好的，就赐福给这一切。",
+    "character": "",
+    "next": "N22-r0076"
+  },
+  {
+    "id": "N22-r0076",
+    "kind": "line",
+    "source": "原文",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "《神经》",
+    "text": "有生命，是第四日。",
+    "character": "",
+    "next": "N22-r0077"
+  },
+  {
+    "id": "N22-r0077",
+    "kind": "line",
+    "source": "原文",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "《神经》",
+    "text": "涵说:“要有像我的灵来管理生命。”涵按自己的样子造男创女，赐给他们智慧。",
+    "character": "",
+    "next": "N22-r0078"
+  },
+  {
+    "id": "N22-r0078",
+    "kind": "line",
+    "source": "原文",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "《神经》",
+    "text": "涵称他们为人。有人，是第五日.",
+    "character": "",
+    "next": "N22-r0079"
+  },
+  {
+    "id": "N22-r0079",
+    "kind": "line",
+    "source": "原文",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "《神经》",
+    "text": "涵说:“要有评定万物的标准。”涵以自己为标准建立了源。",
+    "character": "",
+    "next": "N22-r0080"
+  },
+  {
+    "id": "N22-r0080",
+    "kind": "line",
+    "source": "原文",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "《神经》",
+    "text": "涵为源做了九十九次测试，都没有出现问题。有源，是第六日。",
+    "character": "",
+    "next": "N22-r0081"
+  },
+  {
+    "id": "N22-r0081",
+    "kind": "line",
+    "source": "原文",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "《神经》",
+    "text": "涵说:“我是谁。”涵看到自己在源中完美无缺，涵称完美为满，称自己为满者。有满者，是第七日。",
+    "character": "",
+    "next": "N22-r0082"
+  },
+  {
+    "id": "N22-r0082",
+    "kind": "line",
+    "source": "补写",
+    "page": 236,
+    "pages": [
+      236
+    ],
+    "day": "N22",
+    "context": "同学虚构作品 · 《神经》阅读",
+    "period": "七日称满",
+    "background": "home",
+    "speaker": "同学",
+    "text": "名字都认得，故事倒走到另一个世界了。",
+    "character": "",
+    "next": "N23-date"
+  },
+  {
+    "id": "N23-date",
     "kind": "date",
     "source": "演出",
-    "page": 93,
+    "page": 76,
     "pages": [
-      93,
-      196,
-      197,
-      198
+      76,
+      77
     ],
-    "day": "D24",
+    "day": "N23",
     "context": "现实",
     "period": "翻到这一日",
     "background": "classroom",
-    "date": "2023-11-06",
-    "text": "八件乐器",
-    "pov": "c05",
+    "date": "2023-10-16",
+    "text": "唯一看视频的人",
+    "pov": "c11",
     "character": "",
-    "next": "D24-r0001"
+    "next": "N23-r0053"
   },
   {
-    "id": "D24-r0001",
+    "id": "N23-r0053",
     "kind": "portrait",
     "source": "演出",
-    "page": 93,
+    "page": 76,
     "pages": [
-      93,
-      196,
-      197,
-      198
+      76,
+      77
     ],
-    "day": "D24",
+    "day": "N23",
     "context": "现实",
     "period": "",
     "background": "classroom",
-    "text": "八件乐器",
-    "pov": "c05",
-    "character": "c05",
-    "speaker": "李沛霖",
-    "next": "D24-0002"
+    "text": "唯一看视频的人",
+    "pov": "c11",
+    "character": "c11",
+    "speaker": "陈熙",
+    "next": "N23-r0022"
   },
   {
-    "id": "D24-0002",
+    "id": "N23-r0022",
     "kind": "scene",
     "source": "演出",
-    "page": 93,
+    "page": 76,
     "pages": [
-      93
+      76,
+      77
     ],
-    "day": "D24",
+    "day": "N23",
     "context": "现实",
-    "period": "八件乐器",
+    "period": "一个人看过",
     "background": "classroom",
-    "text": "八件乐器",
+    "text": "一个人看过",
     "character": "",
     "effect": "paper",
     "prop": null,
-    "next": "D24-r0003"
+    "next": "N23-r0023"
   },
   {
-    "id": "D24-r0003",
+    "id": "N23-r0023",
     "kind": "line",
     "source": "补写",
-    "page": 93,
+    "page": 76,
     "pages": [
-      93
+      76,
+      77
     ],
-    "day": "D24",
+    "day": "N23",
     "context": "现实",
-    "period": "八件乐器",
+    "period": "一个人看过",
     "background": "classroom",
-    "speaker": "李沛霖",
-    "text": "乐队集齐八件乐器了！",
-    "character": "c05",
-    "next": "D24-r0004"
+    "speaker": "战老师",
+    "text": "我发的视频，你们看过没有？",
+    "character": "c48",
+    "next": "interactive-N23-r0023"
   },
   {
-    "id": "D24-r0004",
+    "day": "N23",
+    "context": "现实",
+    "period": "一个人看过",
+    "background": "classroom",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "source": "补写",
+    "id": "interactive-N23-r0023",
+    "kind": "choice",
+    "text": "老师问发的视频看过没有，我怎么回应？",
+    "speaker": "陈熙",
+    "character": "c11",
+    "options": [
+      {
+        "text": "看过多少就说多少，没看的我补看。",
+        "next": "interactive-N23-r0023-say1"
+      },
+      {
+        "text": "我先把卡住的地方记下，再看那段讲解。",
+        "next": "interactive-N23-r0023-say2"
+      },
+      {
+        "text": "群里下载了就算看过，应该没区别。",
+        "failure": "文件住进了手机，讲解却没住进脑子。"
+      },
+      {
+        "text": "有同学看过了，借他笔记就不必看。",
+        "failure": "笔记借到了，没听懂的那一步却不能借懂。"
+      }
+    ]
+  },
+  {
+    "day": "N23",
+    "context": "现实",
+    "period": "一个人看过",
+    "background": "classroom",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "source": "补写",
+    "id": "interactive-N23-r0023-say1",
+    "kind": "line",
+    "text": "看过多少就说多少，没看的我补看。",
+    "speaker": "陈熙",
+    "character": "c11",
+    "next": "interactive-N23-r0023-reply1"
+  },
+  {
+    "day": "N23",
+    "context": "现实",
+    "period": "一个人看过",
+    "background": "classroom",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "source": "补写",
+    "id": "interactive-N23-r0023-reply1",
+    "kind": "line",
+    "text": "别只点头。",
+    "speaker": "战景林",
+    "character": "c48",
+    "next": "N23-r0024"
+  },
+  {
+    "day": "N23",
+    "context": "现实",
+    "period": "一个人看过",
+    "background": "classroom",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "source": "补写",
+    "id": "interactive-N23-r0023-say2",
+    "kind": "line",
+    "text": "我先把卡住的地方记下，再看那段讲解。",
+    "speaker": "陈熙",
+    "character": "c11",
+    "next": "interactive-N23-r0023-reply2"
+  },
+  {
+    "day": "N23",
+    "context": "现实",
+    "period": "一个人看过",
+    "background": "classroom",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "source": "补写",
+    "id": "interactive-N23-r0023-reply2",
+    "kind": "line",
+    "text": "视频得拿来用。",
+    "speaker": "战景林",
+    "character": "c48",
+    "next": "N23-r0024"
+  },
+  {
+    "id": "N23-r0024",
     "kind": "line",
     "source": "补写",
-    "page": 93,
+    "page": 76,
     "pages": [
-      93
+      76,
+      77
     ],
-    "day": "D24",
+    "day": "N23",
     "context": "现实",
-    "period": "八件乐器",
+    "period": "一个人看过",
     "background": "classroom",
-    "speaker": "同学",
-    "text": "尤里两件、Kazoo笛、竖笛、横笛、手卷钢琴、口琴、拇指钢琴。",
-    "character": "",
-    "next": "D24-r0005"
+    "speaker": "郑泽一",
+    "text": "老师，文件不对吧？",
+    "character": "c38",
+    "next": "N23-r0025"
   },
   {
-    "id": "D24-r0005",
+    "id": "N23-r0025",
     "kind": "line",
     "source": "补写",
-    "page": 93,
+    "page": 76,
     "pages": [
-      93
+      76,
+      77
     ],
-    "day": "D24",
+    "day": "N23",
     "context": "现实",
-    "period": "八件乐器",
+    "period": "一个人看过",
     "background": "classroom",
-    "speaker": "李沛霖",
-    "text": "《波莱罗》，还有德彪西《月光》，新曲目也有了。",
-    "character": "c05",
-    "next": "D24-r0006"
+    "speaker": "战老师",
+    "text": "是。满朝学生，只有这一人看过？",
+    "character": "c48",
+    "next": "N23-r0026"
   },
   {
-    "id": "D24-r0006",
+    "id": "N23-r0026",
     "kind": "line",
     "source": "转述",
-    "page": 93,
+    "page": 76,
     "pages": [
-      93
+      76,
+      77
     ],
-    "day": "D24",
+    "day": "N23",
     "context": "现实",
-    "period": "八件乐器",
+    "period": "一个人看过",
     "background": "classroom",
     "speaker": "旁白",
-    "text": "乐器在午间凑到了一起。说着说着，话头绕到去年秋天那场等人的聚会。",
+    "text": "错误的文件，反而成了看没看视频的证据。",
     "character": "",
-    "next": "D24-r0110"
+    "next": "N23-r0027"
   },
   {
-    "id": "D24-r0110",
+    "id": "N23-r0027",
+    "kind": "line",
+    "source": "补写",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "day": "N23",
+    "context": "现实",
+    "period": "一个人看过",
+    "background": "classroom",
+    "speaker": "陈熙",
+    "text": "这一问，没看的人连文件错在哪都不知道。",
+    "character": "c11",
+    "next": "N23-r0028"
+  },
+  {
+    "id": "N23-r0028",
     "kind": "scene",
     "source": "演出",
-    "page": 93,
+    "page": 76,
     "pages": [
-      93
+      76,
+      77
     ],
-    "day": "D24",
+    "day": "N23",
+    "context": "现实",
+    "period": "校草考儒",
+    "background": "classroom",
+    "text": "校草考儒",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "N23-r0029"
+  },
+  {
+    "id": "N23-r0029",
+    "kind": "line",
+    "source": "补写",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "day": "N23",
+    "context": "现实",
+    "period": "校草考儒",
+    "background": "classroom",
+    "speaker": "同学",
+    "text": "考儒和校草，谁美？",
+    "character": "",
+    "next": "N23-r0030"
+  },
+  {
+    "id": "N23-r0030",
+    "kind": "line",
+    "source": "补写",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "day": "N23",
+    "context": "现实",
+    "period": "校草考儒",
+    "background": "classroom",
+    "speaker": "同学",
+    "text": "众志成城，举考儒为校草！",
+    "character": "",
+    "next": "N23-r0031"
+  },
+  {
+    "id": "N23-r0031",
+    "kind": "line",
+    "source": "补写",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "day": "N23",
+    "context": "现实",
+    "period": "校草考儒",
+    "background": "classroom",
+    "speaker": "凌艺坤",
+    "text": "你们先把课间过完。",
+    "character": "ling",
+    "next": "N23-r0032"
+  },
+  {
+    "id": "N23-r0032",
+    "kind": "line",
+    "source": "转述",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "day": "N23",
+    "context": "现实",
+    "period": "校草考儒",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "化学忽闻脆声，老师找不到源头。有人说藏了炸弹，大家都笑，全无惧色。",
+    "character": "",
+    "next": "N23-r0033"
+  },
+  {
+    "id": "N23-r0033",
+    "kind": "scene",
+    "source": "演出",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "day": "N23",
+    "context": "现实",
+    "period": "扶住满者",
+    "background": "track",
+    "text": "扶住满者",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "N23-r0034"
+  },
+  {
+    "id": "N23-r0034",
+    "kind": "line",
+    "source": "转述",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "day": "N23",
+    "context": "现实",
+    "period": "扶住满者",
+    "background": "track",
+    "speaker": "旁白",
+    "text": "体育之后，大家扶着满者。人有些站不稳，说话也乱。",
+    "character": "",
+    "next": "N23-r0035"
+  },
+  {
+    "id": "N23-r0035",
+    "kind": "line",
+    "source": "补写",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "day": "N23",
+    "context": "现实",
+    "period": "扶住满者",
+    "background": "track",
+    "speaker": "徐子涵",
+    "text": "我跑了两圈有余！",
+    "character": "c03",
+    "next": "N23-r0036"
+  },
+  {
+    "id": "N23-r0036",
+    "kind": "line",
+    "source": "补写",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "day": "N23",
+    "context": "现实",
+    "period": "扶住满者",
+    "background": "track",
+    "speaker": "陈熙",
+    "text": "你先站好，话一会儿再说。",
+    "character": "c11",
+    "next": "N23-r0037"
+  },
+  {
+    "id": "N23-r0037",
+    "kind": "line",
+    "source": "转述",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "day": "N23",
+    "context": "现实",
+    "period": "扶住满者",
+    "background": "track",
+    "speaker": "旁白",
+    "text": "回教室，孙老师让有能者读文章，又评惠的垃圾桶作文难与一类争先。",
+    "character": "",
+    "next": "N23-r0038"
+  },
+  {
+    "id": "N23-r0038",
+    "kind": "scene",
+    "source": "演出",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "day": "N23",
+    "context": "现实",
+    "period": "临别赠言",
+    "background": "classroom",
+    "text": "临别赠言",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "N23-r0039"
+  },
+  {
+    "id": "N23-r0039",
+    "kind": "line",
+    "source": "补写",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "day": "N23",
+    "context": "现实",
+    "period": "临别赠言",
+    "background": "classroom",
+    "speaker": "李承容",
+    "text": "或许没能得胜而归，那便让我大笑而去吧。",
+    "character": "c34",
+    "next": "interactive-N23-r0039"
+  },
+  {
+    "day": "N23",
+    "context": "现实",
+    "period": "临别赠言",
+    "background": "classroom",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "source": "补写",
+    "id": "interactive-N23-r0039",
+    "kind": "choice",
+    "text": "承容说要大笑而去，我怎么接？",
+    "speaker": "陈熙",
+    "character": "c11",
+    "options": [
+      {
+        "text": "得胜的事等结果，今天这声也别憋着。",
+        "next": "interactive-N23-r0039-say1"
+      },
+      {
+        "text": "回来再讲一路的事，别只留输赢。",
+        "next": "interactive-N23-r0039-say2"
+      },
+      {
+        "text": "没得胜就别讲了，省得又想起来。",
+        "failure": "结果被略过了，回来的人也失去了开口的位置。"
+      },
+      {
+        "text": "先把你写成胜了，读着痛快。",
+        "failure": "纸上领了胜利，真正走过的那段路却没能回来。"
+      }
+    ]
+  },
+  {
+    "day": "N23",
+    "context": "现实",
+    "period": "临别赠言",
+    "background": "classroom",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "source": "补写",
+    "id": "interactive-N23-r0039-say1",
+    "kind": "line",
+    "text": "得胜的事等结果，今天这声也别憋着。",
+    "speaker": "陈熙",
+    "character": "c11",
+    "next": "interactive-N23-r0039-reply1"
+  },
+  {
+    "day": "N23",
+    "context": "现实",
+    "period": "临别赠言",
+    "background": "classroom",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "source": "补写",
+    "id": "interactive-N23-r0039-reply1",
+    "kind": "line",
+    "text": "那我先笑。",
+    "speaker": "李承容",
+    "character": "c34",
+    "next": "N23-r0040"
+  },
+  {
+    "day": "N23",
+    "context": "现实",
+    "period": "临别赠言",
+    "background": "classroom",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "source": "补写",
+    "id": "interactive-N23-r0039-say2",
+    "kind": "line",
+    "text": "回来再讲一路的事，别只留输赢。",
+    "speaker": "陈熙",
+    "character": "c11",
+    "next": "interactive-N23-r0039-reply2"
+  },
+  {
+    "day": "N23",
+    "context": "现实",
+    "period": "临别赠言",
+    "background": "classroom",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "source": "补写",
+    "id": "interactive-N23-r0039-reply2",
+    "kind": "line",
+    "text": "有些事还挺值得说。",
+    "speaker": "李承容",
+    "character": "c34",
+    "next": "N23-r0040"
+  },
+  {
+    "id": "N23-r0040",
+    "kind": "line",
+    "source": "转述",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "day": "N23",
+    "context": "现实",
+    "period": "临别赠言",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "池苑、芙蓉的诗句留在页末，归来和离去，同一天都有了自己的声音。",
+    "character": "",
+    "next": "N23-r0042"
+  },
+  {
+    "id": "N23-r0042",
+    "kind": "scene",
+    "source": "演出",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "day": "N23",
     "context": "现实",
     "period": "课间手帐",
     "background": "classroom",
@@ -2619,179 +2164,826 @@ const data:StoryNode[] = [
     "character": "",
     "effect": "paper",
     "prop": null,
-    "next": "D24-r0111"
+    "next": "N23-r0043"
   },
   {
-    "id": "D24-r0111",
+    "id": "N23-r0043",
     "kind": "line",
     "source": "原文",
-    "page": 93,
+    "page": 76,
     "pages": [
-      93
+      76,
+      77
     ],
-    "day": "D24",
+    "day": "N23",
     "context": "现实",
     "period": "课间手帐",
     "background": "classroom",
     "speaker": "班史原载",
-    "text": "小段：要证明1/4是最大的。说左侧大于1/4没用。应证明：①大于1/4不行；②找出1/4行的例子。",
+    "text": "课间：有人曰：“朱考儒孰与校草美？”众人齐声曰：“吾等众志成城，定能举朱考儒为校草。”是曰“校草兮，考儒王！”",
     "character": "",
-    "next": "D24-r0112"
+    "next": "N23-r0044"
   },
   {
-    "id": "D24-r0112",
-    "kind": "line",
-    "source": "原文",
-    "page": 93,
-    "pages": [
-      93
-    ],
-    "day": "D24",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "杨sir提示：6.3上面总结的熟词生义，大家一定要认真看！（我也觉得很重要）",
-    "character": "",
-    "next": "D24-r0113"
-  },
-  {
-    "id": "D24-r0113",
-    "kind": "line",
-    "source": "原文",
-    "page": 93,
-    "pages": [
-      93
-    ],
-    "day": "D24",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "化：找现象中的证据要充分（虽未有Cu生成，有Cu²⁺消耗）。",
-    "character": "",
-    "next": "D24-r0114"
-  },
-  {
-    "id": "D24-r0114",
-    "kind": "line",
-    "source": "原文",
-    "page": 93,
-    "pages": [
-      93
-    ],
-    "day": "D24",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "并联系生活举例子：",
-    "character": "",
-    "next": "D24-r0115"
-  },
-  {
-    "id": "D24-r0115",
-    "kind": "line",
-    "source": "原文",
-    "page": 93,
-    "pages": [
-      93
-    ],
-    "day": "D24",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "绰名：持子／学名：戴向阳／真名：大羔……",
-    "character": "",
-    "next": "D24-r0116"
-  },
-  {
-    "id": "D24-r0116",
-    "kind": "line",
-    "source": "原文",
-    "page": 93,
-    "pages": [
-      93
-    ],
-    "day": "D24",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "物、C：中午大事：7班乐队里程碑：集齐8件乐器！",
-    "character": "",
-    "next": "D24-r0117"
-  },
-  {
-    "id": "D24-r0117",
-    "kind": "line",
-    "source": "原文",
-    "page": 93,
-    "pages": [
-      93
-    ],
-    "day": "D24",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "目前乐器名录：尤里×2、Kazoo笛、竖笛、横笛、手卷钢琴、口琴、拇指钢琴。",
-    "character": "",
-    "next": "D24-r0118"
-  },
-  {
-    "id": "D24-r0118",
-    "kind": "line",
-    "source": "原文",
-    "page": 93,
-    "pages": [
-      93
-    ],
-    "day": "D24",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "解锁新曲目：BOLERO，Clair de lune - Debussy。",
-    "character": "",
-    "next": "D24-r0119"
-  },
-  {
-    "id": "D24-r0119",
-    "kind": "line",
-    "source": "原文",
-    "page": 93,
-    "pages": [
-      93
-    ],
-    "day": "D24",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "语：大家纷纷哂笑着赞同“孙老师是最好的语文老师！”——LPL。",
-    "character": "",
-    "next": "D24-r0007"
-  },
-  {
-    "id": "D24-r0007",
+    "id": "N23-r0044",
     "kind": "scene",
     "source": "演出",
-    "page": 196,
+    "page": 76,
     "pages": [
-      196,
-      199
+      76,
+      77
     ],
-    "day": "D24",
-    "context": "回忆 · 2022年10月5日",
-    "period": "植物园门前",
-    "background": "park",
-    "text": "植物园门前",
+    "day": "N23",
+    "context": "现实",
+    "period": "化学 · 课间手帐",
+    "background": "classroom",
+    "text": "化学 · 课间手帐",
     "character": "",
-    "effect": "memory",
+    "effect": "paper",
     "prop": null,
-    "next": "D24-r0008"
+    "next": "N23-r0045"
+  },
+  {
+    "id": "N23-r0045",
+    "kind": "line",
+    "source": "原文",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "day": "N23",
+    "context": "现实",
+    "period": "化学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "总座授课，忽闻有脆声，环顾四周，不见其源；没法止之而未果。或曰：“盖有只炸弹藏于此。”然众人笑，全无惧色，真英雄也。",
+    "character": "",
+    "next": "N23-r0046"
+  },
+  {
+    "id": "N23-r0046",
+    "kind": "scene",
+    "source": "演出",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "day": "N23",
+    "context": "现实",
+    "period": "物理 · 课间手帐",
+    "background": "classroom",
+    "text": "物理 · 课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "N23-r0047"
+  },
+  {
+    "id": "N23-r0047",
+    "kind": "line",
+    "source": "原文",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "day": "N23",
+    "context": "现实",
+    "period": "物理 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "HQ谈讲义：“甚矣，汝之不慧！舍二级结论而列式求之者，岂不舍近求远哉？”余观纸上二式，无言可对矣。",
+    "character": "",
+    "next": "N23-r0048"
+  },
+  {
+    "id": "N23-r0048",
+    "kind": "line",
+    "source": "原文",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "day": "N23",
+    "context": "现实",
+    "period": "物理 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "午时：史官自述：“两耳不闻身外事，一心只想睡大觉。”",
+    "character": "",
+    "next": "N23-r0049"
+  },
+  {
+    "id": "N23-r0049",
+    "kind": "scene",
+    "source": "演出",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "day": "N23",
+    "context": "现实",
+    "period": "语文 · 课间手帐",
+    "background": "classroom",
+    "text": "语文 · 课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "N23-r0050"
+  },
+  {
+    "id": "N23-r0050",
+    "kind": "line",
+    "source": "原文",
+    "page": 76,
+    "pages": [
+      76,
+      77
+    ],
+    "day": "N23",
+    "context": "现实",
+    "period": "语文 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "孙老师授以扫洒进退之事，令有能者读其文。读罢，方谓惠曰：“汝之垃圾桶，岂能与一类争先？谬哉，谬哉！”",
+    "character": "",
+    "next": "N23-r0051"
+  },
+  {
+    "id": "N23-r0051",
+    "kind": "line",
+    "source": "原文",
+    "page": 77,
+    "pages": [
+      76,
+      77
+    ],
+    "day": "N23",
+    "context": "现实",
+    "period": "语文 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "lcr临别赠言：“归来池苑皆依旧，太液芙蓉未央柳。”“芙蓉如面柳如眉，对此如何不泪垂。”",
+    "character": "",
+    "next": "N23-r0052"
+  },
+  {
+    "id": "N23-r0052",
+    "kind": "line",
+    "source": "原文",
+    "page": 77,
+    "pages": [
+      76,
+      77
+    ],
+    "day": "N23",
+    "context": "现实",
+    "period": "语文 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "或许我没能做到得胜而归，那便让我大笑而去吧。",
+    "character": "",
+    "next": "N24-date"
+  },
+  {
+    "id": "N24-date",
+    "kind": "date",
+    "source": "演出",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "day": "N24",
+    "context": "现实",
+    "period": "翻到这一日",
+    "background": "classroom",
+    "date": "2023-10-17",
+    "text": "向后移动a米",
+    "pov": "student-yang-yanxiang",
+    "character": "",
+    "next": "N24-r0066"
+  },
+  {
+    "id": "N24-r0066",
+    "kind": "portrait",
+    "source": "演出",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "day": "N24",
+    "context": "现实",
+    "period": "",
+    "background": "classroom",
+    "text": "向后移动a米",
+    "pov": "student-yang-yanxiang",
+    "character": "student-yang-yanxiang",
+    "speaker": "杨雁翔",
+    "next": "N24-r0025"
+  },
+  {
+    "id": "N24-r0025",
+    "kind": "scene",
+    "source": "演出",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "day": "N24",
+    "context": "现实",
+    "period": "百分之十七",
+    "background": "classroom",
+    "text": "百分之十七",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "N24-r0026"
+  },
+  {
+    "id": "N24-r0026",
+    "kind": "line",
+    "source": "补写",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "day": "N24",
+    "context": "现实",
+    "period": "百分之十七",
+    "background": "classroom",
+    "speaker": "杨sir",
+    "text": "三十三题得分率只有百分之十七。我们认真反思过，答案没有问题。",
+    "character": "c47",
+    "next": "interactive-N24-r0026"
+  },
+  {
+    "day": "N24",
+    "context": "现实",
+    "period": "百分之十七",
+    "background": "classroom",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "source": "补写",
+    "id": "interactive-N24-r0026",
+    "kind": "choice",
+    "text": "得分率低，答案又说没问题，我怎么问？",
+    "speaker": "杨雁翔",
+    "character": "student-yang-yanxiang",
+    "options": [
+      {
+        "text": "我把支持另一个选项的原句拿出来，您帮我对对。",
+        "next": "interactive-N24-r0026-say1"
+      },
+      {
+        "text": "先听命题这边的依据，再看我误在哪里。",
+        "next": "interactive-N24-r0026-say2"
+      },
+      {
+        "text": "只有百分之十七对，那答案一定错了。",
+        "failure": "人数举起了手，证据却仍坐着没动。"
+      },
+      {
+        "text": "老师说没问题，那我不找错因了。",
+        "failure": "答案保住了，自己的误读却没被查到。"
+      }
+    ]
+  },
+  {
+    "day": "N24",
+    "context": "现实",
+    "period": "百分之十七",
+    "background": "classroom",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "source": "补写",
+    "id": "interactive-N24-r0026-say1",
+    "kind": "line",
+    "text": "我把支持另一个选项的原句拿出来，您帮我对对。",
+    "speaker": "杨雁翔",
+    "character": "student-yang-yanxiang",
+    "next": "interactive-N24-r0026-reply1"
+  },
+  {
+    "day": "N24",
+    "context": "现实",
+    "period": "百分之十七",
+    "background": "classroom",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "source": "补写",
+    "id": "interactive-N24-r0026-reply1",
+    "kind": "line",
+    "text": "说具体是哪句。",
+    "speaker": "杨卫华",
+    "character": "c47",
+    "next": "N24-r0027"
+  },
+  {
+    "day": "N24",
+    "context": "现实",
+    "period": "百分之十七",
+    "background": "classroom",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "source": "补写",
+    "id": "interactive-N24-r0026-say2",
+    "kind": "line",
+    "text": "先听命题这边的依据，再看我误在哪里。",
+    "speaker": "杨雁翔",
+    "character": "student-yang-yanxiang",
+    "next": "interactive-N24-r0026-reply2"
+  },
+  {
+    "day": "N24",
+    "context": "现实",
+    "period": "百分之十七",
+    "background": "classroom",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "source": "补写",
+    "id": "interactive-N24-r0026-reply2",
+    "kind": "line",
+    "text": "看这一层意思。",
+    "speaker": "杨卫华",
+    "character": "c47",
+    "next": "N24-r0027"
+  },
+  {
+    "id": "N24-r0027",
+    "kind": "line",
+    "source": "原文",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "day": "N24",
+    "context": "现实",
+    "period": "百分之十七",
+    "background": "classroom",
+    "speaker": "戴向阳",
+    "text": "他要把我的零食也吃了。",
+    "character": "c16",
+    "next": "N24-r0028"
+  },
+  {
+    "id": "N24-r0028",
+    "kind": "line",
+    "source": "转述",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "day": "N24",
+    "context": "现实",
+    "period": "百分之十七",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "一道译句又被读出。老师说起家乡，用了“国家百强贫困县”，同学听得同时想笑又想问。",
+    "character": "",
+    "next": "N24-r0029"
+  },
+  {
+    "id": "N24-r0029",
+    "kind": "line",
+    "source": "原文",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "day": "N24",
+    "context": "现实",
+    "period": "百分之十七",
+    "background": "classroom",
+    "speaker": "戴向阳",
+    "text": "我们都是2B。",
+    "character": "c16",
+    "next": "N24-r0030"
+  },
+  {
+    "id": "N24-r0030",
+    "kind": "line",
+    "source": "补写",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "day": "N24",
+    "context": "现实",
+    "period": "百分之十七",
+    "background": "classroom",
+    "speaker": "李沐衡",
+    "text": "你在说选项，还是想压我一头？",
+    "character": "c17",
+    "next": "N24-r0031"
+  },
+  {
+    "id": "N24-r0031",
+    "kind": "scene",
+    "source": "演出",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "day": "N24",
+    "context": "现实",
+    "period": "一劈就断",
+    "background": "classroom",
+    "text": "一劈就断",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "N24-r0032"
+  },
+  {
+    "id": "N24-r0032",
+    "kind": "line",
+    "source": "转述",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "day": "N24",
+    "context": "现实",
+    "period": "一劈就断",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "陈俊言在班后练刀，木杆劈了几下没断。考儒接过，一劈断了。",
+    "character": "",
+    "next": "N24-r0033"
+  },
+  {
+    "id": "N24-r0033",
+    "kind": "line",
+    "source": "补写",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "day": "N24",
+    "context": "现实",
+    "period": "一劈就断",
+    "background": "classroom",
+    "speaker": "同学",
+    "text": "此火之力量！",
+    "character": "",
+    "next": "N24-r0034"
+  },
+  {
+    "id": "N24-r0034",
+    "kind": "line",
+    "source": "补写",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "day": "N24",
+    "context": "现实",
+    "period": "一劈就断",
+    "background": "classroom",
+    "speaker": "凌艺坤",
+    "text": "刀接过来，名号也跟着过来了。",
+    "character": "ling",
+    "next": "N24-r0035"
+  },
+  {
+    "id": "N24-r0035",
+    "kind": "scene",
+    "source": "演出",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "day": "N24",
+    "context": "现实",
+    "period": "哪里有Amy",
+    "background": "classroom",
+    "text": "哪里有Amy",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "N24-r0036"
+  },
+  {
+    "id": "N24-r0036",
+    "kind": "line",
+    "source": "补写",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "day": "N24",
+    "context": "现实",
+    "period": "哪里有Amy",
+    "background": "classroom",
+    "speaker": "战老师",
+    "text": "测完，向后移动a米，再测仰角。",
+    "character": "c48",
+    "next": "N24-r0037"
+  },
+  {
+    "id": "N24-r0037",
+    "kind": "line",
+    "source": "原文",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "day": "N24",
+    "context": "现实",
+    "period": "哪里有Amy",
+    "background": "classroom",
+    "speaker": "同学",
+    "text": "哪里有Amy？",
+    "character": "",
+    "next": "N24-r0038"
+  },
+  {
+    "id": "N24-r0038",
+    "kind": "line",
+    "source": "补写",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "day": "N24",
+    "context": "现实",
+    "period": "哪里有Amy",
+    "background": "classroom",
+    "speaker": "战老师",
+    "text": "a米。",
+    "character": "c48",
+    "next": "interactive-N24-r0038"
+  },
+  {
+    "day": "N24",
+    "context": "现实",
+    "period": "哪里有Amy",
+    "background": "classroom",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "source": "补写",
+    "id": "interactive-N24-r0038",
+    "kind": "choice",
+    "text": "“a米”刚解释清楚，我怎么接？",
+    "speaker": "杨雁翔",
+    "character": "student-yang-yanxiang",
+    "options": [
+      {
+        "text": "哦，是距离，我刚才听成人名了。",
+        "next": "interactive-N24-r0038-say1"
+      },
+      {
+        "text": "字母那一步我记上，别把听错带进图。",
+        "next": "interactive-N24-r0038-say2"
+      },
+      {
+        "text": "刚才听见名字，我先按人物画。",
+        "failure": "图上多出一位同学，距离却没有了单位。"
+      },
+      {
+        "text": "含义差不多，不用专门改笔记。",
+        "failure": "字母留着，旁边的解释却还在认人。"
+      }
+    ]
+  },
+  {
+    "day": "N24",
+    "context": "现实",
+    "period": "哪里有Amy",
+    "background": "classroom",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "source": "补写",
+    "id": "interactive-N24-r0038-say1",
+    "kind": "line",
+    "text": "哦，是距离，我刚才听成人名了。",
+    "speaker": "杨雁翔",
+    "character": "student-yang-yanxiang",
+    "next": "interactive-N24-r0038-reply1"
+  },
+  {
+    "day": "N24",
+    "context": "现实",
+    "period": "哪里有Amy",
+    "background": "classroom",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "source": "补写",
+    "id": "interactive-N24-r0038-reply1",
+    "kind": "line",
+    "text": "看图上的a。",
+    "speaker": "战景林",
+    "character": "c48",
+    "next": "N24-r0039"
+  },
+  {
+    "day": "N24",
+    "context": "现实",
+    "period": "哪里有Amy",
+    "background": "classroom",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "source": "补写",
+    "id": "interactive-N24-r0038-say2",
+    "kind": "line",
+    "text": "字母那一步我记上，别把听错带进图。",
+    "speaker": "杨雁翔",
+    "character": "student-yang-yanxiang",
+    "next": "interactive-N24-r0038-reply2"
+  },
+  {
+    "day": "N24",
+    "context": "现实",
+    "period": "哪里有Amy",
+    "background": "classroom",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "source": "补写",
+    "id": "interactive-N24-r0038-reply2",
+    "kind": "line",
+    "text": "接着往后推。",
+    "speaker": "战景林",
+    "character": "c48",
+    "next": "N24-r0039"
+  },
+  {
+    "id": "N24-r0039",
+    "kind": "line",
+    "source": "转述",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "day": "N24",
+    "context": "现实",
+    "period": "哪里有Amy",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "湖里的两点又不能跳进去测。老师离开时，班里拜拜声四起。",
+    "character": "",
+    "next": "N24-r0040"
+  },
+  {
+    "id": "N24-r0040",
+    "kind": "scene",
+    "source": "演出",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "day": "N24",
+    "context": "现实",
+    "period": "物限的声明",
+    "background": "classroom",
+    "text": "物限的声明",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "N24-r0041"
+  },
+  {
+    "id": "N24-r0041",
+    "kind": "line",
+    "source": "补写",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "day": "N24",
+    "context": "现实",
+    "period": "物限的声明",
+    "background": "classroom",
+    "speaker": "孙老师",
+    "text": "你看雪茗写得就很好。作答也跟情商有关。",
+    "character": "c46",
+    "next": "N24-r0042"
+  },
+  {
+    "id": "N24-r0042",
+    "kind": "line",
+    "source": "原文",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "day": "N24",
+    "context": "现实",
+    "period": "物限的声明",
+    "background": "classroom",
+    "speaker": "黄艺博",
+    "text": "这两个八分文章，李昊宇偷了徐启元两分吧！",
+    "character": "c37",
+    "next": "N24-r0043"
+  },
+  {
+    "id": "N24-r0043",
+    "kind": "line",
+    "source": "转述",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "day": "N24",
+    "context": "现实",
+    "period": "物限的声明",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "晚上的物理卷题量大、难度高。抱怨一多，八六发了朋友圈。",
+    "character": "",
+    "next": "N24-r0044"
+  },
+  {
+    "id": "N24-r0044",
+    "kind": "line",
+    "source": "原文",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "day": "N24",
+    "context": "现实",
+    "period": "物限的声明",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "卷子不是我出的！",
+    "character": "",
+    "next": "N24-r0045"
+  },
+  {
+    "id": "N24-r0045",
+    "kind": "line",
+    "source": "补写",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "day": "N24",
+    "context": "现实",
+    "period": "物限的声明",
+    "background": "classroom",
+    "speaker": "杨雁翔",
+    "text": "声明比订正先到。今晚的卷子，还是得收好。",
+    "character": "student-yang-yanxiang",
+    "next": "N24-r0047"
+  },
+  {
+    "id": "N24-r0047",
+    "kind": "scene",
+    "source": "演出",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "day": "N24",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "text": "课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "N24-r0048"
+  },
+  {
+    "id": "N24-r0048",
+    "kind": "line",
+    "source": "原文",
+    "page": 78,
+    "pages": [
+      78
+    ],
+    "day": "N24",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "英：杨老师曰：“33题得分率只有17%，我们做了认真的反思，并认为答案没有问题。”",
+    "character": "",
+    "next": "N24-r0049"
   }
 ];
 export default data;

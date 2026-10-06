@@ -1,0 +1,2383 @@
+[
+  {
+    "id": "interactive-D02-0007",
+    "anchor": "D02-0007",
+    "day": "D02",
+    "pages": [
+      9
+    ],
+    "pov": "凌艺坤",
+    "question": "老师问例题能不能再做，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D02-0011",
+    "anchor": "D02-0011",
+    "day": "D02",
+    "pages": [
+      9
+    ],
+    "pov": "凌艺坤",
+    "question": "启元问起HQ，我怎样接话？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N01-r0018",
+    "anchor": "N01-r0018",
+    "day": "N01",
+    "pages": [
+      10
+    ],
+    "pov": "徐启元",
+    "question": "第一篇日常记些什么？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N01-r0028",
+    "anchor": "N01-r0028",
+    "day": "N01",
+    "pages": [
+      10
+    ],
+    "pov": "徐启元",
+    "question": "纸飞机飞到本子旁，我怎么提醒？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N02-r0019",
+    "anchor": "N02-r0019",
+    "day": "N02",
+    "pages": [
+      11
+    ],
+    "pov": "徐子涵",
+    "question": "“究天人之际”之后怎么落笔？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N02-r0053",
+    "anchor": "N02-r0053",
+    "day": "N02",
+    "pages": [
+      11
+    ],
+    "pov": "徐子涵",
+    "question": "老师嫌本子小，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D03-0011",
+    "anchor": "D03-0011",
+    "day": "D03",
+    "pages": [
+      12
+    ],
+    "pov": "吕思宇",
+    "question": "一个亿之后，我怎么追问？",
+    "options": 5
+  },
+  {
+    "id": "interactive-D03-r0045",
+    "anchor": "D03-r0045",
+    "day": "D03",
+    "pages": [
+      12
+    ],
+    "pov": "吕思宇",
+    "question": "竖式算到二百五十，我怎样接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N03-r0041",
+    "anchor": "N03-r0041",
+    "day": "N03",
+    "pages": [
+      13
+    ],
+    "pov": "吕思宇",
+    "question": "挑错比抽笔记快，怎么提醒旁边的人？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N03-r0058",
+    "anchor": "N03-r0058",
+    "day": "N03",
+    "pages": [
+      13
+    ],
+    "pov": "吕思宇",
+    "question": "纸飞机还要赛，我怎样交接班史？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D04-0006",
+    "anchor": "D04-0006",
+    "day": "D04",
+    "pages": [
+      14
+    ],
+    "pov": "程洛怡",
+    "question": "严肃和可爱挤在一起，我怎么记？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D04-r0039",
+    "anchor": "D04-r0039",
+    "day": "D04",
+    "pages": [
+      14
+    ],
+    "pov": "程洛怡",
+    "question": "“无缝的鸡蛋”刚说完，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D05-0007",
+    "anchor": "D05-0007",
+    "day": "D05",
+    "pages": [
+      16
+    ],
+    "pov": "凌艺坤",
+    "question": "七个人做对之后，我怎么接讲评？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D05-0011",
+    "anchor": "D05-0011",
+    "day": "D05",
+    "pages": [
+      16
+    ],
+    "pov": "凌艺坤",
+    "question": "老师问同桌的竞争关系，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N04-r0027",
+    "anchor": "N04-r0027",
+    "day": "N04",
+    "pages": [
+      17
+    ],
+    "pov": "童莘淇",
+    "question": "老师把化学方程式接到爱恨后，我怎么回应？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N04-r0041",
+    "anchor": "N04-r0041",
+    "day": "N04",
+    "pages": [
+      17
+    ],
+    "pov": "童莘淇",
+    "question": "“主观臆断”被点出来，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D06-0003",
+    "anchor": "D06-0003",
+    "day": "D06",
+    "pages": [
+      18
+    ],
+    "pov": "戴向阳",
+    "question": "窗边都在羡慕军训，我怎么接话？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D06-r0043",
+    "anchor": "D06-r0043",
+    "day": "D06",
+    "pages": [
+      18
+    ],
+    "pov": "戴向阳",
+    "question": "“是不是已经出境”怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N05-r0025",
+    "anchor": "N05-r0025",
+    "day": "N05",
+    "pages": [
+      19
+    ],
+    "pov": "李沐衡",
+    "question": "军训和补课被比起来，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N05-r0034",
+    "anchor": "N05-r0034",
+    "day": "N05",
+    "pages": [
+      19
+    ],
+    "pov": "李沐衡",
+    "question": "多了一天假，我怎样收拾书包？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D07-0008",
+    "anchor": "D07-0008",
+    "day": "D07",
+    "pages": [
+      20
+    ],
+    "pov": "陈俊言",
+    "question": "持持说自己的文章太烂，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D07-r0018",
+    "anchor": "D07-r0018",
+    "day": "D07",
+    "pages": [
+      20
+    ],
+    "pov": "陈俊言",
+    "question": "老师提醒断句别用铅笔，我怎么回应？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N06-r0021",
+    "anchor": "N06-r0021",
+    "day": "N06",
+    "pages": [
+      21
+    ],
+    "pov": "徐启元",
+    "question": "歌声又飘上来，我怎么把话接回课堂？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N06-r0032",
+    "anchor": "N06-r0032",
+    "day": "N06",
+    "pages": [
+      21
+    ],
+    "pov": "徐启元",
+    "question": "沐衡说老师把笔顺走了，我怎么插话？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D08-r0045",
+    "anchor": "D08-r0045",
+    "day": "D08",
+    "pages": [
+      22
+    ],
+    "pov": "黄鹤鸣",
+    "question": "邵聪说“大家都会”，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D08-r0020",
+    "anchor": "D08-r0020",
+    "day": "D08",
+    "pages": [
+      22
+    ],
+    "pov": "黄鹤鸣",
+    "question": "生物题太繁复，我怎样接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D09-0003",
+    "anchor": "D09-0003",
+    "day": "D09",
+    "pages": [
+      23,
+      24
+    ],
+    "pov": "彭逸涵",
+    "question": "周六课时这么长，我怎样安排眼前这节？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D09-r0023",
+    "anchor": "D09-r0023",
+    "day": "D09",
+    "pages": [
+      187
+    ],
+    "pov": "徐子涵",
+    "question": "雷导问还要不要找金子，我怎么接？",
+    "options": 5
+  },
+  {
+    "id": "interactive-N07-r0027",
+    "anchor": "N07-r0027",
+    "day": "N07",
+    "pages": [
+      25
+    ],
+    "pov": "张瑞麒",
+    "question": "树苡把老妇进井联想到MC，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N07-r0034",
+    "anchor": "N07-r0034",
+    "day": "N07",
+    "pages": [
+      25
+    ],
+    "pov": "张瑞麒",
+    "question": "每天统练开始了，我怎样和同桌说？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N08-r0021",
+    "anchor": "N08-r0021",
+    "day": "N08",
+    "pages": [
+      26
+    ],
+    "pov": "史绍恺",
+    "question": "老师抽到大哥，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N08-r0031",
+    "anchor": "N08-r0031",
+    "day": "N08",
+    "pages": [
+      26
+    ],
+    "pov": "史绍恺",
+    "question": "“HQ万万岁”后怎样传本子？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N09-r0021",
+    "anchor": "N09-r0021",
+    "day": "N09",
+    "pages": [
+      27,
+      28
+    ],
+    "pov": "张鹤闻",
+    "question": "贾盛元说能当速度选择器，我怎么追问？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N09-r0030",
+    "anchor": "N09-r0030",
+    "day": "N09",
+    "pages": [
+      27,
+      28
+    ],
+    "pov": "张鹤闻",
+    "question": "老师说高考后会发分数，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N10-r0040",
+    "anchor": "N10-r0040",
+    "day": "N10",
+    "pages": [
+      29,
+      30
+    ],
+    "pov": "石杨",
+    "question": "黄艺博叹气，电脑又卡，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N10-r0046",
+    "anchor": "N10-r0046",
+    "day": "N10",
+    "pages": [
+      29,
+      30
+    ],
+    "pov": "石杨",
+    "question": "又抽到满者，我怎样打趣？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N11-r0033",
+    "anchor": "N11-r0033",
+    "day": "N11",
+    "pages": [
+      31,
+      32
+    ],
+    "pov": "李沛霖",
+    "question": "石杨说“逊”的范围太广，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N11-r0037",
+    "anchor": "N11-r0037",
+    "day": "N11",
+    "pages": [
+      31,
+      32
+    ],
+    "pov": "李沛霖",
+    "question": "周五晚还想着明天，我怎么和同学说？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D10-0007",
+    "anchor": "D10-0007",
+    "day": "D10",
+    "pages": [
+      33,
+      34,
+      35
+    ],
+    "pov": "戚洪硕",
+    "question": "各组村子刚分好，我怎么回应？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D10-0023",
+    "anchor": "D10-0023",
+    "day": "D10",
+    "pages": [
+      33,
+      34,
+      35
+    ],
+    "pov": "戚洪硕",
+    "question": "智者在一比八的“一”侧，怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N12-r0030",
+    "anchor": "N12-r0030",
+    "day": "N12",
+    "pages": [
+      36
+    ],
+    "pov": "吕思宇",
+    "question": "作业见证被叫“导盲犬”，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N12-r0032",
+    "anchor": "N12-r0032",
+    "day": "N12",
+    "pages": [
+      36
+    ],
+    "pov": "吕思宇",
+    "question": "HQ说转得快慢不同，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N13-r0015",
+    "anchor": "N13-r0015",
+    "day": "N13",
+    "pages": [
+      37
+    ],
+    "pov": "邵聪",
+    "question": "老师说没学下棋，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N13-r0023",
+    "anchor": "N13-r0023",
+    "day": "N13",
+    "pages": [
+      37
+    ],
+    "pov": "邵聪",
+    "question": "全班的事写成一个人的事，我怎么补？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D11-0005",
+    "anchor": "D11-0005",
+    "day": "D11",
+    "pages": [
+      38,
+      39,
+      40
+    ],
+    "pov": "惠子宁",
+    "question": "HQ说这是普拉提，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D11-0007",
+    "anchor": "D11-0007",
+    "day": "D11",
+    "pages": [
+      38,
+      39,
+      40
+    ],
+    "pov": "惠子宁",
+    "question": "邵聪指着拖把零件，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N14-r0025",
+    "anchor": "N14-r0025",
+    "day": "N14",
+    "pages": [
+      41
+    ],
+    "pov": "惠子宁",
+    "question": "老师又怕讲不完，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N14-r0031",
+    "anchor": "N14-r0031",
+    "day": "N14",
+    "pages": [
+      41
+    ],
+    "pov": "惠子宁",
+    "question": "身高越说越矮，我怎么收住？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N15-r0039",
+    "anchor": "N15-r0039",
+    "day": "N15",
+    "pages": [
+      42,
+      43
+    ],
+    "pov": "刘恒怿",
+    "question": "老师划清能用的定理，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N15-r0057",
+    "anchor": "N15-r0057",
+    "day": "N15",
+    "pages": [
+      42,
+      43
+    ],
+    "pov": "刘恒怿",
+    "question": "满者正在扫碎片，我怎么提醒？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N16-r0018",
+    "anchor": "N16-r0018",
+    "day": "N16",
+    "pages": [
+      44
+    ],
+    "pov": "蔡依凡",
+    "question": "大哥把两段“越累”接在一起，我怎么回应？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N16-r0022",
+    "anchor": "N16-r0022",
+    "day": "N16",
+    "pages": [
+      44
+    ],
+    "pov": "蔡依凡",
+    "question": "老师发现文章还有一段，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N17-r0023",
+    "anchor": "N17-r0023",
+    "day": "N17",
+    "pages": [
+      45
+    ],
+    "pov": "金悦山",
+    "question": "“全国都笑话你”怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N17-r0029",
+    "anchor": "N17-r0029",
+    "day": "N17",
+    "pages": [
+      45
+    ],
+    "pov": "金悦山",
+    "question": "曲别针排到一百余个，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D12-r0003",
+    "anchor": "D12-r0003",
+    "day": "D12",
+    "pages": [
+      46,
+      47
+    ],
+    "pov": "李沛霖",
+    "question": "树苡要排逆天之最，我怎么追问？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D12-r0041",
+    "anchor": "D12-r0041",
+    "day": "D12",
+    "pages": [
+      46,
+      47
+    ],
+    "pov": "凌艺坤",
+    "question": "喷气背包大雁的比喻之后，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N18-r0031",
+    "anchor": "N18-r0031",
+    "day": "N18",
+    "pages": [
+      48,
+      49
+    ],
+    "pov": "周远持",
+    "question": "物理等于语文，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N18-r0043",
+    "anchor": "N18-r0043",
+    "day": "N18",
+    "pages": [
+      48,
+      49
+    ],
+    "pov": "周远持",
+    "question": "老师问坐沛霖后面的用意，我怎么解释？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D13-r0009",
+    "anchor": "D13-r0009",
+    "day": "D13",
+    "pages": [
+      50
+    ],
+    "pov": "戴向阳",
+    "question": "坤说开新页不是把他写进去，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D13-0019",
+    "anchor": "D13-0019",
+    "day": "D13",
+    "pages": [
+      50
+    ],
+    "pov": "戴向阳",
+    "question": "发电站的副站长也有了，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N19-r0064",
+    "anchor": "N19-r0064",
+    "day": "N19",
+    "pages": [
+      53,
+      51,
+      52
+    ],
+    "pov": "李沛霖",
+    "question": "满者说不去办公室，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N19-r0072",
+    "anchor": "N19-r0072",
+    "day": "N19",
+    "pages": [
+      53,
+      51,
+      52
+    ],
+    "pov": "李沛霖",
+    "question": "惠说先看字，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D14-r0028",
+    "anchor": "D14-r0028",
+    "day": "D14",
+    "pages": [
+      54
+    ],
+    "pov": "李沐衡",
+    "question": "树苡反驳升旗那段话，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D14-0006",
+    "anchor": "D14-0006",
+    "day": "D14",
+    "pages": [
+      54
+    ],
+    "pov": "李沐衡",
+    "question": "HQ说“我错了”，我怎样收住误听？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D15-0007",
+    "anchor": "D15-0007",
+    "day": "D15",
+    "pages": [
+      55,
+      56
+    ],
+    "pov": "孙佳怡",
+    "question": "卷子数得太快，我怎么确认？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D15-0012",
+    "anchor": "D15-0012",
+    "day": "D15",
+    "pages": [
+      55,
+      56
+    ],
+    "pov": "孙佳怡",
+    "question": "起床曲还在脑子里，我怎么回神？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N20-r0037",
+    "anchor": "N20-r0037",
+    "day": "N20",
+    "pages": [
+      57,
+      58
+    ],
+    "pov": "马诗雨",
+    "question": "半小时作业的判断怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N20-r0048",
+    "anchor": "N20-r0048",
+    "day": "N20",
+    "pages": [
+      57,
+      58
+    ],
+    "pov": "马诗雨",
+    "question": "下联最后一声特别好记，我怎么说？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D16-0003",
+    "anchor": "D16-0003",
+    "day": "D16",
+    "pages": [
+      59,
+      60
+    ],
+    "pov": "马诗雨",
+    "question": "有底座的牌位摆出来，我怎么问？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D16-r0010",
+    "anchor": "D16-r0010",
+    "day": "D16",
+    "pages": [
+      59,
+      60
+    ],
+    "pov": "徐子涵",
+    "question": "我正要破防，怎么把话接回来？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D17-0003",
+    "anchor": "D17-0003",
+    "day": "D17",
+    "pages": [
+      61,
+      62
+    ],
+    "pov": "刘美孜",
+    "question": "集合前我怎么招呼同学？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D17-0020",
+    "anchor": "D17-0020",
+    "day": "D17",
+    "pages": [
+      61,
+      62
+    ],
+    "pov": "刘美孜",
+    "question": "返校有人来接，我怎么接话？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D18-r0023",
+    "anchor": "D18-r0023",
+    "day": "D18",
+    "pages": [
+      63,
+      64
+    ],
+    "pov": "彭逸涵",
+    "question": "一盒纸用完了，我怎么回应？",
+    "options": 5
+  },
+  {
+    "id": "interactive-D18-r0097",
+    "anchor": "D18-r0097",
+    "day": "D18",
+    "pages": [
+      63,
+      64
+    ],
+    "pov": "徐启元",
+    "question": "有人要坐热气球，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N21-r0019",
+    "anchor": "N21-r0019",
+    "day": "N21",
+    "pages": [
+      65
+    ],
+    "pov": "徐启元",
+    "question": "两个英语词被拆开，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N21-r0029",
+    "anchor": "N21-r0029",
+    "day": "N21",
+    "pages": [
+      65
+    ],
+    "pov": "徐启元",
+    "question": "向阳嫌第一排太吵，我怎么问？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D19-r0134",
+    "anchor": "D19-r0134",
+    "day": "D19",
+    "pages": [
+      66,
+      67,
+      68,
+      69
+    ],
+    "pov": "李昊宇",
+    "question": "老师说无人助我，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D19-r0020",
+    "anchor": "D19-r0020",
+    "day": "D19",
+    "pages": [
+      211
+    ],
+    "pov": "李昊宇",
+    "question": "四项失职被追问，我怎么插话？",
+    "options": 5
+  },
+  {
+    "id": "interactive-D20-r0121",
+    "anchor": "D20-r0121",
+    "day": "D20",
+    "pages": [
+      70,
+      71,
+      72,
+      73
+    ],
+    "pov": "吕思宇",
+    "question": "老师追到两班各交一份，我怎么回应？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D20-r0139",
+    "anchor": "D20-r0139",
+    "day": "D20",
+    "pages": [
+      70,
+      71,
+      72,
+      73
+    ],
+    "pov": "吕思宇",
+    "question": "人认错了，沐衡说那是石杨，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N22-r0029",
+    "anchor": "N22-r0029",
+    "day": "N22",
+    "pages": [
+      74,
+      75
+    ],
+    "pov": "徐启元",
+    "question": "观测报告把满者写成集团，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N22-r0030",
+    "anchor": "N22-r0030",
+    "day": "N22",
+    "pages": [
+      74,
+      75
+    ],
+    "pov": "徐启元",
+    "question": "沐衡问共和国也收到通知，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N23-r0023",
+    "anchor": "N23-r0023",
+    "day": "N23",
+    "pages": [
+      76,
+      77
+    ],
+    "pov": "陈熙",
+    "question": "老师问发的视频看过没有，我怎么回应？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N23-r0039",
+    "anchor": "N23-r0039",
+    "day": "N23",
+    "pages": [
+      76,
+      77
+    ],
+    "pov": "陈熙",
+    "question": "承容说要大笑而去，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N24-r0026",
+    "anchor": "N24-r0026",
+    "day": "N24",
+    "pages": [
+      78
+    ],
+    "pov": "杨雁翔",
+    "question": "得分率低，答案又说没问题，我怎么问？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N24-r0038",
+    "anchor": "N24-r0038",
+    "day": "N24",
+    "pages": [
+      78
+    ],
+    "pov": "杨雁翔",
+    "question": "“a米”刚解释清楚，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N25-r0041",
+    "anchor": "N25-r0041",
+    "day": "N25",
+    "pages": [
+      79,
+      80
+    ],
+    "pov": "李沛霖",
+    "question": "被问“十八页”时，我怎么先接一句？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N25-r0046",
+    "anchor": "N25-r0046",
+    "day": "N25",
+    "pages": [
+      79,
+      80
+    ],
+    "pov": "李沛霖",
+    "question": "“找不到可以不写”这句怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N26-r0022",
+    "anchor": "N26-r0022",
+    "day": "N26",
+    "pages": [
+      81
+    ],
+    "pov": "李沛霖",
+    "question": "“孑然一身”念出来，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N26-r0029",
+    "anchor": "N26-r0029",
+    "day": "N26",
+    "pages": [
+      81
+    ],
+    "pov": "李沛霖",
+    "question": "偏在老师斥责时要走，我怎样向启元示意？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D21-0004",
+    "anchor": "D21-0004",
+    "day": "D21",
+    "pages": [
+      82,
+      83
+    ],
+    "pov": "凌艺坤",
+    "question": "五册雷学封面出来，我怎么问？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D21-0015",
+    "anchor": "D21-0015",
+    "day": "D21",
+    "pages": [
+      82,
+      83
+    ],
+    "pov": "凌艺坤",
+    "question": "老师在阅卷，我怎样收住展览？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N27-r0053",
+    "anchor": "N27-r0053",
+    "day": "N27",
+    "pages": [
+      84,
+      85
+    ],
+    "pov": "戴杨洁",
+    "question": "老师一天判完卷子，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N27-r0058",
+    "anchor": "N27-r0058",
+    "day": "N27",
+    "pages": [
+      84,
+      85
+    ],
+    "pov": "戴杨洁",
+    "question": "持持把黄金代换问成单摆，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N28-r0023",
+    "anchor": "N28-r0023",
+    "day": "N28",
+    "pages": [
+      86
+    ],
+    "pov": "戴向阳",
+    "question": "白板近、镜子远，我怎么把话接回题？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D22-0006",
+    "anchor": "D22-0006",
+    "day": "D22",
+    "pages": [
+      88
+    ],
+    "pov": "徐子涵",
+    "question": "九十分才能拿回册子，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D22-r0028",
+    "anchor": "D22-r0028",
+    "day": "D22",
+    "pages": [
+      88
+    ],
+    "pov": "徐子涵",
+    "question": "惠说先擦掉答案，我怎样配合？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N29-r0022",
+    "anchor": "N29-r0022",
+    "day": "N29",
+    "pages": [
+      89
+    ],
+    "pov": "周远持",
+    "question": "老师说有人嘲笑，我怎样把话接回去？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N29-r0026",
+    "anchor": "N29-r0026",
+    "day": "N29",
+    "pages": [
+      89
+    ],
+    "pov": "周远持",
+    "question": "飞盘微写作被夸，我怎么回应？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N30-r0037",
+    "anchor": "N30-r0037",
+    "day": "N30",
+    "pages": [
+      90
+    ],
+    "pov": "李沛霖",
+    "question": "持持把医患关系和课堂相比，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N30-r0043",
+    "anchor": "N30-r0043",
+    "day": "N30",
+    "pages": [
+      90
+    ],
+    "pov": "李沛霖",
+    "question": "考前都盯压轴，我怎样提醒自己？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D23-0006",
+    "anchor": "D23-0006",
+    "day": "D23",
+    "pages": [
+      91
+    ],
+    "pov": "李沛霖",
+    "question": "喊稳了之后又觉得不稳，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D23-0009",
+    "anchor": "D23-0009",
+    "day": "D23",
+    "pages": [
+      91
+    ],
+    "pov": "李沛霖",
+    "question": "满者开始报状元分数，我怎么回应？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N31-r0018",
+    "anchor": "N31-r0018",
+    "day": "N31",
+    "pages": [
+      92
+    ],
+    "pov": "李沛霖",
+    "question": "数学之后只盼化学复生，我怎么说？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N31-r0023",
+    "anchor": "N31-r0023",
+    "day": "N31",
+    "pages": [
+      92
+    ],
+    "pov": "李沛霖",
+    "question": "大家抢着对答案，我怎样缓一下？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N32-r0018",
+    "anchor": "N32-r0018",
+    "day": "N32",
+    "pages": [
+      92
+    ],
+    "pov": "李沛霖",
+    "question": "一百四十还未可知，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N32-r0030",
+    "anchor": "N32-r0030",
+    "day": "N32",
+    "pages": [
+      92
+    ],
+    "pov": "李沛霖",
+    "question": "争论输了、答案赢了，我怎么回应？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D24-r0028",
+    "anchor": "D24-r0028",
+    "day": "D24",
+    "pages": [
+      196,
+      197
+    ],
+    "pov": "李沛霖",
+    "question": "黄艺博说到“后来”，我怎么追问？",
+    "options": 5
+  },
+  {
+    "id": "interactive-D24-r0082",
+    "anchor": "D24-r0082",
+    "day": "D24",
+    "pages": [
+      198
+    ],
+    "pov": "李沛霖",
+    "question": "聊了几个月之后，我怎么问信息差？",
+    "options": 5
+  },
+  {
+    "id": "interactive-N33-r0038",
+    "anchor": "N33-r0038",
+    "day": "N33",
+    "pages": [
+      94,
+      95
+    ],
+    "pov": "彭逸涵",
+    "question": "垃圾桶没了，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N33-r0042",
+    "anchor": "N33-r0042",
+    "day": "N33",
+    "pages": [
+      94,
+      95
+    ],
+    "pov": "彭逸涵",
+    "question": "乐器还凑不成丝竹之盛，我怎么回应？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N34-r0021",
+    "anchor": "N34-r0021",
+    "day": "N34",
+    "pages": [
+      96
+    ],
+    "pov": "杨京赫",
+    "question": "一百万放在不同人身上，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N34-r0026",
+    "anchor": "N34-r0026",
+    "day": "N34",
+    "pages": [
+      96
+    ],
+    "pov": "杨京赫",
+    "question": "顶芽侧芽的解释出来，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N35-r0011",
+    "anchor": "N35-r0011",
+    "day": "N35",
+    "pages": [
+      97
+    ],
+    "pov": "周远持",
+    "question": "博士讲得靠前、老师掌握出题，我怎么问？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N35-r0015",
+    "anchor": "N35-r0015",
+    "day": "N35",
+    "pages": [
+      97
+    ],
+    "pov": "周远持",
+    "question": "水分子浓度那句之后，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N36-r0012",
+    "anchor": "N36-r0012",
+    "day": "N36",
+    "pages": [
+      97
+    ],
+    "pov": "吕思宇",
+    "question": "十三十四的范文编号摆出来，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N36-r0015",
+    "anchor": "N36-r0015",
+    "day": "N36",
+    "pages": [
+      97
+    ],
+    "pov": "吕思宇",
+    "question": "“我吃balabala”怎么接回补录？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N37-r0013",
+    "anchor": "N37-r0013",
+    "day": "N37",
+    "pages": [
+      97
+    ],
+    "pov": "刘恒怿",
+    "question": "老师说先整理，我怎样等答疑？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N37-r0019",
+    "anchor": "N37-r0019",
+    "day": "N37",
+    "pages": [
+      97
+    ],
+    "pov": "刘恒怿",
+    "question": "一天的成绩分析很长，我怎么收尾？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N38-r0018",
+    "anchor": "N38-r0018",
+    "day": "N38",
+    "pages": [
+      98
+    ],
+    "pov": "刘恒怿",
+    "question": "老师说同学讲题有用，我怎么回应？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N38-r0022",
+    "anchor": "N38-r0022",
+    "day": "N38",
+    "pages": [
+      98
+    ],
+    "pov": "刘恒怿",
+    "question": "朗读被画成现场图，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D25-0003",
+    "anchor": "D25-0003",
+    "day": "D25",
+    "pages": [
+      100
+    ],
+    "pov": "贾盛元",
+    "question": "迟到后我怎样解释？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D25-r0033",
+    "anchor": "D25-r0033",
+    "day": "D25",
+    "pages": [
+      100
+    ],
+    "pov": "徐启元",
+    "question": "老师找资料，群里没人回，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N39-r0015",
+    "anchor": "N39-r0015",
+    "day": "N39",
+    "pages": [
+      101
+    ],
+    "pov": "吕思宇",
+    "question": "册子只交二三本，我怎么提醒？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N39-r0018",
+    "anchor": "N39-r0018",
+    "day": "N39",
+    "pages": [
+      101
+    ],
+    "pov": "吕思宇",
+    "question": "拒绝信措辞要怎么定？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D26-r0010",
+    "anchor": "D26-r0010",
+    "day": "D26",
+    "pages": [
+      102,
+      103
+    ],
+    "pov": "贾诺基",
+    "question": "老师推荐得认真，我怎样问约面的事？",
+    "options": 5
+  },
+  {
+    "id": "interactive-D26-0025",
+    "anchor": "D26-0025",
+    "day": "D26",
+    "pages": [
+      102,
+      103
+    ],
+    "pov": "李沛霖",
+    "question": "只晚几分钟也要赶，我怎样招呼？",
+    "options": 5
+  },
+  {
+    "id": "interactive-D27-r0011",
+    "anchor": "D27-r0011",
+    "day": "D27",
+    "pages": [
+      104
+    ],
+    "pov": "张瑞麒",
+    "question": "因式从下往上飞，我怎样问软件？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D27-r0039",
+    "anchor": "D27-r0039",
+    "day": "D27",
+    "pages": [
+      104
+    ],
+    "pov": "张瑞麒",
+    "question": "右手练了二十分钟，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N40-r0026",
+    "anchor": "N40-r0026",
+    "day": "N40",
+    "pages": [
+      105,
+      106
+    ],
+    "pov": "李玉",
+    "question": "三二一瓶阵放在窗台，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N40-r0031",
+    "anchor": "N40-r0031",
+    "day": "N40",
+    "pages": [
+      105,
+      106
+    ],
+    "pov": "李玉",
+    "question": "798姓什么，我怎样接这句玩笑？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D28-r0006",
+    "anchor": "D28-r0006",
+    "day": "D28",
+    "pages": [
+      107
+    ],
+    "pov": "惠子宁",
+    "question": "邵聪问拿什么灭火，我怎么解释？",
+    "options": 5
+  },
+  {
+    "id": "interactive-D28-r0025",
+    "anchor": "D28-r0025",
+    "day": "D28",
+    "pages": [
+      107
+    ],
+    "pov": "惠子宁",
+    "question": "新队一开就进去，我怎么接沐衡的话？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N41-r0021",
+    "anchor": "N41-r0021",
+    "day": "N41",
+    "pages": [
+      108,
+      109
+    ],
+    "pov": "雷昱",
+    "question": "“细微之美”之外，我怎么说阅读？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N41-r0039",
+    "anchor": "N41-r0039",
+    "day": "N41",
+    "pages": [
+      108,
+      109
+    ],
+    "pov": "雷昱",
+    "question": "满者否认那段论述，我怎么回应？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D29-0011",
+    "anchor": "D29-0011",
+    "day": "D29",
+    "pages": [
+      109
+    ],
+    "pov": "戚洪硕",
+    "question": "我说“我来帮你”，下一句怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D29-r0026",
+    "anchor": "D29-r0026",
+    "day": "D29",
+    "pages": [
+      109
+    ],
+    "pov": "戚洪硕",
+    "question": "老师叫“院士”签名，我怎样应声？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N42-r0023",
+    "anchor": "N42-r0023",
+    "day": "N42",
+    "pages": [
+      110
+    ],
+    "pov": "陈熙",
+    "question": "“听课”把玩笑拉回来，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N42-r0028",
+    "anchor": "N42-r0028",
+    "day": "N42",
+    "pages": [
+      110
+    ],
+    "pov": "陈熙",
+    "question": "两个水池一个冷一个烫，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D30-0008",
+    "anchor": "D30-0008",
+    "day": "D30",
+    "pages": [
+      111
+    ],
+    "pov": "刘恒怿",
+    "question": "竞速之前，老师说写得出来才会，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D30-r0030",
+    "anchor": "D30-r0030",
+    "day": "D30",
+    "pages": [
+      111
+    ],
+    "pov": "刘恒怿",
+    "question": "满者旧发言被读出来，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D31-0009",
+    "anchor": "D31-0009",
+    "day": "D31",
+    "pages": [
+      112
+    ],
+    "pov": "徐子涵",
+    "question": "老师要求向七班道歉，我怎么回应？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D31-r0030",
+    "anchor": "D31-r0030",
+    "day": "D31",
+    "pages": [
+      112
+    ],
+    "pov": "李沛霖",
+    "question": "楼道里还在劝认错，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N43-r0010",
+    "anchor": "N43-r0010",
+    "day": "N43",
+    "pages": [
+      113
+    ],
+    "pov": "张怀锦",
+    "question": "“仁而”这声读出来，我怎么解释？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N43-r0013",
+    "anchor": "N43-r0013",
+    "day": "N43",
+    "pages": [
+      113
+    ],
+    "pov": "张怀锦",
+    "question": "被说举报，我怎么把话接回题目？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N44-r0023",
+    "anchor": "N44-r0023",
+    "day": "N44",
+    "pages": [
+      113
+    ],
+    "pov": "刘恒怿",
+    "question": "门上的防震条被问起，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N44-r0031",
+    "anchor": "N44-r0031",
+    "day": "N44",
+    "pages": [
+      113
+    ],
+    "pov": "刘恒怿",
+    "question": "刚醒被叫上台，我怎么先开口？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D32-0003",
+    "anchor": "D32-0003",
+    "day": "D32",
+    "pages": [
+      114
+    ],
+    "pov": "刘恒怿",
+    "question": "十八岁收到祝贺，我怎么回应？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D32-0013",
+    "anchor": "D32-0013",
+    "day": "D32",
+    "pages": [
+      114
+    ],
+    "pov": "刘恒怿",
+    "question": "睡觉奖没被书挡住，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N45-r0004",
+    "anchor": "N45-r0004",
+    "day": "N45",
+    "pages": [
+      115
+    ],
+    "pov": "刘树苡",
+    "question": "雪里的延时影像怎样拍？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D33-r0003",
+    "anchor": "D33-r0003",
+    "day": "D33",
+    "pages": [
+      115
+    ],
+    "pov": "刘恒怿",
+    "question": "雪天回班上网课，我怎样和向阳说？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D33-r0014",
+    "anchor": "D33-r0014",
+    "day": "D33",
+    "pages": [
+      115
+    ],
+    "pov": "刘恒怿",
+    "question": "母亲没收Switch之后，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N46-r0004",
+    "anchor": "N46-r0004",
+    "day": "N46",
+    "pages": [
+      115
+    ],
+    "pov": "刘恒怿",
+    "question": "第一次听口出来，我怎么回应同学？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N47-r0003",
+    "anchor": "N47-r0003",
+    "day": "N47",
+    "pages": [
+      115
+    ],
+    "pov": "李沐衡",
+    "question": "期末还有四周，我怎样接老师的话？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D34-0003",
+    "anchor": "D34-0003",
+    "day": "D34",
+    "pages": [
+      116
+    ],
+    "pov": "刘恒怿",
+    "question": "material这处义项，我怎么问清？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D35-r0009",
+    "anchor": "D35-r0009",
+    "day": "D35",
+    "pages": [
+      117
+    ],
+    "pov": "凌艺坤",
+    "question": "办公室里想谈基础，我怎样把问题说具体？",
+    "options": 5
+  },
+  {
+    "id": "interactive-D35-r0025",
+    "anchor": "D35-r0025",
+    "day": "D35",
+    "pages": [
+      117
+    ],
+    "pov": "凌艺坤",
+    "question": "老师答应少讲深内容，我怎么接后续？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D36-r0172",
+    "anchor": "D36-r0172",
+    "day": "D36",
+    "pages": [
+      118,
+      119,
+      120,
+      121
+    ],
+    "pov": "惠子宁",
+    "question": "邵聪说不会说话了，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D36-r0041",
+    "anchor": "D36-r0041",
+    "day": "D36",
+    "pages": [
+      118,
+      119,
+      120,
+      121
+    ],
+    "pov": "惠子宁",
+    "question": "他说记录都是编的，我怎么回应？",
+    "options": 5
+  },
+  {
+    "id": "interactive-D36-r0072",
+    "anchor": "D36-r0072",
+    "day": "D36",
+    "pages": [
+      118,
+      119,
+      120,
+      121
+    ],
+    "pov": "惠子宁",
+    "question": "通路那一处被问起，我怎么帮忙？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D37-r0041",
+    "anchor": "D37-r0041",
+    "day": "D37",
+    "pages": [
+      128,
+      129,
+      130
+    ],
+    "pov": "马诗雨",
+    "question": "老师又讲变压器实验的记忆，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D38-r0003",
+    "anchor": "D38-r0003",
+    "day": "D38",
+    "pages": [
+      131,
+      132
+    ],
+    "pov": "李沛霖",
+    "question": "老师声音还虚弱，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D38-r0022",
+    "anchor": "D38-r0022",
+    "day": "D38",
+    "pages": [
+      131,
+      132
+    ],
+    "pov": "李沛霖",
+    "question": "合影结束，借裤的事怎样收尾？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N48-r0024",
+    "anchor": "N48-r0024",
+    "day": "N48",
+    "pages": [
+      133
+    ],
+    "pov": "童莘淇",
+    "question": "老师比较病中作业和破纸，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N49-r0014",
+    "anchor": "N49-r0014",
+    "day": "N49",
+    "pages": [
+      134
+    ],
+    "pov": "邵聪",
+    "question": "老师临时叫满者示范，我怎样和他说？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D39-0012",
+    "anchor": "D39-0012",
+    "day": "D39",
+    "pages": [
+      135,
+      136
+    ],
+    "pov": "雷昱",
+    "question": "先看第九题，我怎么回应邵聪？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N50-r0032",
+    "anchor": "N50-r0032",
+    "day": "N50",
+    "pages": [
+      137
+    ],
+    "pov": "冯子豪",
+    "question": "豪华自助作业摆出来，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D39A-r0012",
+    "anchor": "D39A-r0012",
+    "day": "D39A",
+    "pages": [
+      138
+    ],
+    "pov": "唐朝",
+    "question": "名字已改成梅利屋，惠说先看吃什么，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D40-0008",
+    "anchor": "D40-0008",
+    "day": "D40",
+    "pages": [
+      139
+    ],
+    "pov": "周远持",
+    "question": "雷昱提减七和弦，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N51-r0027",
+    "anchor": "N51-r0027",
+    "day": "N51",
+    "pages": [
+      140
+    ],
+    "pov": "徐子涵",
+    "question": "答疑桌前，我怎样接住这一问？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N52-r0041",
+    "anchor": "N52-r0041",
+    "day": "N52",
+    "pages": [
+      141,
+      142
+    ],
+    "pov": "戴向阳",
+    "question": "压轴会做、整卷十余分，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N53-r0013",
+    "anchor": "N53-r0013",
+    "day": "N53",
+    "pages": [
+      142
+    ],
+    "pov": "徐子涵",
+    "question": "作业册叫“春梅须自寒”，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N54-r0009",
+    "anchor": "N54-r0009",
+    "day": "N54",
+    "pages": [
+      142
+    ],
+    "pov": "惠子宁",
+    "question": "换元先把一团换开，我怎么说？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D41-r0035",
+    "anchor": "D41-r0035",
+    "day": "D41",
+    "pages": [
+      143,
+      144,
+      145,
+      146
+    ],
+    "pov": "陈熙",
+    "question": "满者抢着说让我来，我怎样接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N55-r0017",
+    "anchor": "N55-r0017",
+    "day": "N55",
+    "pages": [
+      146
+    ],
+    "pov": "徐子涵",
+    "question": "规划不交不能走，我怎么回应？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D42-r0021",
+    "anchor": "D42-r0021",
+    "day": "D42",
+    "pages": [
+      147
+    ],
+    "pov": "陈俊言",
+    "question": "忘关麦，人走了歌还在，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N56-r0017",
+    "anchor": "N56-r0017",
+    "day": "N56",
+    "pages": [
+      148
+    ],
+    "pov": "陈俊言",
+    "question": "三十页PPT的话怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N57-r0024",
+    "anchor": "N57-r0024",
+    "day": "N57",
+    "pages": [
+      149
+    ],
+    "pov": "彭逸涵",
+    "question": "荷兰口哨故事先从哪儿问？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D43-0006",
+    "anchor": "D43-0006",
+    "day": "D43",
+    "pages": [
+      150
+    ],
+    "pov": "邵聪",
+    "question": "老师举送别的例子，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N58-r0021",
+    "anchor": "N58-r0021",
+    "day": "N58",
+    "pages": [
+      151
+    ],
+    "pov": "李昊宇",
+    "question": "痱子粉会不高兴，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D44-r0017",
+    "anchor": "D44-r0017",
+    "day": "D44",
+    "pages": [
+      152
+    ],
+    "pov": "戚洪硕",
+    "question": "老师指出满者问题不少，我怎么接话？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D44-r0032",
+    "anchor": "D44-r0032",
+    "day": "D44",
+    "pages": [
+      152
+    ],
+    "pov": "戚洪硕",
+    "question": "老师问不练怎么考好，我怎么回应？",
+    "options": 5
+  },
+  {
+    "id": "interactive-D45-0003",
+    "anchor": "D45-0003",
+    "day": "D45",
+    "pages": [
+      153,
+      157,
+      158
+    ],
+    "pov": "李沛霖",
+    "question": "戒手机三次又没戒住，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D45-0033",
+    "anchor": "D45-0033",
+    "day": "D45",
+    "pages": [
+      153,
+      157,
+      158
+    ],
+    "pov": "惠子宁",
+    "question": "老师觉得是憾事，我怎么问感受？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D46-r0018",
+    "anchor": "D46-r0018",
+    "day": "D46",
+    "pages": [
+      159,
+      160
+    ],
+    "pov": "徐子涵",
+    "question": "进办公室前怕腥风血雨，我怎样开口？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D46-r0033",
+    "anchor": "D46-r0033",
+    "day": "D46",
+    "pages": [
+      159,
+      160
+    ],
+    "pov": "徐子涵",
+    "question": "老师反问数学有多差，我怎样回应？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D46-r0051",
+    "anchor": "D46-r0051",
+    "day": "D46",
+    "pages": [
+      159,
+      160
+    ],
+    "pov": "徐子涵",
+    "question": "老师问可乐是不是一人一瓶，我怎样答？",
+    "options": 5
+  },
+  {
+    "id": "interactive-D47-r0004",
+    "anchor": "D47-r0004",
+    "day": "D47",
+    "pages": [
+      172
+    ],
+    "pov": "徐子涵",
+    "question": "雷导问昨天那瓶，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D48-r0064",
+    "anchor": "D48-r0064",
+    "day": "D48",
+    "pages": [
+      163,
+      164
+    ],
+    "pov": "李沛霖",
+    "question": "老师要沐衡架手机，我怎么配合？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D49-r0010",
+    "anchor": "D49-r0010",
+    "day": "D49",
+    "pages": [
+      165,
+      166
+    ],
+    "pov": "徐子涵",
+    "question": "别人不停套圈，我怎么回应？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D50-0003",
+    "anchor": "D50-0003",
+    "day": "D50",
+    "pages": [
+      167
+    ],
+    "pov": "李沐衡",
+    "question": "新饮料补货，我怎么招呼？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N59-r0033",
+    "anchor": "N59-r0033",
+    "day": "N59",
+    "pages": [
+      168
+    ],
+    "pov": "刘恒怿",
+    "question": "子尧说HQ算错了，我怎么接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D51-r0011",
+    "anchor": "D51-r0011",
+    "day": "D51",
+    "pages": [
+      169,
+      170
+    ],
+    "pov": "刘恒怿",
+    "question": "老师板书的常数变了，我怎么指出？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D51-r0022",
+    "anchor": "D51-r0022",
+    "day": "D51",
+    "pages": [
+      169,
+      170
+    ],
+    "pov": "刘恒怿",
+    "question": "老师算到两个椭圆，我们怎么接？",
+    "options": 5
+  },
+  {
+    "id": "interactive-D52-r0046",
+    "anchor": "D52-r0046",
+    "day": "D52",
+    "pages": [
+      242
+    ],
+    "pov": "代向阳",
+    "question": "镇长问钢材值多少，我怎样接话？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D52-r0115",
+    "anchor": "D52-r0115",
+    "day": "D52",
+    "pages": [
+      245
+    ],
+    "pov": "秦旻然",
+    "question": "嘉然说又能跑跳，我怎样回应她？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D53-r0080",
+    "anchor": "D53-r0080",
+    "day": "D53",
+    "pages": [
+      246
+    ],
+    "pov": "黄义薄",
+    "question": "账目线索指向八年前，我怎样回答？",
+    "options": 5
+  },
+  {
+    "id": "interactive-D53-r0257",
+    "anchor": "D53-r0257",
+    "day": "D53",
+    "pages": [
+      250
+    ],
+    "pov": "秦嘉然",
+    "question": "金跃山说钱是复工用的，我怎样接？",
+    "options": 4
+  },
+  {
+    "id": "interactive-N60-r0021",
+    "anchor": "N60-r0021",
+    "day": "N60",
+    "pages": [
+      176
+    ],
+    "pov": "戚洪硕",
+    "question": "三垂直太麻烦，我怎样问惠？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D54-r0009",
+    "anchor": "D54-r0009",
+    "day": "D54",
+    "pages": [
+      176
+    ],
+    "pov": "徐子涵",
+    "question": "我想解释录音，怎样把话说清？",
+    "options": 5
+  },
+  {
+    "id": "interactive-D55-r0003",
+    "anchor": "D55-r0003",
+    "day": "D55",
+    "pages": [
+      221
+    ],
+    "pov": "李沛霖",
+    "question": "一张机票的演出卡住，我怎么和演员说？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D55-0064",
+    "anchor": "D55-0064",
+    "day": "D55",
+    "pages": [
+      253
+    ],
+    "pov": "秦旻然",
+    "question": "嘉然让先忙镇上的事，我怎样回应？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D56-r0021",
+    "anchor": "D56-r0021",
+    "day": "D56",
+    "pages": [
+      177,
+      196,
+      199,
+      214
+    ],
+    "pov": "戴向阳",
+    "question": "大雁没背喷气背包，我怎么问树苡？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D57-r0009",
+    "anchor": "D57-r0009",
+    "day": "D57",
+    "pages": [
+      209,
+      210
+    ],
+    "pov": "吕思宇",
+    "question": "作品上要留名字，我怎么接老师的话？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D58-0005",
+    "anchor": "D58-0005",
+    "day": "D58",
+    "pages": [
+      8,
+      24,
+      177
+    ],
+    "pov": "徐启元",
+    "question": "考场外想到写过的步骤，我怎样和雷昱说？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D59-r0013",
+    "anchor": "D59-r0013",
+    "day": "D59",
+    "pages": [
+      187,
+      196
+    ],
+    "pov": "戴向阳",
+    "question": "HQ说一直担心，我怎么解释备用考场？",
+    "options": 4
+  },
+  {
+    "id": "interactive-D60-0003",
+    "anchor": "D60-0003",
+    "day": "D60",
+    "pages": [
+      196,
+      209,
+      210,
+      212,
+      214,
+      255
+    ],
+    "pov": "刘恒怿",
+    "question": "黄鹤鸣往前走，我怎样招呼？",
+    "options": 4
+  }
+]

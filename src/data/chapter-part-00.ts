@@ -118,6 +118,108 @@ const data:StoryNode[] = [
     "speaker": "战老师",
     "text": "笔记要跟上。写过的例题，能不能再做出来？",
     "character": "c48",
+    "next": "interactive-D02-0007"
+  },
+  {
+    "day": "D02",
+    "context": "现实",
+    "period": "课堂",
+    "background": "classroom",
+    "page": 9,
+    "pages": [
+      9
+    ],
+    "source": "补写",
+    "id": "interactive-D02-0007",
+    "kind": "choice",
+    "text": "老师问例题能不能再做，我怎么接？",
+    "speaker": "凌艺坤",
+    "character": "ling",
+    "options": [
+      {
+        "text": "抄过不一定会，我回去盖住答案再做一次。",
+        "next": "interactive-D02-0007-say1"
+      },
+      {
+        "text": "笔记记了，卡住的那一步我还得再问。",
+        "next": "interactive-D02-0007-say2"
+      },
+      {
+        "text": "过程都抄齐了，今晚先不用重复了吧。",
+        "failure": "例题留在本子里，独立完成却还没签到。"
+      },
+      {
+        "text": "等下次考到，我再看看自己会不会。",
+        "failure": "试卷成了第一次练习，计时却没肯重来。"
+      }
+    ]
+  },
+  {
+    "day": "D02",
+    "context": "现实",
+    "period": "课堂",
+    "background": "classroom",
+    "page": 9,
+    "pages": [
+      9
+    ],
+    "source": "补写",
+    "id": "interactive-D02-0007-say1",
+    "kind": "line",
+    "text": "抄过不一定会，我回去盖住答案再做一次。",
+    "speaker": "凌艺坤",
+    "character": "ling",
+    "next": "interactive-D02-0007-reply1"
+  },
+  {
+    "day": "D02",
+    "context": "现实",
+    "period": "课堂",
+    "background": "classroom",
+    "page": 9,
+    "pages": [
+      9
+    ],
+    "source": "补写",
+    "id": "interactive-D02-0007-reply1",
+    "kind": "line",
+    "text": "对，落在纸上看看。",
+    "speaker": "战景林",
+    "character": "c48",
+    "next": "D02-0008"
+  },
+  {
+    "day": "D02",
+    "context": "现实",
+    "period": "课堂",
+    "background": "classroom",
+    "page": 9,
+    "pages": [
+      9
+    ],
+    "source": "补写",
+    "id": "interactive-D02-0007-say2",
+    "kind": "line",
+    "text": "笔记记了，卡住的那一步我还得再问。",
+    "speaker": "凌艺坤",
+    "character": "ling",
+    "next": "interactive-D02-0007-reply2"
+  },
+  {
+    "day": "D02",
+    "context": "现实",
+    "period": "课堂",
+    "background": "classroom",
+    "page": 9,
+    "pages": [
+      9
+    ],
+    "source": "补写",
+    "id": "interactive-D02-0007-reply2",
+    "kind": "line",
+    "text": "把那一步圈出来。",
+    "speaker": "战景林",
+    "character": "c48",
     "next": "D02-0008"
   },
   {
@@ -631,6 +733,108 @@ const data:StoryNode[] = [
     "speaker": "徐启元",
     "text": "HQ？原来还可以这么叫。",
     "character": "xu",
+    "next": "interactive-D02-0011"
+  },
+  {
+    "day": "D02",
+    "context": "回忆 · 高一初识HQ",
+    "period": "称呼的旧事",
+    "background": "classroom",
+    "page": 9,
+    "pages": [
+      9
+    ],
+    "source": "补写",
+    "id": "interactive-D02-0011",
+    "kind": "choice",
+    "text": "启元问起HQ，我怎样接话？",
+    "speaker": "凌艺坤",
+    "character": "ling",
+    "options": [
+      {
+        "text": "叫顺口了，听着倒像咱们自己的暗号。",
+        "next": "interactive-D02-0011-say1"
+      },
+      {
+        "text": "先记老师，再记这个称呼的来历。",
+        "next": "interactive-D02-0011-say2"
+      },
+      {
+        "text": "就写HQ吧，没听过的人自己猜。",
+        "failure": "两个字母站上纸面，后来读的人却找不到老师。"
+      },
+      {
+        "text": "名字略掉，群名够解释一切了。",
+        "failure": "群名接过了解释工作，第一位读者仍在门外。"
+      }
+    ]
+  },
+  {
+    "day": "D02",
+    "context": "回忆 · 高一初识HQ",
+    "period": "称呼的旧事",
+    "background": "classroom",
+    "page": 9,
+    "pages": [
+      9
+    ],
+    "source": "补写",
+    "id": "interactive-D02-0011-say1",
+    "kind": "line",
+    "text": "叫顺口了，听着倒像咱们自己的暗号。",
+    "speaker": "凌艺坤",
+    "character": "ling",
+    "next": "interactive-D02-0011-reply1"
+  },
+  {
+    "day": "D02",
+    "context": "回忆 · 高一初识HQ",
+    "period": "称呼的旧事",
+    "background": "classroom",
+    "page": 9,
+    "pages": [
+      9
+    ],
+    "source": "补写",
+    "id": "interactive-D02-0011-reply1",
+    "kind": "line",
+    "text": "那我也记住了。",
+    "speaker": "徐启元",
+    "character": "xu",
+    "next": "D02-0012"
+  },
+  {
+    "day": "D02",
+    "context": "回忆 · 高一初识HQ",
+    "period": "称呼的旧事",
+    "background": "classroom",
+    "page": 9,
+    "pages": [
+      9
+    ],
+    "source": "补写",
+    "id": "interactive-D02-0011-say2",
+    "kind": "line",
+    "text": "先记老师，再记这个称呼的来历。",
+    "speaker": "凌艺坤",
+    "character": "ling",
+    "next": "interactive-D02-0011-reply2"
+  },
+  {
+    "day": "D02",
+    "context": "回忆 · 高一初识HQ",
+    "period": "称呼的旧事",
+    "background": "classroom",
+    "page": 9,
+    "pages": [
+      9
+    ],
+    "source": "补写",
+    "id": "interactive-D02-0011-reply2",
+    "kind": "line",
+    "text": "名字和故事都得有。",
+    "speaker": "徐启元",
+    "character": "xu",
     "next": "D02-0012"
   },
   {
@@ -762,8 +966,8 @@ const data:StoryNode[] = [
         "next": "D02-r0021"
       },
       {
-        "text": "“谁也别写了，我替全班宣布今天很轻松。”",
-        "failure": "班史刚说轻松，第九节课的哈欠就来抢了落款。"
+        "text": "今天太累，先只写一句“正常上课”，明天再补。",
+        "failure": "九节课被压成四个字，哈欠却没肯一起压缩。"
       }
     ]
   },
@@ -940,6 +1144,108 @@ const data:StoryNode[] = [
     "speaker": "徐启元",
     "text": "这本子不能只在大事发生时才写。晶胞、纸飞机，今天也有今天的形状。",
     "character": "xu",
+    "next": "interactive-N01-r0018"
+  },
+  {
+    "day": "N01",
+    "context": "现实",
+    "period": "书叠纸铺",
+    "background": "classroom",
+    "page": 10,
+    "pages": [
+      10
+    ],
+    "source": "补写",
+    "id": "interactive-N01-r0018",
+    "kind": "choice",
+    "text": "第一篇日常记些什么？",
+    "speaker": "徐启元",
+    "character": "xu",
+    "options": [
+      {
+        "text": "晶胞也记，纸飞机也记，今天没什么大事也有今天。",
+        "next": "interactive-N01-r0018-say1"
+      },
+      {
+        "text": "先写眼前这叠纸，再往回想上午的课。",
+        "next": "interactive-N01-r0018-say2"
+      },
+      {
+        "text": "等有大事再写，这页先省下来。",
+        "failure": "空白省好了，今天却没有地方停下。"
+      },
+      {
+        "text": "先借昨天的开头，明天再补细节。",
+        "failure": "昨天又开了一次头，今天始终没接上。"
+      }
+    ]
+  },
+  {
+    "day": "N01",
+    "context": "现实",
+    "period": "书叠纸铺",
+    "background": "classroom",
+    "page": 10,
+    "pages": [
+      10
+    ],
+    "source": "补写",
+    "id": "interactive-N01-r0018-say1",
+    "kind": "line",
+    "text": "晶胞也记，纸飞机也记，今天没什么大事也有今天。",
+    "speaker": "徐启元",
+    "character": "xu",
+    "next": "interactive-N01-r0018-reply1"
+  },
+  {
+    "day": "N01",
+    "context": "现实",
+    "period": "书叠纸铺",
+    "background": "classroom",
+    "page": 10,
+    "pages": [
+      10
+    ],
+    "source": "补写",
+    "id": "interactive-N01-r0018-reply1",
+    "kind": "line",
+    "text": "书页上终于有了课堂以外的折痕。",
+    "speaker": "旁白",
+    "character": "",
+    "next": "N01-r0019"
+  },
+  {
+    "day": "N01",
+    "context": "现实",
+    "period": "书叠纸铺",
+    "background": "classroom",
+    "page": 10,
+    "pages": [
+      10
+    ],
+    "source": "补写",
+    "id": "interactive-N01-r0018-say2",
+    "kind": "line",
+    "text": "先写眼前这叠纸，再往回想上午的课。",
+    "speaker": "徐启元",
+    "character": "xu",
+    "next": "interactive-N01-r0018-reply2"
+  },
+  {
+    "day": "N01",
+    "context": "现实",
+    "period": "书叠纸铺",
+    "background": "classroom",
+    "page": 10,
+    "pages": [
+      10
+    ],
+    "source": "补写",
+    "id": "interactive-N01-r0018-reply2",
+    "kind": "line",
+    "text": "笔尖从桌面走回黑板。",
+    "speaker": "旁白",
+    "character": "",
     "next": "N01-r0019"
   },
   {
@@ -1112,6 +1418,108 @@ const data:StoryNode[] = [
     "speaker": "徐启元",
     "text": "飞机别折在这页上，班史还得传下去。",
     "character": "xu",
+    "next": "interactive-N01-r0028"
+  },
+  {
+    "day": "N01",
+    "context": "现实",
+    "period": "纸翼和球场",
+    "background": "track",
+    "page": 10,
+    "pages": [
+      10
+    ],
+    "source": "补写",
+    "id": "interactive-N01-r0028",
+    "kind": "choice",
+    "text": "纸飞机飞到本子旁，我怎么提醒？",
+    "speaker": "徐启元",
+    "character": "xu",
+    "options": [
+      {
+        "text": "这张还得写字，拿旁边的废纸折吧。",
+        "next": "interactive-N01-r0028-say1"
+      },
+      {
+        "text": "先传班史，飞机我给你留到课间。",
+        "next": "interactive-N01-r0028-say2"
+      },
+      {
+        "text": "就用这页试一下，展开还能写。",
+        "failure": "飞机回来时，落款先藏进了折缝。"
+      },
+      {
+        "text": "飞完再传，下一位等一会儿没关系。",
+        "failure": "试飞还没结束，下一位史官已经等出了下一节课。"
+      }
+    ]
+  },
+  {
+    "day": "N01",
+    "context": "现实",
+    "period": "纸翼和球场",
+    "background": "track",
+    "page": 10,
+    "pages": [
+      10
+    ],
+    "source": "补写",
+    "id": "interactive-N01-r0028-say1",
+    "kind": "line",
+    "text": "这张还得写字，拿旁边的废纸折吧。",
+    "speaker": "徐启元",
+    "character": "xu",
+    "next": "interactive-N01-r0028-reply1"
+  },
+  {
+    "day": "N01",
+    "context": "现实",
+    "period": "纸翼和球场",
+    "background": "track",
+    "page": 10,
+    "pages": [
+      10
+    ],
+    "source": "补写",
+    "id": "interactive-N01-r0028-reply1",
+    "kind": "line",
+    "text": "史册留在桌上，试飞转到了另一张纸。",
+    "speaker": "旁白",
+    "character": "",
+    "next": "N01-r0030"
+  },
+  {
+    "day": "N01",
+    "context": "现实",
+    "period": "纸翼和球场",
+    "background": "track",
+    "page": 10,
+    "pages": [
+      10
+    ],
+    "source": "补写",
+    "id": "interactive-N01-r0028-say2",
+    "kind": "line",
+    "text": "先传班史，飞机我给你留到课间。",
+    "speaker": "徐启元",
+    "character": "xu",
+    "next": "interactive-N01-r0028-reply2"
+  },
+  {
+    "day": "N01",
+    "context": "现实",
+    "period": "纸翼和球场",
+    "background": "track",
+    "page": 10,
+    "pages": [
+      10
+    ],
+    "source": "补写",
+    "id": "interactive-N01-r0028-reply2",
+    "kind": "line",
+    "text": "两样东西终于排好了先后。",
+    "speaker": "旁白",
+    "character": "",
     "next": "N01-r0030"
   },
   {
@@ -1320,6 +1728,108 @@ const data:StoryNode[] = [
     "speaker": "徐子涵",
     "text": "太史公要究天人之际。我先把今天记明白，免得明天就忘。",
     "character": "c03",
+    "next": "interactive-N02-r0019"
+  },
+  {
+    "day": "N02",
+    "context": "现实",
+    "period": "满者执笔",
+    "background": "classroom",
+    "page": 11,
+    "pages": [
+      11
+    ],
+    "source": "补写",
+    "id": "interactive-N02-r0019",
+    "kind": "choice",
+    "text": "“究天人之际”之后怎么落笔？",
+    "speaker": "徐子涵",
+    "character": "c03",
+    "options": [
+      {
+        "text": "大题目先放着，从早上第一节写起。",
+        "next": "interactive-N02-r0019-say1"
+      },
+      {
+        "text": "笑话和课都记，别只剩最后的感想。",
+        "next": "interactive-N02-r0019-say2"
+      },
+      {
+        "text": "先写一段像太史公的序，事情最后再说。",
+        "failure": "序写得庄严，今天却没等到自己的出场。"
+      },
+      {
+        "text": "小事不用留，结尾说今天不错就好。",
+        "failure": "“不错”两个字坐满了整页，队伍却仍在食堂。"
+      }
+    ]
+  },
+  {
+    "day": "N02",
+    "context": "现实",
+    "period": "满者执笔",
+    "background": "classroom",
+    "page": 11,
+    "pages": [
+      11
+    ],
+    "source": "补写",
+    "id": "interactive-N02-r0019-say1",
+    "kind": "line",
+    "text": "大题目先放着，从早上第一节写起。",
+    "speaker": "徐子涵",
+    "character": "c03",
+    "next": "interactive-N02-r0019-reply1"
+  },
+  {
+    "day": "N02",
+    "context": "现实",
+    "period": "满者执笔",
+    "background": "classroom",
+    "page": 11,
+    "pages": [
+      11
+    ],
+    "source": "补写",
+    "id": "interactive-N02-r0019-reply1",
+    "kind": "line",
+    "text": "天人之际暂且让出了第一行。",
+    "speaker": "旁白",
+    "character": "",
+    "next": "N02-r0020"
+  },
+  {
+    "day": "N02",
+    "context": "现实",
+    "period": "满者执笔",
+    "background": "classroom",
+    "page": 11,
+    "pages": [
+      11
+    ],
+    "source": "补写",
+    "id": "interactive-N02-r0019-say2",
+    "kind": "line",
+    "text": "笑话和课都记，别只剩最后的感想。",
+    "speaker": "徐子涵",
+    "character": "c03",
+    "next": "interactive-N02-r0019-reply2"
+  },
+  {
+    "day": "N02",
+    "context": "现实",
+    "period": "满者执笔",
+    "background": "classroom",
+    "page": 11,
+    "pages": [
+      11
+    ],
+    "source": "补写",
+    "id": "interactive-N02-r0019-reply2",
+    "kind": "line",
+    "text": "课堂和课间一起挤进了纸页。",
+    "speaker": "旁白",
+    "character": "",
     "next": "N02-r0020"
   },
   {
@@ -1586,8 +2096,8 @@ const data:StoryNode[] = [
         "next": "N02-r0043"
       },
       {
-        "text": "“您吃完就替我们宣布已经吃过吧，马上都走。”",
-        "failure": "饭还在窗口里，排队的人先在口头上吃饱了。"
+        "text": "这边等太久了，咱们再换一条看着更短的。",
+        "failure": "队换得很勤，饭却一直还在窗口里。"
       }
     ]
   },
@@ -1897,6 +2407,108 @@ const data:StoryNode[] = [
     "speaker": "战景林",
     "text": "ZYC（的本子）太小了，不行啊。",
     "character": "c48",
+    "next": "interactive-N02-r0053"
+  },
+  {
+    "day": "N02",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "page": 11,
+    "pages": [
+      11
+    ],
+    "source": "补写",
+    "id": "interactive-N02-r0053",
+    "kind": "choice",
+    "text": "老师嫌本子小，我怎么接？",
+    "speaker": "徐子涵",
+    "character": "c03",
+    "options": [
+      {
+        "text": "这页快挤满了，得给过程多留点地方。",
+        "next": "interactive-N02-r0053-say1"
+      },
+      {
+        "text": "字小也不能省步骤，我另接一页。",
+        "next": "interactive-N02-r0053-say2"
+      },
+      {
+        "text": "最后答案还能放下，就先不换了。",
+        "failure": "本子装下了答案，却拒收中间那几步。"
+      },
+      {
+        "text": "我缩小一点写，漏掉的回头靠记忆补。",
+        "failure": "字越缩越小，记忆却没有配套的放大镜。"
+      }
+    ]
+  },
+  {
+    "day": "N02",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "page": 11,
+    "pages": [
+      11
+    ],
+    "source": "补写",
+    "id": "interactive-N02-r0053-say1",
+    "kind": "line",
+    "text": "这页快挤满了，得给过程多留点地方。",
+    "speaker": "徐子涵",
+    "character": "c03",
+    "next": "interactive-N02-r0053-reply1"
+  },
+  {
+    "day": "N02",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "page": 11,
+    "pages": [
+      11
+    ],
+    "source": "补写",
+    "id": "interactive-N02-r0053-reply1",
+    "kind": "line",
+    "text": "不只留最后那个数。",
+    "speaker": "战景林",
+    "character": "c48",
+    "next": "N02-r0054"
+  },
+  {
+    "day": "N02",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "page": 11,
+    "pages": [
+      11
+    ],
+    "source": "补写",
+    "id": "interactive-N02-r0053-say2",
+    "kind": "line",
+    "text": "字小也不能省步骤，我另接一页。",
+    "speaker": "徐子涵",
+    "character": "c03",
+    "next": "interactive-N02-r0053-reply2"
+  },
+  {
+    "day": "N02",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "page": 11,
+    "pages": [
+      11
+    ],
+    "source": "补写",
+    "id": "interactive-N02-r0053-reply2",
+    "kind": "line",
+    "text": "接着写，别挤得自己都看不清。",
+    "speaker": "战景林",
+    "character": "c48",
     "next": "N02-r0054"
   },
   {
@@ -2104,6 +2716,112 @@ const data:StoryNode[] = [
     "speaker": "王家童",
     "text": "一个亿？我直接甩一个亿。",
     "character": "c25",
+    "next": "interactive-D03-0011"
+  },
+  {
+    "day": "D03",
+    "context": "现实",
+    "period": "课堂",
+    "background": "classroom",
+    "page": 12,
+    "pages": [
+      12
+    ],
+    "source": "补写",
+    "id": "interactive-D03-0011",
+    "kind": "choice",
+    "text": "一个亿之后，我怎么追问？",
+    "speaker": "吕思宇",
+    "character": "c06",
+    "options": [
+      {
+        "text": "你这一下直接把前一位报价盖过去了。",
+        "next": "interactive-D03-0011-say1"
+      },
+      {
+        "text": "这个称号可得连竞拍的过程一起记。",
+        "next": "interactive-D03-0011-say2"
+      },
+      {
+        "text": "前面的出价略了吧，反正你最高。",
+        "failure": "最后一手有了姓名，竞拍的前半场却被收走。"
+      },
+      {
+        "text": "写成你第一个报一个亿，读着更利落。",
+        "failure": "报价没变，先后却在纸上换了座位。"
+      },
+      {
+        "text": "竞拍结束了，前一手的报价就按最高那位记。",
+        "failure": "一个亿没有少，报出它的人却在纸上换了位置。"
+      }
+    ]
+  },
+  {
+    "day": "D03",
+    "context": "现实",
+    "period": "课堂",
+    "background": "classroom",
+    "page": 12,
+    "pages": [
+      12
+    ],
+    "source": "补写",
+    "id": "interactive-D03-0011-say1",
+    "kind": "line",
+    "text": "你这一下直接把前一位报价盖过去了。",
+    "speaker": "吕思宇",
+    "character": "c06",
+    "next": "interactive-D03-0011-reply1"
+  },
+  {
+    "day": "D03",
+    "context": "现实",
+    "period": "课堂",
+    "background": "classroom",
+    "page": 12,
+    "pages": [
+      12
+    ],
+    "source": "补写",
+    "id": "interactive-D03-0011-reply1",
+    "kind": "line",
+    "text": "那就看谁还加。",
+    "speaker": "王家童",
+    "character": "c25",
+    "next": "D03-0012"
+  },
+  {
+    "day": "D03",
+    "context": "现实",
+    "period": "课堂",
+    "background": "classroom",
+    "page": 12,
+    "pages": [
+      12
+    ],
+    "source": "补写",
+    "id": "interactive-D03-0011-say2",
+    "kind": "line",
+    "text": "这个称号可得连竞拍的过程一起记。",
+    "speaker": "吕思宇",
+    "character": "c06",
+    "next": "interactive-D03-0011-reply2"
+  },
+  {
+    "day": "D03",
+    "context": "现实",
+    "period": "课堂",
+    "background": "classroom",
+    "page": 12,
+    "pages": [
+      12
+    ],
+    "source": "补写",
+    "id": "interactive-D03-0011-reply2",
+    "kind": "line",
+    "text": "前面那手也别漏。",
+    "speaker": "王家童",
+    "character": "c25",
     "next": "D03-0012"
   },
   {
@@ -2174,609 +2892,6 @@ const data:StoryNode[] = [
     "effect": "paper",
     "prop": null,
     "next": "D03-r0032"
-  },
-  {
-    "id": "D03-r0032",
-    "kind": "line",
-    "source": "补写",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "竞拍的前一手",
-    "background": "classroom",
-    "speaker": "郑泽一",
-    "text": "一个亿。",
-    "character": "c38",
-    "next": "D03-r0033"
-  },
-  {
-    "id": "D03-r0033",
-    "kind": "line",
-    "source": "转述",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "竞拍的前一手",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "这是王家童甩出一个亿之前的那一手。称号留给了后者，前一位报价的人却也不能漏掉。",
-    "character": "",
-    "next": "D03-r0034"
-  },
-  {
-    "id": "D03-r0034",
-    "kind": "scene",
-    "source": "演出",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "电话和课本",
-    "background": "classroom",
-    "text": "电话和课本",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "D03-r0035"
-  },
-  {
-    "id": "D03-r0035",
-    "kind": "line",
-    "source": "转述",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "电话和课本",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "刚翻到杨伯峻的解读，孙老师的手机又响。顺丰、菜鸟接踵而至。",
-    "character": "",
-    "next": "D03-r0036"
-  },
-  {
-    "id": "D03-r0036",
-    "kind": "line",
-    "source": "补写",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "电话和课本",
-    "background": "classroom",
-    "speaker": "孙老师",
-    "text": "等一下。",
-    "character": "c46",
-    "next": "D03-r0037"
-  },
-  {
-    "id": "D03-r0037",
-    "kind": "line",
-    "source": "补写",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "电话和课本",
-    "background": "classroom",
-    "speaker": "吕思宇",
-    "text": "快递比我们的反对意见先到。",
-    "character": "c06",
-    "next": "D03-r0038"
-  },
-  {
-    "id": "D03-r0038",
-    "kind": "scene",
-    "source": "演出",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "午休的小手",
-    "background": "classroom",
-    "text": "午休的小手",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "D03-r0039"
-  },
-  {
-    "id": "D03-r0039",
-    "kind": "line",
-    "source": "转述",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "午休的小手",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "温辞带来一只小手，众人从它谈到人类手部的构造与进化，乒乓球的新玩法也还在开发。",
-    "character": "",
-    "next": "D03-r0040"
-  },
-  {
-    "id": "D03-r0040",
-    "kind": "line",
-    "source": "补写",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "午休的小手",
-    "background": "classroom",
-    "speaker": "吕思宇",
-    "text": "紫色是我的幸运色。这本紫色练习册居然不用写。",
-    "character": "c06",
-    "next": "D03-r0041"
-  },
-  {
-    "id": "D03-r0041",
-    "kind": "line",
-    "source": "补写",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "午休的小手",
-    "background": "classroom",
-    "speaker": "同学",
-    "text": "这回幸运落在练习册上了。",
-    "character": "",
-    "next": "D03-r0042"
-  },
-  {
-    "id": "D03-r0042",
-    "kind": "line",
-    "source": "转述",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "午休的小手",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "雷老师的工作照拍好，背景却是数学板书。",
-    "character": "",
-    "next": "D03-r0043"
-  },
-  {
-    "id": "D03-r0043",
-    "kind": "line",
-    "source": "补写",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "午休的小手",
-    "background": "classroom",
-    "speaker": "吕思宇",
-    "text": "人是生物老师，背景先选了数学。",
-    "character": "c06",
-    "next": "D03-r0044"
-  },
-  {
-    "id": "D03-r0044",
-    "kind": "scene",
-    "source": "演出",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "五百除以二",
-    "background": "classroom",
-    "text": "五百除以二",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "D03-r0045"
-  },
-  {
-    "id": "D03-r0045",
-    "kind": "line",
-    "source": "补写",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "五百除以二",
-    "background": "classroom",
-    "speaker": "张强",
-    "text": "五百除以二……二百五十。",
-    "character": "c52",
-    "next": "D03-r0046"
-  },
-  {
-    "id": "D03-r0046",
-    "kind": "line",
-    "source": "转述",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "五百除以二",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "竖式写得十分周密，得出的结果倒只需心算。",
-    "character": "",
-    "next": "D03-r0047"
-  },
-  {
-    "id": "D03-r0047",
-    "kind": "line",
-    "source": "补写",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "五百除以二",
-    "background": "classroom",
-    "speaker": "吕思宇",
-    "text": "老师把每一步都给我们看了。",
-    "character": "c06",
-    "next": "D03-r0048"
-  },
-  {
-    "id": "D03-r0048",
-    "kind": "line",
-    "source": "转述",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "五百除以二",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "“威尔逊旋回”又只发出一个音节。笔记还来不及展开，复兴号已经被讲到三百五十。",
-    "character": "",
-    "next": "D03-r0049"
-  },
-  {
-    "id": "D03-r0049",
-    "kind": "scene",
-    "source": "演出",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "text": "课间手帐",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "D03-r0050"
-  },
-  {
-    "id": "D03-r0050",
-    "kind": "line",
-    "source": "原文",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "已经约定俗成地先记下课表：语 语 英 数 数／物 化 C C。",
-    "character": "",
-    "next": "D03-r0051"
-  },
-  {
-    "id": "D03-r0051",
-    "kind": "line",
-    "source": "原文",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "温辞带了一只可爱的小手，吉良吉影表示很赞。大概这么大。",
-    "character": "",
-    "next": "D03-r0052"
-  },
-  {
-    "id": "D03-r0052",
-    "kind": "scene",
-    "source": "演出",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "语文课 · 课间手帐",
-    "background": "classroom",
-    "text": "语文课 · 课间手帐",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "D03-r0053"
-  },
-  {
-    "id": "D03-r0053",
-    "kind": "line",
-    "source": "原文",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "语文课 · 课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "硝硼与杨老师伟大的革命友谊，热烈真挚，不留卷子。",
-    "character": "",
-    "next": "D03-r0054"
-  },
-  {
-    "id": "D03-r0054",
-    "kind": "line",
-    "source": "原文",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "语文课 · 课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "郑泽一出了一个亿，王家童直接甩了一个亿，随后更名“王家亿”。",
-    "character": "",
-    "next": "D03-r0055"
-  },
-  {
-    "id": "D03-r0055",
-    "kind": "line",
-    "source": "原文",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "语文课 · 课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "周远持做干部——人民的绝望（SC锐评）。",
-    "character": "",
-    "next": "D03-r0056"
-  },
-  {
-    "id": "D03-r0056",
-    "kind": "line",
-    "source": "原文",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "语文课 · 课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "君子因病去世，导致名声大噪不符实际，君子引以为恨（好可怜的君子）。（原句：君子疾没世而名不称焉。）",
-    "character": "",
-    "next": "D03-r0057"
-  },
-  {
-    "id": "D03-r0057",
-    "kind": "line",
-    "source": "原文",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "语文课 · 课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "孙老师电话不断，顺丰、菜鸟接踵而至，以表对杨伯峻解读的反对。",
-    "character": "",
-    "next": "D03-r0058"
-  },
-  {
-    "id": "D03-r0058",
-    "kind": "scene",
-    "source": "演出",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "数学课 · 课间手帐",
-    "background": "classroom",
-    "text": "数学课 · 课间手帐",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "D03-r0059"
-  },
-  {
-    "id": "D03-r0059",
-    "kind": "line",
-    "source": "原文",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "数学课 · 课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "“我把例题写在心里了。”——大哥。“掏出来给我看看。”——能者。",
-    "character": "",
-    "next": "D03-r0060"
-  },
-  {
-    "id": "D03-r0060",
-    "kind": "line",
-    "source": "原文",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "数学课 · 课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "能者被要求对提前吃饭一事闭一只眼闭一只眼。",
-    "character": "",
-    "next": "D03-r0061"
-  },
-  {
-    "id": "D03-r0061",
-    "kind": "scene",
-    "source": "演出",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "午休 · 课间手帐",
-    "background": "classroom",
-    "text": "午休 · 课间手帐",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "D03-r0062"
-  },
-  {
-    "id": "D03-r0062",
-    "kind": "line",
-    "source": "原文",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "午休 · 课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "众人就人类手部构造与进化进行讨论。",
-    "character": "",
-    "next": "D03-r0063"
-  },
-  {
-    "id": "D03-r0063",
-    "kind": "line",
-    "source": "原文",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "午休 · 课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "乒乓球的几种玩法开发。",
-    "character": "",
-    "next": "D03-r0064"
-  },
-  {
-    "id": "D03-r0064",
-    "kind": "line",
-    "source": "原文",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "午休 · 课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "紫色是我的幸运色，紫色这本练习册居然不用写。",
-    "character": "",
-    "next": "D03-r0065"
-  },
-  {
-    "id": "D03-r0065",
-    "kind": "line",
-    "source": "原文",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "午休 · 课间手帐",
-    "background": "classroom",
-    "speaker": "班史原载",
-    "text": "雷老师的工作照背景是数学的板书。",
-    "character": "",
-    "next": "D03-r0066"
-  },
-  {
-    "id": "D03-r0066",
-    "kind": "scene",
-    "source": "演出",
-    "page": 12,
-    "pages": [
-      12
-    ],
-    "day": "D03",
-    "context": "现实",
-    "period": "化学课 · 课间手帐",
-    "background": "classroom",
-    "text": "化学课 · 课间手帐",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "D03-r0067"
   }
 ];
 export default data;

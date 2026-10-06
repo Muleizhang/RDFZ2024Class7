@@ -29,7 +29,7 @@ test('作弊码逐字匹配，全日期与失败收藏持久解锁，不改变�
 test('第一章撤下骰子与告白，保留课堂送别及旧节点迁移',()=>{
  const nodes=story.filter(n=>['D03','D04'].includes(n.day||''));
  assert.ok(nodes.every(n=>!/玻璃骰子|假作未见|我也喜欢你|同样的心意|如听仙乐|温辞是谁/.test(n.text)));
- assert.equal(nodes.filter(n=>n.day==='D04'&&n.kind==='choice').length,0);
+ assert.ok(nodes.filter(n=>n.kind==='choice').every(n=>!['误会从哪里开始','明确表达'].includes(n.period||'')));
  assert.ok(nodes.some(n=>n.text.includes('掏出来给我看看')));
  assert.ok(nodes.some(n=>n.text.includes('不说再见，因为一定会再见')));
  assert.equal(dates.find(d=>d.id==='D03')!.title,'课堂里的例题');
@@ -89,7 +89,7 @@ test('复查：选择后的对方回应一致',()=>{
  let frame=initial;
  while(byId[frame.node].kind!=='end'){
   const n=byId[frame.node];
-  if(['D09','D12','D28'].includes(n.day||'')&&n.kind==='choice'){
+  if(['D09','D12','D28'].includes(n.day||'')&&n.kind==='choice'&&!n.id.startsWith('interactive-')){
    for(const option of n.options!.filter(o=>o.next)){
     const spoken=byId[option.next!],reply=byId[spoken.next!];
     assert.equal(reply.kind,'line');assert.notEqual(reply.speaker,spoken.speaker);assert.notEqual(reply.speaker,'旁白');
@@ -160,4 +160,32 @@ test('混合页分日：期中两日、复课两日和4月19日无未来串入',
 test('扩增前存档全部可读；架机旧位置迁至3月6日且保留收藏',()=>{
  const old=JSON.parse(readFileSync('scripts/calendar/baseline-nodes.json','utf8')) as {id:string;day:string;period?:string}[];
  for(const n of old){const date=dates.find(d=>d.id===n.day)!.date;const saved={...newSave(),frame:{...initial,node:n.id,date},read:[n.id],failures:['保存的失败句。'],history:[{node:n.id,date,speaker:'旧记录',text:'仍保留的旧对白'}]};const result=parseSave(JSON.stringify(saved));assert.ok(validateSave(result),n.id);assert.deepEqual(result.failures,saved.failures);assert.equal(result.history[0].text,saved.history[0].text);if(n.day==='D50'&&n.period==='架起手机')assert.equal(result.frame.date,'2024-03-06',n.id);}
+});
+
+test('选项稳定混排，重选和刷新保持编号，首项不固定正确',async()=>{
+ const {orderedOptions,textCharacters}=await import('../src/reading.ts');
+ const qs=story.filter(n=>n.kind==='choice');let wrongFirst=0;
+ for(const n of qs){const a=orderedOptions(n.id,n.options);assert.deepEqual(a,orderedOptions(n.id,n.options));assert.deepEqual(new Set(a),new Set(n.options));if(a[0].failure)wrongFirst++;}
+ assert.ok(wrongFirst>0&&wrongFirst<qs.length);assert.deepEqual(textCharacters('你👨‍👩‍👧‍👦好'),['你','👨‍👩‍👧‍👦','好']);
+});
+
+test('互动扩增至少平均每日两题，各成功回应汇合，电影回答者按角色接话',()=>{
+ const qs=story.filter(n=>n.kind==='choice');assert.ok(qs.length>=dates.length*2);
+ const added=qs.filter(n=>n.id.startsWith('interactive-'));assert.ok(added.length>=192);
+ assert.ok(added.some(n=>n.options!.filter(o=>o.failure).length>n.options!.filter(o=>o.next).length));
+ const aliases=JSON.parse(readFileSync('scripts/interactions/film-actors.json','utf8'));
+ for(const [anchor,actor]of Object.entries(aliases))assert.equal(byId['interactive-'+anchor].character,actor);
+ let frame=initial;while(byId[frame.node].kind!=='end'){
+  const n=byId[frame.node];if(n.id.startsWith('interactive-')&&n.kind==='choice'&&!n.filmScene)assert.equal(n.character,frame.pov,n.id);
+  frame=enter(frame,n.kind==='choice'?n.options!.find(o=>o.next)!.next!:n.next!);
+ }
+ const original=byId['N51-r0027'];const answer=byId[byId['interactive-N51-r0027'].options!.find(o=>o.next)!.next!];
+ assert.ok(!answer.text.includes('我问欧姆'));assert.equal(answer.speaker,'徐子涵');assert.ok(original);
+});
+
+test('旧减少动画设置不关闭打字，文字速度保持且允许独立即时全文',async()=>{
+ const {readingSettings}=await import('../src/reading.ts');const migrated=readingSettings({reduced:true,speed:60});
+ assert.equal(migrated.reduced,true);assert.equal(migrated.instantText,false);assert.equal(migrated.speed,60);
+ assert.equal(readingSettings({instantText:true}).instantText,true);assert.equal(readingSettings({speed:1000}).speed,100);
+ assert.equal(readingSettings({speed:NaN}).speed,26);assert.equal(readingSettings(null).instantText,false);
 });

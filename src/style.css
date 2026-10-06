@@ -74,3 +74,8 @@
 .cheat-success>p:first-child{font-weight:900;color:var(--purple);font-size:24px}
 @media(max-width:800px){.title-screen{padding-top:32px}.title-screen .edition{margin-bottom:28px}.title-screen .chapter-title{margin:26px 0 22px}.start-actions{gap:14px;width:100%;padding-right:2px}.start-actions .start-action{width:calc(100% - 26px);min-height:52px;padding:12px 16px;font-size:15px}.start-actions .start-action:nth-child(2){margin-left:16px}.start-actions .start-action:nth-child(3){margin-left:6px}.start-actions .start-action:nth-child(4){margin-left:22px}.title-screen .title-footer{padding-top:18px;flex-shrink:0}}
 @media(max-width:800px){.title-screen .title-paper{width:100%;gap:10px}.title-screen .title-number{font-size:88px}.title-screen .title-paper>div{min-width:0}.title-screen .title-paper h1{font-size:clamp(32px,10vw,40px);letter-spacing:1px;white-space:nowrap}}
+
+/* Reserve complete line wrapping; reveal ink left-to-right without text reflow. */
+.dialogue p.typewriter{position:relative}.typewriter-space{visibility:hidden}.typewriter-ink{position:absolute;inset:0;text-align:inherit;white-space:inherit;overflow-wrap:inherit}
+
+.choices{max-height:min(52dvh,calc(100dvh - 320px));overflow-y:auto;overflow-x:hidden;padding:8px 10px 8px 6px;overscroll-behavior:contain}.choices button{flex-shrink:0}

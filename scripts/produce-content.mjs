@@ -1,3 +1,4 @@
+import {addInteractions} from './interactions/apply.mjs';
 import {expandCalendar,preserveExpansionMigration,linkSourceLedger} from './calendar/expand-calendar.mjs';
 import fs from 'node:fs';
 import {addCalendarChoices} from './calendar/new-choices.mjs';
@@ -1347,6 +1348,7 @@ for(const d of dayData.slice(1)){
 for(let i=0;i<nodes.length-1;i++)if(!nodes[i].next&&!['choice','end'].includes(nodes[i].kind))nodes[i].next=nodes[i+1].id;
 for(const join of branchJoins)for(const end of join.ends)end.next=nodes[join.index].id;
 stabilize(nodes,dayData);
+addInteractions(nodes,chars);
 preserveExpansionMigration(nodes,dayData);
 linkSourceLedger(nodes);
 for(const d of dayData)d.itinerary=d.id==='D01'?['集结','迁楼','入境','往事','班会','新任','落笔','当日收尾']:[...new Set(nodes.filter(n=>n.day===d.id&&n.kind==='scene').map(n=>n.period))];
