@@ -26,7 +26,7 @@ export function parseSave(raw:string):Save{
   const former=v.frame.node;v.frame.node=map(former);
   v.read=v.read.filter((id:unknown)=>typeof id==='string'&&(!legacy[id]||legacy[id].retained)).map(map);
   v.history=v.history.map((h:HistoryEntry)=>({...h,node:map(h.node)}));
-  if(legacy[former]&&byId[v.frame.node]&&(v.revision===undefined||v.frame.node!==former)){
+  if(legacy[former]&&byId[v.frame.node]&&(v.revision===undefined||v.frame.node!==former||byId[v.frame.node].day!==dateByDate[v.frame.date]?.id)){
    const n=byId[v.frame.node];const date=dateByDate[v.frame.date];
    let frame={...v.frame,prop:null,day:date?.id};
    // 重建当前位置之前的视角与场景，旧台词的角色不能带入重写后的场景。

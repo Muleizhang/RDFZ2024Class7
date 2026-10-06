@@ -3,10 +3,10 @@ import {characters} from './story.ts';
 
 export type PortraitSeason = 'summer' | 'winter';
 const assets: Record<string, Record<PortraitSeason, string>> = portraits;
-// 本届日历：9月1日开秋季学期，2月27日进入春季剧情；暑假开场用短袖。
+// 本届日历：9月1日开秋季学期，2月26日进入春季学期；暑假开场用短袖。
 // 服装随当前章节的现实日期，回忆标签和虚构电影年月不改变章节服装。
 export function portraitSeason(date: string): PortraitSeason {
-  return date >= '2023-09-01' && date < '2024-02-27' ? 'winter' : 'summer';
+  return date >= '2023-09-01' && date < '2024-02-26' ? 'winter' : 'summer';
 }
 
 // 原书已明确的简称；九班徐子瀚不与徐子涵合并。

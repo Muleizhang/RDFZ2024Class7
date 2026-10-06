@@ -480,6 +480,38 @@ const data = {
     "gender": "男",
     "bio": ""
   },
+  "student-cai-yifan": {
+    "name": "蔡依凡",
+    "role": "七班同学",
+    "image": "xu.webp",
+    "color": "#a18aff",
+    "gender": "男",
+    "bio": ""
+  },
+  "student-jin-yueshan": {
+    "name": "金悦山",
+    "role": "七班同学",
+    "image": "xu.webp",
+    "color": "#a18aff",
+    "gender": "男",
+    "bio": ""
+  },
+  "student-yang-yanxiang": {
+    "name": "杨雁翔",
+    "role": "七班同学",
+    "image": "xu.webp",
+    "color": "#a18aff",
+    "gender": "男",
+    "bio": ""
+  },
+  "student-zhou-ziyao": {
+    "name": "周子尧",
+    "role": "七班同学",
+    "image": "xu.webp",
+    "color": "#a18aff",
+    "gender": "男",
+    "bio": ""
+  },
   "film-秦旻然": {
     "name": "秦旻然",
     "role": "《镜中花》虚构角色 · 秦敏然饰",

@@ -1,3534 +1,2789 @@
 import type {StoryNode} from "../story.ts";
 const data:StoryNode[] = [
   {
-    "id": "D14-0001",
+    "id": "N04-r0042",
+    "kind": "line",
+    "source": "转述",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "day": "N04",
+    "context": "现实",
+    "period": "竞拍升级",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "自习课竟真是自习。雨还没停，日记这一页也终于有了开头和结尾。",
+    "character": "",
+    "next": "N04-r0044"
+  },
+  {
+    "id": "N04-r0044",
+    "kind": "scene",
+    "source": "演出",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "day": "N04",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "text": "课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "N04-r0045"
+  },
+  {
+    "id": "N04-r0045",
+    "kind": "line",
+    "source": "原文",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "day": "N04",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "拿到班级日志，和赵伊伊想了好久想不出开头怎么写，所以就把这个当作开头＝）",
+    "character": "",
+    "next": "N04-r0046"
+  },
+  {
+    "id": "N04-r0046",
+    "kind": "line",
+    "source": "原文",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "day": "N04",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "今天下雨，特别特别喜欢夏季的雨天，让很繁忙的一天9节课＋晚（我没有），午自习稍微舒服了一些。",
+    "character": "",
+    "next": "N04-r0047"
+  },
+  {
+    "id": "N04-r0047",
+    "kind": "line",
+    "source": "原文",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "day": "N04",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "（PS：羡慕高一军训赶上了下雨＞）",
+    "character": "",
+    "next": "N04-r0048"
+  },
+  {
+    "id": "N04-r0048",
+    "kind": "scene",
+    "source": "演出",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "day": "N04",
+    "context": "现实",
+    "period": "化学 · 课间手帐",
+    "background": "classroom",
+    "text": "化学 · 课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "N04-r0049"
+  },
+  {
+    "id": "N04-r0049",
+    "kind": "line",
+    "source": "原文",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "day": "N04",
+    "context": "现实",
+    "period": "化学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "“没有无缘无故的爱，也没有无缘无故的恨，更没有无缘无故的化学方程式。”——蒋艳老师。",
+    "character": "",
+    "next": "N04-r0050"
+  },
+  {
+    "id": "N04-r0050",
+    "kind": "scene",
+    "source": "演出",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "day": "N04",
+    "context": "现实",
+    "period": "物理 · 课间手帐",
+    "background": "classroom",
+    "text": "物理 · 课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "N04-r0051"
+  },
+  {
+    "id": "N04-r0051",
+    "kind": "line",
+    "source": "原文",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "day": "N04",
+    "context": "现实",
+    "period": "物理 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "“这就绷不住了（指弹簧）。”——HQ。",
+    "character": "",
+    "next": "N04-r0052"
+  },
+  {
+    "id": "N04-r0052",
+    "kind": "line",
+    "source": "原文",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "day": "N04",
+    "context": "现实",
+    "period": "物理 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "弹簧测力计＋指针前的纸团＝坐位体前屈。",
+    "character": "",
+    "next": "N04-r0053"
+  },
+  {
+    "id": "N04-r0053",
+    "kind": "scene",
+    "source": "演出",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "day": "N04",
+    "context": "现实",
+    "period": "生物 · 课间手帐",
+    "background": "classroom",
+    "text": "生物 · 课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "N04-r0054"
+  },
+  {
+    "id": "N04-r0054",
+    "kind": "line",
+    "source": "原文",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "day": "N04",
+    "context": "现实",
+    "period": "生物 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "科学家操作不规范之“加入蛋白合成抑制剂后没有抑制住”（＞）。",
+    "character": "",
+    "next": "N04-r0055"
+  },
+  {
+    "id": "N04-r0055",
+    "kind": "scene",
+    "source": "演出",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "day": "N04",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "text": "数学 · 课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "N04-r0056"
+  },
+  {
+    "id": "N04-r0056",
+    "kind": "line",
+    "source": "原文",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "day": "N04",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "“慢，就是快。”——战老师。",
+    "character": "",
+    "next": "N04-r0057"
+  },
+  {
+    "id": "N04-r0057",
+    "kind": "line",
+    "source": "原文",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "day": "N04",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "“我问一下你，不就是看你忘没忘吗。反正我是有点忘了……”——战老师。",
+    "character": "",
+    "next": "N04-r0058"
+  },
+  {
+    "id": "N04-r0058",
+    "kind": "scene",
+    "source": "演出",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "day": "N04",
+    "context": "现实",
+    "period": "英语 · 课间手帐",
+    "background": "classroom",
+    "text": "英语 · 课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "N04-r0059"
+  },
+  {
+    "id": "N04-r0059",
+    "kind": "line",
+    "source": "原文",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "day": "N04",
+    "context": "现实",
+    "period": "英语 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "“这个年级的人有不self-centered的吗？”",
+    "character": "",
+    "next": "N04-r0060"
+  },
+  {
+    "id": "N04-r0060",
+    "kind": "scene",
+    "source": "演出",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "day": "N04",
+    "context": "现实",
+    "period": "语文 · 课间手帐",
+    "background": "classroom",
+    "text": "语文 · 课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "N04-r0061"
+  },
+  {
+    "id": "N04-r0061",
+    "kind": "line",
+    "source": "原文",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "day": "N04",
+    "context": "现实",
+    "period": "语文 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "竞拍lsy头发的处理权（100mb→200mb→400mb）。",
+    "character": "",
+    "next": "N04-r0062"
+  },
+  {
+    "id": "N04-r0062",
+    "kind": "line",
+    "source": "原文",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "day": "N04",
+    "context": "现实",
+    "period": "语文 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "小小感动一下，今天的自习课竟然真的是自习！",
+    "character": "",
+    "next": "N04-r0063"
+  },
+  {
+    "id": "N04-r0063",
+    "kind": "line",
+    "source": "原文",
+    "page": 17,
+    "pages": [
+      17
+    ],
+    "day": "N04",
+    "context": "现实",
+    "period": "语文 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "总结一下：今天也是7班平凡而抽象的一天～",
+    "character": "",
+    "next": "D06-date"
+  },
+  {
+    "id": "D06-date",
+    "kind": "date",
+    "source": "演出",
+    "page": 18,
+    "pages": [
+      18,
+      182
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "翻到这一日",
+    "background": "classroom",
+    "date": "2023-08-25",
+    "text": "窗边",
+    "pov": "c16",
+    "character": "",
+    "next": "D06-0001"
+  },
+  {
+    "id": "D06-0001",
     "kind": "portrait",
     "source": "演出",
-    "page": 54,
+    "page": 18,
     "pages": [
-      54,
-      200,
-      185
+      18,
+      182
     ],
-    "day": "D14",
+    "day": "D06",
     "context": "现实",
     "period": "",
     "background": "classroom",
-    "text": "设备有事",
+    "text": "窗边",
+    "pov": "c16",
+    "character": "c16",
+    "speaker": "戴向阳",
+    "next": "D06-0002"
+  },
+  {
+    "id": "D06-0002",
+    "kind": "scene",
+    "source": "演出",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "窗边",
+    "background": "classroom",
+    "text": "窗边",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "D06-0003"
+  },
+  {
+    "id": "D06-0003",
+    "kind": "line",
+    "source": "补写",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "窗边",
+    "background": "classroom",
+    "speaker": "戴向阳",
+    "text": "高一军训还能摸到枪，平等地羡慕。",
+    "character": "c16",
+    "next": "D06-0005"
+  },
+  {
+    "id": "D06-0005",
+    "kind": "line",
+    "source": "补写",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "窗边",
+    "background": "classroom",
+    "speaker": "徐子涵",
+    "text": "我们窗边也有玩具装备。",
+    "character": "c03",
+    "next": "D06-r0032"
+  },
+  {
+    "id": "D06-r0032",
+    "kind": "scene",
+    "source": "演出",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "窗下的教官",
+    "background": "classroom",
+    "text": "窗下的教官",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "D06-r0033"
+  },
+  {
+    "id": "D06-r0033",
+    "kind": "line",
+    "source": "转述",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "窗下的教官",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "高一军训的教官开始跳舞。窗边的高三学生向楼下交流，还展示了班里的“军火”。",
+    "character": "",
+    "next": "D06-r0034"
+  },
+  {
+    "id": "D06-r0034",
+    "kind": "line",
+    "source": "补写",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "窗下的教官",
+    "background": "classroom",
+    "speaker": "赵梓伊",
+    "text": "他们能摸到枪，怎么不羡慕。",
+    "character": "c42",
+    "next": "D06-r0035"
+  },
+  {
+    "id": "D06-r0035",
+    "kind": "scene",
+    "source": "演出",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "稳稳之后",
+    "background": "classroom",
+    "text": "稳稳之后",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "D06-r0036"
+  },
+  {
+    "id": "D06-r0036",
+    "kind": "line",
+    "source": "补写",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "稳稳之后",
+    "background": "classroom",
+    "speaker": "贾盛元",
+    "text": "考试该交卷的时候呢？",
+    "character": "c26",
+    "next": "D06-r0037"
+  },
+  {
+    "id": "D06-r0037",
+    "kind": "line",
+    "source": "转述",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "稳稳之后",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "“慢就是快”刚说完，交卷时刻就被抬来做反问。",
+    "character": "",
+    "next": "D06-r0038"
+  },
+  {
+    "id": "D06-r0038",
+    "kind": "line",
+    "source": "原文",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "稳稳之后",
+    "background": "classroom",
+    "speaker": "同学",
+    "text": "分低就是分高。",
+    "character": "",
+    "next": "D06-r0039"
+  },
+  {
+    "id": "D06-r0039",
+    "kind": "line",
+    "source": "转述",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "稳稳之后",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "中午战老师尝了纽甜，下午又把物理的U形管拿来做数学比喻，同学觉得比喻用得不对。",
+    "character": "",
+    "next": "D06-r0040"
+  },
+  {
+    "id": "D06-r0040",
+    "kind": "scene",
+    "source": "演出",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "写给自己",
+    "background": "classroom",
+    "text": "写给自己",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "D06-r0041"
+  },
+  {
+    "id": "D06-r0041",
+    "kind": "line",
+    "source": "补写",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "写给自己",
+    "background": "classroom",
+    "speaker": "贾盛元",
+    "text": "写给选题三的自己。",
+    "character": "c26",
+    "next": "D06-r0042"
+  },
+  {
+    "id": "D06-r0042",
+    "kind": "line",
+    "source": "原文",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "写给自己",
+    "background": "classroom",
+    "speaker": "同学",
+    "text": "写给再也不用写赏析题的自己。",
+    "character": "",
+    "next": "D06-r0043"
+  },
+  {
+    "id": "D06-r0043",
+    "kind": "line",
+    "source": "原文",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "写给自己",
+    "background": "classroom",
+    "speaker": "孙老师",
+    "text": "你们入境完不会已经出境了吧。",
+    "character": "c46",
+    "next": "D06-r0044"
+  },
+  {
+    "id": "D06-r0044",
+    "kind": "line",
+    "source": "原文",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "写给自己",
+    "background": "classroom",
+    "speaker": "周子尧",
+    "text": "退境。",
+    "character": "student-zhou-ziyao",
+    "next": "D06-r0045"
+  },
+  {
+    "id": "D06-r0045",
+    "kind": "line",
+    "source": "补写",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "写给自己",
+    "background": "classroom",
+    "speaker": "张瑞麒",
+    "text": "拟人的例子？花儿对我笑。",
+    "character": "c29",
+    "next": "D06-r0046"
+  },
+  {
+    "id": "D06-r0046",
+    "kind": "line",
+    "source": "原文",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "写给自己",
+    "background": "classroom",
+    "speaker": "战老师",
+    "text": "高三了你还好意思下课吗？",
+    "character": "c48",
+    "next": "D06-r0047"
+  },
+  {
+    "id": "D06-r0047",
+    "kind": "line",
+    "source": "原文",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "写给自己",
+    "background": "classroom",
+    "speaker": "同学",
+    "text": "下课就是上课。",
+    "character": "",
+    "next": "D06-r0048"
+  },
+  {
+    "id": "D06-r0048",
+    "kind": "line",
+    "source": "原文",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "写给自己",
+    "background": "classroom",
+    "speaker": "同学",
+    "text": "大专就是清华。",
+    "character": "",
+    "next": "D06-r0049"
+  },
+  {
+    "id": "D06-r0049",
+    "kind": "line",
+    "source": "转述",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "写给自己",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "同一种句式越走越远，赵梓伊给数学留下的地方很快又填满了。",
+    "character": "",
+    "next": "D06-r0050"
+  },
+  {
+    "id": "D06-r0050",
+    "kind": "scene",
+    "source": "演出",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "text": "课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "D06-r0051"
+  },
+  {
+    "id": "D06-r0051",
+    "kind": "line",
+    "source": "原文",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "和小童一样想不出开头捏（）",
+    "character": "",
+    "next": "D06-r0052"
+  },
+  {
+    "id": "D06-r0052",
+    "kind": "line",
+    "source": "原文",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "高一的军训正进行得如火如荼。大家在窗边和高一的同学们进行了快乐的交流（甚至展示了班级军火）。",
+    "character": "",
+    "next": "D06-r0053"
+  },
+  {
+    "id": "D06-r0053",
+    "kind": "line",
+    "source": "原文",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "平等地羡慕能军训摸到枪的人。",
+    "character": "",
+    "next": "D06-r0054"
+  },
+  {
+    "id": "D06-r0054",
+    "kind": "line",
+    "source": "原文",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "军训教官激情献舞。",
+    "character": "",
+    "next": "D06-r0055"
+  },
+  {
+    "id": "D06-r0055",
+    "kind": "scene",
+    "source": "演出",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "生物 · 课间手帐",
+    "background": "classroom",
+    "text": "生物 · 课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "D06-r0056"
+  },
+  {
+    "id": "D06-r0056",
+    "kind": "line",
+    "source": "原文",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "生物 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "群落水平结构×；沿斜面分布结构√。",
+    "character": "",
+    "next": "D06-r0057"
+  },
+  {
+    "id": "D06-r0057",
+    "kind": "scene",
+    "source": "演出",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "物理 · 课间手帐",
+    "background": "classroom",
+    "text": "物理 · 课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "D06-r0058"
+  },
+  {
+    "id": "D06-r0058",
+    "kind": "line",
+    "source": "原文",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "物理 · 课间手帐",
+    "background": "classroom",
+    "speaker": "韩琪",
+    "text": "这就是你们去年11月期中考考的第一题（同类型）。”DXY：“透题了。",
+    "character": "c45",
+    "next": "D06-r0059"
+  },
+  {
+    "id": "D06-r0059",
+    "kind": "line",
+    "source": "原文",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "物理 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "战老师中午品尝了纽甜。",
+    "character": "",
+    "next": "D06-r0060"
+  },
+  {
+    "id": "D06-r0060",
+    "kind": "line",
+    "source": "原文",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "物理 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "战老师金句再现：“慢就是快，这是永远的真理。越着急的时候，越要慢。要稳稳。”JSY：考试该交卷的时候呢。“分低就是分高。”",
+    "character": "",
+    "next": "D06-r0061"
+  },
+  {
+    "id": "D06-r0061",
+    "kind": "scene",
+    "source": "演出",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "语文 · 课间手帐",
+    "background": "classroom",
+    "text": "语文 · 课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "D06-r0062"
+  },
+  {
+    "id": "D06-r0062",
+    "kind": "line",
+    "source": "原文",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "语文 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "写给选题三的自己——JSY。写给再也不用写赏析题的自己。写给提肛时自己——HYB。（——启动）",
+    "character": "",
+    "next": "D06-r0063"
+  },
+  {
+    "id": "D06-r0063",
+    "kind": "line",
+    "source": "原文",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "语文 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "“你们入境完不会已经出境了吧。”——孙老师。“退境。”——ZYC♡。",
+    "character": "",
+    "next": "D06-r0064"
+  },
+  {
+    "id": "D06-r0064",
+    "kind": "line",
+    "source": "原文",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "语文 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "“举一个拟人的例子。”“花儿对我笑。”——ZRQ。",
+    "character": "",
+    "next": "D06-r0065"
+  },
+  {
+    "id": "D06-r0065",
+    "kind": "line",
+    "source": "原文",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "语文 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "（小童让我留些地方给战老师。）",
+    "character": "",
+    "next": "D06-r0066"
+  },
+  {
+    "id": "D06-r0066",
+    "kind": "scene",
+    "source": "演出",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "text": "数学 · 课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "D06-r0067"
+  },
+  {
+    "id": "D06-r0067",
+    "kind": "line",
+    "source": "原文",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "战老师用了物理中U形管的比喻。（异物果然用错了）",
+    "character": "",
+    "next": "D06-r0068"
+  },
+  {
+    "id": "D06-r0068",
+    "kind": "line",
+    "source": "原文",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "LHY执剑勇闯数学作业，战老师",
+    "text": "想做啥做啥。",
+    "character": "",
+    "next": "D06-r0069"
+  },
+  {
+    "id": "D06-r0069",
+    "kind": "line",
+    "source": "原文",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "“高三了你还好意思下课吗？”——战老师。“下课就是上课。”",
+    "character": "",
+    "next": "D06-r0070"
+  },
+  {
+    "id": "D06-r0070",
+    "kind": "line",
+    "source": "原文",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "今日的素材有亿点多（）",
+    "character": "",
+    "next": "D06-0006"
+  },
+  {
+    "id": "D06-0006",
+    "kind": "scene",
+    "source": "演出",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "回忆 · 此前六一",
+    "period": "小公主六一",
+    "background": "classroom",
+    "text": "小公主六一",
+    "character": "",
+    "effect": "memory",
+    "prop": null,
+    "next": "D06-0007"
+  },
+  {
+    "id": "D06-0007",
+    "kind": "line",
+    "source": "转述",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "回忆 · 此前六一",
+    "period": "小公主六一",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "HQ的小公主曾带来儿童节玩具。同学们接过礼物，教室一下热闹起来。",
+    "character": "",
+    "next": "D06-0008"
+  },
+  {
+    "id": "D06-0008",
+    "kind": "line",
+    "source": "补写",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "回忆 · 此前六一",
+    "period": "小公主六一",
+    "background": "classroom",
+    "speaker": "徐子涵",
+    "text": "儿童节过完了，玩具还能陪我们过很多课间。",
+    "character": "c03",
+    "next": "D06-0009"
+  },
+  {
+    "id": "D06-0009",
+    "kind": "scene",
+    "source": "演出",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "慢与快",
+    "background": "classroom",
+    "text": "慢与快",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "D06-0010"
+  },
+  {
+    "id": "D06-0010",
+    "kind": "line",
+    "source": "补写",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "慢与快",
+    "background": "classroom",
+    "speaker": "战老师",
+    "text": "慢就是快，越着急的时候越要慢。要稳稳。",
+    "character": "c48",
+    "next": "D06-0011"
+  },
+  {
+    "id": "D06-0011",
+    "kind": "line",
+    "source": "补写",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "慢与快",
+    "background": "classroom",
+    "speaker": "贾盛元",
+    "text": "考试该交卷的时候呢？",
+    "character": "c26",
+    "next": "D06-0012"
+  },
+  {
+    "id": "D06-0012",
+    "kind": "line",
+    "source": "原文",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "慢与快",
+    "background": "classroom",
+    "speaker": "战老师",
+    "text": "分低就是分高。",
+    "character": "c48",
+    "next": "D06-0013"
+  },
+  {
+    "id": "D06-0013",
+    "kind": "line",
+    "source": "补写",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "慢与快",
+    "background": "classroom",
+    "speaker": "戴向阳",
+    "text": "老师的对偶句越来越严整了。",
+    "character": "c16",
+    "next": "D06-0014"
+  },
+  {
+    "id": "D06-0014",
+    "kind": "line",
+    "source": "补写",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "慢与快",
+    "background": "classroom",
+    "speaker": "孙老师",
+    "text": "你们入境完，不会已经出境了吧？",
+    "character": "c46",
+    "next": "D06-0015"
+  },
+  {
+    "id": "D06-0015",
+    "kind": "line",
+    "source": "原文",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "慢与快",
+    "background": "classroom",
+    "speaker": "周远持",
+    "text": "退境。",
+    "character": "c09",
+    "next": "D06-r0015"
+  },
+  {
+    "id": "D06-r0015",
+    "kind": "choice",
+    "source": "补写",
+    "page": 18,
+    "pages": [
+      18,
+      182
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "慢与快",
+    "background": "classroom",
+    "text": "听到“分低就是分高”，我怎么接",
+    "speaker": "戴向阳",
+    "character": "c16",
+    "options": [
+      {
+        "text": "“老师，这句得配着‘慢就是快’一块听吧。”",
+        "next": "D06-r0016"
+      },
+      {
+        "text": "“那我先把漏的过程补好，别只顾着快。”",
+        "next": "D06-r0018"
+      },
+      {
+        "text": "“下次我就交白卷，您给我算最高。”",
+        "failure": "白卷听懂了反话，阅卷老师却只听懂了白卷。"
+      }
+    ]
+  },
+  {
+    "id": "D06-r0016",
+    "kind": "line",
+    "source": "补写",
+    "page": 18,
+    "pages": [
+      18,
+      182
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "慢与快",
+    "background": "classroom",
+    "text": "“老师，这句得配着‘慢就是快’一块听吧。”",
+    "speaker": "戴向阳",
+    "character": "c16",
+    "next": "D06-r0017"
+  },
+  {
+    "id": "D06-r0017",
+    "kind": "line",
+    "source": "补写",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "慢与快",
+    "background": "classroom",
+    "speaker": "战老师",
+    "text": "你把题写稳，别只背我的句子。",
+    "character": "c48",
+    "next": "N05-date"
+  },
+  {
+    "id": "D06-r0018",
+    "kind": "line",
+    "source": "补写",
+    "page": 18,
+    "pages": [
+      18,
+      182
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "慢与快",
+    "background": "classroom",
+    "text": "“那我先把漏的过程补好，别只顾着快。”",
+    "speaker": "戴向阳",
+    "character": "c16",
+    "next": "D06-r0019"
+  },
+  {
+    "id": "D06-r0019",
+    "kind": "line",
+    "source": "补写",
+    "page": 18,
+    "pages": [
+      18
+    ],
+    "day": "D06",
+    "context": "现实",
+    "period": "慢与快",
+    "background": "classroom",
+    "speaker": "战老师",
+    "text": "稳住，着急也要慢。",
+    "character": "c48",
+    "next": "N05-date"
+  },
+  {
+    "id": "N05-date",
+    "kind": "date",
+    "source": "演出",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "day": "N05",
+    "context": "现实",
+    "period": "翻到这一日",
+    "background": "classroom",
+    "date": "2023-08-26",
+    "text": "培训一天哪够",
+    "pov": "c17",
+    "character": "",
+    "next": "N05-r0052"
+  },
+  {
+    "id": "N05-r0052",
+    "kind": "portrait",
+    "source": "演出",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "day": "N05",
+    "context": "现实",
+    "period": "",
+    "background": "classroom",
+    "text": "培训一天哪够",
     "pov": "c17",
     "character": "c17",
     "speaker": "李沐衡",
-    "next": "D14-0002"
+    "next": "N05-r0019"
   },
   {
-    "id": "D14-0002",
+    "id": "N05-r0019",
     "kind": "scene",
     "source": "演出",
-    "page": 54,
+    "page": 19,
     "pages": [
-      54,
-      200,
-      185
+      19
     ],
-    "day": "D14",
+    "day": "N05",
     "context": "现实",
-    "period": "设备有事",
+    "period": "进出会议",
     "background": "classroom",
-    "text": "设备有事",
+    "text": "进出会议",
     "character": "",
     "effect": "paper",
     "prop": null,
-    "next": "D14-0003"
+    "next": "N05-r0020"
   },
   {
-    "id": "D14-0003",
+    "id": "N05-r0020",
     "kind": "line",
     "source": "补写",
-    "page": 54,
+    "page": 19,
     "pages": [
-      54,
-      200,
-      185
+      19
     ],
-    "day": "D14",
+    "day": "N05",
     "context": "现实",
-    "period": "设备有事",
+    "period": "进出会议",
     "background": "classroom",
     "speaker": "李沐衡",
-    "text": "这个接口我看看。字、声音、画面，不能只管一个。",
+    "text": "开头是什么？字有亿点丑，先见谅。",
     "character": "c17",
-    "next": "D14-0004"
+    "next": "N05-r0021"
   },
   {
-    "id": "D14-0004",
-    "kind": "scene",
-    "source": "演出",
-    "page": 54,
-    "pages": [
-      54,
-      200,
-      185
-    ],
-    "day": "D14",
-    "context": "回忆 · 高二",
-    "period": "高二的接口",
-    "background": "classroom",
-    "text": "高二的接口",
-    "character": "",
-    "effect": "memory",
-    "prop": null,
-    "next": "D14-r0005"
-  },
-  {
-    "id": "D14-r0005",
+    "id": "N05-r0021",
     "kind": "line",
     "source": "转述",
-    "page": 54,
+    "page": 19,
     "pages": [
-      54,
-      200,
-      185
+      19
     ],
-    "day": "D14",
-    "context": "回忆 · 高二",
-    "period": "高二的接口",
+    "day": "N05",
+    "context": "现实",
+    "period": "进出会议",
     "background": "classroom",
     "speaker": "旁白",
-    "text": "HQ把线接到错误的接口，扬声器爆出巨响。她赶紧拔线，说“我错了”；全班却听成“窝草”。",
+    "text": "会议限时六十分钟。时间一到，退出，再进，课堂的连接得重新接一遍。",
     "character": "",
-    "next": "D14-0006"
+    "next": "N05-r0022"
   },
   {
-    "id": "D14-0006",
+    "id": "N05-r0022",
     "kind": "line",
     "source": "补写",
-    "page": 54,
+    "page": 19,
     "pages": [
-      54,
-      200,
-      185
+      19
     ],
-    "day": "D14",
-    "context": "回忆 · 高二",
-    "period": "高二的接口",
-    "background": "classroom",
-    "speaker": "HQ",
-    "text": "我说的是，我错了。",
-    "character": "c45",
-    "next": "D14-0007"
-  },
-  {
-    "id": "D14-0007",
-    "kind": "line",
-    "source": "补写",
-    "page": 54,
-    "pages": [
-      54,
-      200,
-      185
-    ],
-    "day": "D14",
-    "context": "回忆 · 高二",
-    "period": "高二的接口",
+    "day": "N05",
+    "context": "现实",
+    "period": "进出会议",
     "background": "classroom",
     "speaker": "李沐衡",
-    "text": "线路接回来，解释也接回来。",
+    "text": "人没换，会议换了。",
     "character": "c17",
-    "next": "D14-0008"
+    "next": "N05-r0023"
   },
   {
-    "id": "D14-0008",
+    "id": "N05-r0023",
     "kind": "scene",
     "source": "演出",
-    "page": 54,
+    "page": 19,
     "pages": [
-      54,
-      200,
-      185
+      19
     ],
-    "day": "D14",
-    "context": "回忆 · 默写职务",
-    "period": "小帮凶",
-    "background": "classroom",
-    "text": "小帮凶",
-    "character": "",
-    "effect": "memory",
-    "prop": null,
-    "next": "D14-0009"
-  },
-  {
-    "id": "D14-0009",
-    "kind": "line",
-    "source": "补写",
-    "page": 54,
-    "pages": [
-      54,
-      200,
-      185
-    ],
-    "day": "D14",
-    "context": "回忆 · 默写职务",
-    "period": "小帮凶",
-    "background": "classroom",
-    "speaker": "孙老师",
-    "text": "默写的事，沐衡来帮忙。",
-    "character": "c46",
-    "next": "D14-r0010"
-  },
-  {
-    "id": "D14-r0010",
-    "kind": "line",
-    "source": "补写",
-    "page": 54,
-    "pages": [
-      54,
-      200,
-      185
-    ],
-    "day": "D14",
-    "context": "回忆 · 默写职务",
-    "period": "小帮凶",
-    "background": "classroom",
-    "speaker": "李沐衡",
-    "text": "小帮手？我把群名改成“默写小帮凶”。",
-    "character": "c17",
-    "next": "D14-r0011"
-  },
-  {
-    "id": "D14-r0011",
-    "kind": "line",
-    "source": "补写",
-    "page": 54,
-    "pages": [
-      54,
-      200,
-      185
-    ],
-    "day": "D14",
-    "context": "回忆 · 默写职务",
-    "period": "小帮凶",
-    "background": "classroom",
-    "speaker": "同学",
-    "text": "帮老师还是帮我们？",
-    "character": "",
-    "next": "D14-r0012"
-  },
-  {
-    "id": "D14-r0012",
-    "kind": "line",
-    "source": "补写",
-    "page": 54,
-    "pages": [
-      54,
-      200,
-      185
-    ],
-    "day": "D14",
-    "context": "回忆 · 默写职务",
-    "period": "小帮凶",
-    "background": "classroom",
-    "speaker": "李沐衡",
-    "text": "先把今天默写交上来，再讨论帮谁。",
-    "character": "c17",
-    "next": "D14-0012"
-  },
-  {
-    "id": "D14-0012",
-    "kind": "scene",
-    "source": "演出",
-    "page": 54,
-    "pages": [
-      54,
-      200,
-      185
-    ],
-    "day": "D14",
+    "day": "N05",
     "context": "现实",
-    "period": "回到课间",
+    "period": "听课的熟人",
     "background": "classroom",
-    "text": "回到课间",
+    "text": "听课的熟人",
     "character": "",
     "effect": "paper",
     "prop": null,
-    "next": "D14-r0014"
+    "next": "N05-r0024"
   },
   {
-    "id": "D14-r0014",
+    "id": "N05-r0024",
     "kind": "line",
     "source": "转述",
-    "page": 54,
+    "page": 19,
     "pages": [
-      54,
-      200,
-      185
+      19
     ],
-    "day": "D14",
+    "day": "N05",
     "context": "现实",
-    "period": "回到课间",
+    "period": "听课的熟人",
     "background": "classroom",
     "speaker": "旁白",
-    "text": "词典笔接上音响，音乐传遍教室，午睡的人抬起头。",
+    "text": "秦老师来听英语，热情招呼张鹤闻。熟悉的名字从老师嘴里喊出，班里转过几张脸。",
     "character": "",
-    "next": "D14-0014"
+    "next": "N05-r0025"
   },
   {
-    "id": "D14-0014",
+    "id": "N05-r0025",
     "kind": "line",
     "source": "补写",
-    "page": 54,
+    "page": 19,
     "pages": [
-      54,
-      200,
-      185
+      19
     ],
-    "day": "D14",
+    "day": "N05",
     "context": "现实",
-    "period": "回到课间",
-    "background": "classroom",
-    "speaker": "李沐衡",
-    "text": "设备正常的时候，大家不一定想到我；坏起来就会了。",
-    "character": "c17",
-    "next": "D15-date"
-  },
-  {
-    "id": "D15-date",
-    "kind": "date",
-    "source": "演出",
-    "page": 55,
-    "pages": [
-      55,
-      56,
-      182
-    ],
-    "day": "D15",
-    "context": "现实",
-    "period": "翻到这一日",
-    "background": "classroom",
-    "date": "2023-09-26",
-    "text": "数卷子",
-    "pov": "c41",
-    "character": "",
-    "next": "D15-0001"
-  },
-  {
-    "id": "D15-0001",
-    "kind": "portrait",
-    "source": "演出",
-    "page": 55,
-    "pages": [
-      55,
-      56,
-      182
-    ],
-    "day": "D15",
-    "context": "现实",
-    "period": "",
-    "background": "classroom",
-    "text": "数卷子",
-    "pov": "c41",
-    "character": "c41",
-    "speaker": "孙佳怡",
-    "next": "D15-0002"
-  },
-  {
-    "id": "D15-0002",
-    "kind": "scene",
-    "source": "演出",
-    "page": 55,
-    "pages": [
-      55,
-      56,
-      182
-    ],
-    "day": "D15",
-    "context": "现实",
-    "period": "数卷子",
-    "background": "biology",
-    "text": "数卷子",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "D15-0003"
-  },
-  {
-    "id": "D15-0003",
-    "kind": "line",
-    "source": "补写",
-    "page": 55,
-    "pages": [
-      55,
-      56,
-      182
-    ],
-    "day": "D15",
-    "context": "现实",
-    "period": "数卷子",
-    "background": "biology",
-    "speaker": "孙佳怡",
-    "text": "大绿本没有签成，先来数十二张卷子。",
-    "character": "c41",
-    "next": "D15-0005"
-  },
-  {
-    "id": "D15-0005",
-    "kind": "line",
-    "source": "原文",
-    "page": 56,
-    "pages": [
-      55,
-      56,
-      182
-    ],
-    "day": "D15",
-    "context": "现实",
-    "period": "数卷子",
-    "background": "biology",
-    "speaker": "焉家祎",
-    "text": "监工。",
-    "character": "c18",
-    "next": "D15-0006"
-  },
-  {
-    "id": "D15-0006",
-    "kind": "line",
-    "source": "转述",
-    "page": 55,
-    "pages": [
-      55,
-      56,
-      182
-    ],
-    "day": "D15",
-    "context": "现实",
-    "period": "数卷子",
-    "background": "biology",
-    "speaker": "旁白",
-    "text": "雷老师坐在沙发上，手里一册生物金导，旁边的课代表忙着数卷子。",
-    "character": "",
-    "next": "D15-0007"
-  },
-  {
-    "id": "D15-0007",
-    "kind": "line",
-    "source": "补写",
-    "page": 55,
-    "pages": [
-      55,
-      56,
-      182
-    ],
-    "day": "D15",
-    "context": "现实",
-    "period": "数卷子",
-    "background": "biology",
-    "speaker": "孙佳怡",
-    "text": "你怎么数这么快？",
-    "character": "c41",
-    "next": "D15-0008"
-  },
-  {
-    "id": "D15-0008",
-    "kind": "line",
-    "source": "原文",
-    "page": 56,
-    "pages": [
-      55,
-      56,
-      182
-    ],
-    "day": "D15",
-    "context": "现实",
-    "period": "数卷子",
-    "background": "biology",
-    "speaker": "焉家祎",
-    "text": "无他，唯手熟尔。",
-    "character": "c18",
-    "next": "D15-0009"
-  },
-  {
-    "id": "D15-0009",
-    "kind": "scene",
-    "source": "演出",
-    "page": 55,
-    "pages": [
-      55,
-      56,
-      182
-    ],
-    "day": "D15",
-    "context": "现实",
-    "period": "午睡之后",
-    "background": "classroom",
-    "text": "午睡之后",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "D15-r0009"
-  },
-  {
-    "id": "D15-r0009",
-    "kind": "line",
-    "source": "转述",
-    "page": 55,
-    "pages": [
-      55,
-      56,
-      182
-    ],
-    "day": "D15",
-    "context": "现实",
-    "period": "午睡之后",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "HQ按下播放，幼儿园的起床曲响遍教室：“起床床，起床床……”附近班的人也被引过来，看这一班高三怎么被童声叫醒。",
-    "character": "",
-    "next": "D15-0011"
-  },
-  {
-    "id": "D15-0011",
-    "kind": "line",
-    "source": "补写",
-    "page": 55,
-    "pages": [
-      55,
-      56,
-      182
-    ],
-    "day": "D15",
-    "context": "现实",
-    "period": "午睡之后",
-    "background": "classroom",
-    "speaker": "HQ",
-    "text": "这是我女儿幼儿园的起床歌。",
-    "character": "c45",
-    "next": "D15-0012"
-  },
-  {
-    "id": "D15-0012",
-    "kind": "line",
-    "source": "补写",
-    "page": 55,
-    "pages": [
-      55,
-      56,
-      182
-    ],
-    "day": "D15",
-    "context": "现实",
-    "period": "午睡之后",
-    "background": "classroom",
-    "speaker": "孙佳怡",
-    "text": "歌声过去，脑子里还在继续。",
-    "character": "c41",
-    "next": "D15-0013"
-  },
-  {
-    "id": "D15-0013",
-    "kind": "line",
-    "source": "补写",
-    "page": 55,
-    "pages": [
-      55,
-      56,
-      182
-    ],
-    "day": "D15",
-    "context": "现实",
-    "period": "午睡之后",
-    "background": "classroom",
-    "speaker": "焉家祎",
-    "text": "先把眼睛睁开，再把笔拿起来。",
-    "character": "c18",
-    "next": "D15-r0013"
-  },
-  {
-    "id": "D15-r0013",
-    "kind": "choice",
-    "source": "补写",
-    "page": 55,
-    "pages": [
-      55,
-      56,
-      182
-    ],
-    "day": "D15",
-    "context": "现实",
-    "period": "午睡之后",
-    "background": "classroom",
-    "text": "起床曲还在脑子里，我怎么说",
-    "speaker": "孙佳怡",
-    "character": "c41",
-    "options": [
-      {
-        "text": "“老师，醒了醒了。您女儿的歌比闹钟管用。”",
-        "next": "D15-r0014"
-      },
-      {
-        "text": "“眼睛睁开了，就是脑子还在唱。讲到哪页？”",
-        "next": "D15-r0016"
-      },
-      {
-        "text": "“再放十遍，我就趴着给它伴奏。”",
-        "failure": "童声努力叫醒全班，课代表却决定为午睡录伴奏。"
-      }
-    ]
-  },
-  {
-    "id": "D15-r0014",
-    "kind": "line",
-    "source": "补写",
-    "page": 55,
-    "pages": [
-      55,
-      56,
-      182
-    ],
-    "day": "D15",
-    "context": "现实",
-    "period": "午睡之后",
-    "background": "classroom",
-    "text": "“老师，醒了醒了。您女儿的歌比闹钟管用。”",
-    "speaker": "孙佳怡",
-    "character": "c41",
-    "next": "D15-r0015"
-  },
-  {
-    "id": "D15-r0015",
-    "kind": "line",
-    "source": "补写",
-    "page": 55,
-    "pages": [
-      55,
-      56,
-      182
-    ],
-    "day": "D15",
-    "context": "现实",
-    "period": "午睡之后",
-    "background": "classroom",
-    "speaker": "HQ",
-    "text": "醒了就翻书。",
-    "character": "c45",
-    "next": "D16-date"
-  },
-  {
-    "id": "D15-r0016",
-    "kind": "line",
-    "source": "补写",
-    "page": 55,
-    "pages": [
-      55,
-      56,
-      182
-    ],
-    "day": "D15",
-    "context": "现实",
-    "period": "午睡之后",
-    "background": "classroom",
-    "text": "“眼睛睁开了，就是脑子还在唱。讲到哪页？”",
-    "speaker": "孙佳怡",
-    "character": "c41",
-    "next": "D15-r0017"
-  },
-  {
-    "id": "D15-r0017",
-    "kind": "line",
-    "source": "补写",
-    "page": 55,
-    "pages": [
-      55,
-      56,
-      182
-    ],
-    "day": "D15",
-    "context": "现实",
-    "period": "午睡之后",
-    "background": "classroom",
-    "speaker": "HQ",
-    "text": "把书翻开，跟上。",
-    "character": "c45",
-    "next": "D16-date"
-  },
-  {
-    "id": "D16-date",
-    "kind": "date",
-    "source": "演出",
-    "page": 59,
-    "pages": [
-      59,
-      60,
-      186,
-      187
-    ],
-    "day": "D16",
-    "context": "现实",
-    "period": "翻到这一日",
-    "background": "classroom",
-    "date": "2023-09-28",
-    "text": "牌位",
-    "pov": "c19",
-    "character": "",
-    "next": "D16-0001"
-  },
-  {
-    "id": "D16-0001",
-    "kind": "portrait",
-    "source": "演出",
-    "page": 59,
-    "pages": [
-      59,
-      60,
-      186,
-      187
-    ],
-    "day": "D16",
-    "context": "现实",
-    "period": "",
-    "background": "classroom",
-    "text": "牌位",
-    "pov": "c19",
-    "character": "c19",
-    "speaker": "马诗雨",
-    "next": "D16-0002"
-  },
-  {
-    "id": "D16-0002",
-    "kind": "scene",
-    "source": "演出",
-    "page": 59,
-    "pages": [
-      59,
-      60,
-      186,
-      187
-    ],
-    "day": "D16",
-    "context": "现实",
-    "period": "牌位",
-    "background": "rear",
-    "text": "牌位",
-    "character": "",
-    "effect": "paper",
-    "prop": {
-      "kind": "paper",
-      "title": "午休的玩笑",
-      "lines": [
-        "徐生子涵之位"
-      ]
-    },
-    "next": "D16-0003"
-  },
-  {
-    "id": "D16-0003",
-    "kind": "line",
-    "source": "补写",
-    "page": 59,
-    "pages": [
-      59,
-      60,
-      186,
-      187
-    ],
-    "day": "D16",
-    "context": "现实",
-    "period": "牌位",
-    "background": "rear",
-    "speaker": "马诗雨",
-    "text": "午休怎么多了个有底座的东西？",
-    "character": "c19",
-    "next": "D16-0004"
-  },
-  {
-    "id": "D16-0004",
-    "kind": "line",
-    "source": "转述",
-    "page": 59,
-    "pages": [
-      59,
-      60,
-      186,
-      187
-    ],
-    "day": "D16",
-    "context": "现实",
-    "period": "牌位",
-    "background": "rear",
-    "speaker": "旁白",
-    "text": "竖长牌位上写着“徐生子涵之位”，同学们围观，日志称作大型“盗墓”现场。",
-    "character": "",
-    "next": "D16-0006"
-  },
-  {
-    "id": "D16-0006",
-    "kind": "line",
-    "source": "补写",
-    "page": 59,
-    "pages": [
-      59,
-      60,
-      186,
-      187
-    ],
-    "day": "D16",
-    "context": "现实",
-    "period": "牌位",
-    "background": "rear",
-    "speaker": "徐子涵",
-    "text": "本人还在，先别把它当我的出勤卡。",
-    "character": "c03",
-    "next": "D16-0007"
-  },
-  {
-    "id": "D16-0007",
-    "kind": "scene",
-    "source": "演出",
-    "page": 59,
-    "pages": [
-      59,
-      60,
-      186,
-      187
-    ],
-    "day": "D16",
-    "context": "回忆 · 获奖后的反差",
-    "period": "文明礼仪奖",
-    "background": "classroom",
-    "text": "文明礼仪奖",
-    "character": "",
-    "effect": "memory",
-    "prop": null,
-    "next": "D16-r0007"
-  },
-  {
-    "id": "D16-r0007",
-    "kind": "portrait",
-    "source": "演出",
-    "page": 59,
-    "pages": [
-      59,
-      60,
-      186,
-      187
-    ],
-    "day": "D16",
-    "context": "回忆 · 获奖后的反差",
-    "period": "文明礼仪奖",
-    "background": "classroom",
-    "pov": "c03",
-    "character": "c03",
-    "speaker": "徐子涵",
-    "text": "这一段，由徐子涵接着记。",
-    "next": "D16-r0008"
-  },
-  {
-    "id": "D16-r0008",
-    "kind": "line",
-    "source": "补写",
-    "page": 59,
-    "pages": [
-      59,
-      60,
-      186,
-      187
-    ],
-    "day": "D16",
-    "context": "回忆 · 获奖后的反差",
-    "period": "文明礼仪奖",
-    "background": "classroom",
-    "speaker": "徐子涵",
-    "text": "这个玩游戏就要这个心平气和地玩。",
-    "character": "c03",
-    "next": "D16-r0009"
-  },
-  {
-    "id": "D16-r0009",
-    "kind": "line",
-    "source": "转述",
-    "page": 59,
-    "pages": [
-      59,
-      60,
-      186,
-      187
-    ],
-    "day": "D16",
-    "context": "回忆 · 获奖后的反差",
-    "period": "文明礼仪奖",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "几何冲刺里忽然又死了一次。",
-    "character": "",
-    "next": "D16-r0010"
-  },
-  {
-    "id": "D16-r0010",
-    "kind": "line",
-    "source": "原文",
-    "page": 186,
-    "pages": [
-      59,
-      60,
-      186,
-      187
-    ],
-    "day": "D16",
-    "context": "回忆 · 获奖后的反差",
-    "period": "文明礼仪奖",
-    "background": "classroom",
-    "speaker": "徐子涵",
-    "text": "哎呀我！哎呀我！",
-    "character": "c03",
-    "next": "D16-r0011"
-  },
-  {
-    "id": "D16-r0011",
-    "kind": "line",
-    "source": "转述",
-    "page": 59,
-    "pages": [
-      59,
-      60,
-      186,
-      187
-    ],
-    "day": "D16",
-    "context": "回忆 · 获奖后的反差",
-    "period": "文明礼仪奖",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "一串芬芳之言接着冲出来。我喊得气喘吁吁，旁边同学却想起了一个奖。",
-    "character": "",
-    "next": "D16-r0012"
-  },
-  {
-    "id": "D16-r0012",
-    "kind": "line",
-    "source": "补写",
-    "page": 59,
-    "pages": [
-      59,
-      60,
-      186,
-      187
-    ],
-    "day": "D16",
-    "context": "回忆 · 获奖后的反差",
-    "period": "文明礼仪奖",
-    "background": "classroom",
-    "speaker": "同学",
-    "text": "文明礼仪奖，推荐满者。",
-    "character": "",
-    "next": "D16-r0013"
-  },
-  {
-    "id": "D16-r0013",
-    "kind": "line",
-    "source": "补写",
-    "page": 59,
-    "pages": [
-      59,
-      60,
-      186,
-      187
-    ],
-    "day": "D16",
-    "context": "回忆 · 获奖后的反差",
-    "period": "文明礼仪奖",
-    "background": "classroom",
-    "speaker": "徐子涵",
-    "text": "我从来不信什么阴司地狱报应。",
-    "character": "c03",
-    "next": "D16-r0014"
-  },
-  {
-    "id": "D16-r0014",
-    "kind": "line",
-    "source": "转述",
-    "page": 59,
-    "pages": [
-      59,
-      60,
-      186,
-      187
-    ],
-    "day": "D16",
-    "context": "回忆 · 获奖后的反差",
-    "period": "文明礼仪奖",
-    "background": "classroom",
-    "speaker": "旁白",
-    "text": "举荐成了，奖也得了；大家再听我破防，就多了一层可笑的对照。",
-    "character": "",
-    "next": "D16-0009"
-  },
-  {
-    "id": "D16-0009",
-    "kind": "scene",
-    "source": "演出",
-    "page": 59,
-    "pages": [
-      59,
-      60,
-      186,
-      187
-    ],
-    "day": "D16",
-    "context": "现实",
-    "period": "节前",
-    "background": "classroom",
-    "text": "节前",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "D16-0010"
-  },
-  {
-    "id": "D16-0010",
-    "kind": "line",
-    "source": "补写",
-    "page": 59,
-    "pages": [
-      59,
-      60,
-      186,
-      187
-    ],
-    "day": "D16",
-    "context": "现实",
-    "period": "节前",
+    "period": "听课的熟人",
     "background": "classroom",
     "speaker": "战老师",
-    "text": "例一做完了吗？",
+    "text": "站得也不直，训的什么呀！军训还没我们补课时间长呢。",
     "character": "c48",
-    "next": "D16-0011"
+    "next": "N05-r0026"
   },
   {
-    "id": "D16-0011",
+    "id": "N05-r0026",
     "kind": "line",
-    "source": "原文",
-    "page": 60,
+    "source": "补写",
+    "page": 19,
     "pages": [
-      59,
-      60,
-      186,
-      187
+      19
     ],
-    "day": "D16",
+    "day": "N05",
     "context": "现实",
-    "period": "节前",
+    "period": "听课的熟人",
     "background": "classroom",
-    "speaker": "同学",
-    "text": "收拾完了。",
-    "character": "",
-    "next": "D16-0012"
-  },
-  {
-    "id": "D16-0012",
-    "kind": "line",
-    "source": "补写",
-    "page": 59,
-    "pages": [
-      59,
-      60,
-      186,
-      187
-    ],
-    "day": "D16",
-    "context": "现实",
-    "period": "节前",
-    "background": "classroom",
-    "speaker": "刘恒怿",
-    "text": "归心似箭，答非所问。",
-    "character": "c07",
-    "next": "D16-0013"
-  },
-  {
-    "id": "D16-0013",
-    "kind": "line",
-    "source": "补写",
-    "page": 59,
-    "pages": [
-      59,
-      60,
-      186,
-      187
-    ],
-    "day": "D16",
-    "context": "现实",
-    "period": "节前",
-    "background": "classroom",
-    "speaker": "马诗雨",
-    "text": "欢送李承容！再把九月二十一日的诗复诵一遍。中秋快乐，国庆快乐！",
-    "character": "c19",
-    "next": "D17-date"
-  },
-  {
-    "id": "D17-date",
-    "kind": "date",
-    "source": "演出",
-    "page": 61,
-    "pages": [
-      61,
-      62
-    ],
-    "day": "D17",
-    "context": "现实",
-    "period": "翻到这一日",
-    "background": "classroom",
-    "date": "2023-10-08",
-    "text": "七点半出发",
-    "pov": "c20",
-    "character": "",
-    "next": "D17-0001"
-  },
-  {
-    "id": "D17-0001",
-    "kind": "portrait",
-    "source": "演出",
-    "page": 61,
-    "pages": [
-      61,
-      62
-    ],
-    "day": "D17",
-    "context": "现实",
-    "period": "",
-    "background": "classroom",
-    "text": "七点半出发",
-    "pov": "c20",
-    "character": "c20",
-    "speaker": "刘美孜",
-    "next": "D17-0002"
-  },
-  {
-    "id": "D17-0002",
-    "kind": "scene",
-    "source": "演出",
-    "page": 61,
-    "pages": [
-      61,
-      62
-    ],
-    "day": "D17",
-    "context": "现实",
-    "period": "七点半出发",
-    "background": "bus",
-    "text": "七点半出发",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "D17-0003"
-  },
-  {
-    "id": "D17-0003",
-    "kind": "line",
-    "source": "补写",
-    "page": 61,
-    "pages": [
-      61,
-      62
-    ],
-    "day": "D17",
-    "context": "现实",
-    "period": "七点半出发",
-    "background": "bus",
-    "speaker": "刘美孜",
-    "text": "东操场集合！通关文牒拿好，印章在长城上等着。",
-    "character": "c20",
-    "next": "D17-0004"
-  },
-  {
-    "id": "D17-0004",
-    "kind": "scene",
-    "source": "演出",
-    "page": 61,
-    "pages": [
-      61,
-      62
-    ],
-    "day": "D17",
-    "context": "现实",
-    "period": "九点半到达",
-    "background": "great-wall",
-    "text": "九点半到达",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "D17-0006"
-  },
-  {
-    "id": "D17-0006",
-    "kind": "line",
-    "source": "补写",
-    "page": 61,
-    "pages": [
-      61,
-      62
-    ],
-    "day": "D17",
-    "context": "现实",
-    "period": "九点半到达",
-    "background": "great-wall",
-    "speaker": "刘恒怿",
-    "text": "古长城，跟想象里的景区还不太一样。",
-    "character": "c07",
-    "next": "D17-0007"
-  },
-  {
-    "id": "D17-0007",
-    "kind": "line",
-    "source": "补写",
-    "page": 61,
-    "pages": [
-      61,
-      62
-    ],
-    "day": "D17",
-    "context": "现实",
-    "period": "九点半到达",
-    "background": "great-wall",
-    "speaker": "刘美孜",
-    "text": "先在横幅下合影。来，大家的金句再背一次。",
-    "character": "c20",
-    "next": "D17-r0007"
-  },
-  {
-    "id": "D17-r0007",
-    "kind": "line",
-    "source": "转述",
-    "page": 61,
-    "pages": [
-      61,
-      62
-    ],
-    "day": "D17",
-    "context": "现实",
-    "period": "九点半到达",
-    "background": "great-wall",
-    "speaker": "旁白",
-    "text": "这回孙老师终于听清第二句，佯装生气，伸手揪住大哥的耳朵，脸上却没有怒色。大哥笑着举起双手，作投降状。同学赶忙把这一幕拍下来。",
-    "character": "",
-    "next": "D17-0009"
-  },
-  {
-    "id": "D17-0009",
-    "kind": "line",
-    "source": "补写",
-    "page": 61,
-    "pages": [
-      61,
-      62
-    ],
-    "day": "D17",
-    "context": "现实",
-    "period": "九点半到达",
-    "background": "great-wall",
-    "speaker": "刘恒怿",
-    "text": "上次诗在纸上，这次老师在旁边。",
-    "character": "c07",
-    "next": "D17-0010"
-  },
-  {
-    "id": "D17-0010",
-    "kind": "line",
-    "source": "补写",
-    "page": 61,
-    "pages": [
-      61,
-      62
-    ],
-    "day": "D17",
-    "context": "现实",
-    "period": "九点半到达",
-    "background": "great-wall",
-    "speaker": "孙老师",
-    "text": "这句原来是这么写的！",
-    "character": "c46",
-    "next": "D17-0011"
-  },
-  {
-    "id": "D17-0011",
-    "kind": "scene",
-    "source": "演出",
-    "page": 61,
-    "pages": [
-      61,
-      62
-    ],
-    "day": "D17",
-    "context": "现实",
-    "period": "登顶",
-    "background": "great-wall",
-    "text": "登顶",
-    "character": "",
-    "effect": "paper",
-    "prop": null,
-    "next": "D17-0012"
-  },
-  {
-    "id": "D17-0012",
-    "kind": "line",
-    "source": "补写",
-    "page": 61,
-    "pages": [
-      61,
-      62
-    ],
-    "day": "D17",
-    "context": "现实",
-    "period": "登顶",
-    "background": "great-wall",
     "speaker": "李沐衡",
-    "text": "我先到了。",
+    "text": "楼下军训，又成了楼上数学的话题。",
     "character": "c17",
-    "next": "D17-0013"
+    "next": "N05-r0027"
   },
   {
-    "id": "D17-0013",
+    "id": "N05-r0027",
+    "kind": "line",
+    "source": "原文",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "day": "N05",
+    "context": "现实",
+    "period": "听课的熟人",
+    "background": "classroom",
+    "speaker": "孙老师",
+    "text": "要让我女儿养一个像她那样的孩子。",
+    "character": "c46",
+    "next": "N05-r0028"
+  },
+  {
+    "id": "N05-r0028",
     "kind": "line",
     "source": "补写",
-    "page": 61,
+    "page": 19,
     "pages": [
-      61,
-      62
+      19
     ],
-    "day": "D17",
+    "day": "N05",
     "context": "现实",
-    "period": "登顶",
-    "background": "great-wall",
-    "speaker": "刘美孜",
-    "text": "一个小时！我的两倍还快。山上的风这么大，手机也得握紧。",
-    "character": "c20",
-    "next": "D17-0014"
-  },
-  {
-    "id": "D17-0014",
-    "kind": "line",
-    "source": "转述",
-    "page": 61,
-    "pages": [
-      61,
-      62
-    ],
-    "day": "D17",
-    "context": "现实",
-    "period": "登顶",
-    "background": "great-wall",
-    "speaker": "旁白",
-    "text": "多数人集齐印章，收获徽章，崔老师击掌送上“考七百分”的祝愿。",
+    "period": "听课的熟人",
+    "background": "classroom",
+    "speaker": "同学",
+    "text": "这句话听着，好大的怨气。",
     "character": "",
-    "next": "D17-0015"
+    "next": "N05-r0029"
   },
   {
-    "id": "D17-0015",
-    "kind": "line",
-    "source": "补写",
-    "page": 61,
-    "pages": [
-      61,
-      62
-    ],
-    "day": "D17",
-    "context": "现实",
-    "period": "登顶",
-    "background": "great-wall",
-    "speaker": "崔鹏",
-    "text": "考七百分！",
-    "character": "c56",
-    "next": "D17-r0015"
-  },
-  {
-    "id": "D17-r0015",
-    "kind": "choice",
-    "source": "补写",
-    "page": 61,
-    "pages": [
-      61,
-      62
-    ],
-    "day": "D17",
-    "context": "现实",
-    "period": "登顶",
-    "background": "great-wall",
-    "text": "崔老师祝“考七百分”，我怎么接",
-    "speaker": "刘美孜",
-    "character": "c20",
-    "options": [
-      {
-        "text": "“谢谢老师！先把水喝了，再把这个愿望带回去。”",
-        "next": "D17-r0016"
-      },
-      {
-        "text": "“借您吉言。大家徽章齐了，合影一起喊！”",
-        "next": "D17-r0018"
-      },
-      {
-        "text": "“我听见了，今天就不用再写题了。”",
-        "failure": "七百分还在山顶许愿，作业已经先回教室点了名。"
-      }
-    ]
-  },
-  {
-    "id": "D17-r0016",
-    "kind": "line",
-    "source": "补写",
-    "page": 61,
-    "pages": [
-      61,
-      62
-    ],
-    "day": "D17",
-    "context": "现实",
-    "period": "登顶",
-    "background": "great-wall",
-    "text": "“谢谢老师！先把水喝了，再把这个愿望带回去。”",
-    "speaker": "刘美孜",
-    "character": "c20",
-    "next": "D17-r0017"
-  },
-  {
-    "id": "D17-r0017",
-    "kind": "line",
-    "source": "补写",
-    "page": 61,
-    "pages": [
-      61,
-      62
-    ],
-    "day": "D17",
-    "context": "现实",
-    "period": "登顶",
-    "background": "great-wall",
-    "speaker": "崔鹏",
-    "text": "好，接着努力。",
-    "character": "c56",
-    "next": "D17-0019"
-  },
-  {
-    "id": "D17-r0018",
-    "kind": "line",
-    "source": "补写",
-    "page": 61,
-    "pages": [
-      61,
-      62
-    ],
-    "day": "D17",
-    "context": "现实",
-    "period": "登顶",
-    "background": "great-wall",
-    "text": "“借您吉言。大家徽章齐了，合影一起喊！”",
-    "speaker": "刘美孜",
-    "character": "c20",
-    "next": "D17-r0019"
-  },
-  {
-    "id": "D17-r0019",
-    "kind": "line",
-    "source": "补写",
-    "page": 61,
-    "pages": [
-      61,
-      62
-    ],
-    "day": "D17",
-    "context": "现实",
-    "period": "登顶",
-    "background": "great-wall",
-    "speaker": "崔鹏",
-    "text": "来，击个掌。",
-    "character": "c56",
-    "next": "D17-0019"
-  },
-  {
-    "id": "D17-0019",
+    "id": "N05-r0029",
     "kind": "scene",
     "source": "演出",
-    "page": 61,
+    "page": 19,
     "pages": [
-      61,
-      62
+      19
     ],
-    "day": "D17",
+    "day": "N05",
     "context": "现实",
-    "period": "返校",
-    "background": "gate",
-    "text": "返校",
+    "period": "多一天假",
+    "background": "classroom",
+    "text": "多一天假",
     "character": "",
     "effect": "paper",
     "prop": null,
-    "next": "D17-0020"
+    "next": "N05-r0030"
   },
   {
-    "id": "D17-0020",
+    "id": "N05-r0030",
     "kind": "line",
     "source": "补写",
-    "page": 61,
+    "page": 19,
     "pages": [
-      61,
-      62
+      19
     ],
-    "day": "D17",
+    "day": "N05",
     "context": "现实",
-    "period": "返校",
-    "background": "gate",
-    "speaker": "刘美孜",
-    "text": "四点半回到学校，张瑞麒和张沐雷还来接我们。",
-    "character": "c20",
-    "next": "D17-0021"
+    "period": "多一天假",
+    "background": "classroom",
+    "speaker": "HQ",
+    "text": "走读生可以申请住宿了。",
+    "character": "c45",
+    "next": "N05-r0031"
   },
   {
-    "id": "D17-0021",
+    "id": "N05-r0031",
+    "kind": "line",
+    "source": "转述",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "day": "N05",
+    "context": "现实",
+    "period": "多一天假",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "物理课又传来消息：老师去培训，多放一天假。",
+    "character": "",
+    "next": "N05-r0032"
+  },
+  {
+    "id": "N05-r0032",
+    "kind": "line",
+    "source": "原文",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "day": "N05",
+    "context": "现实",
+    "period": "多一天假",
+    "background": "classroom",
+    "speaker": "邵聪",
+    "text": "培训一天哪够啊！",
+    "character": "c30",
+    "next": "N05-r0033"
+  },
+  {
+    "id": "N05-r0033",
     "kind": "line",
     "source": "补写",
-    "page": 61,
+    "page": 19,
     "pages": [
-      61,
-      62
+      19
     ],
-    "day": "D17",
+    "day": "N05",
     "context": "现实",
-    "period": "返校",
-    "background": "gate",
-    "speaker": "刘恒怿",
-    "text": "今晚记得拉伸，明天还得上课。",
-    "character": "c07",
-    "next": "D18-date"
+    "period": "多一天假",
+    "background": "classroom",
+    "speaker": "同学",
+    "text": "你是替老师考虑，还是替自己考虑？",
+    "character": "",
+    "next": "N05-r0034"
   },
   {
-    "id": "D18-date",
+    "id": "N05-r0034",
+    "kind": "line",
+    "source": "补写",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "day": "N05",
+    "context": "现实",
+    "period": "多一天假",
+    "background": "classroom",
+    "speaker": "李沐衡",
+    "text": "今天素材虽少，这句必须写下。退出会议，还能退出上课一天。",
+    "character": "c17",
+    "next": "N05-r0036"
+  },
+  {
+    "id": "N05-r0036",
+    "kind": "scene",
+    "source": "演出",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "day": "N05",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "text": "课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "N05-r0037"
+  },
+  {
+    "id": "N05-r0037",
+    "kind": "line",
+    "source": "原文",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "day": "N05",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "开头？开头是什么？",
+    "character": "",
+    "next": "N05-r0038"
+  },
+  {
+    "id": "N05-r0038",
+    "kind": "line",
+    "source": "原文",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "day": "N05",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "字有亿点丑，读者见谅。",
+    "character": "",
+    "next": "N05-r0039"
+  },
+  {
+    "id": "N05-r0039",
+    "kind": "line",
+    "source": "原文",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "day": "N05",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "腾讯会议限时60分钟，不得不出每节课进出一次。",
+    "character": "",
+    "next": "N05-r0040"
+  },
+  {
+    "id": "N05-r0040",
+    "kind": "scene",
+    "source": "演出",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "day": "N05",
+    "context": "现实",
+    "period": "英语课 · 课间手帐",
+    "background": "classroom",
+    "text": "英语课 · 课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "N05-r0041"
+  },
+  {
+    "id": "N05-r0041",
+    "kind": "line",
+    "source": "原文",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "day": "N05",
+    "context": "现实",
+    "period": "英语课 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "秦老师来听课，zhw被热情招呼。",
+    "character": "",
+    "next": "N05-r0042"
+  },
+  {
+    "id": "N05-r0042",
+    "kind": "line",
+    "source": "原文",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "day": "N05",
+    "context": "现实",
+    "period": "英语课 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "outman v. 在数量上胜过，人数胜过。",
+    "character": "",
+    "next": "N05-r0043"
+  },
+  {
+    "id": "N05-r0043",
+    "kind": "scene",
+    "source": "演出",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "day": "N05",
+    "context": "现实",
+    "period": "数学课 · 课间手帐",
+    "background": "classroom",
+    "text": "数学课 · 课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "N05-r0044"
+  },
+  {
+    "id": "N05-r0044",
+    "kind": "line",
+    "source": "原文",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "day": "N05",
+    "context": "现实",
+    "period": "数学课 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "“站得也不直，训的什么呀！”——战战锐评高一军训。",
+    "character": "",
+    "next": "N05-r0045"
+  },
+  {
+    "id": "N05-r0045",
+    "kind": "scene",
+    "source": "演出",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "day": "N05",
+    "context": "现实",
+    "period": "语文课 · 课间手帐",
+    "background": "classroom",
+    "text": "语文课 · 课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "N05-r0046"
+  },
+  {
+    "id": "N05-r0046",
+    "kind": "line",
+    "source": "原文",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "day": "N05",
+    "context": "现实",
+    "period": "语文课 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "“要让我女儿养一个像她那样的孩子。”——好大的怨气。",
+    "character": "",
+    "next": "N05-r0047"
+  },
+  {
+    "id": "N05-r0047",
+    "kind": "scene",
+    "source": "演出",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "day": "N05",
+    "context": "现实",
+    "period": "午休 · 课间手帐",
+    "background": "classroom",
+    "text": "午休 · 课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "N05-r0048"
+  },
+  {
+    "id": "N05-r0048",
+    "kind": "line",
+    "source": "原文",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "day": "N05",
+    "context": "现实",
+    "period": "午休 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "“走读生可以申请住宿了！”——HQ。",
+    "character": "",
+    "next": "N05-r0049"
+  },
+  {
+    "id": "N05-r0049",
+    "kind": "scene",
+    "source": "演出",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "day": "N05",
+    "context": "现实",
+    "period": "物理课 · 课间手帐",
+    "background": "classroom",
+    "text": "物理课 · 课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "N05-r0050"
+  },
+  {
+    "id": "N05-r0050",
+    "kind": "line",
+    "source": "原文",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "day": "N05",
+    "context": "现实",
+    "period": "物理课 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "因为老师要培训多放一天假，“培训一天哪够啊！”——SC。",
+    "character": "",
+    "next": "N05-r0051"
+  },
+  {
+    "id": "N05-r0051",
+    "kind": "line",
+    "source": "原文",
+    "page": 19,
+    "pages": [
+      19
+    ],
+    "day": "N05",
+    "context": "现实",
+    "period": "物理课 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "今天素材有点少。",
+    "character": "",
+    "next": "D07-date"
+  },
+  {
+    "id": "D07-date",
     "kind": "date",
     "source": "演出",
-    "page": 63,
+    "page": 20,
     "pages": [
-      63,
-      64,
-      186,
-      198,
-      199,
-      209,
-      217,
-      218,
-      219
+      20
     ],
-    "day": "D18",
+    "day": "D07",
     "context": "现实",
     "period": "翻到这一日",
     "background": "classroom",
-    "date": "2023-10-09",
-    "text": "改错之后，重游杭州",
-    "pov": "xu",
+    "date": "2023-08-30",
+    "text": "军训仍在继续",
+    "pov": "c08",
     "character": "",
-    "next": "D18-r0001"
+    "next": "D07-0001"
   },
   {
-    "id": "D18-r0001",
+    "id": "D07-0001",
     "kind": "portrait",
     "source": "演出",
-    "page": 63,
+    "page": 20,
     "pages": [
-      63,
-      64,
-      186,
-      198,
-      199,
-      209,
-      217,
-      218,
-      219
+      20
     ],
-    "day": "D18",
+    "day": "D07",
     "context": "现实",
     "period": "",
     "background": "classroom",
-    "text": "改错之后，重游杭州",
-    "pov": "xu",
-    "character": "xu",
-    "speaker": "徐启元",
-    "next": "D18-r0002"
+    "text": "军训仍在继续",
+    "pov": "c08",
+    "character": "c08",
+    "speaker": "陈俊言",
+    "next": "D07-0002"
   },
   {
-    "id": "D18-r0002",
+    "id": "D07-0002",
     "kind": "scene",
     "source": "演出",
-    "page": 186,
+    "page": 20,
     "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
+      20
     ],
-    "day": "D18",
+    "day": "D07",
     "context": "现实",
-    "period": "改错后翻出游学照片",
+    "period": "军训仍在继续",
     "background": "classroom",
-    "text": "改错后翻出游学照片",
+    "text": "军训仍在继续",
     "character": "",
     "effect": "paper",
     "prop": null,
-    "next": "D18-r0003"
+    "next": "D07-0003"
   },
   {
-    "id": "D18-r0003",
+    "id": "D07-0003",
     "kind": "line",
     "source": "补写",
-    "page": 186,
+    "page": 20,
     "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
+      20
     ],
-    "day": "D18",
+    "day": "D07",
     "context": "现实",
-    "period": "改错后翻出游学照片",
+    "period": "军训仍在继续",
     "background": "classroom",
-    "speaker": "徐启元",
-    "text": "错题改完了。我把杭州的照片翻出来，怎么第一张就是老师看《镜中花》？",
-    "character": "xu",
-    "next": "D18-r0004"
+    "speaker": "陈俊言",
+    "text": "最长周末结束，我以为楼下终于安静了。",
+    "character": "c08",
+    "next": "D07-0005"
   },
   {
-    "id": "D18-r0004",
+    "id": "D07-0005",
     "kind": "line",
     "source": "补写",
-    "page": 186,
+    "page": 20,
     "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
+      20
     ],
-    "day": "D18",
+    "day": "D07",
     "context": "现实",
-    "period": "改错后翻出游学照片",
+    "period": "军训仍在继续",
     "background": "classroom",
-    "speaker": "凌艺坤",
-    "text": "去程的车上，HQ和孙老师一边看一边笑。我们还不知道她们会评什么。",
-    "character": "ling",
-    "next": "D18-r0005"
+    "speaker": "周远持",
+    "text": "初中军训无缝接上。",
+    "character": "c09",
+    "next": "D07-0006"
   },
   {
-    "id": "D18-r0005",
-    "kind": "scene",
-    "source": "演出",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 杭州游学 · 第一段",
-    "period": "出发与良渚",
-    "background": "train",
-    "text": "出发与良渚",
-    "character": "",
-    "effect": "memory",
-    "prop": null,
-    "next": "D18-r0006"
-  },
-  {
-    "id": "D18-r0006",
+    "id": "D07-0006",
     "kind": "line",
     "source": "转述",
-    "page": 186,
+    "page": 20,
     "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
+      20
     ],
-    "day": "D18",
-    "context": "回忆 · 杭州游学 · 第一段",
-    "period": "出发与良渚",
-    "background": "train",
+    "day": "D07",
+    "context": "现实",
+    "period": "军训仍在继续",
+    "background": "classroom",
     "speaker": "旁白",
-    "text": "黄艺博、张鹤闻和京赫生病，没能同行。北京南站集合后，车厢里的七班一路向南。",
+    "text": "HQ把窗边高三学生的课间娱乐拍了下来。",
     "character": "",
-    "next": "D18-r0007"
+    "next": "D07-0007"
   },
   {
-    "id": "D18-r0007",
+    "id": "D07-0007",
     "kind": "line",
     "source": "补写",
-    "page": 186,
+    "page": 20,
     "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
+      20
     ],
-    "day": "D18",
-    "context": "回忆 · 杭州游学 · 第一段",
-    "period": "出发与良渚",
-    "background": "train",
-    "speaker": "HQ",
-    "text": "你们这电影，原来还有这么多转折。",
-    "character": "c45",
-    "next": "D18-r0008"
-  },
-  {
-    "id": "D18-r0008",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 杭州游学 · 第一段",
-    "period": "出发与良渚",
-    "background": "train",
+    "day": "D07",
+    "context": "现实",
+    "period": "军训仍在继续",
+    "background": "classroom",
     "speaker": "孙老师",
-    "text": "先让我看完。",
+    "text": "解释含义题，两个人得两分，十二个人得一分，剩下都是零蛋。",
     "character": "c46",
-    "next": "D18-r0009"
+    "next": "D07-0008"
   },
   {
-    "id": "D18-r0009",
+    "id": "D07-0008",
+    "kind": "line",
+    "source": "补写",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "现实",
+    "period": "军训仍在继续",
+    "background": "classroom",
+    "speaker": "周远持",
+    "text": "那我把自己的鸿篇巨著读一下。写得太烂了。",
+    "character": "c09",
+    "next": "D07-0009"
+  },
+  {
+    "id": "D07-0009",
+    "kind": "line",
+    "source": "补写",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "现实",
+    "period": "军训仍在继续",
+    "background": "classroom",
+    "speaker": "陈俊言",
+    "text": "四十分的“太烂”，要不要先给我们一个预警。",
+    "character": "c08",
+    "next": "D07-0010"
+  },
+  {
+    "id": "D07-0010",
     "kind": "scene",
     "source": "演出",
-    "page": 186,
+    "page": 20,
     "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
+      20
     ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "良渚的惆怅",
-    "background": "liangzhu",
-    "text": "良渚的惆怅",
+    "day": "D07",
+    "context": "现实",
+    "period": "班会",
+    "background": "classroom",
+    "text": "班会",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "D07-0011"
+  },
+  {
+    "id": "D07-0011",
+    "kind": "line",
+    "source": "转述",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "现实",
+    "period": "班会",
+    "background": "classroom",
+    "speaker": "旁白",
+    "text": "凌艺坤、徐启元、石杨、荆巨和张瑞麒分享经验。对答案派与不对答案派各有说法。",
+    "character": "",
+    "next": "D07-0012"
+  },
+  {
+    "id": "D07-0012",
+    "kind": "line",
+    "source": "补写",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "现实",
+    "period": "班会",
+    "background": "classroom",
+    "speaker": "陈俊言",
+    "text": "不同办法可以交流，最终还得看自己怎样用。",
+    "character": "c08",
+    "next": "D07-0013"
+  },
+  {
+    "id": "D07-0013",
+    "kind": "line",
+    "source": "补写",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "现实",
+    "period": "班会",
+    "background": "classroom",
+    "speaker": "周远持",
+    "text": "住宿申请表明天交。晚自习也要有自己的安排。",
+    "character": "c09",
+    "next": "D07-r0028"
+  },
+  {
+    "id": "D07-r0028",
+    "kind": "scene",
+    "source": "演出",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "text": "课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "D07-r0029"
+  },
+  {
+    "id": "D07-r0029",
+    "kind": "line",
+    "source": "原文",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "结束了三天假期，或许可以称为高三最长“周末”，本以为高一军训终于结束，结果上课时分楼下又传来熟悉的声音，一问才知初中军训又不间断地开始了……同学们对此事的热情依旧不减，于是便有了HQ拍下的",
+    "character": "",
+    "next": "D07-r0030"
+  },
+  {
+    "id": "D07-r0030",
+    "kind": "line",
+    "source": "原文",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "现实",
+    "period": "课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "名场面——高三学生每天的娱乐项目。",
+    "character": "",
+    "next": "D07-r0031"
+  },
+  {
+    "id": "D07-r0031",
+    "kind": "scene",
+    "source": "演出",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "现实",
+    "period": "化学 · 课间手帐",
+    "background": "classroom",
+    "text": "化学 · 课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "D07-r0032"
+  },
+  {
+    "id": "D07-r0032",
+    "kind": "line",
+    "source": "原文",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "现实",
+    "period": "化学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "再次强调一把复习查缺补漏的重要性！",
+    "character": "",
+    "next": "D07-r0033"
+  },
+  {
+    "id": "D07-r0033",
+    "kind": "scene",
+    "source": "演出",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "现实",
+    "period": "生物 · 课间手帐",
+    "background": "classroom",
+    "text": "生物 · 课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "D07-r0034"
+  },
+  {
+    "id": "D07-r0034",
+    "kind": "line",
+    "source": "原文",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "现实",
+    "period": "生物 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "雷老师令人迷惑的作图，为使X、Y染色体同源区段靠近而使X染色体“盘曲折叠”。",
+    "character": "",
+    "next": "D07-r0035"
+  },
+  {
+    "id": "D07-r0035",
+    "kind": "scene",
+    "source": "演出",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "现实",
+    "period": "物理 · 课间手帐",
+    "background": "classroom",
+    "text": "物理 · 课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "D07-r0036"
+  },
+  {
+    "id": "D07-r0036",
+    "kind": "line",
+    "source": "原文",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "现实",
+    "period": "物理 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "“不要小看牛顿第一定律。”",
+    "character": "",
+    "next": "D07-r0037"
+  },
+  {
+    "id": "D07-r0037",
+    "kind": "scene",
+    "source": "演出",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "现实",
+    "period": "语文 · 课间手帐",
+    "background": "classroom",
+    "text": "语文 · 课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "D07-r0038"
+  },
+  {
+    "id": "D07-r0038",
+    "kind": "line",
+    "source": "原文",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "现实",
+    "period": "语文 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "“这道解释含义的题只有2人得了2分，12人得了1分，剩下全是零蛋！”",
+    "character": "",
+    "next": "D07-r0039"
+  },
+  {
+    "id": "D07-r0039",
+    "kind": "line",
+    "source": "原文",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "现实",
+    "period": "语文 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "zyc在全班朗读自己在考上的“鸿篇巨著”，并谦虚地说自己写得太烂了，40/50？",
+    "character": "",
+    "next": "D07-r0040"
+  },
+  {
+    "id": "D07-r0040",
+    "kind": "scene",
+    "source": "演出",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "text": "数学 · 课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "D07-r0041"
+  },
+  {
+    "id": "D07-r0041",
+    "kind": "line",
+    "source": "原文",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "现实",
+    "period": "数学 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "战老师找4名同学在黑板上写题，梦回高二下学导数的时候……并与同学们针对一道题的答案展开了广泛而友好的讨论。",
+    "character": "",
+    "next": "D07-r0042"
+  },
+  {
+    "id": "D07-r0042",
+    "kind": "scene",
+    "source": "演出",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "现实",
+    "period": "班会 · 课间手帐",
+    "background": "classroom",
+    "text": "班会 · 课间手帐",
+    "character": "",
+    "effect": "paper",
+    "prop": null,
+    "next": "D07-r0043"
+  },
+  {
+    "id": "D07-r0043",
+    "kind": "line",
+    "source": "原文",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "现实",
+    "period": "班会 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "经验分享：坤、元、石杨、荆巨、ZRQ。",
+    "character": "",
+    "next": "D07-r0044"
+  },
+  {
+    "id": "D07-r0044",
+    "kind": "line",
+    "source": "原文",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "现实",
+    "period": "班会 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "班里分为对答案派与不对答案派。",
+    "character": "",
+    "next": "D07-r0045"
+  },
+  {
+    "id": "D07-r0045",
+    "kind": "line",
+    "source": "原文",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "现实",
+    "period": "班会 · 课间手帐",
+    "background": "classroom",
+    "speaker": "班史原载",
+    "text": "“晚自习的同学明天交正式住宿申请表！”",
+    "character": "",
+    "next": "D07-r0013"
+  },
+  {
+    "id": "D07-r0013",
+    "kind": "scene",
+    "source": "演出",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "回忆 · 孙老师的激将",
+    "period": "百分之九十",
+    "background": "classroom",
+    "text": "百分之九十",
     "character": "",
     "effect": "memory",
     "prop": null,
-    "next": "D18-r0010"
+    "next": "D07-r0014"
   },
   {
-    "id": "D18-r0010",
+    "id": "D07-r0014",
     "kind": "line",
     "source": "补写",
-    "page": 186,
+    "page": 20,
     "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
+      20
     ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "良渚的惆怅",
-    "background": "liangzhu",
-    "speaker": "凌艺坤",
-    "text": "我拿孙老师的头像，做了张“惆怅”。",
-    "character": "ling",
-    "next": "D18-r0011"
-  },
-  {
-    "id": "D18-r0011",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "良渚的惆怅",
-    "background": "liangzhu",
-    "speaker": "戚洪硕",
-    "text": "这个表情……我发群里了。",
-    "character": "c13",
-    "next": "D18-r0012"
-  },
-  {
-    "id": "D18-r0012",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "良渚的惆怅",
-    "background": "liangzhu",
+    "day": "D07",
+    "context": "回忆 · 孙老师的激将",
+    "period": "百分之九十",
+    "background": "classroom",
     "speaker": "孙老师",
-    "text": "谁做的？为什么拿这个来贬损我？",
+    "text": "我有一届得意门生，高考语文区区一百三十多。你们当轻易超过他。",
     "character": "c46",
-    "next": "D18-r0013"
+    "next": "D07-r0015"
   },
   {
-    "id": "D18-r0013",
-    "kind": "line",
-    "source": "转述",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "良渚的惆怅",
-    "background": "liangzhu",
-    "speaker": "旁白",
-    "text": "刚才还在传图的人都停了。考儒走过来，向老师道歉。",
-    "character": "",
-    "next": "D18-r0014"
-  },
-  {
-    "id": "D18-r0014",
+    "id": "D07-r0015",
     "kind": "line",
     "source": "补写",
-    "page": 186,
+    "page": 20,
     "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
+      20
     ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "良渚的惆怅",
-    "background": "liangzhu",
-    "speaker": "凌艺坤",
-    "text": "老师，对不起。我做这图没想清楚，让您误会了。",
-    "character": "ling",
-    "next": "D18-r0015"
-  },
-  {
-    "id": "D18-r0015",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "良渚的惆怅",
-    "background": "liangzhu",
-    "speaker": "戚洪硕",
-    "text": "我也不该到处传。",
-    "character": "c13",
-    "next": "D18-r0016"
-  },
-  {
-    "id": "D18-r0016",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "良渚的惆怅",
-    "background": "liangzhu",
-    "speaker": "徐启元",
-    "text": "收手机，往前走吧。导游还在讲，我们已经落了一截。",
-    "character": "xu",
-    "next": "D18-r0017"
-  },
-  {
-    "id": "D18-r0017",
-    "kind": "portrait",
-    "source": "演出",
-    "page": 63,
-    "pages": [
-      63,
-      64,
-      186,
-      198,
-      199,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "良渚的惆怅",
-    "background": "liangzhu",
-    "pov": "c12",
-    "character": "c12",
-    "speaker": "彭逸涵",
-    "text": "这一段，由彭逸涵接着记。",
-    "next": "D18-r0018"
-  },
-  {
-    "id": "D18-r0018",
-    "kind": "scene",
-    "source": "演出",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 旅馆",
-    "period": "一盒纸的去向",
-    "background": "hotel",
-    "text": "一盒纸的去向",
-    "character": "",
-    "effect": "memory",
-    "prop": null,
-    "next": "D18-r0019"
-  },
-  {
-    "id": "D18-r0019",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 旅馆",
-    "period": "一盒纸的去向",
-    "background": "hotel",
-    "speaker": "李昊宇",
-    "text": "我似乎感冒了，头昏，鼻涕止不住。",
-    "character": "c22",
-    "next": "D18-r0020"
-  },
-  {
-    "id": "D18-r0020",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 旅馆",
-    "period": "一盒纸的去向",
-    "background": "hotel",
-    "speaker": "彭逸涵",
-    "text": "昨天才约好共寝，你现在告诉我这个……",
-    "character": "c12",
-    "next": "D18-r0021"
-  },
-  {
-    "id": "D18-r0021",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 旅馆",
-    "period": "一盒纸的去向",
-    "background": "hotel",
-    "speaker": "李昊宇",
-    "text": "桌上有纸！",
-    "character": "c22",
-    "next": "D18-r0022"
-  },
-  {
-    "id": "D18-r0022",
-    "kind": "line",
-    "source": "转述",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 旅馆",
-    "period": "一盒纸的去向",
-    "background": "hotel",
-    "speaker": "旁白",
-    "text": "不一会儿，李昊宇又探过头来。",
-    "character": "",
-    "next": "D18-r0023"
-  },
-  {
-    "id": "D18-r0023",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 旅馆",
-    "period": "一盒纸的去向",
-    "background": "hotel",
-    "speaker": "李昊宇",
-    "text": "纸没了。还有没有？",
-    "character": "c22",
-    "next": "D18-r0024"
-  },
-  {
-    "id": "D18-r0024",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 旅馆",
-    "period": "一盒纸的去向",
-    "background": "hotel",
-    "speaker": "彭逸涵",
-    "text": "这一盒都用完了？",
-    "character": "c12",
-    "next": "D18-r0025"
-  },
-  {
-    "id": "D18-r0025",
-    "kind": "line",
-    "source": "转述",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 旅馆",
-    "period": "一盒纸的去向",
-    "background": "hotel",
-    "speaker": "旁白",
-    "text": "纸盒空了，垃圾桶里的鼻涕纸却已经满溢出来。",
-    "character": "",
-    "next": "D18-r0112"
-  },
-  {
-    "id": "D18-r0112",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 旅馆",
-    "period": "一盒纸的去向",
-    "background": "hotel",
-    "speaker": "彭逸涵",
-    "text": "一会儿大家来我这儿玩狼人杀，再找些纸。你先别把纸团到处扔。",
-    "character": "c12",
-    "next": "D18-r0113"
-  },
-  {
-    "id": "D18-r0113",
-    "kind": "line",
-    "source": "转述",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 旅馆",
-    "period": "一盒纸的去向",
-    "background": "hotel",
-    "speaker": "旁白",
-    "text": "到了晚上，大家聚来玩牌。李昊宇也坐到床旁的沙发上。",
-    "character": "",
-    "next": "D18-r0027"
-  },
-  {
-    "id": "D18-r0027",
-    "kind": "scene",
-    "source": "演出",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "沙发边的纸团",
-    "background": "hotel",
-    "text": "沙发边的纸团",
-    "character": "",
-    "effect": "memory",
-    "prop": null,
-    "next": "D18-r0028"
-  },
-  {
-    "id": "D18-r0028",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "沙发边的纸团",
-    "background": "hotel",
-    "speaker": "李昊宇",
-    "text": "我这轮得说清楚，你们不能因为我声音小就投我。",
-    "character": "c22",
-    "next": "D18-r0029"
-  },
-  {
-    "id": "D18-r0029",
-    "kind": "line",
-    "source": "转述",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "沙发边的纸团",
-    "background": "hotel",
-    "speaker": "旁白",
-    "text": "他坐在床边沙发上，辩论得全神贯注。纸团随手一扔，再一扔，地上和沙发上很快铺了一片。",
-    "character": "",
-    "next": "D18-r0030"
-  },
-  {
-    "id": "D18-r0030",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "沙发边的纸团",
-    "background": "hotel",
+    "day": "D07",
+    "context": "回忆 · 孙老师的激将",
+    "period": "百分之九十",
+    "background": "classroom",
     "speaker": "同学",
-    "text": "先别讨论谁是狼。你看看脚底下。",
+    "text": "老师，“区区”这两个字，能换换吗？",
     "character": "",
-    "next": "D18-r0031"
+    "next": "D07-r0016"
   },
   {
-    "id": "D18-r0031",
+    "id": "D07-r0016",
     "kind": "line",
     "source": "补写",
-    "page": 186,
+    "page": 20,
     "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
+      20
     ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "沙发边的纸团",
-    "background": "hotel",
-    "speaker": "李昊宇",
-    "text": "……我刚才都没注意。",
-    "character": "c22",
-    "next": "D18-r0032"
+    "day": "D07",
+    "context": "回忆 · 孙老师的激将",
+    "period": "百分之九十",
+    "background": "classroom",
+    "speaker": "孙老师",
+    "text": "元元，期末当考到百分之九十。",
+    "character": "c46",
+    "next": "D07-r0017"
   },
   {
-    "id": "D18-r0032",
+    "id": "D07-r0017",
     "kind": "line",
     "source": "补写",
-    "page": 186,
+    "page": 20,
     "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
+      20
     ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "沙发边的纸团",
-    "background": "hotel",
-    "speaker": "彭逸涵",
-    "text": "盒子空，桶里满；现在连沙发也有了。",
-    "character": "c12",
-    "next": "D18-r0033"
+    "day": "D07",
+    "context": "回忆 · 孙老师的激将",
+    "period": "百分之九十",
+    "background": "classroom",
+    "speaker": "徐启元",
+    "text": "您下课前一说，我回去连卷子的总分都得重新看一遍。",
+    "character": "xu",
+    "next": "D07-r0018"
   },
   {
-    "id": "D18-r0033",
+    "id": "D07-r0018",
+    "kind": "line",
+    "source": "补写",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "回忆 · 孙老师的激将",
+    "period": "百分之九十",
+    "background": "classroom",
+    "speaker": "孙老师",
+    "text": "断句用铅笔的，我都会擦掉。作文先把作业交了再说。",
+    "character": "c46",
+    "next": "D07-r0019"
+  },
+  {
+    "id": "D07-r0019",
+    "kind": "line",
+    "source": "补写",
+    "page": 20,
+    "pages": [
+      20
+    ],
+    "day": "D07",
+    "context": "回忆 · 孙老师的激将",
+    "period": "百分之九十",
+    "background": "classroom",
+    "speaker": "徐启元",
+    "text": "我先换笔，作文也带上。",
+    "character": "xu",
+    "next": "N06-date"
+  },
+  {
+    "id": "N06-date",
+    "kind": "date",
+    "source": "演出",
+    "page": 21,
+    "pages": [
+      21
+    ],
+    "day": "N06",
+    "context": "现实",
+    "period": "翻到这一日",
+    "background": "classroom",
+    "date": "2023-08-31",
+    "text": "绵羊长鸡脚",
+    "pov": "xu",
+    "character": "",
+    "next": "N06-r0056"
+  },
+  {
+    "id": "N06-r0056",
     "kind": "portrait",
     "source": "演出",
-    "page": 63,
+    "page": 21,
     "pages": [
-      63,
-      64,
-      186,
-      198,
-      199,
-      209,
-      217,
-      218,
-      219
+      21
     ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "沙发边的纸团",
-    "background": "hotel",
+    "day": "N06",
+    "context": "现实",
+    "period": "",
+    "background": "classroom",
+    "text": "绵羊长鸡脚",
     "pov": "xu",
     "character": "xu",
     "speaker": "徐启元",
-    "text": "这一段，由徐启元接着记。",
-    "next": "D18-r0034"
+    "next": "N06-r0020"
   },
   {
-    "id": "D18-r0034",
+    "id": "N06-r0020",
     "kind": "scene",
     "source": "演出",
-    "page": 186,
+    "page": 21,
     "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
+      21
     ],
-    "day": "D18",
-    "context": "回忆 · 游学牌局",
-    "period": "谁在洗牌",
-    "background": "hotel",
-    "text": "谁在洗牌",
+    "day": "N06",
+    "context": "现实",
+    "period": "楼下还有歌",
+    "background": "classroom",
+    "text": "楼下还有歌",
     "character": "",
-    "effect": "memory",
+    "effect": "paper",
     "prop": null,
-    "next": "D18-r0035"
+    "next": "N06-r0021"
   },
   {
-    "id": "D18-r0035",
+    "id": "N06-r0021",
     "kind": "line",
     "source": "补写",
-    "page": 186,
+    "page": 21,
     "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
+      21
     ],
-    "day": "D18",
-    "context": "回忆 · 游学牌局",
-    "period": "谁在洗牌",
-    "background": "hotel",
-    "speaker": "石杨",
-    "text": "打牌不出千，是人生的遗憾。",
-    "character": "c36",
-    "next": "D18-r0036"
+    "day": "N06",
+    "context": "现实",
+    "period": "楼下还有歌",
+    "background": "classroom",
+    "speaker": "战老师",
+    "text": "听着歌声学习真是心旷神怡。因为这一点歌声就做不进去题，这可成不了大事。",
+    "character": "c48",
+    "next": "N06-r0022"
   },
   {
-    "id": "D18-r0036",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 游学牌局",
-    "period": "谁在洗牌",
-    "background": "hotel",
-    "speaker": "徐启元",
-    "text": "你别一边说，一边真干。",
-    "character": "xu",
-    "next": "D18-r0037"
-  },
-  {
-    "id": "D18-r0037",
+    "id": "N06-r0022",
     "kind": "line",
     "source": "转述",
-    "page": 186,
+    "page": 21,
     "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
+      21
     ],
-    "day": "D18",
-    "context": "回忆 · 游学牌局",
-    "period": "谁在洗牌",
-    "background": "hotel",
+    "day": "N06",
+    "context": "现实",
+    "period": "楼下还有歌",
+    "background": "classroom",
     "speaker": "旁白",
-    "text": "雷导还没到。考儒自告奋勇洗牌，切了几次，忽然停住。",
+    "text": "楼下的声音往上飘，卷子仍在桌上。同学刚被声音带走，又被老师带回题里。",
     "character": "",
-    "next": "D18-r0038"
+    "next": "N06-r0023"
   },
   {
-    "id": "D18-r0038",
-    "kind": "line",
-    "source": "原文",
-    "page": 218,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 游学牌局",
-    "period": "谁在洗牌",
-    "background": "hotel",
-    "speaker": "朱考儒",
-    "text": "这是所有的牌吗？",
-    "character": "ling",
-    "next": "D18-r0039"
-  },
-  {
-    "id": "D18-r0039",
-    "kind": "line",
-    "source": "转述",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 游学牌局",
-    "period": "谁在洗牌",
-    "background": "hotel",
-    "speaker": "旁白",
-    "text": "我抬起身，俊言在旁边翻找。石杨也伸出手，没看见牌；考儒便继续发了。",
-    "character": "",
-    "next": "D18-r0040"
-  },
-  {
-    "id": "D18-r0040",
+    "id": "N06-r0023",
     "kind": "line",
     "source": "补写",
-    "page": 186,
+    "page": 21,
     "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
+      21
     ],
-    "day": "D18",
-    "context": "回忆 · 游学牌局",
-    "period": "谁在洗牌",
-    "background": "hotel",
-    "speaker": "陈俊言",
-    "text": "才几轮，怎么又剩这么少？",
-    "character": "c08",
-    "next": "D18-r0041"
+    "day": "N06",
+    "context": "现实",
+    "period": "楼下还有歌",
+    "background": "classroom",
+    "speaker": "杨sir",
+    "text": "看罗翔峰写的作文，我有时候都要查字典。",
+    "character": "c47",
+    "next": "N06-r0024"
   },
   {
-    "id": "D18-r0041",
+    "id": "N06-r0024",
     "kind": "line",
     "source": "补写",
-    "page": 186,
+    "page": 21,
     "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
+      21
     ],
-    "day": "D18",
-    "context": "回忆 · 游学牌局",
-    "period": "谁在洗牌",
-    "background": "hotel",
-    "speaker": "石杨",
-    "text": "我藏了几十张。衣服里、屁股底下，到处都有。",
-    "character": "c36",
-    "next": "D18-r0042"
-  },
-  {
-    "id": "D18-r0042",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 游学牌局",
-    "period": "谁在洗牌",
-    "background": "hotel",
-    "speaker": "朱考儒",
-    "text": "你还挺骄傲？扣两千分，分给大家。",
-    "character": "ling",
-    "next": "D18-r0043"
-  },
-  {
-    "id": "D18-r0043",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 游学牌局",
-    "period": "谁在洗牌",
-    "background": "hotel",
-    "speaker": "石杨",
-    "text": "两千也太多了。",
-    "character": "c36",
-    "next": "D18-r0044"
-  },
-  {
-    "id": "D18-r0044",
-    "kind": "line",
-    "source": "原文",
-    "page": 219,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 游学牌局",
-    "period": "谁在洗牌",
-    "background": "hotel",
-    "speaker": "朱考儒",
-    "text": "加两千分，亦不及我与俊言也，不过少欠而已。",
-    "character": "ling",
-    "next": "D18-r0045"
-  },
-  {
-    "id": "D18-r0045",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 游学牌局",
-    "period": "谁在洗牌",
-    "background": "hotel",
-    "speaker": "徐启元",
-    "text": "刚才那双伸出来的手，检查了个寂寞。",
-    "character": "xu",
-    "next": "D18-r0046"
-  },
-  {
-    "id": "D18-r0046",
-    "kind": "scene",
-    "source": "演出",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 杭州游学 · 第二段",
-    "period": "西湖的同名文章",
-    "background": "west-lake",
-    "text": "西湖的同名文章",
-    "character": "",
-    "effect": "memory",
-    "prop": null,
-    "next": "D18-r0047"
-  },
-  {
-    "id": "D18-r0047",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 杭州游学 · 第二段",
-    "period": "西湖的同名文章",
-    "background": "west-lake",
-    "speaker": "徐启元",
-    "text": "绿树里面真有星巴克。课上那篇《邂逅西湖》，作者叫“西湖孙蕾”，原来这里真是这样。",
-    "character": "xu",
-    "next": "D18-r0048"
-  },
-  {
-    "id": "D18-r0048",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 杭州游学 · 第二段",
-    "period": "西湖的同名文章",
-    "background": "west-lake",
-    "speaker": "孙老师",
-    "text": "文章的作者和我同名，你们倒记得很牢。",
-    "character": "c46",
-    "next": "D18-r0049"
-  },
-  {
-    "id": "D18-r0049",
-    "kind": "line",
-    "source": "转述",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 杭州游学 · 第二段",
-    "period": "西湖的同名文章",
-    "background": "west-lake",
-    "speaker": "旁白",
-    "text": "西泠印社边，我们唱《送别》。西湖还没游够，行程已经催着往岳王庙去了。",
-    "character": "",
-    "next": "D18-r0050"
-  },
-  {
-    "id": "D18-r0050",
-    "kind": "scene",
-    "source": "演出",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "满江红与声光电",
-    "background": "yue-temple",
-    "text": "满江红与声光电",
-    "character": "",
-    "effect": "memory",
-    "prop": null,
-    "next": "D18-r0051"
-  },
-  {
-    "id": "D18-r0051",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "满江红与声光电",
-    "background": "yue-temple",
+    "day": "N06",
+    "context": "现实",
+    "period": "楼下还有歌",
+    "background": "classroom",
     "speaker": "同学",
-    "text": "怒发冲冠，凭栏处——",
+    "text": "老师也有要查的词。",
     "character": "",
-    "next": "D18-r0052"
+    "next": "N06-r0025"
   },
   {
-    "id": "D18-r0052",
-    "kind": "line",
-    "source": "转述",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "满江红与声光电",
-    "background": "yue-temple",
-    "speaker": "旁白",
-    "text": "岳王庙前齐诵之后，我们又进了宋城。恐龙、荧幕、水上乐园挤在眼前，倒没多少“宋”的影子。",
-    "character": "",
-    "next": "D18-r0053"
-  },
-  {
-    "id": "D18-r0053",
+    "id": "N06-r0025",
     "kind": "scene",
     "source": "演出",
-    "page": 186,
+    "page": 21,
     "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
+      21
     ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "铁环与奶茶",
-    "background": "songcheng",
-    "text": "铁环与奶茶",
+    "day": "N06",
+    "context": "现实",
+    "period": "平均两分",
+    "background": "classroom",
+    "text": "平均两分",
     "character": "",
-    "effect": "memory",
+    "effect": "paper",
     "prop": null,
-    "next": "D18-r0054"
-  },
-  {
-    "id": "D18-r0054",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "铁环与奶茶",
-    "background": "songcheng",
-    "speaker": "凌艺坤",
-    "text": "我挂在这个铁环上，你们还拍？",
-    "character": "ling",
-    "next": "D18-r0055"
-  },
-  {
-    "id": "D18-r0055",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "铁环与奶茶",
-    "background": "songcheng",
-    "speaker": "同学",
-    "text": "发给没来的黄艺博看看。",
-    "character": "",
-    "next": "D18-r0056"
-  },
-  {
-    "id": "D18-r0056",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "铁环与奶茶",
-    "background": "songcheng",
-    "speaker": "黄艺博",
-    "text": "烤乳猪。",
-    "character": "c37",
-    "next": "D18-r0057"
-  },
-  {
-    "id": "D18-r0057",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "铁环与奶茶",
-    "background": "songcheng",
-    "speaker": "凌艺坤",
-    "text": "他隔着这么远，还能给我起名字。",
-    "character": "ling",
-    "next": "D18-r0058"
-  },
-  {
-    "id": "D18-r0058",
-    "kind": "line",
-    "source": "转述",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "铁环与奶茶",
-    "background": "songcheng",
-    "speaker": "旁白",
-    "text": "另一边，聪惠拿着同一杯奶茶。惠递过去，邵聪接着喝。",
-    "character": "",
-    "next": "D18-r0059"
-  },
-  {
-    "id": "D18-r0059",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "铁环与奶茶",
-    "background": "songcheng",
-    "speaker": "HQ",
-    "text": "此二人日后何以再寻女配！",
-    "character": "c45",
-    "next": "D18-r0060"
-  },
-  {
-    "id": "D18-r0060",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "铁环与奶茶",
-    "background": "songcheng",
-    "speaker": "孙老师",
-    "text": "来，合张影。",
-    "character": "c46",
-    "next": "D18-r0061"
-  },
-  {
-    "id": "D18-r0061",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "铁环与奶茶",
-    "background": "songcheng",
-    "speaker": "邵聪",
-    "text": "老师，奶茶还在手里呢。",
-    "character": "c30",
-    "next": "D18-r0062"
-  },
-  {
-    "id": "D18-r0062",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "铁环与奶茶",
-    "background": "songcheng",
-    "speaker": "惠子宁",
-    "text": "拿着也能拍。",
-    "character": "c14",
-    "next": "D18-r0063"
-  },
-  {
-    "id": "D18-r0063",
-    "kind": "scene",
-    "source": "演出",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "千年的绿色激光",
-    "background": "songcheng",
-    "text": "千年的绿色激光",
-    "character": "",
-    "effect": "memory",
-    "prop": null,
-    "next": "D18-r0064"
-  },
-  {
-    "id": "D18-r0064",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "千年的绿色激光",
-    "background": "songcheng",
-    "speaker": "HQ",
-    "text": "这是给学生看的么？",
-    "character": "c45",
-    "next": "D18-r0114"
-  },
-  {
-    "id": "D18-r0114",
-    "kind": "line",
-    "source": "转述",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "千年的绿色激光",
-    "background": "songcheng",
-    "speaker": "旁白",
-    "text": "台上衣着清凉的演出，让HQ看得不安。转眼绿光又织成网，有人躲闪不及，赶忙遮脸。",
-    "character": "",
-    "next": "D18-r0115"
-  },
-  {
-    "id": "D18-r0115",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "千年的绿色激光",
-    "background": "songcheng",
-    "speaker": "同学",
-    "text": "这就是大宋先进科技？",
-    "character": "",
-    "next": "D18-r0116"
-  },
-  {
-    "id": "D18-r0116",
-    "kind": "line",
-    "source": "转述",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "千年的绿色激光",
-    "background": "songcheng",
-    "speaker": "旁白",
-    "text": "大家既惊于这阵声光电，又惦记只游了半天的西湖。",
-    "character": "",
-    "next": "D18-r0066"
-  },
-  {
-    "id": "D18-r0066",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "千年的绿色激光",
-    "background": "songcheng",
-    "speaker": "徐启元",
-    "text": "给我一天，还你千年。我现在只想把西湖那半天还回来。",
-    "character": "xu",
-    "next": "D18-r0067"
-  },
-  {
-    "id": "D18-r0067",
-    "kind": "scene",
-    "source": "演出",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 杭州游学 · 第三段",
-    "period": "分茶",
-    "background": "workshop",
-    "text": "分茶",
-    "character": "",
-    "effect": "memory",
-    "prop": null,
-    "next": "D18-r0068"
-  },
-  {
-    "id": "D18-r0068",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 杭州游学 · 第三段",
-    "period": "分茶",
-    "background": "workshop",
-    "speaker": "徐启元",
-    "text": "茶百戏得天天练。我们今天只能拿抹茶在上面画。",
-    "character": "xu",
-    "next": "D18-r0069"
-  },
-  {
-    "id": "D18-r0069",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 杭州游学 · 第三段",
-    "period": "分茶",
-    "background": "workshop",
-    "speaker": "贾盛元",
-    "text": "我的小黑子画好了。",
-    "character": "c26",
-    "next": "D18-r0070"
-  },
-  {
-    "id": "D18-r0070",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 杭州游学 · 第三段",
-    "period": "分茶",
-    "background": "workshop",
-    "speaker": "徐启元",
-    "text": "我写“天朗气清”。",
-    "character": "xu",
-    "next": "D18-r0117"
-  },
-  {
-    "id": "D18-r0117",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 杭州游学 · 第三段",
-    "period": "分茶",
-    "background": "workshop",
-    "speaker": "彭逸涵",
-    "text": "这杯“HQ万岁”是我的。",
-    "character": "c12",
-    "next": "D18-r0118"
-  },
-  {
-    "id": "D18-r0118",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "回忆 · 杭州游学 · 第三段",
-    "period": "分茶",
-    "background": "workshop",
-    "speaker": "同学",
-    "text": "那杯还写了“妞”，HQ的小公主也在茶上了。老师，敬茶！",
-    "character": "",
-    "next": "D18-r0072"
-  },
-  {
-    "id": "D18-r0072",
-    "kind": "scene",
-    "source": "演出",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "一圈伞面",
-    "background": "workshop",
-    "text": "一圈伞面",
-    "character": "",
-    "effect": "memory",
-    "prop": null,
-    "next": "D18-r0073"
-  },
-  {
-    "id": "D18-r0073",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "一圈伞面",
-    "background": "workshop",
-    "speaker": "徐启元",
-    "text": "我的千年隼号，还算看得出轮廓。",
-    "character": "xu",
-    "next": "D18-r0074"
-  },
-  {
-    "id": "D18-r0074",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "一圈伞面",
-    "background": "workshop",
-    "speaker": "陈熙",
-    "text": "我画龙。",
-    "character": "c11",
-    "next": "D18-r0075"
-  },
-  {
-    "id": "D18-r0075",
-    "kind": "line",
-    "source": "转述",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "一圈伞面",
-    "background": "workshop",
-    "speaker": "旁白",
-    "text": "旁边有林妹妹的龙猫、郑导的修竹、大哥的小马。树苡则把各色涂在伞上，又抹又糊。",
-    "character": "",
-    "next": "D18-r0076"
-  },
-  {
-    "id": "D18-r0076",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "一圈伞面",
-    "background": "workshop",
-    "speaker": "同学",
-    "text": "你这黄黑色块，是什么？",
-    "character": "",
-    "next": "D18-r0077"
-  },
-  {
-    "id": "D18-r0077",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "一圈伞面",
-    "background": "workshop",
-    "speaker": "刘树苡",
-    "text": "这作名为“路西法在中国”。路西法是西方信仰中的坠天使。",
-    "character": "c15",
-    "next": "D18-r0078"
-  },
-  {
-    "id": "D18-r0078",
-    "kind": "line",
-    "source": "原文",
-    "page": 199,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "一圈伞面",
-    "background": "workshop",
-    "speaker": "戴杨洁",
-    "text": "堕天使！",
-    "character": "c44",
-    "next": "D18-r0079"
-  },
-  {
-    "id": "D18-r0079",
-    "kind": "line",
-    "source": "补写",
-    "page": 186,
-    "pages": [
-      186,
-      198,
-      199,
-      207,
-      209,
-      217,
-      218,
-      219
-    ],
-    "day": "D18",
-    "context": "同一回忆",
-    "period": "一圈伞面",
-    "background": "workshop",
-    "speaker": "徐启元",
-    "text": "天使在哪一块？",
-    "character": "xu",
-    "next": "D18-r0080"
+    "next": "N06-r0026"
   }
 ];
 export default data;

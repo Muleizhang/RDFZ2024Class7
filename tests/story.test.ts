@@ -61,7 +61,7 @@ test('电影后层按借名同学映射，与前层演员分开且普通人物�
  assert.notEqual(filmPrototypeFor('film-刘树颐','2024-04-02')!.image,portraitFor('film-刘树颐','2024-04-02'));
 });
 test('个人立绘按学期切换，电影使用演员且存疑人物不误合并',()=>{
- for(const date of ['2023-07-16','2023-08-30','2024-02-27','2024-06-11'])assert.equal(portraitSeason(date),'summer');
+ for(const date of ['2023-07-16','2023-08-30','2024-02-26','2024-02-27','2024-06-11'])assert.equal(portraitSeason(date),'summer');
  for(const date of ['2023-09-01','2023-12-31','2024-01-26','2024-02-01'])assert.equal(portraitSeason(date),'winter');
  for(const person of Object.values(portraitAssets))for(const image of Object.values(person))assert.ok(existsSync('public/assets/'+image),image);
  assert.equal(Object.keys(portraitAssets).length,52);
@@ -80,7 +80,7 @@ test('个人立绘按学期切换，电影使用演员且存疑人物不误合�
 });
 test('本轮退役节点不损坏自动档：清理已读、映射历史与当前场景',()=>{
  for(const [id,entry] of Object.entries(legacy).filter(([id,entry])=>id.includes('-r')&&!entry.retained)){
-  const target=byId[entry.target],day=dates.find(d=>d.id===target.day)!;const s={...newSave(),frame:{...initial,node:id,date:day.date},read:[id],history:[{node:id,speaker:'动作',text:'修改前读过的文本',date:day.date}]};
+  const target=byId[entry.target],day=dates.find(d=>d.id===target.day||d.entry===target.id)!;const s={...newSave(),frame:{...initial,node:id,date:day.date},read:[id],history:[{node:id,speaker:'动作',text:'修改前读过的文本',date:day.date}]};
   const migrated=parseSave(JSON.stringify(s));assert.equal(migrated.frame.node,entry.target);assert.equal(migrated.read.length,0);assert.equal(migrated.history[0].text,s.history[0].text);assert.ok(validateSave(migrated));
  }
 });
@@ -126,8 +126,38 @@ test('旧全篇每个节点都能迁移，删改内容重新可读，保留收�
 });
 test('校勘按语不混入电影人物原台词',()=>{for(const scene of film)for(const line of scene.lines)assert.ok(!/同页明确|月份和先后存在疑点|第\d+页|不能仅凭|保留异文/.test(line.text),line.text);});
 test('全部节点唯一，所有跳转、人物、背景存在；无占位或断链',()=>{assert.equal(new Set(story.map(n=>n.id)).size,story.length);for(const n of story){if(n.next)assert.ok(byId[n.next],n.id+' -> '+n.next);if(n.kind!=='end'&&n.kind!=='choice')assert.ok(n.next,n.id);if(n.character)assert.ok(characters[n.character],n.id);if(n.pov)assert.ok(characters[n.pov],n.id);if(n.background)assert.ok(backgrounds[n.background],n.id);assert.ok(n.text&&!/TODO|待填|占位图/.test(n.text));for(const o of n.options||[]){assert.notEqual(!!o.next,!!o.failure,n.id);if(o.next)assert.ok(byId[o.next]);}}for(const c of Object.values(characters))assert.ok(existsSync('public/assets/'+c.image),c.name);for(const b of Object.keys(backgrounds))assert.ok(existsSync('public/assets/'+(b==='sunset'?'classroom':b)+'.webp'),b);});
-test('图遍历覆盖61日及毕业，成功路径无环，唯一结局',()=>{assert.equal(dates.length,61);const seen=new Set<string>(),active=new Set<string>();function visit(id:string){assert.ok(!active.has(id),'剧情环 '+id);if(seen.has(id))return;active.add(id);const n=byId[id];for(const t of [n.next,...(n.options||[]).map(o=>o.next)].filter(Boolean) as string[])visit(t);active.delete(id);seen.add(id);}visit(initial.node);assert.equal(seen.size,story.length,'所有场景进入正常流程');for(const d of dates)assert.ok(seen.has(d.entry),d.id);assert.equal(story.filter(n=>n.kind==='end').length,1);assert.ok(seen.has('graduation-ending'));let f=initial;const days=new Set<string>();while(byId[f.node].kind!=='end'){days.add(f.date);const n=byId[f.node];f=enter(f,n.kind==='choice'?n.options!.find(o=>o.next)!.next!:n.next!);}days.add(f.date);assert.equal(days.size,61);assert.equal(f.date,'2024-06-11');});
+test('图遍历覆盖121日及毕业，成功路径无环，唯一结局',()=>{
+ assert.equal(dates.length,121);
+ const seen=new Set<string>(),active=new Set<string>();
+ const stack:{id:string;exit:boolean}[]=[{id:initial.node,exit:false}];
+ while(stack.length){const {id,exit}=stack.pop()!;if(exit){active.delete(id);seen.add(id);continue;}assert.ok(!active.has(id),'剧情环 '+id);if(seen.has(id))continue;active.add(id);stack.push({id,exit:true});const n=byId[id];for(const t of [n.next,...(n.options||[]).map(o=>o.next)].filter(Boolean) as string[])stack.push({id:t,exit:false});}
+ assert.equal(seen.size,story.length,'所有场景进入正常流程');for(const d of dates)assert.ok(seen.has(d.entry),d.id);
+ assert.equal(story.filter(n=>n.kind==='end').length,1);assert.ok(seen.has('graduation-ending'));
+ let f=initial;const daySet=new Set<string>();while(byId[f.node].kind!=='end'){daySet.add(f.date);const n=byId[f.node];f=enter(f,n.kind==='choice'?n.options!.find(o=>o.next)!.next!:n.next!);}daySet.add(f.date);assert.equal(daySet.size,121);assert.equal(f.date,'2024-06-11');
+});
 test('每处选择的两种成功回应重新汇合，失败一句保持选择前完整画面',()=>{for(const n of story.filter(n=>n.kind==='choice')){const success=n.options!.filter(o=>o.next);assert.ok(success.length>=2);const paths=success.map(o=>{const set=new Set<string>();let id=o.next!;while(id&&!set.has(id)){set.add(id);const node=byId[id];if(node.kind==='choice'||node.kind==='end')break;id=node.next!;}return set;});assert.ok([...paths[0]].some(id=>paths[1].has(id)),n.id);for(const o of n.options!.filter(o=>o.failure)){assert.equal((o.failure!.match(/[。！？]/g)||[]).length,1,n.id);const before=enter(initial,n.id),s={...newSave(),frame:before},after={...s,read:[n.id],failures:[o.failure!]};assert.deepEqual(after.frame,before);assert.deepEqual(parseSave(JSON.stringify(after)).failures,[o.failure]);}}assert.ok(failureCount>=37);});
 test('现实日期、回忆日期和教师ID分开；电影23场与演职对应',()=>{assert.equal(countdown('2023-07-16'),327);assert.equal(countdown('2024-06-07'),0);assert.equal(countdown('2024-06-11'),-4);assert.deepEqual(film.map(s=>s.number),Array.from({length:24},(_,i)=>i+1).filter(n=>n!==11));assert.equal(characters['film-刘树颐'].actor,'周远持');assert.equal(characters['film-代向阳'].actor,'张鹤闻');assert.equal(characters['film-金跃山'].actor,'彭逸涵');const history=Object.entries(characters).find(([,c])=>c.name==='朱老师')!,politics=Object.entries(characters).find(([,c])=>c.name==='朱泽萱')!;assert.notEqual(history[0],politics[0]);const name=story.find(n=>n.text.includes('从这天得名'))!;assert.equal(name.day,'D39A');assert.ok(story.some(n=>n.day==='D35'&&n.background==='biology'));for(const n of story.filter(n=>n.kind==='portrait'))assert.ok(!characters[n.pov!].role.includes('老师'),'老师不是玩家视角');});
 test('角色性别临时资源分配，原图保留',()=>{for(const c of Object.values(characters)){assert.equal(c.image,c.gender==='女'?'girl.webp':'xu.webp');}for(const file of['lei.webp','ling.webp'])assert.ok(existsSync('public/assets/'+file));});
 test('版本1样章档可迁移到完整游戏，完整长篇存档导入导出恢复',()=>{const s=newSave();s.frame=enter(initial,'opening-choice');s.read=['first'];s.failures=['第一页等到了毕业，第二页还在等第一页。'];assert.deepEqual(parseSave(JSON.stringify(s)),s);const old={...s,version:1,frame:{node:'preview-end',date:'2023-07-17',pov:'ling',character:'ling',background:'classroom',period:'第一节 · 英语'}};const migrated=parseSave(JSON.stringify(old));assert.equal(migrated.version,2);assert.ok(byId[migrated.frame.node].next);assert.equal(migrated.frame.day,'D02');let f=initial;while(byId[f.node].kind!=='end'){const n=byId[f.node];f=enter(f,n.kind==='choice'?n.options!.find(o=>o.next)!.next!:n.next!);if(n.kind==='scene'){const stored={...s,frame:f};assert.deepEqual(parseSave(JSON.stringify(stored)),stored);}}assert.equal(validateSave({...s,version:99}),false);assert.throws(()=>parseSave(JSON.stringify({...s,frame:{...s.frame,node:'missing'}})));assert.throws(()=>parseSave('{}'));assert.throws(()=>parseSave(JSON.stringify({...s,frame:{...s.frame,date:'garbage'}})));});
+
+test('扩增日期保持时间顺序、独立视角与当天课表，待核日期可见标记',()=>{
+ assert.equal(new Set(dates.map(d=>d.date)).size,121);
+ for(let i=1;i<dates.length;i++)assert.ok(dates[i].date>dates[i-1].date);
+ for(const d of dates.filter(d=>d.id.startsWith('N'))){const nodes=story.filter(n=>n.day===d.id);assert.ok(nodes.some(n=>n.kind==='line'));const first=nodes.find(n=>n.kind==='portrait')!;assert.equal(characters[first.pov!].name,d.pov);assert.ok(d.schedule?.length||d.itinerary?.length,d.id);}
+ for(const id of ['N14','N22','N38','N43','N45'])assert.match(byId[dates.find(d=>d.id===id)!.entry].context!,/待核/);
+ assert.deepEqual(dates.find(d=>d.id==='N27')!.schedule,['语','英','数','A','B','C','政限']);
+});
+test('混合页分日：期中两日、复课两日和4月19日无未来串入',()=>{
+ const text=(id:string)=>story.filter(n=>n.day===id).map(n=>n.text).join('\n');
+ assert.ok(!/历史试毕|其终为D|11.3/.test(text('N31')));
+ assert.ok(!/春梅须自寒|细颈瓶可爱/.test(text('N52')));
+ assert.ok(!/一模成绩分析|申冤/.test(text('N60')));
+ assert.ok(!/2014 1月16|B₁ ≠ B/.test(text('N51')));
+ assert.ok(text('N51').includes('沛霖问欧姆表'));
+ assert.ok(text('N30').includes('每天还得和病人谈'));
+ assert.ok(!text('D23').includes('压轴不是重灾区'));
+});
+test('扩增前存档全部可读；架机旧位置迁至3月6日且保留收藏',()=>{
+ const old=JSON.parse(readFileSync('scripts/calendar/baseline-nodes.json','utf8')) as {id:string;day:string;period?:string}[];
+ for(const n of old){const date=dates.find(d=>d.id===n.day)!.date;const saved={...newSave(),frame:{...initial,node:n.id,date},read:[n.id],failures:['保存的失败句。'],history:[{node:n.id,date,speaker:'旧记录',text:'仍保留的旧对白'}]};const result=parseSave(JSON.stringify(saved));assert.ok(validateSave(result),n.id);assert.deepEqual(result.failures,saved.failures);assert.equal(result.history[0].text,saved.history[0].text);if(n.day==='D50'&&n.period==='架起手机')assert.equal(result.frame.date,'2024-03-06',n.id);}
+});

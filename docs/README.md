@@ -111,3 +111,7 @@ Vercel 与 GitHub Pages 的存档按网站地址分别保存在浏览器中；�
 封面效果：[桌面](../screenshots/title-cheat-desktop.png)、[手机](../screenshots/title-cheat-mobile.png)。
 
 作弊码采用浏览器 Web Crypto 的 SHA-256 摘要比对，验证代码仅保存摘要，测试使用独立样例口令，不保存正确答案。输入不做去空格或字符归一化，精确匹配规则保持。Vercel HTTPS与localhost可用；普通HTTP局域网地址可能不支持该接口，会显示明确提示。班史剧情中的原话保留，此功能不构成内容访问权限控制。
+
+## 2026-10-06内容扩增
+
+当前可玩121日。详情见[实装与验收](121日内容扩增实装与验收_2026-10-06.md)。新增剧情源在 `scripts/calendar/`，修改后从game运行 `node scripts/produce-content.mjs`，再执行 `npm test`、`npm run build`。
