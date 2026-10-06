@@ -1,5 +1,6 @@
 import React,{useState} from 'react';
 import portraits from './data/portraitAssets.ts';
+import profiles from './data/classProfiles.ts';
 import {characters} from './story.ts';
 import {portraitSeason,type PortraitSeason} from './portraits.ts';
 const asset=(name:string)=>import.meta.env.BASE_URL+'assets/'+name;
@@ -8,7 +9,8 @@ const images:Record<string,Record<PortraitSeason,string>>=portraits;
 const names=[...new Set([...Object.keys(portraits),'黄鹤鸣'])];
 const people=names.map(name=>{
  const character=Object.values(characters).find(c=>!c.actor&&(c.name===name||(name==='石杨子然'&&c.name==='石杨')));
- return {name,bio:character?.bio||'',role:character?.role||'七班同学',fallback:character?.image||'xu.webp'};
+ const profile=profiles[name as keyof typeof profiles];
+ return {name,bio:profile?.bio||character?.bio||'',role:profile?.role||character?.role||'七班同学',fallback:character?.image||'xu.webp'};
 });
 export function ClassGallery({date,onClose}:{date:string;onClose:()=>void}){
  const [season,setSeason]=useState<PortraitSeason>(()=>portraitSeason(date));
