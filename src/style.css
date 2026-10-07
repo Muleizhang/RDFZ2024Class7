@@ -96,3 +96,10 @@
  .scene-heading .chapter-tag>span{grid-column:2;font-size:12px;padding:4px 8px}
  .scene-heading .chapter-tag>b{grid-column:1 / -1;font-size:17px;padding:5px 10px;margin-left:8px;width:fit-content;max-width:calc(100% - 16px)}
 }
+
+/* 封面随存档显示日题，长标题在桌面和手机内自然换行。 */
+.title-screen .chapter-title{max-width:100%;min-width:0}
+.title-screen .chapter-title h2{overflow-wrap:anywhere;line-height:1.5}
+
+.cover-sound{position:absolute;right:24px;top:24px;z-index:12;background:var(--ink);color:var(--yellow);padding:10px 14px;transform:rotate(2deg);border-bottom:2px solid var(--purple);font-size:12px}
+@media(max-width:640px){.cover-sound{top:12px;right:12px;font-size:10px;padding:7px 9px}.title-screen .edition{padding-right:88px}}

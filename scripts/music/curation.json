@@ -1,0 +1,273 @@
+{
+  "version": 1,
+  "preparedOn": "2026-10-07",
+  "status": "用户确认选曲已接入游戏；候选试听保留",
+  "identity": "钢琴与木吉他为主轴，纸张漫画喜剧用小编制；电影增加有限的悬疑层。素材曲不是七班原创，供选风格或授权使用。",
+  "roles": [
+    {
+      "id": "theme",
+      "code": "B01",
+      "title": "把第一页翻开",
+      "style": "钢琴主旋律，轻木吉他或室内乐点缀。温暖、有记忆点，约75—95 BPM。",
+      "use": "封面、徐启元落笔、章节收束；毕业时回到同一旋律。",
+      "candidates": [
+        "Almost New",
+        "Fresh Air"
+      ],
+      "note": "先选整部作品的气质；毕业可以做同旋律的慢速变奏。"
+    },
+    {
+      "id": "daily",
+      "code": "B02",
+      "title": "窗边第一节课",
+      "style": "轻钢琴、木吉他、刷鼓；80—110 BPM。旋律清楚但不过密。",
+      "use": "绝大部分课堂、课间和同学接话；涵盖六章的普通日常。",
+      "candidates": [
+        "Autumn Day",
+        "Carefree"
+      ],
+      "note": "长段对白连续使用，不因课表、人物或同曲场景切换重启。"
+    },
+    {
+      "id": "lunch",
+      "code": "B03",
+      "title": "下课去吃面",
+      "style": "轻Bossa、原声吉他或电钢琴；70—95 BPM，松弛。",
+      "use": "吃面邀人、等面、火炉火、梅利屋、饭桌聊天。",
+      "candidates": [
+        "Easy Lemon",
+        "Bossa Antigua"
+      ],
+      "note": "赶回晚自习时可以短暂停乐；不是每个笑点都另加夸张音效。"
+    },
+    {
+      "id": "comedy",
+      "code": "B04",
+      "title": "事情开始不对劲",
+      "style": "拨弦、木管、低音提琴，小编制；85—110 BPM。",
+      "use": "十二钗追问、藏牌、厕所语音误会、套圈、Switch与其他胡闹。",
+      "candidates": [
+        "Investigations",
+        "Sneaky Snitch"
+      ],
+      "note": "推荐克制的前者；后者辨识度高，仅用来比较喜剧浓度。"
+    },
+    {
+      "id": "study",
+      "code": "B05",
+      "title": "老师，等一下",
+      "style": "稀疏电钢琴、钢琴或低音铺底；不催答题。",
+      "use": "劝学的认真答疑、数论分数与卷子、公车上书的实际协商。",
+      "candidates": [
+        "Clean Soul",
+        "Fresh Air"
+      ],
+      "note": "可乐误读转喜剧、翌日喝掉回日常；不把整篇都配成励志演说。"
+    },
+    {
+      "id": "memory",
+      "code": "B06",
+      "title": "雪落在旧书页上",
+      "style": "安静钢琴、少量空气感铺底；自由速度或55—75 BPM。",
+      "use": "雪晨、晚自习后、失利后的独处、虚构作品阅读和旧事回看。",
+      "candidates": [
+        "Evening Fall (Piano)",
+        "Fresh Air"
+      ],
+      "note": "不是所有回忆都悲伤；热闹往事仍保留喜剧或日常。"
+    },
+    {
+      "id": "friends",
+      "code": "B07",
+      "title": "你先听我说完",
+      "style": "温柔吉他／钢琴，轻巧、有空间，不用爱情大片弦乐。",
+      "use": "惠子宁与邵聪互逗、吃饭搅汤、认真帮忙，以及同学之间的关照。",
+      "candidates": [
+        "Clear Air",
+        "Almost New"
+      ],
+      "note": "保持暧昧与亲近，不替史料确认正式恋爱关系。"
+    },
+    {
+      "id": "travel",
+      "code": "B08",
+      "title": "七点半出发",
+      "style": "木吉他、长笛、轻打击；清爽、流动。",
+      "use": "古长城、杭州大巴／高铁、西湖、西溪、绘伞、返程。",
+      "candidates": [
+        "Morning",
+        "Carefree"
+      ],
+      "note": "杭州藏牌转喜剧，景点之间不机械换歌；不使用景区宣传式大编制。"
+    },
+    {
+      "id": "teacher",
+      "code": "B09",
+      "title": "办公室里的远方",
+      "style": "轻爵士电钢琴、颤音琴、少量低音；讲述感。",
+      "use": "尼德兰游记、老师的旧事与课堂逸闻；优先让讲述易读。",
+      "candidates": [
+        "Airport Lounge",
+        "Bossa Antigua"
+      ],
+      "note": "老师开始认真谈学习时换答疑；旅行回忆与当天现实仍分层。"
+    },
+    {
+      "id": "conflict",
+      "code": "B10",
+      "title": "一句话卡在门口",
+      "style": "简洁钢琴，稍暗但不煽情；60—80 BPM。",
+      "use": "生日门口争执与哭泣、道歉、失利、被误会后的沉默。",
+      "candidates": [
+        "Heartbreaking",
+        "Evening Fall (Piano)"
+      ],
+      "note": "出现哭泣之前可先停乐，避免把荒唐自述全演成悲情爱情故事。"
+    },
+    {
+      "id": "film-city",
+      "code": "B11",
+      "title": "花城的春天",
+      "style": "轻Bossa／电钢琴，温柔但与校园日常有一点距离。",
+      "use": "镜中花第一场散步、咖啡厅、角色平静谈话。",
+      "candidates": [
+        "Bossa Antigua",
+        "Clear Air"
+      ],
+      "note": "此类只属于戏中戏；幕后互拍和笑场回到校园喜剧。"
+    },
+    {
+      "id": "film-mystery",
+      "code": "B12",
+      "title": "账本的另一页",
+      "style": "低音脉冲、稀疏合成器与小编制；悬疑而非恐怖。",
+      "use": "镜中花查账、公司问话、资金线索、互相指认和真相揭露。",
+      "candidates": [
+        "Half Mystery"
+      ],
+      "note": "原稿信息顺序不变；不在尚未揭晓时用配乐暗示具体人物有罪。"
+    },
+    {
+      "id": "film-loss",
+      "code": "B13",
+      "title": "火车驶向夜色",
+      "style": "暗色氛围或慢速钢琴、有限铺底；保留静默和对白空间。",
+      "use": "镜中花铁路事故、洪灾回忆、病房追忆及角色痛苦。",
+      "candidates": [
+        "Echoes of Time v2",
+        "Heartbreaking"
+      ],
+      "note": "事故切换前先停乐；不把原书日常和电影灾难混成同一情绪。"
+    },
+    {
+      "id": "exam",
+      "code": "B14",
+      "title": "日历越来越薄",
+      "style": "有方向感的轻电子、吉他或钢琴节奏；避免战斗鼓组。",
+      "use": "解析竞速、百日、最后二十天、考前出发与高考日。",
+      "candidates": [
+        "Inspired",
+        "Autumn Day"
+      ],
+      "note": "参考曲的商业励志感需要你判断；最后一首可收敛到轻钢琴。"
+    },
+    {
+      "id": "graduation",
+      "code": "B15",
+      "title": "把名字留在书里",
+      "style": "主旋律回归、钢琴与少量弦乐；温暖而不强迫悲伤。",
+      "use": "毕业照、聚餐后、后来的重逢、徐启元收笔和结尾。",
+      "candidates": [
+        "Bittersweet",
+        "Reunited",
+        "Almost New"
+      ],
+      "note": "优先与封面形成旋律回扣；不把聚餐全程配成离别哭戏。"
+    }
+  ],
+  "sounds": [
+    {
+      "id": "page-a",
+      "code": "S01",
+      "title": "轻快单页",
+      "author": "OwlStorm",
+      "sourceId": "151220",
+      "url": "https://freesound.org/people/OwlStorm/sounds/151220/",
+      "license": "CC0-1.0",
+      "note": "干净的单次翻页，原记录约0.59秒；优先比较每天翻日期时是否太轻。"
+    },
+    {
+      "id": "page-b",
+      "code": "S02",
+      "title": "展开一页",
+      "author": "OwlStorm",
+      "sourceId": "151221",
+      "url": "https://freesound.org/people/OwlStorm/sounds/151221/",
+      "license": "CC0-1.0",
+      "note": "较长翻页动作，原记录约1.81秒；比较与日历过场的贴合度。"
+    },
+    {
+      "id": "page-c",
+      "code": "S03",
+      "title": "书页翻动",
+      "author": "krnash",
+      "sourceId": "389807",
+      "url": "https://freesound.org/people/krnash/sounds/389807/",
+      "license": "CC0-1.0",
+      "note": "原记录约1.44秒，双声道；比较纸张触感与空间感。"
+    },
+    {
+      "id": "page-d",
+      "code": "S04",
+      "title": "粗纸一页",
+      "author": "LilMati",
+      "sourceId": "397548",
+      "url": "https://freesound.org/people/LilMati/sounds/397548/",
+      "license": "CC0-1.0",
+      "note": "作者记录为杂志翻页，原长约0.50秒；比较更明显的摩擦感。"
+    },
+    {
+      "id": "page-e",
+      "code": "S05",
+      "title": "完整翻书动作",
+      "author": "Geoff-Bremner-Audio",
+      "sourceId": "663461",
+      "url": "https://freesound.org/people/Geoff-Bremner-Audio/sounds/663461/",
+      "license": "CC-BY-4.0",
+      "note": "原记录约1.99秒；用于比较较完整的翻书动作，使用需署名。"
+    }
+  ],
+  "references": [
+    {
+      "title": "Key《智代After》：主题及钢琴变奏",
+      "url": "https://key.soundslabel.com/ksl_html/ksl0020/ksl0020.html",
+      "finding": "官方曲表同时列出 dear old home 与 dear old home-piano-、love song 与 love song-piano-；这支持同一旋律用不同编配承载不同情绪。",
+      "proposal": "七班封面与毕业共享主旋律，日常与雪夜可以共享和声，避免全篇像互不相关的歌单。",
+      "kind": "原声带组织参考，不下载或复用游戏原曲"
+    },
+    {
+      "title": "DDLC官方：原声带包含变奏与草稿",
+      "url": "https://teamsalvato.itch.io/ddlc",
+      "finding": "官方Fan Pack说明原声带含remixes、bonus tracks、sketches及song variants。",
+      "proposal": "保留常驻日常曲，重要关系或情绪变化再换编配；这是一种供七班采用的设计推论，不断言官方给出了具体切歌规则。",
+      "kind": "官方发布说明参考，不下载或复用游戏原曲"
+    },
+    {
+      "title": "Ren’Py：音乐连续、循环及淡入淡出",
+      "url": "https://www.renpy.org/doc/html/audio.html",
+      "finding": "官方引擎支持音乐与音效分通道、循环、淡入淡出；if_changed能避免同曲场景切换时打断重播。",
+      "proposal": "音乐、翻页、其他音效独立音量；同曲持续，跨情绪淡出1秒左右再入，读档恢复曲目，失败不重启BGM。",
+      "kind": "视觉小说引擎处理方式；本项目继续沿用现有Web技术栈"
+    }
+  ],
+  "policy": {
+    "musicLicense": "CC-BY-4.0",
+    "musicAuthor": "Kevin MacLeod",
+    "musicLicenseSource": "https://incompetech.com/music/royalty-free/licenses/",
+    "pageTiming": "每天进入date节点播放一次；跳过的空白日期不连续叠加音效。读档及刷新不补播，是否重访日期时重播等你确认。",
+    "failure": "BGM保持或短暂压低，不在每次失败后重启；一句结语后回原选择。",
+    "silence": "哭泣、事故冲击、最后落笔可留白；全覆盖是覆盖音乐决策，不是每一秒都必须有声音。",
+    "identityNote": "如果希望拥有完全原创的七班主题，这些仅用于确定配器、速度与情绪；不会把素材库歌曲署名为七班原创。",
+    "audioQuality": "音乐下载作曲者公开MP3原文件，不再次压缩。Freesound使用公开HQ MP3试听文件，不冒称原始WAV。"
+  }
+}

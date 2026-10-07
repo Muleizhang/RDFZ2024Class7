@@ -189,3 +189,36 @@ test('旧减少动画设置不关闭打字，文字速度保持且允许独立�
  assert.equal(readingSettings({instantText:true}).instantText,true);assert.equal(readingSettings({speed:1000}).speed,100);
  assert.equal(readingSettings({speed:NaN}).speed,26);assert.equal(readingSettings(null).instantText,false);
 });
+
+test('用户选曲覆盖全日期：主旋律回扣、同曲复用、长篇与电影分层',async()=>{
+ const {music,musicRoleFor,musicTrackFor,shouldPlayPage}=await import('../src/audio.ts');
+ assert.equal(Object.keys(music.roles).length,15);assert.equal(Object.keys(music.tracks).length,11);
+ assert.equal(music.roles.theme,music.roles.graduation);assert.equal(music.roles.lunch,music.roles.teacher);assert.equal(music.roles.friends,music.roles['film-city']);assert.equal(music.roles.conflict,music.roles['film-loss']);
+ assert.equal(music.tracks[musicTrackFor(initial)].title,'Almost New');
+ for(const d of dates){const n=story.find(n=>n.kind==='date'&&n.date===d.date);assert.ok(n);const frame=enter(initial,n.id);assert.ok(music.tracks[musicTrackFor(frame)]);assert.ok(existsSync('public/audio/'+music.tracks[musicTrackFor(frame)].file));}
+ const roles:[string,string][]=[['D26-0016','lunch'],['D18-r0034','comedy'],['D46-r0017','study'],['D46-r0049','comedy'],['D52-0075','film-mystery'],['D60-0019','graduation']];
+ for(const [node,role] of roles){assert.equal(musicRoleFor(enter(initial,node)),role);}
+ assert.equal(shouldPlayPage(initial,enter(initial,'entrance'),'portrait'),false);
+ const nextDay=story.find(n=>n.kind==='date'&&n.date==='2023-07-17')!;
+ assert.equal(shouldPlayPage(initial,enter(initial,nextDay.id),'date'),true);
+ assert.equal(shouldPlayPage(enter(initial,nextDay.id),enter(initial,nextDay.id),'date'),false);
+ assert.ok(existsSync('public/audio/'+music.page.file));assert.ok(readFileSync('public/audio/credits.txt','utf8').includes('OwlStorm'));
+});
+
+test('配乐控制器同曲不重启，换曲收束旧声道，隐藏恢复和静音翻页',async()=>{
+ const {GameAudio}=await import('../src/audio.ts');
+ class FakeAudio{src='';volume=0;loop=false;preload='';hidden=false;dataset:Record<string,string>={};currentTime=0;paused=true;plays=0;constructor(src=''){this.src=src;}play(){this.paused=false;this.plays++;return Promise.resolve();}pause(){this.paused=true;}load(){}remove(){}removeAttribute(){this.src='';}}
+ const audios:FakeAudio[]=[];const oldAudio=Object.getOwnPropertyDescriptor(globalThis,'Audio'),oldDocument=Object.getOwnPropertyDescriptor(globalThis,'document'),oldRAF=Object.getOwnPropertyDescriptor(globalThis,'requestAnimationFrame');
+ let player:InstanceType<typeof GameAudio>|undefined;
+ try{
+  Object.defineProperty(globalThis,'Audio',{configurable:true,value:FakeAudio});Object.defineProperty(globalThis,'document',{configurable:true,value:{body:{appendChild(a:FakeAudio){audios.push(a);}}}});
+  let clock=0;const now=performance.now();Object.defineProperty(globalThis,'requestAnimationFrame',{configurable:true,value:(fn:()=>void)=>{clock+=250;const original=performance.now;performance.now=()=>now+clock;try{fn();}finally{performance.now=original;}return clock;}});
+  player=new GameAudio('/audio/',()=>{});player.setVolumes(.4,0);player.setTrack('m01');await Promise.resolve();
+  const first=audios.find(a=>!a.paused)!;first.currentTime=20;const starts=first.plays;
+  player.setTrack('m01');assert.equal(first.currentTime,20);assert.equal(first.plays,starts);
+  player.flipPage();assert.equal(audios[2].plays,0);
+  player.setVolumes(.4,.25);player.flipPage();assert.equal(audios[2].plays,1);
+  player.setTrack('m03');await Promise.resolve();assert.equal(audios.filter(a=>a.dataset.gameAudio?.startsWith('music')&&!a.paused).length,1);assert.ok(audios.find(a=>!a.paused&&a.src.endsWith('m03.mp3')));
+  const current=audios.find(a=>a.src.endsWith('m03.mp3'))!;current.currentTime=35;player.suspend(true);assert.equal(current.paused,true);player.suspend(false);await Promise.resolve();assert.equal(current.currentTime,35);assert.equal(current.paused,false);
+ }finally{player?.dispose();for(const [name,descriptor] of [['Audio',oldAudio],['document',oldDocument],['requestAnimationFrame',oldRAF]] as const){if(descriptor)Object.defineProperty(globalThis,name,descriptor);else Reflect.deleteProperty(globalThis,name);}}
+});

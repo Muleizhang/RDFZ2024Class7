@@ -11,6 +11,8 @@ export function readingSettings(raw:unknown){
  return {
   speed:typeof v.speed==='number'&&Number.isFinite(v.speed)?Math.max(10,Math.min(100,v.speed)):26,
   volume:typeof v.volume==='number'&&Number.isFinite(v.volume)?Math.max(0,Math.min(1,v.volume)):0.25,
+  musicVolume:typeof v.musicVolume==='number'&&Number.isFinite(v.musicVolume)?Math.max(0,Math.min(1,v.musicVolume)):0.35,
+  uiVolume:typeof v.uiVolume==='number'&&Number.isFinite(v.uiVolume)?Math.max(0,Math.min(1,v.uiVolume)):0.1,
   reduced:!!v.reduced,
   // Old reduced-motion preferences must not silently disable the dialogue typewriter.
   instantText:!!v.instantText
