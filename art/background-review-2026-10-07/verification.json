@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-07",
+  "mode": "built-in image_gen",
+  "finalBackgrounds": 18,
+  "batches": [
+    10,
+    8
+  ],
+  "resolution": [
+    1672,
+    941
+  ],
+  "revised": [
+    "teacher-office",
+    "classroom-exam"
+  ],
+  "checks": [
+    "all image outputs visually inspected",
+    "all local files present",
+    "HTML embedded manifest matches prompts.json",
+    "JavaScript parses",
+    "Node mock-DOM filter, search, viewer navigation checks pass",
+    "25 existing game tests pass",
+    "game build passes",
+    "generated story differs only in 30 background fields"
+  ],
+  "browserVerification": "Not completed: browser URL policy rejects file://; no workaround attempted.",
+  "integration": "New assets exist only in art/background-review-2026-10-07; not registered in game."
+}
