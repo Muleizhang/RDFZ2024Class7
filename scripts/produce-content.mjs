@@ -15,8 +15,8 @@ import {reviewScripts, reviewSources} from './review-content.mjs';
 const raw=fs.readFileSync('../人大附中2024届7班班史_全卷转写校勘.md','utf8');
 const parts=raw.split(/<a id="page-(\d+)"><\/a>/);
 const pages={};for(let i=1;i<parts.length;i+=2)pages[Number(parts[i])]=parts[i+1];
-const plan=fs.readFileSync('docs/全篇剧情日历与主线排期.md','utf8');
-const days=plan.split('\n').filter(x=>/^\| D\d+\w? \| 20/.test(x)).map(row=>{const c=row.split('|').map(x=>x.trim());return {id:c[1],date:c[2],basis:c[3],title:c[4],pov:c[5],pages:c[6],assets:c[7]};});
+// 日历是生成输入，不依赖说明文档的表格排版。
+const days=JSON.parse(fs.readFileSync('scripts/data/base-calendar.json','utf8'));
 const girls=new Set('李玉 戴杨洁 童莘淇 刘美孜 孙佳怡 程洛怡 赵梓伊 马诗雨 韩琪 孙蕾 博老师 蒋老师 臧春梅'.split(' '));
 const names='徐启元 雷昱 凌艺坤 徐子涵 雷雨泽 李沛霖 吕思宇 刘恒怿 陈俊言 周远持 黄鹤鸣 陈熙 彭逸涵 戚洪硕 惠子宁 刘树苡 戴向阳 李沐衡 焉家祎 马诗雨 刘美孜 李玉 李昊宇 秦敏然 张鹤闻 王家童 贾盛元 张沐雷 贾诺基 张瑞麒 邵聪 唐朝 童莘淇 冯子豪 李承容 史绍恺 石杨 黄艺博 郑泽一 张怀锦 杨京赫 孙佳怡 赵梓伊 程洛怡 戴杨洁 韩琪 孙蕾 杨卫华 战景林 雷杨 朱泽萱 朱老师 张强 博老师 蒋老师 臧春梅 崔鹏 李岩 亓孝然 郑导 徐子瀚'.split(' ');
 const teacherNames=new Set('韩琪 孙蕾 杨卫华 战景林 雷杨 朱泽萱 朱老师 张强 博老师 蒋老师 臧春梅 崔鹏 李岩 亓孝然'.split(' '));

@@ -1,0 +1,3299 @@
+{
+  "schemaVersion": 1,
+  "meaning": "读取当前可玩源码的结构快照；正常路线只取每题第一条成功路径，不替代全部分支测试或逐屏浏览器验收。不以字数、标题或节点数认定主体故事完成。",
+  "dates": 121,
+  "nodes": 7147,
+  "choices": 257,
+  "options": 995,
+  "failures": 481,
+  "characters": 72,
+  "backgroundIds": 39,
+  "textCharacters": 140324,
+  "normalWalkNodes": 6637,
+  "ending": "graduation-ending",
+  "endingDate": "2024-06-11",
+  "daily": [
+    {
+      "id": "D01",
+      "date": "2023-07-16",
+      "title": "入境 · 入静 · 劲",
+      "entry": "calendar",
+      "basis": "中／原载；已实现",
+      "pages": [
+        8
+      ],
+      "nodes": 44,
+      "choices": 3,
+      "options": 10,
+      "sourceKinds": [
+        "演出",
+        "原文",
+        "补写",
+        "转述"
+      ]
+    },
+    {
+      "id": "D02",
+      "date": "2023-07-17",
+      "title": "高三的第一个周一",
+      "entry": "next-date",
+      "basis": "中／原载；扩写预览",
+      "pages": [
+        9,
+        181
+      ],
+      "nodes": 63,
+      "choices": 3,
+      "options": 11,
+      "sourceKinds": [
+        "演出",
+        "原文",
+        "补写",
+        "转述"
+      ]
+    },
+    {
+      "id": "N01",
+      "date": "2023-07-18",
+      "title": "新机型试飞",
+      "entry": "N01-date",
+      "basis": "明确",
+      "pages": [
+        10
+      ],
+      "nodes": 33,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "N02",
+      "date": "2023-07-19",
+      "title": "不可能一直倒霉",
+      "entry": "N02-date",
+      "basis": "明确",
+      "pages": [
+        11
+      ],
+      "nodes": 51,
+      "choices": 3,
+      "options": 11,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D03",
+      "date": "2023-07-20",
+      "title": "课堂里的例题",
+      "entry": "D03-date",
+      "basis": "中／原载",
+      "pages": [
+        12
+      ],
+      "nodes": 65,
+      "choices": 2,
+      "options": 9,
+      "sourceKinds": [
+        "演出",
+        "原文",
+        "补写",
+        "转述"
+      ]
+    },
+    {
+      "id": "N03",
+      "date": "2023-07-21",
+      "title": "周期和库仑定律",
+      "entry": "N03-date",
+      "basis": "明确",
+      "pages": [
+        13
+      ],
+      "nodes": 67,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "原文",
+        "转述"
+      ]
+    },
+    {
+      "id": "D04",
+      "date": "2023-07-22",
+      "title": "不说再见",
+      "entry": "D04-date",
+      "basis": "长／原载年份按上下文校正为2023",
+      "pages": [
+        14
+      ],
+      "nodes": 40,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "原文",
+        "转述"
+      ]
+    },
+    {
+      "id": "D05",
+      "date": "2023-08-23",
+      "title": "摸底讲评",
+      "entry": "D05-date",
+      "basis": "短／原载",
+      "pages": [
+        16
+      ],
+      "nodes": 54,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "原文",
+        "转述"
+      ]
+    },
+    {
+      "id": "N04",
+      "date": "2023-08-24",
+      "title": "紫色的头发",
+      "entry": "N04-date",
+      "basis": "明确",
+      "pages": [
+        17
+      ],
+      "nodes": 52,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D06",
+      "date": "2023-08-25",
+      "title": "窗边",
+      "entry": "D06-date",
+      "basis": "中／原载",
+      "pages": [
+        18,
+        182
+      ],
+      "nodes": 69,
+      "choices": 3,
+      "options": 11,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N05",
+      "date": "2023-08-26",
+      "title": "培训一天哪够",
+      "entry": "N05-date",
+      "basis": "明确",
+      "pages": [
+        19
+      ],
+      "nodes": 44,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D07",
+      "date": "2023-08-30",
+      "title": "军训仍在继续",
+      "entry": "D07-date",
+      "basis": "中／原载",
+      "pages": [
+        20
+      ],
+      "nodes": 48,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N06",
+      "date": "2023-08-31",
+      "title": "绵羊长鸡脚",
+      "entry": "N06-date",
+      "basis": "明确",
+      "pages": [
+        21
+      ],
+      "nodes": 47,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D08",
+      "date": "2023-09-01",
+      "title": "新学期",
+      "entry": "D08-date",
+      "basis": "中／原载",
+      "pages": [
+        22,
+        212
+      ],
+      "nodes": 53,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "原文",
+        "转述"
+      ]
+    },
+    {
+      "id": "D09",
+      "date": "2023-09-02",
+      "title": "第一次周六补课",
+      "entry": "D09-date",
+      "basis": "长／原载与列传明确日期互证",
+      "pages": [
+        23,
+        24,
+        186,
+        187
+      ],
+      "nodes": 59,
+      "choices": 3,
+      "options": 12,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N07",
+      "date": "2023-09-04",
+      "title": "抽签真是徐子涵",
+      "entry": "N07-date",
+      "basis": "明确",
+      "pages": [
+        25
+      ],
+      "nodes": 49,
+      "choices": 3,
+      "options": 11,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "原文",
+        "转述"
+      ]
+    },
+    {
+      "id": "N08",
+      "date": "2023-09-05",
+      "title": "HQ的红笔",
+      "entry": "N08-date",
+      "basis": "明确",
+      "pages": [
+        26
+      ],
+      "nodes": 41,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N09",
+      "date": "2023-09-06",
+      "title": "速度选择器",
+      "entry": "N09-date",
+      "basis": "明确",
+      "pages": [
+        27,
+        28
+      ],
+      "nodes": 43,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "原文",
+        "转述"
+      ]
+    },
+    {
+      "id": "N10",
+      "date": "2023-09-07",
+      "title": "空位上的电子表",
+      "entry": "N10-date",
+      "basis": "明确",
+      "pages": [
+        29,
+        30
+      ],
+      "nodes": 59,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N11",
+      "date": "2023-09-08",
+      "title": "一串逊",
+      "entry": "N11-date",
+      "basis": "明确",
+      "pages": [
+        31,
+        32
+      ],
+      "nodes": 46,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "D10",
+      "date": "2023-09-09",
+      "title": "教师节前",
+      "entry": "D10-date",
+      "basis": "长／原载；09-10是续文落款",
+      "pages": [
+        33,
+        34,
+        35,
+        184,
+        185
+      ],
+      "nodes": 136,
+      "choices": 3,
+      "options": 11,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N12",
+      "date": "2023-09-11",
+      "title": "全错也打勾",
+      "entry": "N12-date",
+      "basis": "明确",
+      "pages": [
+        36
+      ],
+      "nodes": 45,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "N13",
+      "date": "2023-09-12",
+      "title": "抄答案比赛",
+      "entry": "N13-date",
+      "basis": "明确",
+      "pages": [
+        37
+      ],
+      "nodes": 36,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D11",
+      "date": "2023-09-13",
+      "title": "纸飞机与照片",
+      "entry": "D11-date",
+      "basis": "中／原载",
+      "pages": [
+        38,
+        39,
+        40
+      ],
+      "nodes": 71,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "原文",
+        "转述"
+      ]
+    },
+    {
+      "id": "N14",
+      "date": "2023-09-14",
+      "title": "被压缩的身高",
+      "entry": "N14-date",
+      "basis": "267天推定",
+      "pages": [
+        41
+      ],
+      "nodes": 45,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "原文",
+        "转述"
+      ]
+    },
+    {
+      "id": "N15",
+      "date": "2023-09-15",
+      "title": "半篇桥与半杯奶茶",
+      "entry": "N15-date",
+      "basis": "明确",
+      "pages": [
+        42,
+        43
+      ],
+      "nodes": 66,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N16",
+      "date": "2023-09-16",
+      "title": "应得的答案",
+      "entry": "N16-date",
+      "basis": "明确",
+      "pages": [
+        44
+      ],
+      "nodes": 41,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N17",
+      "date": "2023-09-18",
+      "title": "曲别针跳绳",
+      "entry": "N17-date",
+      "basis": "明确",
+      "pages": [
+        45
+      ],
+      "nodes": 43,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D12",
+      "date": "2023-09-19",
+      "title": "去食堂的路上",
+      "entry": "D12-date",
+      "basis": "长／原载",
+      "pages": [
+        46,
+        47,
+        194,
+        198,
+        199,
+        200
+      ],
+      "nodes": 129,
+      "choices": 3,
+      "options": 11,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N18",
+      "date": "2023-09-20",
+      "title": "物理等于语文",
+      "entry": "N18-date",
+      "basis": "明确",
+      "pages": [
+        48,
+        49
+      ],
+      "nodes": 56,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D13",
+      "date": "2023-09-21",
+      "title": "当开新页",
+      "entry": "D13-date",
+      "basis": "长／原载",
+      "pages": [
+        50,
+        194,
+        195,
+        201,
+        226
+      ],
+      "nodes": 53,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "原文",
+        "转述"
+      ]
+    },
+    {
+      "id": "N19",
+      "date": "2023-09-23",
+      "title": "满者赐福",
+      "entry": "N19-date",
+      "basis": "23补记明确；51—52作前几日回忆，实日不定",
+      "pages": [
+        53,
+        51,
+        52
+      ],
+      "nodes": 77,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D14",
+      "date": "2023-09-25",
+      "title": "设备有事",
+      "entry": "D14-date",
+      "basis": "长／原载",
+      "pages": [
+        54,
+        200,
+        185
+      ],
+      "nodes": 52,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D15",
+      "date": "2023-09-26",
+      "title": "数卷子",
+      "entry": "D15-date",
+      "basis": "中／原载",
+      "pages": [
+        55,
+        56,
+        182
+      ],
+      "nodes": 68,
+      "choices": 3,
+      "options": 11,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "原文",
+        "转述"
+      ]
+    },
+    {
+      "id": "N20",
+      "date": "2023-09-27",
+      "title": "包饺砸的下联",
+      "entry": "N20-date",
+      "basis": "明确",
+      "pages": [
+        57,
+        58
+      ],
+      "nodes": 57,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D16",
+      "date": "2023-09-28",
+      "title": "牌位",
+      "entry": "D16-date",
+      "basis": "中／原载",
+      "pages": [
+        59,
+        60,
+        186,
+        187
+      ],
+      "nodes": 51,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D17",
+      "date": "2023-10-08",
+      "title": "七点半出发",
+      "entry": "D17-date",
+      "basis": "长／原载",
+      "pages": [
+        61,
+        62
+      ],
+      "nodes": 50,
+      "choices": 3,
+      "options": 11,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D18",
+      "date": "2023-10-09",
+      "title": "改错之后，重游杭州",
+      "entry": "D18-date",
+      "basis": "特长／当天原载，杭州为插叙",
+      "pages": [
+        63,
+        64,
+        186,
+        198,
+        199,
+        209,
+        217,
+        218,
+        219
+      ],
+      "nodes": 167,
+      "choices": 2,
+      "options": 9,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N21",
+      "date": "2023-10-10",
+      "title": "第一排太吵了",
+      "entry": "N21-date",
+      "basis": "明确",
+      "pages": [
+        65
+      ],
+      "nodes": 40,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "D19",
+      "date": "2023-10-11",
+      "title": "操场香蕉",
+      "entry": "D19-date",
+      "basis": "长／原载",
+      "pages": [
+        66,
+        67,
+        68,
+        69,
+        211,
+        220
+      ],
+      "nodes": 147,
+      "choices": 2,
+      "options": 9,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "原文",
+        "补写"
+      ]
+    },
+    {
+      "id": "D20",
+      "date": "2023-10-12",
+      "title": "我爱学习",
+      "entry": "D20-date",
+      "basis": "中／原载",
+      "pages": [
+        70,
+        71,
+        72,
+        73,
+        207,
+        209
+      ],
+      "nodes": 161,
+      "choices": 3,
+      "options": 11,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N22",
+      "date": "2023-10-13",
+      "title": "观测站报告",
+      "entry": "N22-date",
+      "basis": "日期改画，沿现转写待核",
+      "pages": [
+        74,
+        75,
+        236
+      ],
+      "nodes": 73,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "N23",
+      "date": "2023-10-16",
+      "title": "唯一看视频的人",
+      "entry": "N23-date",
+      "basis": "明确",
+      "pages": [
+        76,
+        77
+      ],
+      "nodes": 42,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N24",
+      "date": "2023-10-17",
+      "title": "向后移动a米",
+      "entry": "N24-date",
+      "basis": "明确",
+      "pages": [
+        78
+      ],
+      "nodes": 52,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "原文",
+        "转述"
+      ]
+    },
+    {
+      "id": "N25",
+      "date": "2023-10-18",
+      "title": "十八页的我",
+      "entry": "N25-date",
+      "basis": "明确",
+      "pages": [
+        79,
+        80
+      ],
+      "nodes": 70,
+      "choices": 3,
+      "options": 11,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N26",
+      "date": "2023-10-19",
+      "title": "人文课的出口",
+      "entry": "N26-date",
+      "basis": "明确",
+      "pages": [
+        81
+      ],
+      "nodes": 48,
+      "choices": 3,
+      "options": 11,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "D21",
+      "date": "2023-10-20",
+      "title": "五册雷学",
+      "entry": "D21-date",
+      "basis": "长／原载",
+      "pages": [
+        82,
+        83
+      ],
+      "nodes": 63,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "原文",
+        "转述"
+      ]
+    },
+    {
+      "id": "N27",
+      "date": "2023-10-21",
+      "title": "报名的反面示例",
+      "entry": "N27-date",
+      "basis": "明确",
+      "pages": [
+        84,
+        85
+      ],
+      "nodes": 64,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "N28",
+      "date": "2023-10-23",
+      "title": "别聊天影响做题",
+      "entry": "N28-date",
+      "basis": "明确，D37回忆作回扣，不重复演",
+      "pages": [
+        86
+      ],
+      "nodes": 33,
+      "choices": 2,
+      "options": 7,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "原文",
+        "补写"
+      ]
+    },
+    {
+      "id": "D22",
+      "date": "2023-10-24",
+      "title": "数学册被发现",
+      "entry": "D22-date",
+      "basis": "中／原载",
+      "pages": [
+        88
+      ],
+      "nodes": 45,
+      "choices": 3,
+      "options": 11,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N29",
+      "date": "2023-10-25",
+      "title": "你在嘲笑我吗",
+      "entry": "N29-date",
+      "basis": "明确",
+      "pages": [
+        89
+      ],
+      "nodes": 35,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "原文",
+        "补写"
+      ]
+    },
+    {
+      "id": "N30",
+      "date": "2023-10-30",
+      "title": "一百四十五的前夜",
+      "entry": "N30-date",
+      "basis": "明确；迁移D23考前场，不算纯新故事",
+      "pages": [
+        90
+      ],
+      "nodes": 42,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D23",
+      "date": "2023-10-31",
+      "title": "期中首日",
+      "entry": "D23-date",
+      "basis": "中／原载",
+      "pages": [
+        91
+      ],
+      "nodes": 33,
+      "choices": 3,
+      "options": 11,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "N31",
+      "date": "2023-11-01",
+      "title": "九十五与九十之初",
+      "entry": "N31-date",
+      "basis": "明确；答案公布作后来",
+      "pages": [
+        92
+      ],
+      "nodes": 30,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "N32",
+      "date": "2023-11-02",
+      "title": "虽败犹胜的D派",
+      "entry": "N32-date",
+      "basis": "明确",
+      "pages": [
+        92
+      ],
+      "nodes": 37,
+      "choices": 3,
+      "options": 11,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "D24",
+      "date": "2023-11-06",
+      "title": "八件乐器",
+      "entry": "D24-date",
+      "basis": "长／原载，黄艺博旧事为编排插叙",
+      "pages": [
+        93,
+        196,
+        197,
+        198
+      ],
+      "nodes": 115,
+      "choices": 3,
+      "options": 13,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N33",
+      "date": "2023-11-07",
+      "title": "拇指琴八音盒",
+      "entry": "N33-date",
+      "basis": "明确；碎片不强补指代",
+      "pages": [
+        94,
+        95
+      ],
+      "nodes": 49,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N34",
+      "date": "2023-11-08",
+      "title": "有的放矢",
+      "entry": "N34-date",
+      "basis": "明确",
+      "pages": [
+        96
+      ],
+      "nodes": 45,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N35",
+      "date": "2023-11-09",
+      "title": "指挥之权",
+      "entry": "N35-date",
+      "basis": "明确",
+      "pages": [
+        97
+      ],
+      "nodes": 27,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "原文",
+        "转述"
+      ]
+    },
+    {
+      "id": "N36",
+      "date": "2023-11-10",
+      "title": "十三十四的排版",
+      "entry": "N36-date",
+      "basis": "明确补记；18日仅署写日",
+      "pages": [
+        97
+      ],
+      "nodes": 29,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "N37",
+      "date": "2023-11-11",
+      "title": "漫长的成绩分析",
+      "entry": "N37-date",
+      "basis": "蓝笔纠正明确；学生读老师记录承载",
+      "pages": [
+        97
+      ],
+      "nodes": 29,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "N38",
+      "date": "2023-11-12",
+      "title": "半岛式朗读",
+      "entry": "N38-date",
+      "basis": "原12，可能13待核；99空页不另造一天",
+      "pages": [
+        98
+      ],
+      "nodes": 37,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "D25",
+      "date": "2023-11-14",
+      "title": "早读迟到",
+      "entry": "D25-date",
+      "basis": "长／原载",
+      "pages": [
+        97,
+        100,
+        181,
+        182
+      ],
+      "nodes": 70,
+      "choices": 3,
+      "options": 11,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "原文",
+        "转述"
+      ]
+    },
+    {
+      "id": "N39",
+      "date": "2023-11-15",
+      "title": "二三本生物册",
+      "entry": "N39-date",
+      "basis": "明确补记，不造未记录的团建过程",
+      "pages": [
+        101
+      ],
+      "nodes": 32,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "D26",
+      "date": "2023-11-16",
+      "title": "二十多人的一碗面",
+      "entry": "D26-date",
+      "basis": "长／原载；聚餐由204/206互证",
+      "pages": [
+        102,
+        103,
+        204,
+        206
+      ],
+      "nodes": 76,
+      "choices": 3,
+      "options": 13,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D27",
+      "date": "2023-11-17",
+      "title": "一碗面打赌",
+      "entry": "D27-date",
+      "basis": "长／当天原载，称号形成是旧事",
+      "pages": [
+        104,
+        188,
+        189
+      ],
+      "nodes": 68,
+      "choices": 3,
+      "options": 11,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N40",
+      "date": "2023-11-21",
+      "title": "窗台798",
+      "entry": "N40-date",
+      "basis": "明确；18日上色作前几日补记",
+      "pages": [
+        105,
+        106
+      ],
+      "nodes": 46,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "D28",
+      "date": "2023-11-22",
+      "title": "长答案与短答案",
+      "entry": "D28-date",
+      "basis": "长／原载，食堂其他逸事为插叙",
+      "pages": [
+        107,
+        187,
+        189,
+        204,
+        205,
+        206,
+        11
+      ],
+      "nodes": 66,
+      "choices": 3,
+      "options": 12,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N41",
+      "date": "2023-11-23",
+      "title": "分享与手舞足蹈",
+      "entry": "N41-date",
+      "basis": "明确；109午休另标23补录",
+      "pages": [
+        108,
+        109
+      ],
+      "nodes": 44,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D29",
+      "date": "2023-11-27",
+      "title": "院士刷新",
+      "entry": "D29-date",
+      "basis": "长／原载，黄鹤鸣列传为回顾插入",
+      "pages": [
+        109,
+        212
+      ],
+      "nodes": 41,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N42",
+      "date": "2023-11-28",
+      "title": "冰与火的水池",
+      "entry": "N42-date",
+      "basis": "明确",
+      "pages": [
+        110,
+        237
+      ],
+      "nodes": 65,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D30",
+      "date": "2023-11-29",
+      "title": "听口将近",
+      "entry": "D30-date",
+      "basis": "短／原载",
+      "pages": [
+        111
+      ],
+      "nodes": 46,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D31",
+      "date": "2023-12-01",
+      "title": "教室安静之后",
+      "entry": "D31-date",
+      "basis": "长／原载",
+      "pages": [
+        112
+      ],
+      "nodes": 44,
+      "choices": 3,
+      "options": 11,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N43",
+      "date": "2023-12-04",
+      "title": "仁而的编号",
+      "entry": "N43-date",
+      "basis": "未标，邻页课表推定待核",
+      "pages": [
+        113
+      ],
+      "nodes": 24,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "原文",
+        "补写"
+      ]
+    },
+    {
+      "id": "N44",
+      "date": "2023-12-05",
+      "title": "门上的防震条",
+      "entry": "N44-date",
+      "basis": "明确",
+      "pages": [
+        113
+      ],
+      "nodes": 41,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "D32",
+      "date": "2023-12-06",
+      "title": "生日",
+      "entry": "D32-date",
+      "basis": "长／原载",
+      "pages": [
+        114,
+        213,
+        214
+      ],
+      "nodes": 44,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "原文",
+        "转述"
+      ]
+    },
+    {
+      "id": "N45",
+      "date": "2023-12-11",
+      "title": "雪落第一节",
+      "entry": "N45-date",
+      "basis": "原写10日周一，11日推定待核",
+      "pages": [
+        115
+      ],
+      "nodes": 17,
+      "choices": 1,
+      "options": 4,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写"
+      ]
+    },
+    {
+      "id": "D33",
+      "date": "2023-12-13",
+      "title": "雪天回到教室",
+      "entry": "D33-date",
+      "basis": "长／13—15网课原载；雪晨为前几日回忆",
+      "pages": [
+        115,
+        181,
+        186,
+        213,
+        214,
+        235,
+        236,
+        237,
+        238,
+        239
+      ],
+      "nodes": 86,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N46",
+      "date": "2023-12-16",
+      "title": "第一次听口之后",
+      "entry": "N46-date",
+      "basis": "明确原载仅一句，不写未出的成绩",
+      "pages": [
+        115
+      ],
+      "nodes": 15,
+      "choices": 1,
+      "options": 4,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "N47",
+      "date": "2023-12-18",
+      "title": "期末还有四周",
+      "entry": "N47-date",
+      "basis": "明确；要题未载实日，标此后回忆",
+      "pages": [
+        115
+      ],
+      "nodes": 18,
+      "choices": 1,
+      "options": 4,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述"
+      ]
+    },
+    {
+      "id": "D34",
+      "date": "2023-12-22",
+      "title": "Material",
+      "entry": "D34-date",
+      "basis": "中／原载",
+      "pages": [
+        116
+      ],
+      "nodes": 32,
+      "choices": 2,
+      "options": 7,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "D35",
+      "date": "2023-12-26",
+      "title": "公车上书",
+      "entry": "D35-date",
+      "basis": "长／原载",
+      "pages": [
+        117
+      ],
+      "nodes": 53,
+      "choices": 3,
+      "options": 12,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D36",
+      "date": "2023-12-27",
+      "title": "邵聪观察日志",
+      "entry": "D36-date",
+      "basis": "特长／原载日期有覆盖；12-28小注分层",
+      "pages": [
+        118,
+        119,
+        120,
+        121,
+        209
+      ],
+      "nodes": 211,
+      "choices": 4,
+      "options": 16,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "D37",
+      "date": "2024-01-04",
+      "title": "六圈",
+      "entry": "D37-date",
+      "basis": "长／日记原载；信件时间有冲突",
+      "pages": [
+        128,
+        129,
+        130,
+        195
+      ],
+      "nodes": 67,
+      "choices": 1,
+      "options": 4,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "原文",
+        "转述"
+      ]
+    },
+    {
+      "id": "D38",
+      "date": "2024-01-05",
+      "title": "病后返课",
+      "entry": "D38-date",
+      "basis": "长／原载",
+      "pages": [
+        131,
+        132,
+        185,
+        199,
+        240,
+        241
+      ],
+      "nodes": 132,
+      "choices": 3,
+      "options": 11,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N48",
+      "date": "2024-01-06",
+      "title": "没读过的边城",
+      "entry": "N48-date",
+      "basis": "明确",
+      "pages": [
+        133
+      ],
+      "nodes": 50,
+      "choices": 2,
+      "options": 7,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N49",
+      "date": "2024-01-08",
+      "title": "临时上台",
+      "entry": "N49-date",
+      "basis": "明确",
+      "pages": [
+        134
+      ],
+      "nodes": 29,
+      "choices": 1,
+      "options": 4,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "D39",
+      "date": "2024-01-09",
+      "title": "听口查分",
+      "entry": "D39-date",
+      "basis": "短／原载",
+      "pages": [
+        135,
+        136
+      ],
+      "nodes": 70,
+      "choices": 2,
+      "options": 7,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "N50",
+      "date": "2024-01-10",
+      "title": "豪华自助作业",
+      "entry": "N50-date",
+      "basis": "明确，接D39",
+      "pages": [
+        137
+      ],
+      "nodes": 38,
+      "choices": 1,
+      "options": 4,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "D39A",
+      "date": "2024-01-11",
+      "title": "望梅止渴 · 梅利屋",
+      "entry": "D39A-date",
+      "basis": "中／原载；本轮新增",
+      "pages": [
+        138,
+        205,
+        206
+      ],
+      "nodes": 31,
+      "choices": 2,
+      "options": 7,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D40",
+      "date": "2024-01-12",
+      "title": "两篇作文",
+      "entry": "D40-date",
+      "basis": "中／原载",
+      "pages": [
+        139
+      ],
+      "nodes": 48,
+      "choices": 1,
+      "options": 4,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "原文",
+        "转述"
+      ]
+    },
+    {
+      "id": "N51",
+      "date": "2024-01-15",
+      "title": "十二点零一答疑开张",
+      "entry": "N51-date",
+      "basis": "明确，学生视角；期末范围不造多天",
+      "pages": [
+        140
+      ],
+      "nodes": 28,
+      "choices": 1,
+      "options": 4,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "N52",
+      "date": "2024-01-23",
+      "title": "两天的复课记",
+      "entry": "N52-date",
+      "basis": "22—23合记放23回顾，不强分事件实日",
+      "pages": [
+        141,
+        142
+      ],
+      "nodes": 41,
+      "choices": 1,
+      "options": 4,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N53",
+      "date": "2024-01-24",
+      "title": "春梅须自寒",
+      "entry": "N53-date",
+      "basis": "明确；可接满者回忆，不称当天真实谈过",
+      "pages": [
+        142
+      ],
+      "nodes": 16,
+      "choices": 1,
+      "options": 4,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写"
+      ]
+    },
+    {
+      "id": "N54",
+      "date": "2024-01-25",
+      "title": "七层教研室",
+      "entry": "N54-date",
+      "basis": "明确",
+      "pages": [
+        142
+      ],
+      "nodes": 19,
+      "choices": 1,
+      "options": 4,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "原文",
+        "补写"
+      ]
+    },
+    {
+      "id": "D41",
+      "date": "2024-01-26",
+      "title": "绳球与钉",
+      "entry": "D41-date",
+      "basis": "特长／改班牌有明确日期",
+      "pages": [
+        122,
+        124,
+        125,
+        126,
+        127,
+        143,
+        144,
+        145,
+        146,
+        203,
+        214
+      ],
+      "nodes": 110,
+      "choices": 2,
+      "options": 7,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N55",
+      "date": "2024-01-27",
+      "title": "还是一百四十",
+      "entry": "N55-date",
+      "basis": "明确",
+      "pages": [
+        146
+      ],
+      "nodes": 26,
+      "choices": 1,
+      "options": 4,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D42",
+      "date": "2024-01-29",
+      "title": "换课",
+      "entry": "D42-date",
+      "basis": "中／原载",
+      "pages": [
+        147,
+        208
+      ],
+      "nodes": 48,
+      "choices": 1,
+      "options": 4,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N56",
+      "date": "2024-01-30",
+      "title": "三十页PPT",
+      "entry": "N56-date",
+      "basis": "明确",
+      "pages": [
+        148
+      ],
+      "nodes": 31,
+      "choices": 1,
+      "options": 4,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N57",
+      "date": "2024-01-31",
+      "title": "基本瓜与荷兰",
+      "entry": "N57-date",
+      "basis": "明确，D45再读记录不完整重复",
+      "pages": [
+        149
+      ],
+      "nodes": 30,
+      "choices": 1,
+      "options": 4,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D43",
+      "date": "2024-02-01",
+      "title": "牛鼻凹",
+      "entry": "D43-date",
+      "basis": "短／原载",
+      "pages": [
+        150
+      ],
+      "nodes": 40,
+      "choices": 1,
+      "options": 4,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "原文",
+        "转述"
+      ]
+    },
+    {
+      "id": "N58",
+      "date": "2024-02-26",
+      "title": "高三下第一日",
+      "entry": "N58-date",
+      "basis": "明确，不编举报人内容",
+      "pages": [
+        151
+      ],
+      "nodes": 35,
+      "choices": 1,
+      "options": 4,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "D44",
+      "date": "2024-02-27",
+      "title": "劝学",
+      "entry": "D44-date",
+      "basis": "长／事件日由前言明确",
+      "pages": [
+        152,
+        155,
+        156,
+        229,
+        230,
+        231
+      ],
+      "nodes": 85,
+      "choices": 3,
+      "options": 12,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "D45",
+      "date": "2024-02-28",
+      "title": "尼德兰游记",
+      "entry": "D45-date",
+      "basis": "长／日常原载；游记为记录日上的插叙",
+      "pages": [
+        153,
+        157,
+        158,
+        189,
+        190,
+        195,
+        209
+      ],
+      "nodes": 83,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D46",
+      "date": "2024-02-29",
+      "title": "百日 · 数论",
+      "entry": "D46-date",
+      "basis": "特长／誓师原载；《数论》自述“好像”该日",
+      "pages": [
+        159,
+        160,
+        171,
+        172,
+        181
+      ],
+      "nodes": 106,
+      "choices": 4,
+      "options": 16,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "D47",
+      "date": "2024-03-01",
+      "title": "可乐的次日",
+      "entry": "D47-date",
+      "basis": "中／原载；可乐是承前推定翌日",
+      "pages": [
+        161,
+        162,
+        172
+      ],
+      "nodes": 57,
+      "choices": 1,
+      "options": 4,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "D48",
+      "date": "2024-03-06",
+      "title": "架起手机",
+      "entry": "D48-date",
+      "basis": "中／原载",
+      "pages": [
+        163,
+        164,
+        181,
+        183,
+        187,
+        214
+      ],
+      "nodes": 96,
+      "choices": 2,
+      "options": 7,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D49",
+      "date": "2024-03-07",
+      "title": "早晨查岗",
+      "entry": "D49-date",
+      "basis": "中／原载",
+      "pages": [
+        165,
+        166,
+        187
+      ],
+      "nodes": 62,
+      "choices": 2,
+      "options": 7,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "D50",
+      "date": "2024-03-08",
+      "title": "小卖部补货",
+      "entry": "D50-date",
+      "basis": "中／原载",
+      "pages": [
+        167,
+        200
+      ],
+      "nodes": 44,
+      "choices": 1,
+      "options": 4,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N59",
+      "date": "2024-03-12",
+      "title": "点满者要花钱",
+      "entry": "N59-date",
+      "basis": "明确，末五行待核，不造鬼故事",
+      "pages": [
+        168
+      ],
+      "nodes": 44,
+      "choices": 2,
+      "options": 7,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D51",
+      "date": "2024-03-14",
+      "title": "解析竞速记",
+      "entry": "D51-date",
+      "basis": "长／原载",
+      "pages": [
+        169,
+        170,
+        188,
+        189,
+        190,
+        193
+      ],
+      "nodes": 66,
+      "choices": 3,
+      "options": 12,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D52",
+      "date": "2024-04-02",
+      "title": "镜中花 · 第一幕",
+      "entry": "D52-date",
+      "basis": "特长／日常原载，电影回忆为编排",
+      "pages": [
+        174,
+        211,
+        220,
+        242,
+        243,
+        244,
+        245
+      ],
+      "nodes": 158,
+      "choices": 4,
+      "options": 14,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D53",
+      "date": "2024-04-16",
+      "title": "镜中花 · 第二幕",
+      "entry": "D53-date",
+      "basis": "特长／日常原载，电影回忆为编排",
+      "pages": [
+        175,
+        198,
+        221,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252
+      ],
+      "nodes": 349,
+      "choices": 4,
+      "options": 15,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "N60",
+      "date": "2024-04-19",
+      "title": "不建系不就不用证了",
+      "entry": "N60-date",
+      "basis": "明确，保留短场，不做数学游戏",
+      "pages": [
+        176
+      ],
+      "nodes": 21,
+      "choices": 2,
+      "options": 7,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "D54",
+      "date": "2024-04-22",
+      "title": "群里那段录音",
+      "entry": "D54-date",
+      "basis": "长／原载；21日录音作为昨日",
+      "pages": [
+        176,
+        187
+      ],
+      "nodes": 44,
+      "choices": 2,
+      "options": 8,
+      "sourceKinds": [
+        "演出",
+        "转述",
+        "补写",
+        "原文"
+      ]
+    },
+    {
+      "id": "D55",
+      "date": "2024-05-10",
+      "title": "镜中花 · 第三幕",
+      "entry": "D55-date",
+      "basis": "特长／编排锚点，不宣称真实放映日",
+      "pages": [
+        220,
+        221,
+        252,
+        253,
+        254
+      ],
+      "nodes": 144,
+      "choices": 4,
+      "options": 14,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "原文",
+        "转述"
+      ]
+    },
+    {
+      "id": "D56",
+      "date": "2024-05-18",
+      "title": "二十天",
+      "entry": "D56-date",
+      "basis": "长／推定锚点：177页倒计时20天，原日期涂改",
+      "pages": [
+        177,
+        181,
+        196,
+        214
+      ],
+      "nodes": 39,
+      "choices": 2,
+      "options": 7,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    },
+    {
+      "id": "D57",
+      "date": "2024-05-31",
+      "title": "毕业前的信",
+      "entry": "D57-date",
+      "basis": "长／编排锚点，不认定重逢实日",
+      "pages": [
+        209,
+        210
+      ],
+      "nodes": 20,
+      "choices": 1,
+      "options": 4,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述"
+      ]
+    },
+    {
+      "id": "D58",
+      "date": "2024-06-07",
+      "title": "高考日",
+      "entry": "D58-date",
+      "basis": "短／日历基准；过桥演出为原创",
+      "pages": [
+        8,
+        24,
+        177
+      ],
+      "nodes": 17,
+      "choices": 2,
+      "options": 7,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述"
+      ]
+    },
+    {
+      "id": "D59",
+      "date": "2024-06-10",
+      "title": "七百分还是七百万",
+      "entry": "D59-date",
+      "basis": "中／编排锚点：按“高考历史毕”安排，非原文确日",
+      "pages": [
+        187,
+        196,
+        201
+      ],
+      "nodes": 23,
+      "choices": 1,
+      "options": 4,
+      "sourceKinds": [
+        "演出",
+        "原文",
+        "补写",
+        "转述"
+      ]
+    },
+    {
+      "id": "D60",
+      "date": "2024-06-11",
+      "title": "毕业，再会",
+      "entry": "D60-date",
+      "basis": "长／毕业框架编排；聚餐实日待确认",
+      "pages": [
+        181,
+        196,
+        212,
+        214,
+        255
+      ],
+      "nodes": 45,
+      "choices": 2,
+      "options": 7,
+      "sourceKinds": [
+        "演出",
+        "补写",
+        "转述",
+        "原文"
+      ]
+    }
+  ],
+  "review": [
+    {
+      "key": "F01",
+      "pages": "171—172",
+      "day": "D46",
+      "period": "卷子还没看，先问数学",
+      "problem": "满者被写成拿放可乐的人",
+      "change": "朱老师左手拿、放到电脑旁，右手拿、碰拉环又放下；满者只比划成绩走势。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D46-r0027",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "F02",
+      "pages": "172",
+      "day": "D46",
+      "period": "出门后的解读",
+      "problem": "贡可乐暗示被改成照顾自己科目的励志寓意",
+      "change": "雷导明确猜是把满者自己的也贡给老师；D47《次日的拉环》由满者开瓶喝掉，把猜想抛在脑后。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D46-r0049",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "F03",
+      "pages": "171—172",
+      "day": "D46",
+      "period": "三个人，一瓶老师的可乐",
+      "problem": "同行人数、献瓶者、留在办公室者和最后答话者混乱",
+      "change": "满者、雷导、硝矢公李沛霖三人同行；雷和沛共举老师的瓶后离开；满者留下、面批、回答一人一瓶，出门才告诉雷。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D46-r0017",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "F04／秦1",
+      "pages": "211",
+      "day": "D19",
+      "period": "大家原来很信任他",
+      "problem": "惠的笔袋被藏，掩盖秦的日常与职务落差",
+      "change": "秦找自己的笔袋，邵聪、惠子宁、雷昱藏在门框和柜上；找回来又被惠占座。先演人分同学的好印象与邵原同班背景。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D19-r0008",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "F05／日志1",
+      "pages": "118—119",
+      "day": "D36",
+      "period": "观察对象就在旁边",
+      "problem": "作文、质粒、对答案和讲题方向调换",
+      "change": "惠记录邵：地理卡住、收藏幸福停在第一段、问时字；邵来对惠答案，错认惠卷上的质粒；自己说不会说话却给惠讲均值并要求记上。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D36-r0011",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "F06／日志2",
+      "pages": "119",
+      "day": "D36",
+      "period": "我的汤，大杂烩",
+      "problem": "吃快的夸奖与搅汤对象写反",
+      "change": "邵夸惠吃得快，搅惠的汤、想加剩饭；惠阻止并打趣，邵十分钟后仍剩菜。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D36-r0043",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "F07／日志3",
+      "pages": "120—121",
+      "day": "D36",
+      "period": "越翻越多",
+      "problem": "作业标记变成十一点四分等时刻",
+      "change": "周的11.4、邵的10.4、从包里再翻出的10.3和10.5原样保留；语文课终于去交作文却被要求收藏、自己给满分；物理十二分钟、第二问错及晚间惠帮讲题一并演出。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D36-r0058",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "F08／大哥3",
+      "pages": "213—214",
+      "day": "D33",
+      "period": "后门的目光",
+      "problem": "HQ没收，删除本人先打过boss的自述",
+      "change": "数学网课仍开着Switch，此前沉迷与期中英语生物失利先交代；HQ返校取线、后门发现、走近；本人事后自述先打boss，母亲后来没收。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D33-r0006",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "F09／杭州1",
+      "pages": "217、199",
+      "day": "D18",
+      "period": "一圈伞面",
+      "problem": "人的代称被当作画作对象，作者重配",
+      "change": "陈熙祥龙、林妹妹龙猫、郑导修竹、大哥小马、徐启元千年隼各归原作者；林妹妹保留原称；郑导依用户新确认对应郑泽一，绘伞内容归入同一人物。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D18-r0072",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "F10／杭州2",
+      "pages": "218",
+      "day": "D18",
+      "period": "谁在洗牌",
+      "problem": "洗牌者误写郑导，丢失搜牌和自曝递进",
+      "change": "考儒洗牌问是否全部；作者起身、俊言翻找、石杨伸手假检；玩几轮后石自曝衣内和臀下藏牌，扣2000分分给大家，考儒和俊言原来占优。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D18-r0034",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "F11／杭州3",
+      "pages": "218—219",
+      "day": "D18",
+      "period": "西溪上空",
+      "problem": "石杨被写成未乘者",
+      "change": "石杨等去乘；作者徐启元见他们在上空，惋惜没同行。芡实糕、年级合照及回京接在后面。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D18-r0096",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "F12／杭州4",
+      "pages": "218",
+      "day": "D18",
+      "period": "一盒纸的去向",
+      "problem": "开旧纸盒的原创动作取代原事件",
+      "change": "彭与李昊宇同寝，李感冒把纸用空，垃圾桶满；去玩狼人杀又把纸团撒满地与沙发。彭在这一段承载第一人称。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D18-r0018",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "F13／火炉火",
+      "pages": "205",
+      "day": "D28",
+      "period": "考完，到火炉火",
+      "problem": "没写按压方法，比喻变成店名",
+      "change": "炭火上夹肉压火，油脂使火更旺；李沐衡后来用去美国没吃北京烤鸭推荐火炉火，明确作为推荐语而非店名。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D28-r0002",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "F14／电影1",
+      "pages": "242—254",
+      "day": "D52",
+      "period": "场景六：办公室中，秦旻然正在翻着调查报告",
+      "problem": "不得不承认现实断成假说话人",
+      "change": "解析使用演职表角色与有据的配角白名单；跨行正文并回黄义薄，同名真人、演员和虚构人物分开。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D52-0075",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "十二钗1",
+      "pages": "196—197、199",
+      "day": "D24",
+      "period": "植物园门前",
+      "problem": "迟到的树苡反被写成等人的人，前女友定义被略去",
+      "change": "从两点等到五点，树苡到场才接话；先问自称标准、对方要做什么，军训求婚引老师家长、初一同桌、初二生日嘴欠拉黑形成不同结果。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D24-r0007",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "十二钗2",
+      "pages": "197",
+      "day": "D24",
+      "period": "好友验证界面",
+      "problem": "128字只是孤立梗名",
+      "change": "去看她→微信未通过→验证界面交谈→运动会128字→听众具体追问、两条不同回应→跟上楼的自述→拉黑；玩家李沛霖不替对方同意。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D24-r0029",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "十二钗3",
+      "pages": "197—198",
+      "day": "D24",
+      "period": "曹雪芹故居",
+      "problem": "命名无地点因果，班级相关故事未演",
+      "change": "图书助理因男友而弃、戚替朋友传话先演；走到曹雪芹故居才编十二钗，解释ASOUL代称与一钗、二钗、十一钗；命名不证明实际关系。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D24-r0054",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "十二钗4",
+      "pages": "197—198",
+      "day": "D24",
+      "period": "晚风与乒乓球",
+      "problem": "二钗仅作为编号存在",
+      "change": "向周远持和彭逸涵学乒乓、微信名晚风、把十二钗全讲给向晚遭无言；D53回扣小作文批评、删除。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D24-r0062",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "十二钗5",
+      "pages": "198",
+      "day": "D24",
+      "period": "李悦琳怎么来的",
+      "problem": "史绍恺被当成账号本人，恶作剧原因消失",
+      "change": "新中关聚会、黄在朋友女友朋友圈留言引恼怒、众设网图号、沛介绍、黄聊数月、史告知揭晓。没有指定史是设号或扮演者。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D24-r0077",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "十二钗6",
+      "pages": "198",
+      "day": "D53",
+      "period": "食堂门外",
+      "problem": "黄自己的生日、校门争排期",
+      "change": "3月29日约翌日拍摄；珈乐生日、先前沛告时日后悔、秦主人下马客在船；3月30日食堂外劝阻、或挨打的吓说、沛狗、深爱旧事与哭泣、慰问。三种被骂或被打哭的传闻均否认。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D53-r0008",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "十二钗7",
+      "pages": "198",
+      "day": "D53",
+      "period": "传闻与回班",
+      "problem": "余波缺失或绝交因果倒置",
+      "change": "黄弃入回班，沛去拍；十一钗误以为受冤先安慰，后来知道哭的缘由才绝交。二钗批评、戴荒唐定位建议、考儒宣布四大首、建议仍失败后转玩原神均保留后果。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D53-r0019",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "HQ1",
+      "pages": "181",
+      "day": "D46",
+      "period": "她说天资愚钝",
+      "problem": "读履历，没有自谦的落差",
+      "change": "HQ自谓不能比竞赛同学；学生以十五岁入学、北大、八六比较回应；高一分班刻名可乐另开往事，怕班散的情绪与今日百日礼物呼应。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D46-r0012",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "HQ2",
+      "pages": "182",
+      "day": "D14",
+      "period": "高二的接口",
+      "problem": "误听的音没有给出",
+      "change": "接错接口音量骤响，HQ我错了被听成窝草，有具体误听反应；D15起床床童声、外班围观恢复。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D14-0004",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "HQ3",
+      "pages": "97—102、181—182",
+      "day": "D25",
+      "period": "老师的一天",
+      "problem": "已有较完整工作记录却穿插校勘口吻",
+      "change": "保留忙碌时间与批红、讲义阅读；改成学生接话及具体明日准时交总结，不读改订落款约束；D56零食与筛题保留。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D25-0007",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "三者1",
+      "pages": "184—185",
+      "day": "D10",
+      "period": "公开课白板",
+      "problem": "只剩画又擦、来不及",
+      "change": "智者扮邻妇的狗尿地毯视频→沐衡地府→树苡不雅涂画→沛反复擦→沛留骂句→老师收走白板→其他老师也看见。保留公开课的连锁尴尬。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D10-0036",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "三者2",
+      "pages": "186",
+      "day": "D16",
+      "period": "文明礼仪奖",
+      "problem": "标题后一条泛泛声明",
+      "change": "满者几何游戏自说心平气和→破防→同学举荐→文明礼仪奖→王熙凤不信阴司反差，不增加小游戏。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D16-0007",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "三者3",
+      "pages": "186",
+      "day": "D18",
+      "period": "崔老师走到牌桌前",
+      "problem": "老师只说原来那件事，玩家没见过",
+      "change": "先回研学打牌被喝止站起、叫到班外；HQ引荐聪颖、崔改观、吹哨重任；杭州火车再邀牌，关系变化有对象。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D18-r0100",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "三者4",
+      "pages": "187",
+      "day": "D09",
+      "period": "金子啊金子",
+      "problem": "历史题与争论只剩关键词",
+      "change": "给出A整体不了解世界、C跨地理技术障碍两个判断；满谈郑和金银、西方人、点金子，雷及瑞兽回应；去找朱未遇、次日继续。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D09-0006",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "三者5",
+      "pages": "165、187",
+      "day": "D49",
+      "period": "千米与一圈",
+      "problem": "被改成励志帮跑与有人守着",
+      "change": "郑导发现套圈给自首或强身；每200米推动、抬四肢；守足球门每丢球次日加圈，招架不住才自首。彭与张怀锦助跑归属按原文。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D49-r0002",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "三者6",
+      "pages": "164、187",
+      "day": "D48",
+      "period": "隔间里两个人的声音",
+      "problem": "一句宣布线上，没有误会过程",
+      "change": "戚为备听口请假；彭在厕听满喊戚挡刀，以为两人一间；问话选择后揭示戚在线上、满一人在隔间。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D48-r0005",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "三者7",
+      "pages": "176、187、192",
+      "day": "D54",
+      "period": "群里那段录音",
+      "problem": "冤字、证书没有前因",
+      "change": "语文群录音被孙误会抱怨诽谤→满申辩→同学黑板鸣冤图和文句→拍照→优秀团员证书、身高与逮捕照反差。不是正式处分事件。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D54-r0002",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "三者8",
+      "pages": "187",
+      "day": "D59",
+      "period": "七百分还是七百万",
+      "problem": "采访缺少原来的二选一",
+      "change": "恢复700分或700万元二选一，满立即选七百万。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D59-0002",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "三者9",
+      "pages": "104、188—189",
+      "day": "D27",
+      "period": "贴吧在课前打开",
+      "problem": "一堂课改成一道题，授予头衔取代论证",
+      "change": "贴吧不负责不备课质疑→五遍基础定理、课堂成果及领导支持→学生两天教师十分钟一堂课→提前不漏、拖堂无能、35分钟效率→扔拐棍灯塔；因式分解软件演示及能礼左右手动作短演。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D27-r0014",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "三者10",
+      "pages": "189",
+      "day": "D44",
+      "period": "两零点的旧争论",
+      "problem": "两零点只有标题",
+      "change": "博士争两个零点至少与能者课本仅有，编者电话等争论背景先演，之后进当日答疑；D51基础西瓜、高深西柚、准线错误蜥蜴变西翼均讲清来历。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D44-r0002",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "四大1",
+      "pages": "194—199",
+      "day": "D12",
+      "period": "去食堂的路上",
+      "problem": "初始座次和后来换位含混",
+      "change": "刘黄戴衡初始排序与后来戴首、树退第三明确；命名属于同学戏称。D13坝／唉／扣光平时分、NO／那捏传播及孙看见脸，石钟山肌肉和自嘲指人均短演。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D12-0002",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "四大2",
+      "pages": "194—195",
+      "day": "D13",
+      "period": "当开新页",
+      "problem": "唐诗只有前两句",
+      "change": "雷改倭寇、考儒不对及第三句欠火候补回，交代唐氏之言与唐诗命名；保留开新页及旁批。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D13-0002",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "四大3",
+      "pages": "195—196",
+      "day": "D37",
+      "period": "手工作坊",
+      "problem": "剪卷和座位只剩安静学习需求",
+      "change": "剪卷贴题、换前排再回城南；对老师直接说别聊天影响做题。加汪汪队红、蓝、白衣相互打趣，使戴也成为被起名者。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D37-0010",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "四大4",
+      "pages": "157、195",
+      "day": "D45",
+      "period": "四十六分",
+      "problem": "戴自报后立即识破，没有受骗过程",
+      "change": "以46分范文求评→孙欣然看→好句拼接起疑→追问本人→四六爷。不是旁白突然更正真实成绩。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D45-0005",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "四大5",
+      "pages": "177、196",
+      "day": "D56",
+      "period": "找个安静地方",
+      "problem": "误入误报年级成为温情概述",
+      "change": "高二阶吵→二层暗办公室沙发手机找素材→初三老师怒斥→惊逃撞倒老师→谎高二→孙拆穿要求道歉→道歉太麻烦耽误时间。保留原载冒失回应。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D56-r0006",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "四大6",
+      "pages": "196",
+      "day": "D59",
+      "period": "为什么没出来",
+      "problem": "删真实原因，只余HQ等待与感谢",
+      "change": "报单间、按规则不告因→HQ焦急等→戴红光满面出来→原来多次伸臂影响后排被监考请去单间；D60法学、司法系统不复、规则边界接话。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D59-r0007",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "四大7",
+      "pages": "199—200",
+      "day": "D12",
+      "period": "差一点",
+      "problem": "手机赌注与兑现缺失",
+      "change": "物理前200赌手机、200零几、收至寒假后；村上书买却未读、喷气背包雁作文论证受阻、记睡时至下午；D56柜书仍未读、收起抽象表达作文进入一类的变化。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D12-0007",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "四大8",
+      "pages": "199",
+      "day": "D18",
+      "period": "一圈伞面",
+      "problem": "五分钟讲演代替原有阐释",
+      "change": "坠／堕纠正、中西交流、反差撕裂矛盾、蓝绿三峡、小径分岔逐轮解释，同学按色块追问；D38沛借彭、彭再借树、树外套遮挡与无裤合照完整连锁。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D18-r0072",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "四大9",
+      "pages": "200—202、167",
+      "day": "D14",
+      "period": "小帮凶",
+      "problem": "帮凶不是本人改名，电教劳动成清单",
+      "change": "沐衡主动群名帮手改帮凶；D50买材料抹墙、锤钉、3月6日架手机给阳了的黄直播，均有动作；AI旧记录在D39从围棋到多版本升级，在D50进入群与试剧本，不伪造失载回答。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D14-0008",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "戚氏",
+      "pages": "122—123、203",
+      "day": "D41",
+      "period": "我来帮你",
+      "problem": "七德枚举代替相处",
+      "change": "保留咸物论钉鸡问答；单侧拳、龙爪与李昊宇哀鸣，戚哲责问；皇室对持时戚热心帮满、满越急越添乱；汉语编程和班牌揭下仍在。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D41-r0032",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "诸师1",
+      "pages": "207—208",
+      "day": "D07",
+      "period": "百分之九十",
+      "problem": "教学评价没有具体相处",
+      "change": "孙区区13X、元元90%、铅笔断句要擦、先交作业才评作文；D25发资料无人回→磕5的n次方→东施效颦；D38诗经动画歌与麦克白后台，D33雪中微写作。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D07-r0013",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "诸师2",
+      "pages": "208、147",
+      "day": "D42",
+      "period": "声音三段",
+      "problem": "午睡删除学生体谅与领导反应",
+      "change": "杨自述难题先错后改；学生来寻、见睡得熟不忍叫、悄返、领导哭笑不得；十四班哼歌未关麦是旧事，今日换课另标。原广告误认操场乐保留。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D42-0010",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "仙乐1",
+      "pages": "209、118—121",
+      "day": "D36",
+      "period": "自己选成同桌",
+      "problem": "聪惠只剩日志标签，尼德兰无缘起",
+      "change": "报到自选同桌、一起出入、你老公／邵指惠、称呼起哄；D18共奶茶合照；D45亲昵被数学老师辣眼睛、同学质问歧视、老师非也引出尼德兰；课余各自同好留在回望。未设正式关系或分手。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D36-r0002",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "仙乐2",
+      "pages": "209—210、13—14",
+      "day": "D04",
+      "period": "误会从哪里开始",
+      "problem": "温雪省掉探问，成功项只写表达心意",
+      "change": "用户最新要求撤下第一章温雪相识、误会、告白选择和换座仙乐插叙；保留当日课堂微写作与全班送别。",
+      "recordedStatus": "用户要求撤下",
+      "matchedScene": null,
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "秦2",
+      "pages": "211、220",
+      "day": "D19",
+      "period": "失职故人",
+      "problem": "职责、道歉、补位、退款散成标签",
+      "change": "四项不收不登不发不接→孙群责→失职道歉→李承容刘美孜助理；打印费摊数异常→同学问→无法解释→退款；分班招呼未应，后来答应电影和邀谢被拒。D52用数毛事件改写镇长故事。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D19-r0019",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "黄鹤鸣",
+      "pages": "212",
+      "day": "D29",
+      "period": "院士的手先到了",
+      "problem": "院士、美声与数学强由本人介绍",
+      "change": "慈父状拍师长肩形成称呼、太幽默美声被模仿、数学课常不在却优秀、同学称得意门生、老师求签；毕业空椅保留。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D29-r0016",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "大哥1",
+      "pages": "213",
+      "day": "D08",
+      "period": "新同学问进度",
+      "problem": "入班问进度没有仍能睡数周的反转",
+      "change": "同学热情介绍，问进度后大哥欣然趴下说可睡数周，旧红书让人惊；七对等位基因他说普通练习，雷惊艰难。原97分基础保留。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D08-r0013",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "大哥2",
+      "pages": "213—214",
+      "day": "D41",
+      "period": "期末之后",
+      "problem": "只有毕业成绩，成长中段缺失",
+      "change": "D33母亲没收后未放学做完、再问HQ要题；D41原书期末后回望生物第一、家长会从思维迟到思维驰表彰；D38小马卡SR／SSR老师赠、大哥家里也有很多；D60扫雷被同学告知、HQ解释每日收黑板。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D41-0040",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "杭州5",
+      "pages": "217—219、198、209",
+      "day": "D18",
+      "period": "铁环与奶茶",
+      "problem": "只加地点标题，没有同学互动",
+      "change": "保留西湖岳王庙、宋城、大宋绿激光、西溪等空间；惆怅头像制作考儒、戚传播、孙怒与道歉；远程黄烤乳猪、聪惠奶茶合照、茶百戏图案、整鸡双筷、三段行程与返程，同次回忆不硬分原稿冲突四天。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D18-r0053",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "劝学",
+      "pages": "155—156、229—231",
+      "day": "D44",
+      "period": "十七点零八",
+      "problem": "较完整基础有审稿口吻，回应太少",
+      "change": "保留17:08／12／18／28屏保、两天学习、作息和游戏自述；整卷审题再做、四小时手机小会、凌晨与父母就寝、老师逐轮追问与当事人回应。选择是如何答应今天开始，不是改写学习天数。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D44-0011",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "尼德兰",
+      "pages": "153、157—158、189—190",
+      "day": "D45",
+      "period": "街头",
+      "problem": "本来较完整，缺前情并有校勘约束",
+      "change": "保留街头虹旗、吹口哨、非南桐、咖啡馆、想尝树叶咖啡又担心检尿未喝、自述遗憾；新增聪惠缘起，去身份判定和知识卡口吻。旅行在此前，不是2月28日出国。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D45-0014",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "吃面",
+      "pages": "103、204—206",
+      "day": "D26",
+      "period": "自习变数学",
+      "problem": "有约面基础，香料误读、老师被添在店内",
+      "change": "八元窜稀之问、香料解释、凑人和到店、树饭量、等沐雷、赶晚自习、自己合照发圈→老师后来评论、杨想明日吃、戴侦查长评代表段。老师未被写成当晚同桌。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D26-0002",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "梅利屋",
+      "pages": "138、205—206",
+      "day": "D39A",
+      "period": "菜单",
+      "problem": "菜单传播多是日期说明",
+      "change": "满上课看宣传菜单→合利屋改梅利屋→臧春梅名字与菜单联系→同学传纸、菜名加梅、四人曾去与再约晚饭。具体菜名原文未列，已问用户，不发明菜单实例。",
+      "recordedStatus": "等待用户确认：具体菜名；主体流程已完成",
+      "matchedScene": "D39A-0005",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "公车上书",
+      "pages": "117",
+      "day": "D35",
+      "period": "等在生物办公室",
+      "problem": "诉求和结果只摘要，九班分数误当平均",
+      "change": "七班6／7十及不及格与九班多84／85对比→暂免雷学落实课本→化测后写作业等半小时→崔经过不追问→生物办公室诉求问答→不戴口罩、降低雷学密度先基础讲题、同学善用挖空并加作业练题量。彭归属按用户。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D35-r0006",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "解析竞速",
+      "pages": "169—170、189",
+      "day": "D51",
+      "period": "第二轮的密谋",
+      "problem": "两轮由旁白宣布，选择如实记录比分",
+      "change": "先例7误抄4为9和1、狼来了→首轮大哥贾败→次轮萌计划韦达误导却不用韦达、击面板推黑板、老师点错算两椭圆无解、学生胜。具体评价老师的回应成功汇合一胜一负。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D51-r0017",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "电影2",
+      "pages": "242—254",
+      "day": "D53",
+      "period": "场景九：黄义薄的回忆",
+      "problem": "档案室独白挂场记，动作连串和孤括号混成对白",
+      "change": "黄内心独白恢复所属；舞台动作单独，短情绪并入说话人表演标识；秦末幕独白显式内心；拍摄安全提醒和校勘注不进入游戏，孤括号不产节点。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D53-0063",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "电影3",
+      "pages": "220—221",
+      "day": "D55",
+      "period": "医务室的一张机票",
+      "problem": "幕后只有笑场和借场地概括",
+      "change": "医务室彭一票反复托运笑场、李沛霖雷昱先锋侦探喜剧采访和提取论、秦三桶农药短评；D52截止期、荒原狼VR草稿漏洞、秦加入、树拒演周接任；D53果冻摇镜、双机互拍花期不等、团委拒借。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D55-r0002",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "电影4",
+      "pages": "242—254",
+      "day": "D55",
+      "period": "场景二十一：石绍楷和秦旻然的谈话",
+      "problem": "戏中关键谈话无选择",
+      "change": "场6黄解释账簿、场14刘被小金误认喊住他、场21秦接经理装不懂，均两种实说短反应后接原稿；角色ID及演员POV分开，未添加调查小游戏或改最终真相。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D55-0031",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "全局1",
+      "pages": "审查7.1—7.3",
+      "day": "D44",
+      "period": "十七点二十八",
+      "problem": "编剧约束和写作意图成为台词选择",
+      "change": "重写旧选择为当前同学的实际说法，NPC两种短反应不同；删不能混日期等口吻，边界留标题和出处。失败一句、原选择重选及收藏保留。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D44-0028",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "全局2",
+      "pages": "审查7.4—7.6",
+      "day": "D60",
+      "period": "收齐书页",
+      "problem": "轮流说总结、自动换玩家、59次同收尾和重复原载",
+      "change": "去每说话人自动换POV，仅显式重要当事人切换；重要事件连演、日期动画直接接最后一句；停止每日结尾追加同义原载。保留《神经》与接龙作为明确作品阅读，非真实发生。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D60-0019",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "文档",
+      "pages": "审查8",
+      "day": "D46",
+      "period": "三个人，一瓶老师的可乐",
+      "problem": "数论／列传／杭州页码错，内容声明无实际落点",
+      "change": "重建实装表、进度、逐项整改表；数论171—172、温雪209—210、秦211、黄212、大哥213—214、杭州217—219、劝学155—156及229—231。解析先例7误写后两轮，删公车偷书无据声明。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D46-r0017",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "复查01",
+      "pages": "187",
+      "day": "D09",
+      "period": "次日再问",
+      "problem": "争论后仍缺找老师的收尾",
+      "change": "补未遇、次日再问与绰号后果，补选择后的瑞麒回应。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D09-r0021",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "复查02",
+      "pages": "197、93",
+      "day": "D24",
+      "period": "乐器还在桌上",
+      "problem": "戚传话混入植物园现场，回忆后不回当日",
+      "change": "黄转述昔日传话；回到11月6日乐器合奏。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D24-r0092",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "复查03",
+      "pages": "198",
+      "day": "D53",
+      "period": "回班路上",
+      "problem": "十一钗安慰与绝交只留摘要",
+      "change": "展开误以为受冤、安慰、后来得知缘由与绝交；不判定外班人物实名。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D53-r0053",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "复查04",
+      "pages": "117",
+      "day": "D35",
+      "period": "等在生物办公室",
+      "problem": "诉求结果仍被概述，参与者有误",
+      "change": "改陈俊言参与，补冯子豪、李昊宇及老师协商，保留原三项结果。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D35-r0006",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "复查05",
+      "pages": "189",
+      "day": "D51",
+      "period": "西瓜和西柚",
+      "problem": "只有课堂名词，孩子名字的来历仍缺",
+      "change": "补西瓜大名猜测、母亲姓范与西柚，再接西翼附会。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D51-r0036",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "复查06",
+      "pages": "209",
+      "day": "D04",
+      "period": "误会从哪里开始",
+      "problem": "第一人称回忆与玩家视角相反",
+      "change": "用户最新要求撤下第一章温雪相识、误会、告白选择和换座仙乐插叙；保留当日课堂微写作与全班送别。",
+      "recordedStatus": "用户要求撤下",
+      "matchedScene": null,
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "复查07",
+      "pages": "213",
+      "day": "D17",
+      "period": "九点半到达",
+      "problem": "耳朵代替诗句接受回应遮掉具体动作",
+      "change": "恢复孙佯怒揪耳、大哥笑着举手和拍照。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D17-0004",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    },
+    {
+      "key": "复查08",
+      "pages": "242—254",
+      "day": "D53",
+      "period": "场景九：黄义薄的回忆",
+      "problem": "部分自辩仍挂动作",
+      "change": "修正括号动作之后的独白归属，动作与内心分别显示。",
+      "recordedStatus": "已完成",
+      "matchedScene": "D53-0063",
+      "meaning": "状态来自历史整改清单；锚点匹配只用于定位，故事完整性需人工通读。用户撤下或场景调整可使历史锚点不存在。"
+    }
+  ],
+  "historicalBrowserEvidence": "docs/qa/本轮浏览器验收.json（2026-10-05批次，不是本报告新验收）"
+}
