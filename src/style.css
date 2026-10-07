@@ -176,3 +176,22 @@
  .dialogue p{min-height:56px;margin-bottom:14px}
  .schedule.mobile-open{top:84px;max-height:calc(100dvh - 110px)}
 }
+
+/* Keep mobile play inside the viewport; reserve space for controls and face. */
+@media(max-width:800px){
+ body:has(.app){overflow:hidden}
+ .app{height:100dvh;min-height:0}
+ .app:has(.dialogue-wrap){height:100dvh;min-height:0;grid-template-rows:80px auto minmax(100px,1fr) auto}
+ .scene-info{max-height:min(100px,16dvh);padding-bottom:7px}
+ .dialogue-wrap{max-height:50dvh;display:flex;flex-direction:column;margin-bottom:8px}
+ .dialogue-meta{display:none}
+ .dialogue{min-height:0;padding:35px 18px 12px;flex-shrink:0}
+ .dialogue p{font-size:15px;line-height:1.65;min-height:0;max-height:calc(26dvh - 47px);overflow:auto;margin:4px 0 0;overscroll-behavior:contain}
+ .speaker{padding:5px 12px;border-bottom-width:3px;max-width:calc(100% - 28px);gap:8px}.speaker>span{min-width:0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.speaker>span{font-size:13px}.speaker small{font-size:7px}
+ .toolbar{flex-shrink:0;margin-top:7px;gap:1px;padding-right:0;flex-wrap:nowrap}.toolbar button{font-size:9px;padding:7px 5px;white-space:nowrap}.toolbar b{font-size:8px}
+ .choices{min-height:0;flex-shrink:1;max-height:29dvh;margin:0 0 8px;padding-top:5px;padding-bottom:5px;gap:6px}
+ .choices button{font-size:11px;padding:8px 10px;line-height:1.4}
+ .has-choice .dialogue{min-height:0;padding-top:34px}.has-choice .dialogue p{min-height:0;font-size:14px;margin:4px 0 0;max-height:10dvh}
+ .portrait-stage .portrait,.portrait-echo{top:-32px;height:calc(100% + 100px);min-height:230px}
+ .portrait-name{top:30%;font-size:16px;letter-spacing:5px}
+}
