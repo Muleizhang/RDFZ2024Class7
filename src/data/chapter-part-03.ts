@@ -1026,7 +1026,7 @@ const data:StoryNode[] = [
     "day": "D07",
     "context": "现实",
     "period": "军训仍在继续",
-    "background": "classroom",
+    "background": "classroom-window",
     "text": "军训仍在继续",
     "character": "",
     "effect": "paper",
@@ -1044,7 +1044,7 @@ const data:StoryNode[] = [
     "day": "D07",
     "context": "现实",
     "period": "军训仍在继续",
-    "background": "classroom",
+    "background": "classroom-window",
     "speaker": "陈俊言",
     "text": "最长周末结束，我以为楼下终于安静了。",
     "character": "c08",
@@ -1061,7 +1061,7 @@ const data:StoryNode[] = [
     "day": "D07",
     "context": "现实",
     "period": "军训仍在继续",
-    "background": "classroom",
+    "background": "classroom-window",
     "speaker": "周远持",
     "text": "初中军训无缝接上。",
     "character": "c09",
@@ -1078,7 +1078,7 @@ const data:StoryNode[] = [
     "day": "D07",
     "context": "现实",
     "period": "军训仍在继续",
-    "background": "classroom",
+    "background": "classroom-window",
     "speaker": "旁白",
     "text": "HQ把窗边高三学生的课间娱乐拍了下来。",
     "character": "",
@@ -1095,7 +1095,7 @@ const data:StoryNode[] = [
     "day": "D07",
     "context": "现实",
     "period": "军训仍在继续",
-    "background": "classroom",
+    "background": "classroom-window",
     "speaker": "孙老师",
     "text": "解释含义题，两个人得两分，十二个人得一分，剩下都是零蛋。",
     "character": "c46",
@@ -1112,7 +1112,7 @@ const data:StoryNode[] = [
     "day": "D07",
     "context": "现实",
     "period": "军训仍在继续",
-    "background": "classroom",
+    "background": "classroom-window",
     "speaker": "周远持",
     "text": "那我把自己的鸿篇巨著读一下。写得太烂了。",
     "character": "c09",
@@ -1122,7 +1122,7 @@ const data:StoryNode[] = [
     "day": "D07",
     "context": "现实",
     "period": "军训仍在继续",
-    "background": "classroom",
+    "background": "classroom-window",
     "page": 20,
     "pages": [
       20
@@ -1156,7 +1156,7 @@ const data:StoryNode[] = [
     "day": "D07",
     "context": "现实",
     "period": "军训仍在继续",
-    "background": "classroom",
+    "background": "classroom-window",
     "page": 20,
     "pages": [
       20
@@ -1173,7 +1173,7 @@ const data:StoryNode[] = [
     "day": "D07",
     "context": "现实",
     "period": "军训仍在继续",
-    "background": "classroom",
+    "background": "classroom-window",
     "page": 20,
     "pages": [
       20
@@ -1190,7 +1190,7 @@ const data:StoryNode[] = [
     "day": "D07",
     "context": "现实",
     "period": "军训仍在继续",
-    "background": "classroom",
+    "background": "classroom-window",
     "page": 20,
     "pages": [
       20
@@ -1207,7 +1207,7 @@ const data:StoryNode[] = [
     "day": "D07",
     "context": "现实",
     "period": "军训仍在继续",
-    "background": "classroom",
+    "background": "classroom-window",
     "page": 20,
     "pages": [
       20
@@ -1231,7 +1231,7 @@ const data:StoryNode[] = [
     "day": "D07",
     "context": "现实",
     "period": "军训仍在继续",
-    "background": "classroom",
+    "background": "classroom-window",
     "speaker": "陈俊言",
     "text": "四十分的“太烂”，要不要先给我们一个预警。",
     "character": "c08",

@@ -103,3 +103,11 @@
 
 .cover-sound{position:absolute;right:24px;top:24px;z-index:12;background:var(--ink);color:var(--yellow);padding:10px 14px;transform:rotate(2deg);border-bottom:2px solid var(--purple);font-size:12px}
 @media(max-width:640px){.cover-sound{top:12px;right:12px;font-size:10px;padding:7px 9px}.title-screen .edition{padding-right:88px}}
+
+/* Unlocked scenery notebook */
+.background-gallery{height:100dvh;overflow:auto;background:radial-gradient(ellipse at 15% 0,#362548,transparent 65%),#16121e;color:var(--paper);padding:36px clamp(16px,4vw,64px)}
+.background-gallery-grid{max-width:1500px;margin:24px auto;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px}
+.background-card{padding:0;text-align:left;color:var(--ink);background:var(--paper);border:2px solid transparent;overflow:hidden;box-shadow:5px 5px 0 #7447dd55}
+.background-card:hover{border-color:var(--yellow)}.background-card img{display:block;width:100%;aspect-ratio:1672/941;object-fit:cover}.background-card>div{padding:18px}.background-card h2{font-size:19px;margin:0 0 8px}.background-card h2 span{color:var(--purple)}.background-card p{font-size:14px;line-height:1.8;margin:0;color:#51455e}.background-sunset{filter:sepia(.25) saturate(1.2) brightness(.82)}
+.background-detail{max-width:1300px;margin:30px auto}.background-detail>img{width:100%;height:auto;display:block;margin:22px 0}.background-detail h2{font-size:28px}.background-detail>p{line-height:1.9;color:#d4c9df;max-width:900px}.background-detail-nav{display:flex;justify-content:space-between;gap:16px;margin:28px 0}.background-detail-nav button{padding:12px 24px;color:var(--paper);background:var(--purple)}.background-detail-nav button:disabled{opacity:.35}.background-gallery .gallery-controls input{max-width:100%}
+@media(max-width:1000px){.background-gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}@media(max-width:600px){.background-gallery{padding:22px 16px}.background-gallery-grid{grid-template-columns:1fr;gap:20px}.background-gallery .class-gallery-header{align-items:flex-start;gap:15px;flex-wrap:wrap}.background-gallery .class-gallery-header h1{font-size:34px}.background-detail h2{font-size:22px}}

@@ -1042,7 +1042,7 @@ const data:StoryNode[] = [
     "day": "N30",
     "context": "现实",
     "period": "班史交到考试前",
-    "background": "classroom",
+    "background": "classroom-exam",
     "text": "班史交到考试前",
     "character": "",
     "effect": "paper",
@@ -1060,7 +1060,7 @@ const data:StoryNode[] = [
     "day": "N30",
     "context": "现实",
     "period": "班史交到考试前",
-    "background": "classroom",
+    "background": "classroom-exam",
     "speaker": "HQ",
     "text": "我看你每回大考，大喜、哀号，情绪像云霄飞车。这个也可以记下来。",
     "character": "c45",
@@ -1077,7 +1077,7 @@ const data:StoryNode[] = [
     "day": "N30",
     "context": "现实",
     "period": "班史交到考试前",
-    "background": "classroom",
+    "background": "classroom-exam",
     "speaker": "李沛霖",
     "text": "只记趣事吗？怕还有哀事、异事。",
     "character": "c05",
@@ -1094,7 +1094,7 @@ const data:StoryNode[] = [
     "day": "N30",
     "context": "现实",
     "period": "班史交到考试前",
-    "background": "classroom",
+    "background": "classroom-exam",
     "speaker": "旁白",
     "text": "布置考场时，老师把班史交来。沛接下考前数日，先记卷子还没发的这一天。",
     "character": "",
@@ -1797,7 +1797,7 @@ const data:StoryNode[] = [
     "day": "D23",
     "context": "现实",
     "period": "期中首日",
-    "background": "classroom",
+    "background": "classroom-exam",
     "text": "期中首日",
     "character": "",
     "effect": "paper",
@@ -1815,7 +1815,7 @@ const data:StoryNode[] = [
     "day": "D23",
     "context": "现实",
     "period": "期中首日",
-    "background": "classroom",
+    "background": "classroom-exam",
     "speaker": "李沛霖",
     "text": "稳了！稳了！……选项一出来，好像没那么稳。",
     "character": "c05",
@@ -1825,7 +1825,7 @@ const data:StoryNode[] = [
     "day": "D23",
     "context": "现实",
     "period": "期中首日",
-    "background": "classroom",
+    "background": "classroom-exam",
     "page": 91,
     "pages": [
       91
@@ -1859,7 +1859,7 @@ const data:StoryNode[] = [
     "day": "D23",
     "context": "现实",
     "period": "期中首日",
-    "background": "classroom",
+    "background": "classroom-exam",
     "page": 91,
     "pages": [
       91
@@ -1876,7 +1876,7 @@ const data:StoryNode[] = [
     "day": "D23",
     "context": "现实",
     "period": "期中首日",
-    "background": "classroom",
+    "background": "classroom-exam",
     "page": 91,
     "pages": [
       91
@@ -1893,7 +1893,7 @@ const data:StoryNode[] = [
     "day": "D23",
     "context": "现实",
     "period": "期中首日",
-    "background": "classroom",
+    "background": "classroom-exam",
     "page": 91,
     "pages": [
       91
@@ -1910,7 +1910,7 @@ const data:StoryNode[] = [
     "day": "D23",
     "context": "现实",
     "period": "期中首日",
-    "background": "classroom",
+    "background": "classroom-exam",
     "page": 91,
     "pages": [
       91
@@ -1934,7 +1934,7 @@ const data:StoryNode[] = [
     "day": "D23",
     "context": "现实",
     "period": "期中首日",
-    "background": "classroom",
+    "background": "classroom-exam",
     "speaker": "同学",
     "text": "自信如曹子桓，结果又想起江东徐盛。",
     "character": "",
@@ -1951,7 +1951,7 @@ const data:StoryNode[] = [
     "day": "D23",
     "context": "现实",
     "period": "期中首日",
-    "background": "classroom",
+    "background": "classroom-exam",
     "speaker": "李沛霖",
     "text": "物理从实验到后面大题，时间越来越紧。送分没接住，险些送命。",
     "character": "c05",
@@ -1968,7 +1968,7 @@ const data:StoryNode[] = [
     "day": "D23",
     "context": "现实",
     "period": "期中首日",
-    "background": "classroom",
+    "background": "classroom-exam",
     "speaker": "徐子涵",
     "text": "这次我语文一百三，数学一百四十五，英语一百四十五……全市状元。",
     "character": "c03",
@@ -1978,7 +1978,7 @@ const data:StoryNode[] = [
     "day": "D23",
     "context": "现实",
     "period": "期中首日",
-    "background": "classroom",
+    "background": "classroom-exam",
     "page": 91,
     "pages": [
       91
@@ -2012,7 +2012,7 @@ const data:StoryNode[] = [
     "day": "D23",
     "context": "现实",
     "period": "期中首日",
-    "background": "classroom",
+    "background": "classroom-exam",
     "page": 91,
     "pages": [
       91
@@ -2029,7 +2029,7 @@ const data:StoryNode[] = [
     "day": "D23",
     "context": "现实",
     "period": "期中首日",
-    "background": "classroom",
+    "background": "classroom-exam",
     "page": 91,
     "pages": [
       91
@@ -2046,7 +2046,7 @@ const data:StoryNode[] = [
     "day": "D23",
     "context": "现实",
     "period": "期中首日",
-    "background": "classroom",
+    "background": "classroom-exam",
     "page": 91,
     "pages": [
       91
@@ -2063,7 +2063,7 @@ const data:StoryNode[] = [
     "day": "D23",
     "context": "现实",
     "period": "期中首日",
-    "background": "classroom",
+    "background": "classroom-exam",
     "page": 91,
     "pages": [
       91
@@ -2087,7 +2087,7 @@ const data:StoryNode[] = [
     "day": "D23",
     "context": "现实",
     "period": "期中首日",
-    "background": "classroom",
+    "background": "classroom-exam",
     "speaker": "李沛霖",
     "text": "卷子还在老师手里，你倒先把全市状元领了。",
     "character": "c05",
@@ -2104,7 +2104,7 @@ const data:StoryNode[] = [
     "day": "D23",
     "context": "现实",
     "period": "期中首日",
-    "background": "classroom",
+    "background": "classroom-exam",
     "text": "考完后，我怎样和同学说",
     "speaker": "李沛霖",
     "character": "c05",
@@ -2134,7 +2134,7 @@ const data:StoryNode[] = [
     "day": "D23",
     "context": "现实",
     "period": "期中首日",
-    "background": "classroom",
+    "background": "classroom-exam",
     "text": "“先喘口气，刚才那几道我还真得回去看看。”",
     "speaker": "李沛霖",
     "character": "c05",
@@ -2151,7 +2151,7 @@ const data:StoryNode[] = [
     "day": "D23",
     "context": "现实",
     "period": "期中首日",
-    "background": "classroom",
+    "background": "classroom-exam",
     "speaker": "雷昱",
     "text": "我也有几道没把握。",
     "character": "lei",
@@ -2168,7 +2168,7 @@ const data:StoryNode[] = [
     "day": "D23",
     "context": "现实",
     "period": "期中首日",
-    "background": "classroom",
+    "background": "classroom-exam",
     "text": "“今天先吃饭，等分出来再看哪里错了。”",
     "speaker": "李沛霖",
     "character": "c05",
@@ -2185,7 +2185,7 @@ const data:StoryNode[] = [
     "day": "D23",
     "context": "现实",
     "period": "期中首日",
-    "background": "classroom",
+    "background": "classroom-exam",
     "speaker": "雷昱",
     "text": "先走，食堂要排队了。",
     "character": "lei",
@@ -2202,7 +2202,7 @@ const data:StoryNode[] = [
     "day": "D23",
     "context": "现实",
     "period": "期中首日",
-    "background": "classroom",
+    "background": "classroom-exam",
     "speaker": "李沛霖",
     "text": "语文物理先考完了，回去还得接着准备后面的。",
     "character": "c05",
@@ -2410,7 +2410,7 @@ const data:StoryNode[] = [
     "day": "N31",
     "context": "现实",
     "period": "数学试毕",
-    "background": "classroom",
+    "background": "classroom-exam",
     "text": "数学试毕",
     "character": "",
     "effect": "paper",
@@ -2428,7 +2428,7 @@ const data:StoryNode[] = [
     "day": "N31",
     "context": "现实",
     "period": "数学试毕",
-    "background": "classroom",
+    "background": "classroom-exam",
     "speaker": "旁白",
     "text": "数学考完，三角和导数的失分把心往下拽。回想数理语文，再看还没考的化学，焦虑又加一层。",
     "character": "",
@@ -2445,7 +2445,7 @@ const data:StoryNode[] = [
     "day": "N31",
     "context": "现实",
     "period": "数学试毕",
-    "background": "classroom",
+    "background": "classroom-exam",
     "speaker": "李沛霖",
     "text": "这次只能在化学复生了。",
     "character": "c05",
@@ -2455,7 +2455,7 @@ const data:StoryNode[] = [
     "day": "N31",
     "context": "现实",
     "period": "数学试毕",
-    "background": "classroom",
+    "background": "classroom-exam",
     "page": 92,
     "pages": [
       92
@@ -2489,7 +2489,7 @@ const data:StoryNode[] = [
     "day": "N31",
     "context": "现实",
     "period": "数学试毕",
-    "background": "classroom",
+    "background": "classroom-exam",
     "page": 92,
     "pages": [
       92
@@ -2506,7 +2506,7 @@ const data:StoryNode[] = [
     "day": "N31",
     "context": "现实",
     "period": "数学试毕",
-    "background": "classroom",
+    "background": "classroom-exam",
     "page": 92,
     "pages": [
       92
@@ -2523,7 +2523,7 @@ const data:StoryNode[] = [
     "day": "N31",
     "context": "现实",
     "period": "数学试毕",
-    "background": "classroom",
+    "background": "classroom-exam",
     "page": 92,
     "pages": [
       92
@@ -2540,7 +2540,7 @@ const data:StoryNode[] = [
     "day": "N31",
     "context": "现实",
     "period": "数学试毕",
-    "background": "classroom",
+    "background": "classroom-exam",
     "page": 92,
     "pages": [
       92
@@ -2564,7 +2564,7 @@ const data:StoryNode[] = [
     "day": "N31",
     "context": "现实",
     "period": "数学试毕",
-    "background": "classroom",
+    "background": "classroom-exam",
     "speaker": "旁白",
     "text": "持持、萌童等人还在谈末尾几问，听不明白的人更想换个话题。",
     "character": "",

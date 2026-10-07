@@ -47,7 +47,7 @@ const data:StoryNode[] = [
     "day": "N32",
     "context": "现实",
     "period": "十拿九稳",
-    "background": "classroom",
+    "background": "classroom-exam",
     "text": "十拿九稳",
     "character": "",
     "effect": "paper",
@@ -65,7 +65,7 @@ const data:StoryNode[] = [
     "day": "N32",
     "context": "现实",
     "period": "十拿九稳",
-    "background": "classroom",
+    "background": "classroom-exam",
     "speaker": "旁白",
     "text": "英语卷到手，史官想起昨日“一百四十五”。越往下做，越想重新解释“十拿九稳”。",
     "character": "",
@@ -82,7 +82,7 @@ const data:StoryNode[] = [
     "day": "N32",
     "context": "现实",
     "period": "十拿九稳",
-    "background": "classroom",
+    "background": "classroom-exam",
     "speaker": "李沛霖",
     "text": "完形和阅表取九分，那一百四十，还未可知。",
     "character": "c05",
@@ -92,7 +92,7 @@ const data:StoryNode[] = [
     "day": "N32",
     "context": "现实",
     "period": "十拿九稳",
-    "background": "classroom",
+    "background": "classroom-exam",
     "page": 92,
     "pages": [
       92
@@ -126,7 +126,7 @@ const data:StoryNode[] = [
     "day": "N32",
     "context": "现实",
     "period": "十拿九稳",
-    "background": "classroom",
+    "background": "classroom-exam",
     "page": 92,
     "pages": [
       92
@@ -143,7 +143,7 @@ const data:StoryNode[] = [
     "day": "N32",
     "context": "现实",
     "period": "十拿九稳",
-    "background": "classroom",
+    "background": "classroom-exam",
     "page": 92,
     "pages": [
       92
@@ -160,7 +160,7 @@ const data:StoryNode[] = [
     "day": "N32",
     "context": "现实",
     "period": "十拿九稳",
-    "background": "classroom",
+    "background": "classroom-exam",
     "page": 92,
     "pages": [
       92
@@ -177,7 +177,7 @@ const data:StoryNode[] = [
     "day": "N32",
     "context": "现实",
     "period": "十拿九稳",
-    "background": "classroom",
+    "background": "classroom-exam",
     "page": 92,
     "pages": [
       92
@@ -201,7 +201,7 @@ const data:StoryNode[] = [
     "day": "N32",
     "context": "现实",
     "period": "十拿九稳",
-    "background": "classroom",
+    "background": "classroom-exam",
     "speaker": "同学",
     "text": "你这个算法，稳的部分倒挺小。",
     "character": "",

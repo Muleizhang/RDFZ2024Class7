@@ -11,7 +11,7 @@ const data:StoryNode[] = [
     "day": "N21",
     "context": "现实",
     "period": "望远镜播放器",
-    "background": "classroom",
+    "background": "classroom-window",
     "speaker": "旁白",
     "text": "中午轮流拿望远镜看景，望远镜又首次成了音乐播放器。大家从看远处换成听近处。",
     "character": "",
@@ -28,7 +28,7 @@ const data:StoryNode[] = [
     "day": "N21",
     "context": "现实",
     "period": "望远镜播放器",
-    "background": "classroom",
+    "background": "classroom-window",
     "speaker": "戴向阳",
     "text": "坐第一排太吵了！",
     "character": "c16",
@@ -38,7 +38,7 @@ const data:StoryNode[] = [
     "day": "N21",
     "context": "现实",
     "period": "望远镜播放器",
-    "background": "classroom",
+    "background": "classroom-window",
     "page": 65,
     "pages": [
       65
@@ -72,7 +72,7 @@ const data:StoryNode[] = [
     "day": "N21",
     "context": "现实",
     "period": "望远镜播放器",
-    "background": "classroom",
+    "background": "classroom-window",
     "page": 65,
     "pages": [
       65
@@ -89,7 +89,7 @@ const data:StoryNode[] = [
     "day": "N21",
     "context": "现实",
     "period": "望远镜播放器",
-    "background": "classroom",
+    "background": "classroom-window",
     "page": 65,
     "pages": [
       65
@@ -106,7 +106,7 @@ const data:StoryNode[] = [
     "day": "N21",
     "context": "现实",
     "period": "望远镜播放器",
-    "background": "classroom",
+    "background": "classroom-window",
     "page": 65,
     "pages": [
       65
@@ -123,7 +123,7 @@ const data:StoryNode[] = [
     "day": "N21",
     "context": "现实",
     "period": "望远镜播放器",
-    "background": "classroom",
+    "background": "classroom-window",
     "page": 65,
     "pages": [
       65
@@ -147,7 +147,7 @@ const data:StoryNode[] = [
     "day": "N21",
     "context": "现实",
     "period": "望远镜播放器",
-    "background": "classroom",
+    "background": "classroom-window",
     "speaker": "徐启元",
     "text": "讲台近了，声音也近了。前排后排，这回真有区别。",
     "character": "xu",

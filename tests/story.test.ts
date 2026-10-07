@@ -222,3 +222,28 @@ test('配乐控制器同曲不重启，换曲收束旧声道，隐藏恢复和�
   const current=audios.find(a=>a.src.endsWith('m03.mp3'))!;current.currentTime=35;player.suspend(true);assert.equal(current.paused,true);player.suspend(false);await Promise.resolve();assert.equal(current.currentTime,35);assert.equal(current.paused,false);
  }finally{player?.dispose();for(const [name,descriptor] of [['Audio',oldAudio],['document',oldDocument],['requestAnimationFrame',oldRAF]] as const){if(descriptor)Object.defineProperty(globalThis,name,descriptor);else Reflect.deleteProperty(globalThis,name);}}
 });
+
+test('背景图鉴兼容旧存档：原已读不提前解锁替换的新图，已见记录可导入导出',async()=>{
+ const {seenBackgrounds,mergeBackgrounds}=await import('../src/backgroundUnlocks.ts');
+ const {newBackgroundIds,backgroundDescriptions,backgroundFile}=await import('../src/backgrounds.ts');
+ const fresh=newSave();assert.deepEqual(seenBackgrounds(fresh),[]);
+ const node=story.find(n=>n.background==='group-restaurant')!;
+ const old={...fresh,read:[node.id],seenBackgrounds:undefined};
+ const migrated=parseSave(JSON.stringify(old));assert(seenBackgrounds(migrated).includes('cafeteria'));assert(!seenBackgrounds(migrated).includes('group-restaurant'));
+ const seen={...migrated,seenBackgrounds:mergeBackgrounds(seenBackgrounds(migrated),['group-restaurant','group-restaurant','not-a-background'])};
+ assert.equal(seen.seenBackgrounds.filter(id=>id==='group-restaurant').length,1);assert(!seen.seenBackgrounds.includes('not-a-background'));
+ assert.deepEqual(parseSave(JSON.stringify(seen)).seenBackgrounds,seen.seenBackgrounds);
+ assert.throws(()=>parseSave(JSON.stringify({...seen,seenBackgrounds:['not-a-background']})));
+ const all=unlockAll(fresh);for(const id of newBackgroundIds){assert(all.seenBackgrounds?.includes(id));assert(story.some(n=>n.background===id));}
+ for(const id of Object.keys(backgrounds)){assert(backgroundDescriptions[id]?.length>10);assert(existsSync('public/assets/'+backgroundFile(id)));}
+});
+
+test('新增背景按场内转场恢复：地下室与办公室、厂门与病房不混用',()=>{
+ const films=story.filter(n=>n.day==='D53');
+ assert(films.some(n=>n.filmScene===14&&n.background==='company-basement'));
+ assert(films.some(n=>n.filmScene===15&&n.background==='company'));
+ const at=(text:string)=>films.find(n=>n.text===text)!;
+ assert.equal(at('建材公司门口').background,'company-gate');
+ assert.equal(at('在某房间里').background,'company');
+ assert.equal(at('医院，秦嘉然和金跃山').background,'infirmary');
+});

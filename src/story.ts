@@ -13,7 +13,7 @@ export const dateById=Object.fromEntries(dates.map(d=>[d.id,d]));
 export const dateByDate=Object.fromEntries(dates.map(d=>[d.date,d]));
 export const story:StoryNode[]=[...opening,...expanded as StoryNode[]];
 export const byId:Record<string,StoryNode>=Object.fromEntries(story.map(n=>[n.id,n]));
-export const backgrounds:Record<string,string>={classroom:'高中楼 · 七班教室',corridor:'教学楼走廊',sunset:'教室 · 夕照',rear:'七班 · 后排','snow-track':'学校操场 · 雪地',track:'学校操场',cafeteria:'食堂',biology:'生物办公室','math-office':'数学办公室','history-office':'历史办公室',dorm:'学生宿舍',home:'居家书桌',bus:'旅行大巴','great-wall':'八达岭古长城',noodle:'面店',hall:'逸夫楼报告厅',gate:'校门',hotpot:'火锅店',park:'公园步道',infirmary:'医务室／医院布景',netherlands:'尼德兰街景',cafe:'咖啡馆',train:'高铁车厢','west-lake':'杭州 · 西湖',songcheng:'杭州 · 宋城',workshop:'茶艺与画伞活动室',hotel:'杭州 · 旅馆','mayor-office':'镜中花 · 镇长办公室',company:'镜中花 · 钢材公司',archive:'镜中花 · 档案室','film-home':'镜中花 · 嘉然家',flood:'镜中花 · 洪灾回忆',railway:'镜中花 · 铁路远景',barbecue:'烤肉店','film-street':'镜中花 · 花城街道',liangzhu:'杭州 · 良渚博物院','yue-temple':'杭州 · 岳王庙',xixi:'杭州 · 西溪湿地',library:'学校图书馆'};
+export {backgrounds} from './backgrounds.ts';
 export const failureCount=story.flatMap(n=>n.options?.filter(o=>o.failure)||[]).length;
 export const timetable=['英','英','语','数','数','英语答疑','化','C·选科','物','物'];
 export function countdown(date:string){return Math.round((Date.parse('2024-06-07T00:00:00Z')-Date.parse(date+'T00:00:00Z'))/86400000);}
